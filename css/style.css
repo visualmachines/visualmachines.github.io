@@ -126,12 +126,7 @@ a {
       padding-left: 90px;
       padding-right: 90px;
   }
-  .column-2 {
-      float: left;
-      width: 50%;
-      padding-left: 85;
-      padding-right: 85;
-  }
+
 }
 
 @@media screen and (max-width: 900px) {
@@ -144,12 +139,7 @@ a {
       padding-left: 90px;
       padding-right: 90px;
   }
-  .column-2 {
-      float: left;
-      width: 50%;
-      padding-left: 90px;
-      padding-right: 90px;
-  }
+  
 }
 
 @@media only screen and (max-width: 520px) {
