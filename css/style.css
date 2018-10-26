@@ -129,8 +129,8 @@ a {
   .column-2 {
       float: left;
       width: 50%;
-      padding-left: 120;
-      padding-right: 0;
+      padding-left: 80;
+      padding-right: 80;
   }
 }
 
