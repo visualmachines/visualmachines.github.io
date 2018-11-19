@@ -94,8 +94,10 @@ img {
   text-align:center;
   margin: auto;
   width: 100%;
-  min-width: 178px;
-  max-width: 178px;
+  min-width: 160px;
+  max-width: 160px;
+  min-height: 230px;
+  max-height: 230px;
 }
 
 .center {
