@@ -24,6 +24,11 @@ img {
     max-height: 100%;
 }
 
+.container-fluid {
+  padding-left:0;
+  padding-right:0;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
