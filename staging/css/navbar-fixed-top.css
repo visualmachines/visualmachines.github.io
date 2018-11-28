@@ -94,13 +94,46 @@ img {
   text-align:center;
   margin: auto;
   width: 100%;
-  min-width: 160px;
-  max-width: 160px;
-  min-height: 230px;
-  max-height: 230px;
+  min-width: 178px;
+  max-width: 178px;
+  min-height: 266;
+  max-height: 266px;
 }
 
 .center {
     margin: auto;
     text-align: center!important;
+}
+
+.module .collapse, .module .collapsing {
+  height: 3rem;  /* [NUM_OF_LINES] x [LINE_HEIGHT] */
+}
+
+.module .collapse {
+  position: relative;  /* For ...'s content absolute positioning */
+  display: block;
+  overflow: hidden;
+}
+
+.module .collapse:before {
+  /* content: ' ...'; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.module .collapse.show {
+  height: auto;  /* You need to reset the height when not collapsed */
+}
+
+.module .collapse.show:before {
+  display: none;  /* Of course you don't want to display ... */
+}
+
+.module a.collapsed.collapsing-btn:after {
+  content: '+ Show More';
+}
+
+.module a.collapsing-btn:not(.collapsed):after {
+  content: '- Show Less';
 }
