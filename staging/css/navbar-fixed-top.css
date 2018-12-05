@@ -148,5 +148,7 @@ img {
   top: 0;
   height: 100%;
   width: 100%;
+  max-width:500px;
+  max-height:450px;
   position: relative;
 }
