@@ -166,10 +166,10 @@ img {
 }
 
 .profile-size {
-  min-width: 178px;
-  max-width: 178px;
-  min-height: 266;
-  max-height: 266px;
+  min-width: 213px;
+  max-width: 213px;
+  min-height: 320px;
+  max-height: 320px;
 }
 
 .panel-default>.panel-body {

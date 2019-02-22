@@ -45,74 +45,76 @@
 
 
       <div class="row">
-        <div class="col-md-6">
-          <section>
-            <div class="panel panel-default  animated fadeInDown animation-delay-11">
-              <div class="panel-body">
-                <h3 class="section-title">Bakari Hassan
-                  <small class="float-right">Graduate Researcher</small>
+        <script id="profile-template" type="text/x-handlebars-template">
+          <div class="col-md-6">
+            <section>
+              <div class="panel panel-default  animated fadeInDown animation-delay-11">
+                <div class="panel-body">
+                  <h3 class="section-title">{{Name}}
+                    <small class="float-right">{{Title}}</small>
+                    <div class="clearfix"></div>
+                  </h3>
+                  <hr>
                   <div class="clearfix"></div>
-                </h3>
-                <hr>
-                <div class="clearfix"></div>
-                <img src="img2/people/BakariHassan.jpg" alt="" class="alignleft
-                  imageborder profile-size">
-                <p class="no-margin-top">
-                  <b>Education:</b><br>
-                  B.S. in Aerospace Engineering - UC Irvine<br>
-                  B.S. in Mechanical Engineering - UC Irvine<br>
-                  M.S. in Mechanical Engineering - UC Los Angeles
-                </p>
-                <p>
-                  <b>Hometown:</b><br>
-                  San Francisco, CA, US
-                </p>
-                <p>
-                  <b>Research Interests:</b><br>
-                   -Shock tube chemical kinetics<br>
-                   -Rocket propulsion<br>
-                   -Laser diagnostics
-                </p>
-                <div class="clearfix"></div>
-                <hr>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class="col-md-6">
-          <section>
-            <div class="panel panel-default  animated fadeInDown animation-delay-11">
-              <div class="panel-body">
-                <h3 class="section-title">Bakari Hassan
-                  <small class="float-right">Graduate Researcher</small>
+                  <img src="img2/people/BakariHassan.jpg" alt="" class="alignleft
+                    imageborder profile-size">
+                  <p class="no-margin-top">
+                    <b>Education:</b><br>
+                    {{{Education}}}
+                  </p>
+                  <p>
+                    <b>Hometown:</b><br>
+                    {{{Hometown}}}
+                  </p>
+                  <p>
+                    <b>Research Interests:</b><br>
+                    {{{Research}}}
+                  </p>
                   <div class="clearfix"></div>
-                </h3>
-                <hr>
-                <div class="clearfix"></div>
-                <img src="img2/people/BakariHassan.jpg" alt="" class="alignleft
-                  imageborder profile-size">
-                <p class="no-margin-top">
-                  <b>Education:</b><br>
-                  B.S. in Aerospace Engineering - UC Irvine<br>
-                  B.S. in Mechanical Engineering - UC Irvine<br>
-                  M.S. in Mechanical Engineering - UC Los Angeles
-                </p>
-                <p>
-                  <b>Hometown:</b><br>
-                  San Francisco, CA, US
-                </p>
-                <p>
-                  <b>Research Interests:</b><br>
-                   -Shock tube chemical kinetics<br>
-                   -Rocket propulsion<br>
-                   -Laser diagnostics
-                </p>
-                <div class="clearfix"></div>
-                <hr>
+                  <hr>
+                </div>
               </div>
-            </div>
-          </section>
-        </div>
+            </section>
+          </div>
+        </script>
+
+        <div id="BakariHassanProfile"></div>
+        <div id="BakariHassanProfile1"></div>
+        <div id="BakariHassanProfile2"></div>
+        <!-- <div class="col-md-6"> -->
+        <!--   <section> -->
+        <!--     <div class="panel panel-default  animated fadeInDown animation-delay-11"> -->
+        <!--       <div class="panel-body"> -->
+        <!--         <h3 class="section-title">Bakari Hassan -->
+        <!--           <small class="float-right">Graduate Researcher</small> -->
+        <!--           <div class="clearfix"></div> -->
+        <!--         </h3> -->
+        <!--         <hr> -->
+        <!--         <div class="clearfix"></div> -->
+        <!--         <img src="img2/people/BakariHassan.jpg" alt="" class="alignleft -->
+        <!--           imageborder profile-size"> -->
+        <!--         <p class="no-margin-top"> -->
+        <!--           <b>Education:</b><br> -->
+        <!--           B.S. in Aerospace Engineering - UC Irvine<br> -->
+        <!--           B.S. in Mechanical Engineering - UC Irvine<br> -->
+        <!--           M.S. in Mechanical Engineering - UC Los Angeles -->
+        <!--         </p> -->
+        <!--         <p> -->
+        <!--           <b>Hometown:</b><br> -->
+        <!--           San Francisco, CA, US -->
+        <!--         </p> -->
+        <!--         <p> -->
+        <!--           <b>Research Interests:</b><br> -->
+        <!--            -Shock tube chemical kinetics<br> -->
+        <!--            -Rocket propulsion<br> -->
+        <!--            -Laser diagnostics -->
+        <!--         </p> -->
+        <!--         <div class="clearfix"></div> -->
+        <!--         <hr> -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--   </section> -->
+        <!-- </div> -->
       </div>
 
 
@@ -517,6 +519,8 @@
         $("#footer-placeholder").load("footer.htm");
       });
     </script>
+    <script src="js/handlebars.min-latest.js"></script>
+    <script src="js/profiles.js"></script>
   </body>
 </html>
 
