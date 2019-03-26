@@ -74,6 +74,13 @@ img {
   text-align: left;
   line-height: 1.25em;
 }
+.caption {
+  font-family: "Work Sans";
+  font-size: 8pt;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1.25em;
+}
 .bold {
   font-weight: bold;
 }
