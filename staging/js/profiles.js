@@ -254,7 +254,6 @@ var template = Handlebars.compile(source);
 
 for (var level in context){
   for (var person in context[level]){
-    console.log(person)
     var html = template(context[level][person]);
     $("#" + person + "Profile").before(html);
   }
