@@ -102,10 +102,10 @@ var context = {
   ],
 
   Teaser: `
-        <div class="heading">
+        <div class="heading" style="text-align: center;">
             Stanford Researchers Devlop Tech to Reveal Objects Hidden Around Corners
         </div>
-        <iframe width="466" height="291" src="https://www.youtube.com/embed/KnGQEzB9u_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div style="text-align: center;"><iframe width="466" height="291" src="https://www.youtube.com/embed/KnGQEzB9u_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     `,
   FAQ: [
       {

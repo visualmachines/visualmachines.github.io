@@ -25,51 +25,57 @@
       href="https://fonts.googleapis.com/css?family=David+Libre|Hind:400,700"
       rel="stylesheet"
     />
-  </head>
+</head>
 
   <body>
-    <div id="nav-placeholder"></div>
-
-    <br />
-
-    <main class="container"></main>
-    <br>
-    <br>
-    <div class="row">
-      <script id="single-paper-template" type="text/x-handlebars-template">
-        <div class="container">
-            <div class="row mb-3">
-                <div class="heading center" style="font-size: 35px;">{{Title}}</div>
-            </div>
-          
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p>
-                        {{#each Authors}}<a href="{{Link}}">{{Name}}</a> <sup>{{AssociationNumber}}</sup> &nbsp;{{/each}}
-                    </p>
-                    <p>
-                        {{#AssociationsList Associations}}<a href="{{Link}}">{{Name}}</a> <sup>{{Number}}</sup> &nbsp;{{/AssociationsList}}
-                    </p>
-                    <a href="{{PublishSource.Link}}">{{PublishSource.Name}}</a>
+      <div id="nav-placeholder"></div>
+      
+      <br />
+      
+      <main class="container"></main>
+      <br />
+      <br />
+      <div class="row">
+          <script id="single-paper-template" type="text/x-handlebars-template">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="heading center" style="font-size: 38px;">{{Title}}</div>
                 </div>
                 
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>
+                            {{#each Authors}}<a href="{{Link}}">{{Name}}</a> <sup>{{AssociationNumber}}</sup> &nbsp;{{/each}}
+                        </p>
+                        <p>
+                            {{#AssociationsList Associations}}<a href="{{Link}}">{{Name}}</a> <sup>{{Number}}</sup> &nbsp;{{/AssociationsList}}
+                        </p>
+                        <a href="{{PublishSource.Link}}">{{PublishSource.Name}}</a>
+                    </div>
+
             </div>
-      
+            
+
+            <hr style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-10">
+                    <!-- Teaser (custom HTML) -->
+                    {{#RenderTeaser Teaser}}{{/RenderTeaser}}
+                </div>
+ 
+            </div>
+
+            <!-- Abstract -->
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-10">
+                    <div class="heading">Abstract</div>
+                    {{Abstract}}
+                </div>
+
+            </div>
             <div class="row mt-3">
                 <div class="col-md-6">
                     <div class="container">
-
-                        <!-- Teaser (custom HTML) -->
-                        <div class="row">
-                            {{#RenderTeaser Teaser}}{{/RenderTeaser}}
-                        </div>
-
-                        <!-- Abstract -->
-                        <div class="row mt-3 body">
-                            <div class="heading">Abstract</div>
-                            {{Abstract}}
-                        </div>
-
                         <!-- Press -->
                         <div class="row mt-3 heading">
                             Press
@@ -79,18 +85,31 @@
                                 {{#each Press}}
                                     <li>
                                         <a href="{{Link}}" class="body">{{Name}}</a>
-                                    </li>   
+                                    </li>
                                 {{/each}}
                             </ul>
                         </div>
                         
+                        <!-- FAQ -->
+                        <div class="row heading">
+                                Frequently Asked Questions (FAQ)
+                        </div>
+                        {{#each FAQ}}
+                            <div class="row body bold mt-3">
+                                {{Question}}
+                            </div>
+                            <div class="row body">
+                                {{Answer}}
+                            </div>
+                        {{/each}}
+
                         <!-- Contact -->
                         <div class="row mt-3 heading">
                             Contact
                         </div>
                         <div class="row mb-3 body">
                              {{#RenderTeaser Contacts}}{{/RenderTeaser}}
-                            
+
                         </div>
                     </div>
                 </div>
@@ -98,13 +117,13 @@
                     <div class="container">
 
                         <!-- Citation -->
-                        <div class="row heading">
+                        <div class="row heading mt-3">
                             Citation
                         </div>
                         <div class="row body">
                             {{Bibtex}}
                         </div>
-                        
+
                         <!-- Files -->
                         <div class="row mt-3 heading">
                             Files
@@ -116,7 +135,7 @@
                                         {{Name}} {{#each Links}}(<a href="{{Link}}">{{Label}}</a>) {{/each}}
                                     </li>
                                 {{/each}}
-                            </ul>       
+                            </ul>
                         </div>
 
                         <!-- Media -->
@@ -130,18 +149,7 @@
                             </div>
                         {{/each}}
 
-                        <!-- FAQ -->
-                        <div class="row heading">
-                            Frequently Asked Questions (FAQ)
-                        </div>
-                        {{#each FAQ}}
-                            <div class="row body bold mt-3">
-                                {{Question}}
-                            </div>
-                            <div class="row body">
-                                {{Answer}}
-                            </div>
-                        {{/each}}
+                        
                     </div>
                 </div>
             </div>
