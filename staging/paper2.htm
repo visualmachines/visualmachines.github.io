@@ -72,59 +72,10 @@
                 </div>
 
             </div>
-            <div class="row mt-3">
-                <div class="col-md-6">
-                    <div class="container">
-                        <!-- Press -->
-                        <div class="row mt-3 heading">
-                            Press
-                        </div>
-                        <div class="row">
-                            <ul>
-                                {{#each Press}}
-                                    <li>
-                                        <a href="{{Link}}" class="body">{{Name}}</a>
-                                    </li>
-                                {{/each}}
-                            </ul>
-                        </div>
-                        
-                        <!-- FAQ -->
-                        <div class="row heading">
-                                Frequently Asked Questions (FAQ)
-                        </div>
-                        {{#each FAQ}}
-                            <div class="row body bold mt-3">
-                                {{Question}}
-                            </div>
-                            <div class="row body">
-                                {{Answer}}
-                            </div>
-                        {{/each}}
-
-                        <!-- Contact -->
-                        <div class="row mt-3 heading">
-                            Contact
-                        </div>
-                        <div class="row mb-3 body">
-                             {{#RenderTeaser Contacts}}{{/RenderTeaser}}
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="container">
-
-                        <!-- Citation -->
-                        <div class="row heading mt-3">
-                            Citation
-                        </div>
-                        <div class="row body">
-                            {{Bibtex}}
-                        </div>
-
-                        <!-- Files -->
-                        <div class="row mt-3 heading">
+            
+                <div class="container col-md-12">
+                    <!-- Files -->
+                    <div class="row mt-3 heading">
                             Files
                         </div>
                         <div class="row body">
@@ -135,23 +86,71 @@
                                     </li>
                                 {{/each}}
                             </ul>
-                        </div>
-
-                        <!-- Media -->
-                        <div class="row heading">
-                            Media
-                        </div>
-                        {{#each Photos}}
-                        <img src="{{Link}}" class="img-fluid" alt="">
-                            <div class="row my-3">
-                                <p class="caption" >{{Caption}}</p>
-                            </div>
-                        {{/each}}
-
-                        
                     </div>
+
+                    <!-- Citation -->
+                    <div class="row heading mt-3">
+                            Citation
+                        </div>
+                        <div class="row body">
+                            {{Bibtex}}
+                        </div>
+
+                    <!-- Press -->
+                    <div class="row mt-3 heading">
+                        Press
+                    </div>
+                    <div class="row">
+                        <ul>
+                            {{#each Press}}
+                                <li>
+                                    <a href="{{Link}}" class="body">{{Name}}</a>
+                                </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                    
+                    
+
+                    <!-- Contact -->
+                    <div class="row mt-3 heading">
+                            Contact
+                    </div>
+                    <div class="row mb-3 body">
+                        {{#RenderTeaser Contacts}}{{/RenderTeaser}}
+                    </div>
+
+                    <!-- FAQ -->
+                    <div class="row heading">
+                            Frequently Asked Questions (FAQ)
+                    </div>
+                    {{#each FAQ}}
+                        <div class="row body bold mt-3">
+                            {{Question}}
+                        </div>
+                        <div class="row body">
+                            {{Answer}}
+                        </div>
+                    {{/each}}
+
+                    <!-- Media -->
+                    <div class="row heading mt-3">
+                            Media
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            {{#each Photos}}
+                            <img src="{{Link}}" class="img-fluid" alt="">
+                                <div class="row my-3">
+                                    <p class="caption" >{{Caption}}</p>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    
+                    
                 </div>
-            </div>
+ 
             <br>
         </div>
       </script>
