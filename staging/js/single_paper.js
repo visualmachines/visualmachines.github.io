@@ -173,10 +173,12 @@ var context = {
     },
   ],
 
-  Teaser: `
-        <img src="./img/paper/teasercrop.png" class="img-fluid" style="text-align: center;">
-        <div class="caption">Figure 1: Starting from a coarse depth map, is it possible to achieve laser scan quality? By combining the information from the Kinect depth frame in (a) with information in 3 polarized photographs (b) , we reconstruct the 3D surface shown in (c). The subtle change between polarization images provides additional information about surface orientation. See Figure 2 of this website for a laser scan comparison.</div>
+  Teaser: {
+    imageURL: "./img/paper/teasercrop.png",
+    rawHTML: `
+    <div class="caption">Figure 1: Starting from a coarse depth map, is it possible to achieve laser scan quality? By combining the information from the Kinect depth frame in (a) with information in 3 polarized photographs (b) , we reconstruct the 3D surface shown in (c). The subtle change between polarization images provides additional information about surface orientation. See Figure 2 of this website for a laser scan comparison.</div>
     `,
+  },
   FAQ: [
       {
           Question: "What is Polarized 3D?",
