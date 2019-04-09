@@ -37,7 +37,7 @@
 
     <script id="single-paper-template" type="text/x-handlebars-template">
 
-      <div class="background-wrapper" class ="img-fluid" style="background-image: url(&quot;{{Teaser.imageURL}}&quot;); height: 555px;"></div>
+      <div class="background-wrapper" class ="img-fluid" style="background-image: url(&quot;{{Teaser.imageBackgroundURL}}&quot;); height: 555px;"></div>
           <div class="container">
               <div class="article-meta col-md-8" style="margin: auto;">
                   <div class="row mb-3 pt-5">
@@ -57,11 +57,11 @@
 
                   </div>
                   <hr style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/>
-                <div class="row justify-content-center mt-3 pb-5">
+                  <img src="{{Teaser.imageURL}}" class="img-fluid" style="text-align: center; width: 100%;">
+                  <div class="row justify-content-center mt-3 pb-5">
                     <div class="col-md-10">
                         <!-- Teaser (custom HTML) -->
                         {{#with Teaser}}
-                        <img src="{{imageURL}}" class="img-fluid" style="text-align: center;">
                             {{#RenderTeaser rawHTML}}{{/RenderTeaser}}
                         {{/with}}
                     </div>
