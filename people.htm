@@ -6,37 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=David+Libre|Hind:400,700" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css?family=David+Libre|Hind:400,700" rel="stylesheet">
-
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 	<title>Visual Machines Group</title>
 </head>
 <body>
-	<header class="cd-auto-hide-header">
-		<div class="logo"><a href="index.htm"><img src="img/headerlogo1.svg" alt="Logo"></a></div>
-
-		<nav class="cd-primary-nav">
-			<a href="#cd-navigation" class="nav-trigger">
-				<span>
-					<em aria-hidden="true"></em>
-					Menu
-				</span>
-			</a> <!-- .nav-trigger -->
-
-			<ul id="cd-navigation">
-				<li><a href="scientificmission.htm">Scientific Mission</a></li>
-				<li><a href="people.htm" id="atpage">People</a></li>
-	      <li><a href="publications.htm">Publications</a></li>
-				<li><a href="joinus.htm">Join Us</a></li>
-				<li><a href="visit.htm">Visit</a></li>
-				<li><a href="#">&nbsp</a></li>
-			</ul>
-		</nav> <!-- .cd-primary-nav -->
-	</header> <!-- .cd-auto-hide-header -->
+	<div id="nav-placeholder"></div>
 
 	<main class="cd-main-content" style="padding-top: 102px;">
 		<!-- TODO: Fix img-wrapper -->
@@ -220,6 +199,12 @@
 		if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
 	</script>
 	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	<script>
+			$(function(){
+			  $("#nav-placeholder").load("nav.htm");
+			  $("#footer-placeholder").load("footer.htm");
+			});
+	</script>
 </body>
 <footer>
 	<div class="container">
