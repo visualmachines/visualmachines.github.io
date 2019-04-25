@@ -8,7 +8,7 @@ var context = {
       },
       {
         Name: "Yiqin Wang*",
-        Link: "",
+        Link: "https://www.linkedin.com/in/yiqin-wang-91765a139/",
         AssociationNumber: 2
       },
       {
@@ -18,7 +18,7 @@ var context = {
       },
       {
         Name: "Achuta Kadambi",
-        Link: "http://web.media.mit.edu/~achoo/",
+        Link: "https://scholar.google.com/citations?user=UMzWJikAAAAJ&hl=en&oi=ao",
         AssociationNumber: 2
       }
     ],
@@ -28,7 +28,7 @@ var context = {
         Link: "http://web.mit.edu/"
       },
       {
-        Name: "UCLA Visual Machines Group",
+        Name: "Visual Machines Group, UCLA",
         Link: "https://visual.ee.ucla.edu/staging"
       }
     ],
