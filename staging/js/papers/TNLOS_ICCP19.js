@@ -45,7 +45,7 @@ var context = {
     Files: [
       {
         Name: "Paper",
-        Links: [
+        Links: ["./img/Thermal_NLOS-compressed.pdf"
 
         ]
       },
@@ -66,18 +66,7 @@ var context = {
 
         ]
       },
-      {
-        Name: "One Slide Summary",
-        Links: [
 
-        ]
-      },
-      {
-        Name: "Reproduce Fig. 9a Dataset/Executable Code",
-        Links: [
-
-        ]
-      }
     ],
   
     Contacts: `
@@ -88,8 +77,24 @@ var context = {
   
     Photos: [
       {
-        Link: "./img/TNLOS_ICCP19/pic1.PNG",
-        Caption: "We show that processing raw frames of thermal images can improve the pose estimation algorithm. (a) shows NLOS imaging setup. (b) is an example of raw output from the camera. (c), (d), (e) Appropriate processing of raw thermal video frames results in better posture estimation. (f) (g) TV regularization could correct pose estimation on median filtering, while in (h), it could introduce artifacts that result in pose estimation error. (g) and (h) include human detection through score thresholding. Raw frames did not get high enough score for body detection.",
+        Link: "./img/TNLOS_ICCP19/comparisons.svg",
+        Caption: "Fig. 1: NLOS imaging with long-wave IR is fundamentally different from NLOS at the visible wavelengths. (a) The visible light problem is a two-bounce problem, where the hidden object is a reflector. (b) The long-wave IR problem is a one-bounce problem since the hidden object is a light emitter. In addition to the bounce order, the two problems also differ in their BRDF characteristics.",
+      },
+      {
+        Link: "./img/TNLOS_ICCP19/setup.svg",
+        Caption: "Fig. 2: Corner setup. The canonical scene setup consists of a camera looking at the wall at a corner. o and w denote point locations on a target object and wall, and unit vectors ~l,~v,~n denote the directions of incoming, outgoing light and surface normal of the wall. f( ~l,~v,~n) is the BRDF of the wall.",
+      },
+      {
+        Link: "./img/TNLOS_ICCP19/reconstructionStepsFinal.svg",
+        Caption: "Fig. 3: Reconstruction algorithm for 2D shape recovery and 3D localization. (a) Corner setup. From (b) measurement, (c) we perform 2D shape reconstruction at different depths. (d) Given the fitted BRDF model, long-wave IR radiance of an object is estimated for each depth. We estimate depth by finding a depth whose estimated radiance is the closest to expected radiance from the temperature prior.",
+      },
+      {
+        Link: "./img/TNLOS_ICCP19/result_final2.pdf",
+        Caption: "Fig. 4: NLOS scene reconstruction results. (a) Corner setups. In the visible spectrum, the object is not visible on the wall. (b) Thermal image of the target. (c) BRDF is fitted with GGX specular BRDF model. (d) Localization of the target (red circle shown in (b)). Reconstruction does not require prior knowledge on the shape or size of the hidden object. ",
+      },
+      {
+        Link: "./img/TNLOS_ICCP19/pose_results2.pdf",
+        Caption: "Fig. 10: NLOS pose estimation results. We show that processing raw frames of thermal images can improve the pose estimation algorithm. (a) shows NLOS imaging setup. (b) is an example of raw output from the camera. (c), (d), (e) Appropriate processing of raw thermal video frames results in better posture estimation. (f) (g) TV regularization could correct pose estimation on median filtering, while in (h), it could introduce artifacts that result in pose estimation error. (g) and (h) include human detection through score thresholding. Raw frames did not get high enough score for body detection.",
       }
     ],
   
