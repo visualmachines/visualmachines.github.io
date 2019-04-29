@@ -47,21 +47,22 @@ var context = {
     Files: [
       {
         Name: "Paper",
-        Label: "PDF",
-        Links: ["./img/Thermal_NLOS-compressed.pdf"
+        Links: [{
+            Label: "PDF",
+            Links: "./img/Thermal_NLOS-compressed.pdf"}
         ]
       },
       {
         Name: "ICCP Slides",
-        Label: "PDF",
-        Links: ["./img/TNLOS_ICCP19/ICCP19_TNLOS.pdf"
+        Links: [{
+            Label: "PDF",
+            Links: "./img/TNLOS_ICCP19/ICCP19_TNLOS.pdf"}
         ]
       },
       {
         Name: "Videos",
-        Label: "avi",
-        Links: [
-
+        Links: [{
+            Label: "avi"}
         ]
       },
 
