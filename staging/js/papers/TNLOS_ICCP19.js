@@ -45,23 +45,19 @@ var context = {
     Files: [
       {
         Name: "Paper",
+        Label: "PDF",
         Links: ["./img/Thermal_NLOS-compressed.pdf"
-
-        ]
-      },
-      {
-        Name: "Supplement and Impl. Details",
-        Links: [
-
         ]
       },
       {
         Name: "ICCP Slides",
-        Links: [
+        Label: "PDF",
+        Links: ["./img/TNLOS_ICCP19/ICCP19_TNLOS.pdf"
         ]
       },
       {
-        Name: "Poster",
+        Name: "Videos",
+        Label: "avi",
         Links: [
 
         ]
@@ -89,12 +85,12 @@ var context = {
         Caption: "Fig. 3: Reconstruction algorithm for 2D shape recovery and 3D localization. (a) Corner setup. From (b) measurement, (c) we perform 2D shape reconstruction at different depths. (d) Given the fitted BRDF model, long-wave IR radiance of an object is estimated for each depth. We estimate depth by finding a depth whose estimated radiance is the closest to expected radiance from the temperature prior.",
       },
       {
-        Link: "./img/TNLOS_ICCP19/result_final2.pdf",
+        Link: "./img/TNLOS_ICCP19/result_final2.png",
         Caption: "Fig. 4: NLOS scene reconstruction results. (a) Corner setups. In the visible spectrum, the object is not visible on the wall. (b) Thermal image of the target. (c) BRDF is fitted with GGX specular BRDF model. (d) Localization of the target (red circle shown in (b)). Reconstruction does not require prior knowledge on the shape or size of the hidden object. ",
       },
       {
-        Link: "./img/TNLOS_ICCP19/pose_results2.pdf",
-        Caption: "Fig. 10: NLOS pose estimation results. We show that processing raw frames of thermal images can improve the pose estimation algorithm. (a) shows NLOS imaging setup. (b) is an example of raw output from the camera. (c), (d), (e) Appropriate processing of raw thermal video frames results in better posture estimation. (f) (g) TV regularization could correct pose estimation on median filtering, while in (h), it could introduce artifacts that result in pose estimation error. (g) and (h) include human detection through score thresholding. Raw frames did not get high enough score for body detection.",
+        Link: "./img/TNLOS_ICCP19/pose_results2.svgz",
+        Caption: "Fig. 5: NLOS pose estimation results. We show that processing raw frames of thermal images can improve the pose estimation algorithm. (a) shows NLOS imaging setup. (b) is an example of raw output from the camera. (c), (d), (e) Appropriate processing of raw thermal video frames results in better posture estimation. (f) (g) TV regularization could correct pose estimation on median filtering, while in (h), it could introduce artifacts that result in pose estimation error. (g) and (h) include human detection through score thresholding. Raw frames did not get high enough score for body detection.",
       }
     ],
   
