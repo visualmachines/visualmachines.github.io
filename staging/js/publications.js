@@ -10,7 +10,13 @@ var context = {
     pubURL: "polarized3D.htm",
     Title: "Polarized 3D: Depth Sensing with Polarization Cues",
     Description: "Coarse depth maps can be enhanced by using the shape information from polarization cues. We propose a framework to combine surface normals from polarization (hereafter polarization normals) with an aligned depth map."
-  }
+  },
+  MacroInter: {
+    imgURL: "img/MacroInter/macroteaser.jpg",
+    pubURL: "MacroInter.htm",
+    Title: "Macroscopic Interferometry: Rethinking Depth Estimation with Frequency-Domain Time-of-Flight",
+    Description: "This paper examines an alternative ToF architecture, inspired by micron-scale, microscopic interferometry, that relies only on frequency sampling: we refer to our proposed macroscopic technique as Frequency- Domain Time of Flight (FD-ToF)."
+  },
 }
 
 var source = document.getElementById("publication-template").innerHTML;

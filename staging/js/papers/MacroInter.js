@@ -1,5 +1,5 @@
 var context = {
-    Title: "Polarized 3D: Depth Sensing with Polarization Cues",
+  Title: "Macroscopic Interferometry: Rethinking Depth Estimation with Frequency-Domain Time-of-Flight",
     Authors: [
       {
         Name: "Achuta Kadambi",
