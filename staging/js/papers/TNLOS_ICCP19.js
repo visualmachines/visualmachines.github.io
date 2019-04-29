@@ -32,10 +32,12 @@ var context = {
         Link: "https://visual.ee.ucla.edu/staging"
       }
     ],
+    
     PublishSource: {
       Name: "ICCP 2019",
       Link: "http://iccp2019.naist.jp/"
     },
+    
     Abstract:
       "We propose a novel non-line-of-sight (NLOS) imaging framework with long-wave infrared (IR). At long-wave IR wavelengths, certain physical parameters are more favorable for high-fidelity reconstruction. In contrast to prior work in visible light NLOS, at long-wave IR wavelengths, the hidden heat source acts as a light source. This simplifies the problem to a single bounce problem. In addition, surface reflectance has a much stronger specular reflection in the long-wave IR spectrum than in the visible light spectrum. We reformulate a light transport model that leverages these favorable physical properties of long-wave IR. Specifically, we demonstrate 2D shape recovery and 3D localization of a hidden object. Furthermore, we demonstrate near real-time and robust NLOS pose estimation of a human figure, the first such demonstration, to our knowledge.",
     Bibtex: `TBA`,
@@ -45,21 +47,22 @@ var context = {
     Files: [
       {
         Name: "Paper",
-        Label: "PDF",
-        Links: ["./img/Thermal_NLOS-compressed.pdf"
+        Links: [{
+            Label: "PDF",
+            Links: "./img/Thermal_NLOS-compressed.pdf"}
         ]
       },
       {
         Name: "ICCP Slides",
-        Label: "PDF",
-        Links: ["./img/TNLOS_ICCP19/ICCP19_TNLOS.pdf"
+        Links: [{
+            Label: "PDF",
+            Links: "./img/TNLOS_ICCP19/ICCP19_TNLOS.pdf"}
         ]
       },
       {
         Name: "Videos",
-        Label: "avi",
-        Links: [
-
+        Links: [{
+            Label: "avi"}
         ]
       },
 
@@ -94,16 +97,6 @@ var context = {
       }
     ],
   
-    Teaser: {
-      imageURL: "",
-      imageBackgroundURL: "",
-      imageHeight: 128, //in pixels
-      rawHTML: `
-      `,
-    },
-    FAQ: [
-       
-    ],
   };
 
 function getTemplateAjax(path, callback) {
