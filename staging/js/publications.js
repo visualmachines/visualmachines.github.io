@@ -17,6 +17,18 @@ var context = {
     Title: "Macroscopic Interferometry: Rethinking Depth Estimation with Frequency-Domain Time-of-Flight",
     Description: "This paper examines an alternative ToF architecture, inspired by micron-scale, microscopic interferometry, that relies only on frequency sampling: we refer to our proposed macroscopic technique as Frequency- Domain Time of Flight (FD-ToF)."
   },
+  Beat: {
+    imgURL: "img/beat/F_tests.jpg",
+    pubURL: "beat.htm",
+    Title: "Cascaded LIDAR using Beat Notes",
+    Description: "We study LIDAR using filtering elements as a potential way to extend the reach of existing pathlength imaging systems. Our goals are similar to interferometric and coherent methods, but we aim to study a fusion of electronic and optical coherence. Please refer to the FAQ regarding comparisons to existing work.",
+  }, 
+  Occluded: {
+    imgURL: "./img/occluded/occluded_img.png",
+    pubURL: "occluded.htm",
+    Title: "Occluded Imaging with Time of Flight Sensors",
+    Description: "Localizing a moving target in real-time. (a) The ping pong ball is outside the line of sight of the camera and moves horizontally. The camera measures backscattered reflections from the wall. (b) A conventional video of the object in motion. Here, three frames of the video are shown at times 0, 1 and 2 seconds where the ball position is 30, 40, and 50 cm. (c) Our technique is able to find the location of the target in real time. Please see supplementary video.",
+  },
 }
 
 var source = document.getElementById("publication-template").innerHTML;

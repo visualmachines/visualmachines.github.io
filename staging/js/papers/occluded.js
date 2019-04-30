@@ -133,14 +133,14 @@ var context = {
       },
     ],
   
-    /*Teaser: {
-      imageURL: "./img/paper/teasercrop.png",
-      imageBackgroundURL: "./img/paper/teasercrop-background.png",
+    Teaser: {
+      imageURL: "./img/occluded/occluded_img.png",
+      // imageBackgroundURL: "./img/paper/teasercrop-background.png",
       imageHeight: 555, //in pixels
       rawHTML: `
-      <div class="caption">Figure 1: Starting from a coarse depth map, is it possible to achieve laser scan quality? By combining the information from the Kinect depth frame in (a) with information in 3 polarized photographs (b) , we reconstruct the 3D surface shown in (c). The subtle change between polarization images provides additional information about surface orientation. See Figure 2 of this website for a laser scan comparison.</div>
+      <div class="caption">Localizing a moving target in real-time. (a) The ping pong ball is outside the line of sight of the camera and moves horizontally. The camera measures backscattered reflections from the wall. (b) A conventional video of the object in motion. Here, three frames of the video are shown at times 0, 1 and 2 seconds where the ball position is 30, 40, and 50 cm. (c) Our technique is able to find the location of the target in real time. Please see supplementary video. </div>
       `,
-    },*/
+    },
   };
 
 function getTemplateAjax(path, callback) {

@@ -123,14 +123,14 @@ var context = {
       }
     ],
   
-    /*Teaser: {
-      imageURL: "./img/paper/teasercrop.png",
-      imageBackgroundURL: "./img/paper/teasercrop-background.png",
-      imageHeight: 555, //in pixels
+    Teaser: {
+      // imageURL: "./img/paper/teasercrop.png",
+      // imageBackgroundURL: "./img/paper/teasercrop-background.png",
+      // imageHeight: 555, //in pixels
       rawHTML: `
-      <div class="caption">Figure 1: Starting from a coarse depth map, is it possible to achieve laser scan quality? By combining the information from the Kinect depth frame in (a) with information in 3 polarized photographs (b) , we reconstruct the 3D surface shown in (c). The subtle change between polarization images provides additional information about surface orientation. See Figure 2 of this website for a laser scan comparison.</div>
+      <div class="caption">We study LIDAR using filtering elements as a potential way to extend the reach of existing pathlength imaging systems. Our goals are similar to interferometric and coherent methods, but we aim to study a fusion of electronic and optical coherence. Please refer to the FAQ regarding comparisons to existing work.</div>
       `,
-    },*/
+    },
 
     FAQ: [
         {
