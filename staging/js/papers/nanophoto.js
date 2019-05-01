@@ -186,19 +186,19 @@ var context = {
   
     Photos: [
       {
-        Link: "./img/paper/nano2.jpg",
+        Link: "./img/nanophoto/nano2.jpg",
 
         Caption: "Figure 2. Recovering depth of transparent objects is a hard problem in general and has yet to be solved for Time of Flight cameras. A glass unicorn is placed in a scene with a wall behind (left). A regular time of flight camera fails to resolve the correct depth of the unicorn (center-left). By using our multipath algorithm, we are able to obtain the depth of foreground (center-right) or of background (right).",
       },
       {
-        Link: "./img/paper/nano3.jpg",
+        Link: "./img/nanophoto/nano3.jpg",
         Caption:"Figure 3: Key components of the hardware include: PMD 19k3 sensor, FPGA Dev Kit (student version), Custom PCB for light sources, and DSLR lens from a regular Canon SLR. ",
       },
     ],
   
     Teaser: {
-      imageURL: "./img/paper/nano1.png",
-      imageBackgroundURL: "./img/paper/nano1.png",
+      imageURL: "./img/nanophoto/nano1.png",
+      imageBackgroundURL: "./img/nanophoto/nano1.png",
       imageHeight: 555, //in pixels
       rawHTML: `
       <div class="caption">Figure 1: Using our custom time of flight camera, we are able to visualize light sweeping over the scene. In this scene, multipath effects can be seen in the glass vase. In the early time-slots, bright spots are formed from the specularities on the glass. Light then sweeps over the other objects on the scene and finally hits the back wall, where it can also be seen through the glass vase (8ns). Light leaves, first from the specularities (8-10ns), then from the stuffed animals. The time slots correspond to the true geometry of the scene (light travels 1 foot in a nanosecond, times are for round-trip). Please see http://media.mit.edu/~achoo/nanophotography for animated light sweep movies.</div>
