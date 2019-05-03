@@ -49,14 +49,14 @@ var context = {
         Name: "Paper",
         Links: [{
             Label: "PDF",
-            Links: "./img/Thermal_NLOS-compressed.pdf"}
+            Link: "./img/Thermal_NLOS-compressed.pdf"}
         ]
       },
       {
         Name: "ICCP Slides",
         Links: [{
             Label: "PDF",
-            Links: "./img/TNLOS_ICCP19/ICCP19_TNLOS.pdf"}
+            Link: "./img/TNLOS_ICCP19/ICCP19_TNLOS.pdf"}
         ]
       },
       {
