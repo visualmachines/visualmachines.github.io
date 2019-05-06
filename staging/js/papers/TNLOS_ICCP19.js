@@ -62,7 +62,8 @@ var context = {
       {
         Name: "Videos",
         Links: [{
-            Label: "avi"}
+            Label: "Youtube",
+        Link: "https://www.youtube.com/watch?v=H6aX9Wkncxc"}
         ]
       },
 
@@ -97,11 +98,12 @@ var context = {
       }
     ],
     Teaser: {
-      // imageURL: "./img/polarized3D/teasercrop.png",
-      // imageBackgroundURL: "./img/polarized3D/teasercrop-background.png",
-      // imageHeight: 555, //in pixels
-      rawHTML: `
-      <iframe width="600" height="450" src="https://www.youtube.com/embed/V1ExEijSDjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> `,
+      imageURL: "./img/TNLOS_ICCP19/teaser.gif",
+      imageBackgroundURL: "./img/TNLOS_ICCP19/comparison.gif",
+      imageHeight: 555, //in pixels
+      //rawHTML: `
+      //<iframe width="600" height="450" src="https://www.youtube.com/embed/V1ExEijSDjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> `,
+
     },
   
   };
