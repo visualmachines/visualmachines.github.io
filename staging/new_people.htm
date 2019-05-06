@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+      
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+      <title>Visual Machines Group</title>
+
+      <!-- Bootstrap core CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+      <!-- Custom styles for this template -->
+      <link href="css/navbar-fixed-top.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=David+Libre|Hind:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+    
+    <main class="container">
+      <br>
+      <br>
+      <div class="row"> 
+        <div class="col-md-5 offset-md-1"> 
+					<img src="img/achutalarge.png" alt="Headshot" class="img-responsive">
+        </div>
+        <div class="col-md-6"> 
+          <p class="heading-home">Achuta Kadambi</p> 
+          <p class="sub-heading">Leader, Visual Machines Group</p>
+					<p class="body">Assistant Professor, UCLA<br />Electrical and
+            Computer Engineering<br/>PhD, Massachusetts Institute of
+            Technology</p>
+					<p class="body"><a href="img2/resumes/kadambi_cv.pdf">CV/Resume</a></p>
+        </div>
+      </div> 
+
+      <br>
+      <br>
+      <!-- <div class="row"> -->
+      <!--   <div class="col-md-12"> -->
+      <!--     <p class="heading-home text-center">Graduate Students</p> -->
+      <!--   </div> -->
+      <!-- </div> -->
+
+
+      <div class="row">
+        <script id="profile-template" type="text/x-handlebars-template">
+          <div class="col-md-6">
+            <section>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <h4 class="section-title">{{Name}}
+                    <small class="float-right">{{Title}}</small>
+                    <div class="clearfix"></div>
+                  </h4>
+                  <hr>
+                  <div class="clearfix"></div>
+                  <img src="{{imgURL}}" alt="" class="alignleft
+                    imageborder profile-size">
+                  <p class="no-margin-top">
+                    <b>Education:</b><br>
+                    {{{Education}}}
+                  </p>
+                  <p>
+                    <b>Hometown:</b><br>
+                    {{{Hometown}}}
+                  </p>
+                  <p>
+                    <b>Research Interests:</b><br>
+                    {{{Research}}}
+                  </p>
+                  <div class="clearfix"></div>
+                  <hr>
+                </div>
+              </div>
+              <br>
+            </section>
+          </div>
+        </script>
+
+        <div id="BakariHassanProfile"></div>
+        <div id="VijayRaviProfile"></div>
+        <div id="YiqinWangProfile"></div>
+        <div id="YunhaoBaProfile"></div>
+        <div id="AlexGilbertProfile"></div>
+        <div id="AmeyaTilayeProfile"></div>
+        <div id="AndyBaoProfile"></div>
+        <div id="AtharvaPadhyeProfile"></div>
+        <div id="EthanMitchellProfile"></div>
+        <div id="HuanhuaLuProfile"></div>
+        <div id="JackHjerpeProfile"></div>
+        <div id="KevinLeeProfile"></div>
+        <div id="KinnaraAniditaProfile"></div>
+        <div id="MisheelBayartsengelProfile"></div>
+        <div id="NatalieBishayProfile"></div>
+        <div id="PompiliuGirlontaProfile"></div>
+        <div id="SiddharthSomasundaramProfile"></div>
+        <div id="TerrenceHoProfile"></div>
+        <!-- <div class="col-md-6"> -->
+        <!--   <section> -->
+        <!--     <div class="panel panel-default  animated fadeInDown animation-delay-11"> -->
+        <!--       <div class="panel-body"> -->
+        <!--         <h3 class="section-title">Bakari Hassan -->
+        <!--           <small class="float-right">Graduate Researcher</small> -->
+        <!--           <div class="clearfix"></div> -->
+        <!--         </h3> -->
+        <!--         <hr> -->
+        <!--         <div class="clearfix"></div> -->
+        <!--         <img src="img2/people/BakariHassan.jpg" alt="" class="alignleft -->
+        <!--           imageborder profile-size"> -->
+        <!--         <p class="no-margin-top"> -->
+        <!--           <b>Education:</b><br> -->
+        <!--           B.S. in Aerospace Engineering - UC Irvine<br> -->
+        <!--           B.S. in Mechanical Engineering - UC Irvine<br> -->
+        <!--           M.S. in Mechanical Engineering - UC Los Angeles -->
+        <!--         </p> -->
+        <!--         <p> -->
+        <!--           <b>Hometown:</b><br> -->
+        <!--           San Francisco, CA, US -->
+        <!--         </p> -->
+        <!--         <p> -->
+        <!--           <b>Research Interests:</b><br> -->
+        <!--            -Shock tube chemical kinetics<br> -->
+        <!--            -Rocket propulsion<br> -->
+        <!--            -Laser diagnostics -->
+        <!--         </p> -->
+        <!--         <div class="clearfix"></div> -->
+        <!--         <hr> -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--   </section> -->
+        <!-- </div> -->
+      </div>
+
+
+<!-- 
+      <hr>
+      <br>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img2/people/BakariHassan.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Bakari Hassan</p>
+          <div class="module">
+            <div class="collapse" id="BakariHassanBody">
+              <p class="body"> 
+                Bakari is a 2nd year master's student in the Electrical Engineering
+                department. Prior to attending UCLA, he spent 3 years at the MIT
+                Lincoln Laboratory developing laser systems and leading a space
+                hardware development team. He is currently focused on creating
+                superhuman cameras that will improve underwater navigation and
+                enable miniaturized autonomous platforms.
+              </p>
+              <p class="body">
+                <a href="www.linkedin.com/in/bakarih">LinkedIn</a>
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#BakariHassanBody"  aria-expanded="false"
+              aria-controls="BakariHassanBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/VijayRavi.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Vijay Ravi</p>
+          <div class="module">
+            <div class="collapse" id="VijayRaviBody">
+              <p class="body">
+                Vijay is a Master's student in Electrical and Computer Engineering. 
+                His current research focus is on creating superhuman cameras that will 
+                improve Maritime navigation, rescue and search operations. His research 
+                interests are: Computational Imaging, Autonomous Systems, Signal 
+                Processing and Deep Learning
+              </p>
+              <p class="body">
+                <a href="www.linkedin.com/in/vijaysumaravi">LinkedIn</a>
+                <a href="mailto:vijaysumaravi@ucla.edu">Email</a>
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#VijayRaviBody"  aria-expanded="false"
+              aria-controls="VijayRaviBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/YiqinWang.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Yiqin Wang</p>
+          <div class="module">
+            <div class="collapse" id="YiqinWangBody">
+              <p class="body">
+                Yiqin Wang is a 2nd year Masters student at UCLA. He majored in
+                embedded systems at UCSB, and now studies circuits. His interests
+                primarily lay in circuits, mixed system signals, and computational
+                imaging. 
+              </p>
+              <p class="body">
+                <a href="img2/resumes/CV_Yiqin_Wang_v1.14.pdf">CV/Resume</a>
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#YiqinWangBody"  aria-expanded="false"
+              aria-controls="YiqinWangBody"></a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img2/people/YunhaoBa.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Yunhao Ba</p>
+          <div class="module">
+            <div class="collapse" id="YunhaoBaBody">
+              <p class="body">
+                Yunhao is a Masters student majoring in Electrical and Computer 
+                Engineering at University of California, Los Angeles. Before coming
+                to UCLA, he received his bachelor's degree in Electrical and Information 
+                Engineering from Hong Kong Polytechnic University. His interests lie
+                in computational imaging, computer vision, and machine learning,
+                especially about superhuman vision and autonomous vehicles.
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#YunhaoBaBody"  aria-expanded="false"
+              aria-controls="YunhaoBaBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+        </div>
+        <div class="col-md-4 text-center">
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="heading-home text-center">Undergraduate Students</p>
+        </div>
+      </div>
+      
+      <br>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img2/people/AlexGilbert.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Alex Gilbert</p>
+          <div class="module">
+            <div class="collapse" id="AlexGilbertBody">
+              <p class="body">Alex is a 3rd year undergraduate at UCLA, studying 
+                computer engineering. His interests lie in DSP, Digital Communications, 
+                and Computational Imaging.
+              </p>
+              <p class="body">
+                <a href="https://www.linkedin.com/in/alex-gilbert-b87b15ba/">LinkedIn</a>
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#AlexGilbertBody"  aria-expanded="false"
+              aria-controls="AlexGilbertBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/AmeyaTilaye.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Ameya Tilaye</p>
+          <div class="module">
+            <div class="collapse" id="AmeyaTilayeBody">
+              <p class="body">
+                Ameya has studied the visual arts at the prestigious Los Angeles County
+                High School for the Arts for four years. Her paintings and sculptures
+                have been exhibited in art galleries and have won top awards. 
+                Additionally, she has done summer research at Caltech under a grant
+                from the National Science Foundation(NSF), for research involving
+                "photo-responsive materials for possible surgical applications" in
+                the treatment of Parkinson's and Alzheimer's diseases.
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#AmeyaTilayeBody"  aria-expanded="false"
+              aria-controls="AmeyaTilayeBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/AndyBao.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Andy Bao</p>
+          <div class="module">
+            <div class="collapse" id="AndyBaoBody">
+              <p class="body">
+                Andy is an undergraduate arts student working as a photojournalist at
+                the Daily Bruin newspaper. His work focuses on sports photography,
+                documentary and modernity in today's age. In what little free time
+                he has left these days, he goes rock climbing.
+              </p>
+              <p class="body">
+                <a href="https://www.linkedin.com/in/andy-bao-40260a92/">LinkedIn</a>
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#AndyBaoBody"  aria-expanded="false"
+              aria-controls="AndyBaoBody"></a>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img2/people/AtharvaPadhye.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Atharva Padhye</p>
+          <div class="module">
+            <div class="collapse" id="AtharvaPadhyeBody">
+              <p class="body">
+                Electrical Engineer | Class of 2020<br>
+                Intelligent Systems, Cyber-physical Systems, 
+                Signal Processing, Physical Electronics
+              </p>
+              <p class="body">
+                <a
+                  href="https://www.linkedin.com/in/atharva-padhye/">LinkedIn</a>
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#AtharvaPadhyeBody"  aria-expanded="false"
+              aria-controls="AtharvaPadhyeBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/EthanMitchell.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Ethan Mitchell</p>
+          <div class="module">
+            <div class="collapse" id="EthanMitchellBody">
+              <p class="body">Computational Imaging, Robotics, Systems Processing</p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#EthanMitchellBody"  aria-expanded="false"
+              aria-controls="EthanMitchellBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/HuanhuaLu.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Huanhua Lu</p>
+          <div class="module">
+            <div class="collapse" id="HuanhuaLuBody">
+              <p class="body">
+                Senior Electrical and Computer Engineering (ECE) Undergraduate, Member of 
+                IEEE-HKN. Passionate about Digital Signal Processing, Machine Learning, 
+                and Robotics System. 
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#HuanhuaLuBody"  aria-expanded="false"
+              aria-controls="HuanhuaLuBody"></a>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img2/people/JackHjerpe.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Jack Hjerpe</p>
+          <div class="module">
+            <div class="collapse" id="JackHjerpeBody">
+              <p class="body">
+                Rotation Candidate
+                Jack Hjerpe is currently pursuing a double major in art and history. He 
+                is interested in exploring the intersection of art and technology, 
+                especially in regards to the future of artificial intelligence in art. 
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#JackHjerpeBody"  aria-expanded="false"
+              aria-controls="JackHjerpeBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/KevinLee.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Kevin Lee</p>
+          <div class="module">
+            <div class="collapse" id="KevinLeeBody">
+              <p class="body">
+                Kevin is a 3rd year undergraduate at UCLA, studying electrical
+                engineering. During summer 2018 he researched ULF antennae and UHF
+                receivers at HRL in Malibu, CA. He is trying to explore new fields,
+                and his current research interests include computational imaging and
+                computer vision. Kevin joined the Visual Machines Group in November
+                2018. In his free time he enjoys training kickboxing and jiu-jitsu.
+              </p>
+              <p class="body">
+                <a href="mailto:kevin.lee@engineering.ucla.edu">Email</a>
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#KevinLeeBody"  aria-expanded="false"
+              aria-controls="KevinLeeBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/KinnaraAnindita.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Kinnara Anidita</p>
+          <div class="module">
+            <div class="collapse" id="KinnaraAniditaBody">
+              <p class="body">
+                Kinnara is currently a senior with a double major in Design Media Arts and 
+                Psychology. Her primary focus is on UX research and design, mostly because 
+                she is fascinated with how people interact with technology. Prior to joining 
+                the Visual Machines Group, she interned at various tech companies and most 
+                recently NASA Jet Propulsion Laboratory.
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#KinnaraAniditaBody"  aria-expanded="false"
+              aria-controls="KinnaraAniditaBody"></a>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img2/people/MisheelBayartsengel.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Misheel Bayartsengel</p>
+          <div class="module">
+            <div class="collapse" id="MisheelBayartsengelBody">
+              <p class="body">
+                Misheel is a senior electrical engineering student from Mongolia.
+                He has passion for machine learning and cyber-physical systems.
+                Currently assisting research on navigation system for GPS denied
+                environment.
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#MisheelBayartsengelBody"  aria-expanded="false"
+              aria-controls="MisheelBayartsengelBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/NatalieBishay.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Natalie Bishay</p>
+          <div class="module">
+            <div class="collapse" id="NatalieBishayBody">
+              <p class="body">
+                Natalie is a third year electrical engineering student with a technical breadth 
+                in computer science. She is interested in the applications of computer vision 
+                and robotics to the medical field, particularly in diagnosing stages of cancer, 
+                as well as GPS-denied geolocation in underwater vehicles.
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#NatalieBishayBody"  aria-expanded="false"
+              aria-controls="NatalieBishayBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/PompiliuGirlonta.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Pompiliu Girlonta</p>
+          <div class="module">
+            <div class="collapse" id="PompiliuGirlontaBody">
+              <p class="body"> 
+                Pompiliu is a first year in Computer Engineering. 
+                He believes that innovation in technology is crucial to advancing 
+                the quality of life for people. He is eager to learn and to explore 
+                different ideas from his peers and past experiences, with the goal of 
+                producing innovation valuable to real life. 
+              </p>
+              <p class="body">
+                <a
+                  href="https://www.linkedin.com/in/pompiliu-girlonta/">LinkedIn</a>
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#PompiliuGirlontaBody"  aria-expanded="false"
+              aria-controls="PompiliuGirlontaBody"></a>
+          </div>
+        </div>
+      </div>
+      
+      <br>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="img2/people/SiddharthSomasundaram.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Siddharth Somasundaram</p>
+          <div class="module">
+            <div class="collapse" id="SiddharthSomasundaramBody">
+              <p class="body">
+                Siddharth is a second-year electrical engineering undergraduate 
+                student at UCLA. Before joining the group, he worked on III-V 
+                nanowire-based photodetectors at the Integrated Nanomaterials Core 
+                Lab. Siddharth is interested in the integration of machine learning 
+                concepts in optics. His interests currently lie in these fields and signal 
+                processing.
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#SiddharthSomasundaramBody"  aria-expanded="false"
+              aria-controls="SiddharthSomasundaramBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img2/people/TerrenceHo.jpg" alt="Headshot" class="center-img">
+          <p class="heading-home">Terrence Ho</p>
+          <div class="module">
+            <div class="collapse" id="TerrenceHoBody">
+              <p class="body">
+                Terrence Ho is a CS major (one of the precious few in the lab), and
+                is highly interested in computer vision, vector processing, and
+                distributed systems.
+              </p>
+              <p class="body">
+                <a href="https://www.linkedin.com/in/terrence-ho/">LinkedIn</a>
+              </p>
+            </div>
+            <a role="button" class="collapsed collapsing-btn" data-toggle="collapse"
+              href="#TerrenceHoBody"  aria-expanded="false"
+              aria-controls="TerrenceHoBody"></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+        </div>
+      </div> -->
+    </main>
+
+    <br>
+    <br>
+    <div id="footer-placeholder"></div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+        $("#nav-placeholder").load("nav.htm");
+        $("#footer-placeholder").load("footer.htm");
+      });
+    </script>
+    <script src="js/handlebars.min-latest.js"></script>
+    <script src="js/profiles.js"></script>
+  </body>
+</html>
+

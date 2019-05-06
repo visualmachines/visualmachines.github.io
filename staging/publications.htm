@@ -19,21 +19,38 @@
     <div id="nav-placeholder"></div>
     
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <main class="container">
-      <div class="row"> 
+      <div class="row">
         <div class="col-md-12">
-          <div class="heading center">Join Us to Fill This Page!</div>
-          <div class="sub-heading center">For a taste of our style, please see
-            Professor Kadambi's former 
-            <a href="http://web.media.mit.edu/~achoo/">grad student webpage.</a>
+          <div class="heading center">Publications</div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      <script id="publication-template" type="text/x-handlebars-template">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="" src="{{imgURL}}"/>
+          </div>
+          <div class="col-md-10">
+            <h3><a href="{{pubURL}}" rel="bookmark"> {{Title}}</a></h3>
+            <p>{{{Description}}}</p>
+            <a class="" href="{{pubURL}}">Read More</a>
           </div>
         </div>
-      </div> 
+        <hr>
+      </script>
+
+      <div id="TNLOS_ICCP19Publication"></div>
+      <div id="polarized3DPublication"></div>
+      <div id="MacroInterPublication"></div>
+      <div id="BeatPublication"></div>
+      <div id="OccludedPublication"></div>
+      <div id="nanophotoPublication"></div>
+      <div id="demuxPublication"></div>
     </main>
 
     <div id="footer-placeholder"></div>
@@ -50,5 +67,7 @@
         $("#footer-placeholder").load("footer.htm");
       });
     </script>
+    <script src="js/handlebars.min-latest.js"></script>
+    <script src="js/publications.js"></script>
   </body>
 </html>
