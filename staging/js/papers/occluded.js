@@ -129,18 +129,22 @@ var context = {
       {
         Link: "./img/occluded/giphy.gif",
         Caption:
-          "Figure 3: (a) The hardware prototype is low-cost---to reproduce, one needs a depth sensor, polarizer, and DSLR. (b) Following from Malus's Law, the DSLR intensity should vary sinusoidally with polarization angle."
+          "Figure 2: (a) The hardware prototype is low-cost---to reproduce, one needs a depth sensor, polarizer, and DSLR. (b) Following from Malus's Law, the DSLR intensity should vary sinusoidally with polarization angle."
       },
     ],
   
-    /*Teaser: {
-      imageURL: "./img/paper/teasercrop.png",
-      imageBackgroundURL: "./img/paper/teasercrop-background.png",
+    Teaser: {
+      //imageURL: "./img/occluded/giphy.gif",
+      imageBackgroundURL: "./img/occluded/giphy.gif",
       imageHeight: 555, //in pixels
       rawHTML: `
-      <div class="caption">Figure 1: Starting from a coarse depth map, is it possible to achieve laser scan quality? By combining the information from the Kinect depth frame in (a) with information in 3 polarized photographs (b) , we reconstruct the 3D surface shown in (c). The subtle change between polarization images provides additional information about surface orientation. See Figure 2 of this website for a laser scan comparison.</div>
+      <div>
+        <iframe width="580" height="350" src="https://www.youtube.com/embed/Q9--7o7SdLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="caption">Localizing a moving target in real-time. The ping pong ball is outside the line of sight of the camera and moves horizontally. The camera measures backscattered reflections from the wall.
+      </div>
       `,
-    },*/
+    },
   };
 
 function getTemplateAjax(path, callback) {

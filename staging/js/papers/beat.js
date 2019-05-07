@@ -106,31 +106,34 @@ var context = {
     Photos: [
       {
         Link: "./img/beat/F_comp.jpg",
-        Caption: "Figure 1. A high-level comparison of the proposed technique with heterodyne alternatives (other techniques like FROG or macro OCT are rather distinct). We do refer the reader to the broader literature, noting here, that the primary purpose of stacking is to shunt vibrations and non-linearities that are inherent to EO. Stacking also enables non-quadrature modulation schemes, which we explore in the paper.",
+        Caption: "Figure 2. A high-level comparison of the proposed technique with heterodyne alternatives (other techniques like FROG or macro OCT are rather distinct). We do refer the reader to the broader literature, noting here, that the primary purpose of stacking is to shunt vibrations and non-linearities that are inherent to EO. Stacking also enables non-quadrature modulation schemes, which we explore in the paper.",
       },
       {
         Link: "./img/beat/F_tests.jpg",
-        Caption:
-          "Figure 2. Characterizing range precision in challenging conditions (physical experiment). (left) Optical filters are placed in the path of the transmitted laser radiation. The range precision remains stable until the optical power is reduced by about 45 dB. The expected free space coupling loss is 30 dB. (middle) The range precision does not change with increasing vibrations. The vibration measurements are in context of the ISO 2372 standard. (right) The beat note is reduced to 1 Hertz for a base frequency of 3 GHz. }",
+        Caption: "Figure 3. Characterizing range precision in challenging conditions (physical experiment). (left) Optical filters are placed in the path of the transmitted laser radiation. The range precision remains stable until the optical power is reduced by about 45 dB. The expected free space coupling loss is 30 dB. (middle) The range precision does not change with increasing vibrations. The vibration measurements are in context of the ISO 2372 standard. (right) The beat note is reduced to 1 Hertz for a base frequency of 3 GHz. }",
       },
       {
         Link: "./img/beat/F_proto.jpg",
-        Caption: "Figure 3: A micrometer resolution stage was used to evaluate the technique (physical experiment). The fiberoptic circuit is shown in the figure. Purple lines denote fiberoptic cable paths, and black lines denote electronic paths. The micrometer delay line is 5 centimeters long and has an adjustment screw to vary the distance between the transmit and receive fiber collimators. The upper-right inset shows the bulk optical setup.",
+        Caption: "Figure 4: A micrometer resolution stage was used to evaluate the technique (physical experiment). The fiberoptic circuit is shown in the figure. Purple lines denote fiberoptic cable paths, and black lines denote electronic paths. The micrometer delay line is 5 centimeters long and has an adjustment screw to vary the distance between the transmit and receive fiber collimators. The upper-right inset shows the bulk optical setup.",
       },
       {
         Link: "./img/beat/F_einstein.jpg",
-        Caption: "Figure 4: A GHz ToF imager can enable detailed human scans (simulated result). A bust of Albert Einstein scaled to human proportions is scanned using the cascaded approach at (a) 1 GHz and (b) 500 MHz. A Kinect simulating engine was used to scan the bust again at (c) 120 MHz.",
+        Caption: "Figure 5: A GHz ToF imager can enable detailed human scans (simulated result). A bust of Albert Einstein scaled to human proportions is scanned using the cascaded approach at (a) 1 GHz and (b) 500 MHz. A Kinect simulating engine was used to scan the bust again at (c) 120 MHz.",
       }
     ],
   
-    /*Teaser: {
-      imageURL: "./img/paper/teasercrop.png",
-      imageBackgroundURL: "./img/paper/teasercrop-background.png",
+    Teaser: {
+      //imageURL: "",
+      imageBackgroundURL: "./img/beat/F_einstein.jpg",
       imageHeight: 555, //in pixels
       rawHTML: `
-      <div class="caption">Figure 1: Starting from a coarse depth map, is it possible to achieve laser scan quality? By combining the information from the Kinect depth frame in (a) with information in 3 polarized photographs (b) , we reconstruct the 3D surface shown in (c). The subtle change between polarization images provides additional information about surface orientation. See Figure 2 of this website for a laser scan comparison.</div>
+      <div>
+        <iframe width="580" height="350" src="https://www.youtube.com/embed/3i7zSCrHZwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="caption">Video 1: This is a presentation prior to acceptance of the paper in October 2017. We study LIDAR using filtering elements as a potential way to extend the reach of existing pathlength imaging systems. Our goals are similar to interferometric and coherent methods, but we aim to study a fusion of electronic and optical coherence. Please refer to the FAQ regarding comparisons to existing work.
+      </div>
       `,
-    },*/
+    },
 
     FAQ: [
         {
