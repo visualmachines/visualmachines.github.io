@@ -124,7 +124,7 @@ var context = {
   
     Teaser: {
       //imageURL: "",
-      imageBackgroundURL: "./img/beat/F_einstein.jpg",
+      imageBackgroundURL: "./img/beat/bckgnd.JPG",
       imageHeight: 555, //in pixels
       rawHTML: `
       <div>
