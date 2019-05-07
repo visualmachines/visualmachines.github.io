@@ -23,10 +23,10 @@ var context = {
     Abstract:
       "Many ranging systems work by amplitude modulating the power of an integrated laser at MegaHertz (MHz) frequencies and demodulating it using a specialized imaging sensor to obtain sub-cm range precision. To extend a similar architecture to micron range precision, this paper incorporates beat notes. We study a form of cascaded light ranging which uses a Hertz-scale intermediate frequency to encode high-frequency pathlength information. We show synthetically and experimentally that a bulk implementation of opto-electronic mixers offers: (a) robustness to environmental vibrations; (b) programmability; and (c) stability in frequency tones. A fiberoptic prototype is constructed, which demonstrates 3 micron range precision over a range of 2 meters. We study and evaluate the cascaded architecture for use in machine vision, where vibrations and sampling rate are constraints.",
     Bibtex: `@article{Kadambioccluded2016,
- 			author = {Kadambi, Achuta and Raskar, Ramesh},
- 			title = {Rethinking Machine Vision Time of Flight with GHz Heterodyning, IEEE Access 2017},
- 			journal = {IEEE Access},
- 			year = {2017}
+ 			<br>&nbsp;&nbsp;author = {Kadambi, Achuta and Raskar, Ramesh},
+ 			<br>&nbsp;&nbsp;title = {Rethinking Machine Vision Time of Flight with GHz Heterodyning, IEEE Access 2017},
+ 			<br>&nbsp;&nbsp;journal = {IEEE Access},
+ 			<br>&nbsp;&nbsp;year = {2017}<br>
 		}`,
 
     Files: [

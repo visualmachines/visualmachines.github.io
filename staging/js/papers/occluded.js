@@ -39,15 +39,15 @@ var context = {
     Abstract:
       "We explore the question of whether phase based Time of Flight (ToF) range cameras can be used for looking around corners and through scattering diffusers. By connecting time of flight measurements with theory from array signal processing we conclude that performance depends on two primary factors: camera modulation frequency and the width of the specular lobe (“shininess”) of the wall. For purely Lambertian walls, commodity time of flight sensors achieve resolution on the order of meters between targets. For seemingly diffuse walls, such as posterboard, the resolution is drastically reduced, to the order of ten centimeters. In particular, we find that the re- lationship between reflectance and resolution is nonlinear—a slight amount of shininess can lead to a dramatic improvement in resolution. Since many realistic scenes exhibit a slight amount of shininess we believe that off-the- shelf ToF cameras can look around corners.",
     Bibtex: `@article{Kadambioccluded2016,
-             author = {Kadambi, Achuta and Zhao, Hang and Shi, Boxin and Raskar, Ramesh},
-             title = {Occluded Imaging with Time-of-Flight Sensors},
-             journal = {ACM Trans. Graph.},
-             issue_date = {May 2016},
-             volume = {35},
-             number = {2},
-             publisher = {ACM},
-             address = {New York, NY, USA},
-             keywords = {Time of flight, computational photography, scattering},
+             <br>&nbsp;&nbsp;author = {Kadambi, Achuta and Zhao, Hang and Shi, Boxin and Raskar, Ramesh},
+             <br>&nbsp;&nbsp;title = {Occluded Imaging with Time-of-Flight Sensors},
+             <br>&nbsp;&nbsp;journal = {ACM Trans. Graph.},
+             <br>&nbsp;&nbsp;issue_date = {May 2016},
+             <br>&nbsp;&nbsp;volume = {35},
+             <br>&nbsp;&nbsp;number = {2},
+             <br>&nbsp;&nbsp;publisher = {ACM},
+             <br>&nbsp;&nbsp;address = {New York, NY, USA},
+             <br>&nbsp;&nbsp;keywords = {Time of flight, computational photography, scattering},<br>
     }`,
     
     Files: [

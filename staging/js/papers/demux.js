@@ -46,10 +46,10 @@ var context = {
     Abstract:
       "Several computer vision algorithms require a sequence of photographs taken in different illumination conditions, which has spurred development in the area of illumination multiplexing. Various techniques for optimizing the multiplexing process already exist, but are geared toward regular or high speed cameras. Such cameras are fast, but code on the order of milliseconds. In this paper we propose a fusion of two popular contexts, time of flight range cameras and illumination multiplexing. Time of flight cameras are a low cost, consumer-oriented technology capable of acquiring range maps at 30 frames per second. Such cameras have a natural connection to conventional illumination multiplexing strategies as both paradigms rely on the capture of multiple shots and synchronized illumination. While previous work on illumination multiplexing has exploited coding at millisecond intervals, we repurpose sensors that are ordinarily used in time of flight imaging to demultiplex via nanosecond coding strategies.",
     Bibtex: `@article{kadambi2014demultiplexing,
-	  title={Demultiplexing illumination via low cost sensing and nanosecond coding},
-	  author={Kadambi, Achuta and Bhandari, Ayush and Whyte, Refael and Dorrington, Adrian and Raskar, Ramesh},
-	  year={2014},
-	  publisher={Institute of Electrical and Electronics Engineers (IEEE)}
+	  <br>&nbsp;&nbsp;title={Demultiplexing illumination via low cost sensing and nanosecond coding},
+	  <br>&nbsp;&nbsp;author={Kadambi, Achuta and Bhandari, Ayush and Whyte, Refael and Dorrington, Adrian and Raskar, Ramesh},
+	  <br>&nbsp;&nbsp;year={2014},
+	  <br>&nbsp;&nbsp;publisher={Institute of Electrical and Electronics Engineers (IEEE)}<br>
 	  }`,
     Files: [
       {

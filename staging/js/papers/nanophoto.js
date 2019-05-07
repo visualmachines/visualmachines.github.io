@@ -56,14 +56,14 @@ var context = {
       "Time of flight cameras produce real-time range maps at a relatively low cost using continuous wave amplitude modulation and demodulation. However, they are geared to measure range (or phase) for a single reflected bounce of light and suffer from systematic errors due to multipath interference. We re-purpose the conventional time of flight device for a new goal: to recover per-pixel sparse time profiles expressed as a sequence of impulses. With this modification, we show that we can not only address multipath interference but also enable new applications such as recovering depth of near-transparent surfaces, looking through diffusers and creating time-profile movies of sweeping light. Our key idea is to formulate the forward amplitude modulated light propagation as a convolution with custom codes, record samples by introducing a simple sequence of electronic time delays, and perform sparse deconvolution to recover sequences of Diracs that correspond to multipath returns. Applications to computer vision include ranging of near-transparent objects and subsurface imaging through diffusers. Our low cost prototype may lead to new insights regarding forward and inverse problems in light transport.",
     
 	Bibtex: `@article{kadambi2013coded,
-    author = {author={A. Kadambi and R. Whyte and A. Bhandari and L. Streeter and C. Barsi and A. Dorrington and R. Raskar}},
-    title = {{Coded time of flight cameras: sparse deconvolution to address multipath interference and recover time profiles}},
-    journal = {ACM Transactions on Graphics (TOG)},
-    volume = {32},
-    number = {6},
-    year = {2013},
-    publisher = {ACM},
-    pages = {167},
+    <br>&nbsp;&nbsp;author = {author={A. Kadambi and R. Whyte and A. Bhandari and L. Streeter and C. Barsi and A. Dorrington and R. Raskar}},
+    <br>&nbsp;&nbsp;title = {{Coded time of flight cameras: sparse deconvolution to address multipath interference and recover time profiles}},
+    <br>&nbsp;&nbsp;journal = {ACM Transactions on Graphics (TOG)},
+    <br>&nbsp;&nbsp;volume = {32},
+    <br>&nbsp;&nbsp;number = {6},
+    <br>&nbsp;&nbsp;year = {2013},
+    <br>&nbsp;&nbsp;publisher = {ACM},
+    <br>&nbsp;&nbsp;pages = {167},<br>
     }`,
 	Press: [
       {
