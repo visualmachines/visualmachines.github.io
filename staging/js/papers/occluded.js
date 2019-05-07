@@ -129,16 +129,21 @@ var context = {
       {
         Link: "./img/occluded/giphy.gif",
         Caption:
-          "Figure 3: (a) The hardware prototype is low-cost---to reproduce, one needs a depth sensor, polarizer, and DSLR. (b) Following from Malus's Law, the DSLR intensity should vary sinusoidally with polarization angle."
+          "Figure 2: (a) The hardware prototype is low-cost---to reproduce, one needs a depth sensor, polarizer, and DSLR. (b) Following from Malus's Law, the DSLR intensity should vary sinusoidally with polarization angle."
       },
     ],
   
     Teaser: {
-      imageURL: "./img/occluded/occluded_img.png",
-      // imageBackgroundURL: "./img/paper/teasercrop-background.png",
+      //imageURL: "./img/occluded/giphy.gif",
+      imageBackgroundURL: "./img/occluded/giphy.gif",
       imageHeight: 555, //in pixels
       rawHTML: `
-      <div class="caption">Localizing a moving target in real-time. (a) The ping pong ball is outside the line of sight of the camera and moves horizontally. The camera measures backscattered reflections from the wall. (b) A conventional video of the object in motion. Here, three frames of the video are shown at times 0, 1 and 2 seconds where the ball position is 30, 40, and 50 cm. (c) Our technique is able to find the location of the target in real time. Please see supplementary video. </div>
+      <div>
+        <iframe width="580" height="350" src="https://www.youtube.com/embed/Q9--7o7SdLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="caption">Localizing a moving target in real-time. The ping pong ball is outside the line of sight of the camera and moves horizontally. The camera measures backscattered reflections from the wall.
+      </div>
+
       `,
     },
   };
