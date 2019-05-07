@@ -143,6 +143,7 @@ var context = {
       </div>
       <div class="caption">Localizing a moving target in real-time. The ping pong ball is outside the line of sight of the camera and moves horizontally. The camera measures backscattered reflections from the wall.
       </div>
+
       `,
     },
   };

@@ -122,7 +122,7 @@ var context = {
       }
     ],
   
-    Teaser: {
+    Teaser:{
       //imageURL: "",
       imageBackgroundURL: "./img/beat/bckgnd.JPG",
       imageHeight: 555, //in pixels
@@ -132,6 +132,7 @@ var context = {
       </div>
       <div class="caption">Video 1: This is a presentation prior to acceptance of the paper in October 2017. We study LIDAR using filtering elements as a potential way to extend the reach of existing pathlength imaging systems. Our goals are similar to interferometric and coherent methods, but we aim to study a fusion of electronic and optical coherence. Please refer to the FAQ regarding comparisons to existing work.
       </div>
+
       `,
     },
 
