@@ -3,7 +3,7 @@ var context = {
     Authors: [
       {
         Name: "Tomohiro Maeda*",
-        Link: "",
+        Link: "http://web.media.mit.edu/~tomotomo/  ",
         AssociationNumber: 1
       },
       {
@@ -40,29 +40,33 @@ var context = {
     
     Abstract:
       "We propose a novel non-line-of-sight (NLOS) imaging framework with long-wave infrared (IR). At long-wave IR wavelengths, certain physical parameters are more favorable for high-fidelity reconstruction. In contrast to prior work in visible light NLOS, at long-wave IR wavelengths, the hidden heat source acts as a light source. This simplifies the problem to a single bounce problem. In addition, surface reflectance has a much stronger specular reflection in the long-wave IR spectrum than in the visible light spectrum. We reformulate a light transport model that leverages these favorable physical properties of long-wave IR. Specifically, we demonstrate 2D shape recovery and 3D localization of a hidden object. Furthermore, we demonstrate near real-time and robust NLOS pose estimation of a human figure, the first such demonstration, to our knowledge.",
-    Bibtex: `TBA`,
-    Press: [
+    Bibtex: `@inproceedings{ICCP19_Maeda,
+          <br>&nbsp;&nbsp;author = "Tomohiro Maeda and Yiqin Wang and Ramesh Raskar and Achuta Kadambi,
+          <br>&nbsp;&nbsp;title = "Thermal Non-Line-of-Sight Imaging",
+          <br>&nbsp;&nbsp;booktitle = "IEEE International Conference on Computational Photography(ICCP)",
+          <br>&nbsp;&nbsp;year = "2019"<br>
+        }`,
 
-    ],
     Files: [
       {
         Name: "Paper",
         Links: [{
             Label: "PDF",
-            Links: "./img/Thermal_NLOS-compressed.pdf"}
+            Link: "./img/Thermal_NLOS-compressed.pdf"}
         ]
       },
       {
         Name: "ICCP Slides",
         Links: [{
             Label: "PDF",
-            Links: "./img/TNLOS_ICCP19/ICCP19_TNLOS.pdf"}
+            Link: "./img/TNLOS_ICCP19/ICCP19_TNLOS.pdf"}
         ]
       },
       {
         Name: "Videos",
         Links: [{
-            Label: "avi"}
+            Label: "Youtube",
+        Link: "https://www.youtube.com/watch?v=H6aX9Wkncxc"}
         ]
       },
 
@@ -72,6 +76,9 @@ var context = {
       Tomohiro Maeda<br>
       MIT Media Lab<br>
       tomotomo@mit.edu<br> 
+      Achuta Kadambi<br>
+      Visual Machines Group, UCLA<br>
+      achuta@ee.ucla.edu<br>
     `,
   
     Photos: [
@@ -92,10 +99,18 @@ var context = {
         Caption: "Fig. 4: NLOS scene reconstruction results. (a) Corner setups. In the visible spectrum, the object is not visible on the wall. (b) Thermal image of the target. (c) BRDF is fitted with GGX specular BRDF model. (d) Localization of the target (red circle shown in (b)). Reconstruction does not require prior knowledge on the shape or size of the hidden object. ",
       },
       {
-        Link: "./img/TNLOS_ICCP19/pose_results2.svgz",
+        Link: "./img/TNLOS_ICCP19/pose_results2.png",
         Caption: "Fig. 5: NLOS pose estimation results. We show that processing raw frames of thermal images can improve the pose estimation algorithm. (a) shows NLOS imaging setup. (b) is an example of raw output from the camera. (c), (d), (e) Appropriate processing of raw thermal video frames results in better posture estimation. (f) (g) TV regularization could correct pose estimation on median filtering, while in (h), it could introduce artifacts that result in pose estimation error. (g) and (h) include human detection through score thresholding. Raw frames did not get high enough score for body detection.",
       }
     ],
+    Teaser: {
+      imageURL: "./img/TNLOS_ICCP19/teaser.gif",
+      imageBackgroundURL: "./img/TNLOS_ICCP19/teaser.gif",
+      imageHeight: 555, //in pixels
+      //rawHTML: `
+      //<iframe width="600" height="450" src="https://www.youtube.com/embed/V1ExEijSDjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> `,
+
+    },
   
   };
 
