@@ -108,6 +108,7 @@ var context = {
   
     Teaser: {
       imageURL: "./img/MacroInter/macroteaser.jpg",
+      imageBackgroundURL: "./img/MacroInter/macroteaser.jpg",
       imageHeight: 555, //in pixels
       rawHTML: `
       <div class="caption">This paper repurposes the microscopic technique of Frequency-Domain OCT to a macroscopic technique, Frequency ToF. Both techniques encode optical time of flight in the frequency of the received waveform. For short optical paths (top row), the received signal in the primal-domain is lower in frequency than that of longer optical paths (bottom row).</div>
