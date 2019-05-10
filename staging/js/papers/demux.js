@@ -135,7 +135,7 @@ var context = {
   
     Teaser: {
       imageURL: "./img/paper/demux1.png",
-      imageBackgroundURL: "./img/paper/demux4.jpg",
+      imageBackgroundURL: "./img/paper/demux1_1.png",
       imageHeight: 555, //in pixels
       rawHTML: `
       <div class="caption">Figure 1: Demultiplexing Illumination with a Time of Flight Camera. The scene is in upper-left. A ToF camera is synced to 3 light sources; we measure all three light sources (upper-right) and can decompose as if only one of the individual light sources was on. Note the distinction of shadows in the separated images.</div>
