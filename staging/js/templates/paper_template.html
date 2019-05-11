@@ -3,7 +3,7 @@
   <div class="container">
       <div class="article-meta col-md-8" style="margin: auto;">
           <div class="row mb-3 pt-5">
-                  <div class="heading center" style="font-size: 38px;">{{Title}}</div>
+                  <div class="heading center px-2" style="font-size: 38px;">{{Title}}</div>
               </div>
 
               <div class="row">
@@ -62,10 +62,11 @@
                   Citation
               </div>
               <div class="row body">
-                  {{Bibtex}}
+                {{#RenderTeaser Bibtex}}{{/RenderTeaser}}
               </div>
 
           <!-- Press -->
+          {{#if Press}}
           <div class="row mt-3 heading">
               Press
           </div>
@@ -78,9 +79,9 @@
                   {{/each}}
               </ul>
           </div>
+          {{/if}}
 
-
-
+          
           <!-- Contact -->
           <div class="row mt-3 heading">
                   Contact
@@ -88,7 +89,8 @@
           <div class="row mb-3 body">
               {{#RenderTeaser Contacts}}{{/RenderTeaser}}
           </div>
-
+          
+          {{#if FAQ}}
           <!-- FAQ -->
           <div class="row heading">
                   Frequently Asked Questions (FAQ)
@@ -101,7 +103,9 @@
                   {{Answer}}
               </div>
           {{/each}}
-
+          {{/if}}
+            
+          {{#if Photos}}
           <!-- Media -->
           <div class="row heading mt-3">
                   Media
@@ -116,6 +120,7 @@
                   {{/each}}
               </div>
           </div>
+          {{/if}}
 
 
       </div>

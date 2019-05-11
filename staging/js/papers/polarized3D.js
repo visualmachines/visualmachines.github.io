@@ -42,11 +42,11 @@ var context = {
     },
     Abstract:
       "Coarse depth maps can be enhanced by using the shape information from polarization cues. We propose a framework to combine surface normals from polarization (hereafter polarization normals) with an aligned depth map. Polarization normals have not been used for depth enhancement before. This is because polarization normals suffer from physics-based artifacts, such as azimuthal ambiguity, refractive distortion and fronto-parallel signal degradation. We propose a framework to overcome these key challenges, allowing the benefits of polarization to be used to enhance depth maps. Our results demonstrate improvement with respect to state-of-the-art 3D reconstruction techniques.",
-    Bibtex: `@inproceedings{ICCV15_Kadambi,
-          author = "Achuta Kadambi and Vage Taamazyan and Boxin Shi and Ramesh Raskar,
-          title = "Polarized 3D: High-Quality Depth Sensing with Polarization Cues",
-          booktitle = "International Conference on Computer Vision (ICCV)",
-          year = "2015"
+    Bibtex: `@inproceedings{ICCV15_Kadambi,<br>
+          &nbsp;&nbsp;author = "Achuta Kadambi and Vage Taamazyan and Boxin Shi and Ramesh Raskar,<br>
+          &nbsp;&nbsp;title = "Polarized 3D: High-Quality Depth Sensing with Polarization Cues",<br>
+          &nbsp;&nbsp;booktitle = "International Conference on Computer Vision (ICCV)",<br>
+          &nbsp;&nbsp;year = "2015"<br>
         }`,
     Press: [
       {
@@ -155,27 +155,27 @@ var context = {
   
     Photos: [
       {
-        Link: "./img/paper/groove.png",
+        Link: "./img/polarized3D/groove.png",
         Caption: "Figure 2. Polarization-enhanced depth is, in some cases, a better option to industrial solutions, like this raster-based multistripe laser scanner (NextEngine 3D). As shown in the figure, features down to 300 microns can be captured with Polarized 3D.",
       },
       {
-        Link: "./img/paper/datacube.png",
+        Link: "./img/polarized3D/datacube.png",
         Caption:
           "Figure 3: (a) The hardware prototype is low-cost---to reproduce, one needs a depth sensor, polarizer, and DSLR. (b) Following from Malus's Law, the DSLR intensity should vary sinusoidally with polarization angle."
       },
       {
-        Link: "./img/paper/achutalarge.png",
+        Link: "./img/polarized3D/achutalarge.png",
         Caption: "Figure 4: For complex materials and lighting, shading and photometric approaches require many more images.",
       },
       {
-        Link: "./img/paper/diana.png",
+        Link: "./img/polarized3D/diana.png",
         Caption: `Figure 5: Complex objects, with mixed materials like this shiny face can be scanned. See Figure 9 of the paper for the polarization result.`
       },
     ],
   
     Teaser: {
-      imageURL: "./img/paper/teasercrop.png",
-      imageBackgroundURL: "./img/paper/teasercrop-background.png",
+      imageURL: "./img/polarized3D/teasercrop.png",
+      imageBackgroundURL: "./img/polarized3D/teasercrop-background.png",
       imageHeight: 555, //in pixels
       rawHTML: `
       <div class="caption">Figure 1: Starting from a coarse depth map, is it possible to achieve laser scan quality? By combining the information from the Kinect depth frame in (a) with information in 3 polarized photographs (b) , we reconstruct the 3D surface shown in (c). The subtle change between polarization images provides additional information about surface orientation. See Figure 2 of this website for a laser scan comparison.</div>

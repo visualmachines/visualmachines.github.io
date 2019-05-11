@@ -46,10 +46,10 @@ var context = {
     Abstract:
       "Several computer vision algorithms require a sequence of photographs taken in different illumination conditions, which has spurred development in the area of illumination multiplexing. Various techniques for optimizing the multiplexing process already exist, but are geared toward regular or high speed cameras. Such cameras are fast, but code on the order of milliseconds. In this paper we propose a fusion of two popular contexts, time of flight range cameras and illumination multiplexing. Time of flight cameras are a low cost, consumer-oriented technology capable of acquiring range maps at 30 frames per second. Such cameras have a natural connection to conventional illumination multiplexing strategies as both paradigms rely on the capture of multiple shots and synchronized illumination. While previous work on illumination multiplexing has exploited coding at millisecond intervals, we repurpose sensors that are ordinarily used in time of flight imaging to demultiplex via nanosecond coding strategies.",
     Bibtex: `@article{kadambi2014demultiplexing,
-	  title={Demultiplexing illumination via low cost sensing and nanosecond coding},
-	  author={Kadambi, Achuta and Bhandari, Ayush and Whyte, Refael and Dorrington, Adrian and Raskar, Ramesh},
-	  year={2014},
-	  publisher={Institute of Electrical and Electronics Engineers (IEEE)}
+	  <br>&nbsp;&nbsp;title={Demultiplexing illumination via low cost sensing and nanosecond coding},
+	  <br>&nbsp;&nbsp;author={Kadambi, Achuta and Bhandari, Ayush and Whyte, Refael and Dorrington, Adrian and Raskar, Ramesh},
+	  <br>&nbsp;&nbsp;year={2014},
+	  <br>&nbsp;&nbsp;publisher={Institute of Electrical and Electronics Engineers (IEEE)}<br>
 	  }`,
     Files: [
       {
@@ -119,23 +119,23 @@ var context = {
   
     Photos: [
       {
-        Link: "./img/paper/demux3.jpg",
+        Link: "./img/demux/demux3.jpg",
 
         Caption: "Figure 2. A color amplitude image from the Time of Flight camera. The same problem as Figure 1, except we multiplex red, green, and blue lights. This allows for single-chip color ToF that does not sacrifice spatial resolution. ",
       },
       {
-        Link: "./img/paper/demux4.jpg",
+        Link: "./img/demux/demux4.jpg",
         Caption:"Figure 3: Relighting a scene post-capture. At left, in the composite image 2 lights are on at the same time, placed at the left and right of the scene. We can demultiplex to obtain only the right light or the left light. Note the shadows.",
       },
 	  {
-        Link: "./img/paper/demux6.jpg",
+        Link: "./img/demux/demux6.jpg",
 		Caption:"Figure 4: Comparison of ToF camera with a high speed camera for the same duration of exposure time ~ W milliseconds. In all cases, the Decimation matrix is a block-diagonal matrix where block-wise elements are circularly shifted versions of previous diagonal blocks. This leads to an analogy with Toeplitz matrices and convolution. Case 1: The forward model is presented for a fast videocamera where measurements are taken each W millisecond. For a single measurement, the camera integrates all light equally over the exposure. Hence there is no coding of exposure in this case. Case 2: Considers the ToF camera-like sensor where each W millisecond exposure is coded. Hence it is able to achieve nanosecond coding by frequency locking a reference clock signal with the illumination. Because the frequencies are locked, it is biased to the contribution from the similar strobing frequency. Case 3: By carefully coding the W millisecond exposure this sensor can demultiplex illumination using nanosecond scale codes.",
       },
     ],
   
     Teaser: {
-      imageURL: "./img/paper/demux1.png",
-      imageBackgroundURL: "./img/paper/demux1_1.png",
+      imageURL: "./img/demux/demux1.png",
+      imageBackgroundURL: "./img/demux/demux1_crop.png",
       imageHeight: 555, //in pixels
       rawHTML: `
       <div class="caption">Figure 1: Demultiplexing Illumination with a Time of Flight Camera. The scene is in upper-left. A ToF camera is synced to 3 light sources; we measure all three light sources (upper-right) and can decompose as if only one of the individual light sources was on. Note the distinction of shadows in the separated images.</div>
