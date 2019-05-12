@@ -186,12 +186,8 @@ var context = {
   
     Photos: [
       {
-        Link: "./img/nanophoto/nano2.jpg",
-
-        Caption: "Figure 2. Recovering depth of transparent objects is a hard problem in general and has yet to be solved for Time of Flight cameras. A glass unicorn is placed in a scene with a wall behind (left). A regular time of flight camera fails to resolve the correct depth of the unicorn (center-left). By using our multipath algorithm, we are able to obtain the depth of foreground (center-right) or of background (right).",
-      },
-      {
         Link: "./img/nanophoto/nano3.jpg",
+
         Caption:"Figure 3: Key components of the hardware include: PMD 19k3 sensor, FPGA Dev Kit (student version), Custom PCB for light sources, and DSLR lens from a regular Canon SLR. ",
       },
     ],
@@ -201,8 +197,18 @@ var context = {
       imageBackgroundURL: "./img/nanophoto/nano1.png",
       imageHeight: 555, //in pixels
       rawHTML: `
-      <div class="caption">Figure 1: Using our custom time of flight camera, we are able to visualize light sweeping over the scene. In this scene, multipath effects can be seen in the glass vase. In the early time-slots, bright spots are formed from the specularities on the glass. Light then sweeps over the other objects on the scene and finally hits the back wall, where it can also be seen through the glass vase (8ns). Light leaves, first from the specularities (8-10ns), then from the stuffed animals. The time slots correspond to the true geometry of the scene (light travels 1 foot in a nanosecond, times are for round-trip). Please see http://media.mit.edu/~achoo/nanophotography for animated light sweep movies.</div>
+	  <div class="caption">Figure 1: Using our custom time of flight camera, we are able to visualize light sweeping over the scene. In this scene, multipath effects can be seen in the glass vase. In the early time-slots, bright spots are formed from the specularities on the glass. Light then sweeps over the other objects on the scene and finally hits the back wall, where it can also be seen through the glass vase (8ns). Light leaves, first from the specularities (8-10ns), then from the stuffed animals. The time slots correspond to the true geometry of the scene (light travels 1 foot in a nanosecond, times are for round-trip). Please see http://media.mit.edu/~achoo/nanophotography for animated light sweep movies.</div>
+      <div>
+        <div>
+          <img src="img/nanophoto/nano2.jpg" >
+        </div>
+      </div>
+      <div class="caption">Figure 2: Recovering depth of transparent objects is a hard problem in general and has yet to be solved for Time of Flight cameras. A glass unicorn is placed in a scene with a wall behind (left). A regular time of flight camera fails to resolve the correct depth of the unicorn (center-left). By using our multipath algorithm, we are able to obtain the depth of foreground (center-right) or of background (right).</div>
+      
+	  
       <div class="row mt-4">
+
+
         <div class="col-md-4">
           <img src="img/MacroInter/marioFast.gif" alt="mario fast" style="width: 180px; height: 134px">
         </div>
@@ -214,8 +220,23 @@ var context = {
         </div>
       </div>
       <div class="caption">Observe light sweeping over the glass vase first, then over the Mario doll, Lion and wall in sequence. Note that the specularities on the glass vase disappear first and the multipath interactions of the wall and glass vase.</div>
-      `,
+      
+	  <div class="row mt-4">
+        <div class="col-md-4">
+			<iframe width="180px" height="134px" src="https://www.youtube.com/embed/2---PAMtWM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4">
+			<iframe width="180px" height="134px" src="https://www.youtube.com/embed/68ec2rvQ3OU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4">
+			<iframe width="180px" height="134px" src="https://www.youtube.com/embed/8ugEyuegmBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="caption">Empirical validation: by using a scene with calibrated geometry, we can empirically validate the time resolution of our technique.</div>
+      
+	  `,
     },
+	
     FAQ: [
 		{
             Question: "What is nanophotograpy?",
