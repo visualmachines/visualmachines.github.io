@@ -193,8 +193,8 @@ var context = {
     ],
   
     Teaser: {
-      imageURL: "./img/nanophoto/nano1.png",
-      imageBackgroundURL: "./img/nanophoto/nano1.png",
+      imageURL: "./img/nanophoto/nano1.PNG",
+      imageBackgroundURL: "./img/nanophoto/nano1.PNG",
       imageHeight: 555, //in pixels
       rawHTML: `
 	  <div class="caption">Figure 1: Using our custom time of flight camera, we are able to visualize light sweeping over the scene. In this scene, multipath effects can be seen in the glass vase. In the early time-slots, bright spots are formed from the specularities on the glass. Light then sweeps over the other objects on the scene and finally hits the back wall, where it can also be seen through the glass vase (8ns). Light leaves, first from the specularities (8-10ns), then from the stuffed animals. The time slots correspond to the true geometry of the scene (light travels 1 foot in a nanosecond, times are for round-trip). Please see http://media.mit.edu/~achoo/nanophotography for animated light sweep movies.</div>
