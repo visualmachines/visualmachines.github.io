@@ -66,7 +66,7 @@ var context = {
         Name: "ICCP presentation",
         Links: [{
             Label: "PPT",
-        Link: "./img/TNLOS_ICCP19/Thermal Non-Line-of-Sight Imaging.pptx"}
+        Link: "./img/TNLOS_ICCP19/Thermal Non-Line-of-Sight Imaging.pdf"}
         ]
       },
 
