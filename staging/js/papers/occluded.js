@@ -39,15 +39,15 @@ var context = {
     Abstract:
       "We explore the question of whether phase based Time of Flight (ToF) range cameras can be used for looking around corners and through scattering diffusers. By connecting time of flight measurements with theory from array signal processing we conclude that performance depends on two primary factors: camera modulation frequency and the width of the specular lobe (“shininess”) of the wall. For purely Lambertian walls, commodity time of flight sensors achieve resolution on the order of meters between targets. For seemingly diffuse walls, such as posterboard, the resolution is drastically reduced, to the order of ten centimeters. In particular, we find that the re- lationship between reflectance and resolution is nonlinear—a slight amount of shininess can lead to a dramatic improvement in resolution. Since many realistic scenes exhibit a slight amount of shininess we believe that off-the- shelf ToF cameras can look around corners.",
     Bibtex: `@article{Kadambioccluded2016,
-             author = {Kadambi, Achuta and Zhao, Hang and Shi, Boxin and Raskar, Ramesh},
-             title = {Occluded Imaging with Time-of-Flight Sensors},
-             journal = {ACM Trans. Graph.},
-             issue_date = {May 2016},
-             volume = {35},
-             number = {2},
-             publisher = {ACM},
-             address = {New York, NY, USA},
-             keywords = {Time of flight, computational photography, scattering},
+             <br>&nbsp;&nbsp;author = {Kadambi, Achuta and Zhao, Hang and Shi, Boxin and Raskar, Ramesh},
+             <br>&nbsp;&nbsp;title = {Occluded Imaging with Time-of-Flight Sensors},
+             <br>&nbsp;&nbsp;journal = {ACM Trans. Graph.},
+             <br>&nbsp;&nbsp;issue_date = {May 2016},
+             <br>&nbsp;&nbsp;volume = {35},
+             <br>&nbsp;&nbsp;number = {2},
+             <br>&nbsp;&nbsp;publisher = {ACM},
+             <br>&nbsp;&nbsp;address = {New York, NY, USA},
+             <br>&nbsp;&nbsp;keywords = {Time of flight, computational photography, scattering},<br>
     }`,
     
     Files: [
@@ -129,16 +129,21 @@ var context = {
       {
         Link: "./img/occluded/giphy.gif",
         Caption:
-          "Figure 3: (a) The hardware prototype is low-cost---to reproduce, one needs a depth sensor, polarizer, and DSLR. (b) Following from Malus's Law, the DSLR intensity should vary sinusoidally with polarization angle."
+          "Figure 2: (a) The hardware prototype is low-cost---to reproduce, one needs a depth sensor, polarizer, and DSLR. (b) Following from Malus's Law, the DSLR intensity should vary sinusoidally with polarization angle."
       },
     ],
   
     Teaser: {
-      imageURL: "./img/occluded/occluded_img.png",
-      // imageBackgroundURL: "./img/paper/teasercrop-background.png",
+      //imageURL: "./img/occluded/giphy.gif",
+      imageBackgroundURL: "./img/occluded/giphy.gif",
       imageHeight: 555, //in pixels
       rawHTML: `
-      <div class="caption">Localizing a moving target in real-time. (a) The ping pong ball is outside the line of sight of the camera and moves horizontally. The camera measures backscattered reflections from the wall. (b) A conventional video of the object in motion. Here, three frames of the video are shown at times 0, 1 and 2 seconds where the ball position is 30, 40, and 50 cm. (c) Our technique is able to find the location of the target in real time. Please see supplementary video. </div>
+      <div>
+        <iframe width="580" height="350" src="https://www.youtube.com/embed/Q9--7o7SdLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="caption">Localizing a moving target in real-time. The ping pong ball is outside the line of sight of the camera and moves horizontally. The camera measures backscattered reflections from the wall.
+      </div>
+
       `,
     },
   };

@@ -42,11 +42,11 @@ var context = {
     },
     Abstract:
       "Coarse depth maps can be enhanced by using the shape information from polarization cues. We propose a framework to combine surface normals from polarization (hereafter polarization normals) with an aligned depth map. Polarization normals have not been used for depth enhancement before. This is because polarization normals suffer from physics-based artifacts, such as azimuthal ambiguity, refractive distortion and fronto-parallel signal degradation. We propose a framework to overcome these key challenges, allowing the benefits of polarization to be used to enhance depth maps. Our results demonstrate improvement with respect to state-of-the-art 3D reconstruction techniques.",
-    Bibtex: `@inproceedings{ICCV15_Kadambi,
-          author = "Achuta Kadambi and Vage Taamazyan and Boxin Shi and Ramesh Raskar,
-          title = "Polarized 3D: High-Quality Depth Sensing with Polarization Cues",
-          booktitle = "International Conference on Computer Vision (ICCV)",
-          year = "2015"
+    Bibtex: `@inproceedings{ICCV15_Kadambi,<br>
+          &nbsp;&nbsp;author = "Achuta Kadambi and Vage Taamazyan and Boxin Shi and Ramesh Raskar,<br>
+          &nbsp;&nbsp;title = "Polarized 3D: High-Quality Depth Sensing with Polarization Cues",<br>
+          &nbsp;&nbsp;booktitle = "International Conference on Computer Vision (ICCV)",<br>
+          &nbsp;&nbsp;year = "2015"<br>
         }`,
     Press: [
       {

@@ -56,14 +56,14 @@ var context = {
       "Time of flight cameras produce real-time range maps at a relatively low cost using continuous wave amplitude modulation and demodulation. However, they are geared to measure range (or phase) for a single reflected bounce of light and suffer from systematic errors due to multipath interference. We re-purpose the conventional time of flight device for a new goal: to recover per-pixel sparse time profiles expressed as a sequence of impulses. With this modification, we show that we can not only address multipath interference but also enable new applications such as recovering depth of near-transparent surfaces, looking through diffusers and creating time-profile movies of sweeping light. Our key idea is to formulate the forward amplitude modulated light propagation as a convolution with custom codes, record samples by introducing a simple sequence of electronic time delays, and perform sparse deconvolution to recover sequences of Diracs that correspond to multipath returns. Applications to computer vision include ranging of near-transparent objects and subsurface imaging through diffusers. Our low cost prototype may lead to new insights regarding forward and inverse problems in light transport.",
     
 	Bibtex: `@article{kadambi2013coded,
-    author = {author={A. Kadambi and R. Whyte and A. Bhandari and L. Streeter and C. Barsi and A. Dorrington and R. Raskar}},
-    title = {{Coded time of flight cameras: sparse deconvolution to address multipath interference and recover time profiles}},
-    journal = {ACM Transactions on Graphics (TOG)},
-    volume = {32},
-    number = {6},
-    year = {2013},
-    publisher = {ACM},
-    pages = {167},
+    <br>&nbsp;&nbsp;author = {author={A. Kadambi and R. Whyte and A. Bhandari and L. Streeter and C. Barsi and A. Dorrington and R. Raskar}},
+    <br>&nbsp;&nbsp;title = {{Coded time of flight cameras: sparse deconvolution to address multipath interference and recover time profiles}},
+    <br>&nbsp;&nbsp;journal = {ACM Transactions on Graphics (TOG)},
+    <br>&nbsp;&nbsp;volume = {32},
+    <br>&nbsp;&nbsp;number = {6},
+    <br>&nbsp;&nbsp;year = {2013},
+    <br>&nbsp;&nbsp;publisher = {ACM},
+    <br>&nbsp;&nbsp;pages = {167},<br>
     }`,
 	Press: [
       {
@@ -186,23 +186,29 @@ var context = {
   
     Photos: [
       {
-        Link: "./img/nanophoto/nano2.jpg",
-
-        Caption: "Figure 2. Recovering depth of transparent objects is a hard problem in general and has yet to be solved for Time of Flight cameras. A glass unicorn is placed in a scene with a wall behind (left). A regular time of flight camera fails to resolve the correct depth of the unicorn (center-left). By using our multipath algorithm, we are able to obtain the depth of foreground (center-right) or of background (right).",
-      },
-      {
         Link: "./img/nanophoto/nano3.jpg",
+
         Caption:"Figure 3: Key components of the hardware include: PMD 19k3 sensor, FPGA Dev Kit (student version), Custom PCB for light sources, and DSLR lens from a regular Canon SLR. ",
       },
     ],
   
     Teaser: {
-      imageURL: "./img/nanophoto/nano1.png",
-      imageBackgroundURL: "./img/nanophoto/nano1.png",
+      imageURL: "./img/nanophoto/nano1.PNG",
+      imageBackgroundURL: "./img/nanophoto/nano1.PNG",
       imageHeight: 555, //in pixels
       rawHTML: `
-      <div class="caption">Figure 1: Using our custom time of flight camera, we are able to visualize light sweeping over the scene. In this scene, multipath effects can be seen in the glass vase. In the early time-slots, bright spots are formed from the specularities on the glass. Light then sweeps over the other objects on the scene and finally hits the back wall, where it can also be seen through the glass vase (8ns). Light leaves, first from the specularities (8-10ns), then from the stuffed animals. The time slots correspond to the true geometry of the scene (light travels 1 foot in a nanosecond, times are for round-trip). Please see http://media.mit.edu/~achoo/nanophotography for animated light sweep movies.</div>
+	  <div class="caption">Figure 1: Using our custom time of flight camera, we are able to visualize light sweeping over the scene. In this scene, multipath effects can be seen in the glass vase. In the early time-slots, bright spots are formed from the specularities on the glass. Light then sweeps over the other objects on the scene and finally hits the back wall, where it can also be seen through the glass vase (8ns). Light leaves, first from the specularities (8-10ns), then from the stuffed animals. The time slots correspond to the true geometry of the scene (light travels 1 foot in a nanosecond, times are for round-trip). Please see http://media.mit.edu/~achoo/nanophotography for animated light sweep movies.</div>
+      <div>
+        <div>
+          <img src="img/nanophoto/nano2.jpg" >
+        </div>
+      </div>
+      <div class="caption">Figure 2: Recovering depth of transparent objects is a hard problem in general and has yet to be solved for Time of Flight cameras. A glass unicorn is placed in a scene with a wall behind (left). A regular time of flight camera fails to resolve the correct depth of the unicorn (center-left). By using our multipath algorithm, we are able to obtain the depth of foreground (center-right) or of background (right).</div>
+      
+	  
       <div class="row mt-4">
+
+
         <div class="col-md-4">
           <img src="img/MacroInter/marioFast.gif" alt="mario fast" style="width: 180px; height: 134px">
         </div>
@@ -214,8 +220,23 @@ var context = {
         </div>
       </div>
       <div class="caption">Observe light sweeping over the glass vase first, then over the Mario doll, Lion and wall in sequence. Note that the specularities on the glass vase disappear first and the multipath interactions of the wall and glass vase.</div>
-      `,
+      
+	  <div class="row mt-4">
+        <div class="col-md-4">
+			<iframe width="180px" height="134px" src="https://www.youtube.com/embed/2---PAMtWM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4">
+			<iframe width="180px" height="134px" src="https://www.youtube.com/embed/68ec2rvQ3OU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4">
+			<iframe width="180px" height="134px" src="https://www.youtube.com/embed/8ugEyuegmBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="caption">Empirical validation: by using a scene with calibrated geometry, we can empirically validate the time resolution of our technique.</div>
+      
+	  `,
     },
+	
     FAQ: [
 		{
             Question: "What is nanophotograpy?",

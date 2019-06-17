@@ -30,10 +30,10 @@ var context = {
     Abstract:
       "A form of meter-scale, macroscopic interferometry is proposed using conventional time-of-flight (ToF) sensors. Today, ToF sensors use phase-based sampling, where the phase delay between emitted and received, high-frequency signals encodes distance. This paper examines an alternative ToF architecture, inspired by micron-scale, microscopic interferometry, that relies only on frequency sampling: we refer to our proposed macroscopic technique as Frequency- Domain Time of Flight (FD-ToF). The proposed architecture offers several benefits over existing phase ToF systems, such as robustness to phase wrapping and implicit resolution of multi-path interference, all while capturing the same number of subframes. A prototype camera is constructed to demonstrate macroscopic interferometry at meter scale.",
     Bibtex: `@inproceedings{CVPR16_Kadambi,
-  	author = "Achuta Kadambi and Jamie Schiel and Ramesh Raskar,
-  	title = "Macroscopic Interferometry: Rethinking Depth Estimation with Frequency-Domain Time-of-Flight",
-  	booktitle = "Conference on Computer Vision and Pattern Recognition (CVPR)",
-  	year = "2016"
+  	<br>&nbsp;&nbsp;author = "Achuta Kadambi and Jamie Schiel and Ramesh Raskar,
+  	<br>&nbsp;&nbsp;title = "Macroscopic Interferometry: Rethinking Depth Estimation with Frequency-Domain Time-of-Flight",
+  	<br>&nbsp;&nbsp;booktitle = "Conference on Computer Vision and Pattern Recognition (CVPR)",
+  	<br>&nbsp;&nbsp;year = "2016"<br>
 	}`,
     Files: [
       {
@@ -108,6 +108,7 @@ var context = {
   
     Teaser: {
       imageURL: "./img/MacroInter/macroteaser.jpg",
+      imageBackgroundURL: "./img/MacroInter/macroteaser.jpg",
       imageHeight: 555, //in pixels
       rawHTML: `
       <div class="caption">This paper repurposes the microscopic technique of Frequency-Domain OCT to a macroscopic technique, Frequency ToF. Both techniques encode optical time of flight in the frequency of the received waveform. For short optical paths (top row), the received signal in the primal-domain is lower in frequency than that of longer optical paths (bottom row).</div>
