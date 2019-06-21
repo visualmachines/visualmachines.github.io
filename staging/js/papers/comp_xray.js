@@ -63,7 +63,7 @@ var context = {
         Links: [
           {
             Label: "PDF",
-            Link: "http://web.media.mit.edu/~achoo/demux/Kadambi_demux.pdf"
+            Link: "./img/comp_xray/comp_xray.pdf"
           }
         ]
       },
@@ -71,13 +71,8 @@ var context = {
         Name: "Talk Slides",
         Links: [
           {
-            Label: "PDF",
-            Link:
-              "http://web.media.mit.edu/~achoo/demux/talk/demux_iccp.pdf"
-          },
-          {
             Label: "PPT",
-            Link: "http://web.media.mit.edu/~achoo/demux/talk/demux_iccp.pptx",
+            Link: "https://drive.google.com/open?id=15FGMPDtbUBD7a7q32pGC235CmU-R_4l2",
           }
         ]
       }
