@@ -3,7 +3,7 @@ var context = {
     Authors: [
       {
         Name: "Achuta Kadambi",
-        Link: "http://web.media.mit.edu/~achoo/",
+        Link: "https://visual.ee.ucla.edu/",
         AssociationNumber: 1
       },
       {
@@ -29,7 +29,7 @@ var context = {
     ],
     Associations: [
       {
-        Name: "Massachusetts Institute of Technology, Cambridge, MA",
+        Name: "MIT, Cambridge, MA",
         Link: "http://web.mit.edu/"
       },
       {
@@ -50,13 +50,13 @@ var context = {
     Abstract:
       "We propose a computational imaging approach enabling document scanners to be used as frugal, high-resolution X-ray imagers. We modify the document scanner optics for X-ray sensitivity and design a post-processing algorithm to denoise images.",
     Bibtex: `@inproceedings{kadambi2018computational,
-  title={Computational X-ray Imaging using Document Scanners},
-  author={Kadambi, A and Cramer, A and Lanza, R and Raskar, R and Gupta, R},
-  booktitle={Digital Holography and Three-Dimensional Imaging},
-  pages={JM3E--5},
-  year={2018},
-  organization={Optical Society of America}
-}`,
+          <br>&nbsp;&nbsp;author = "Kadambi, A and Cramer, A and Lanza, R and Raskar, R and Gupta, R",
+          <br>&nbsp;&nbsp;title = "Computational X-ray Imaging using Document Scanners",
+          <br>&nbsp;&nbsp;booktitle = "Digital Holography and Three-Dimensional Imaging",
+		  <br>&nbsp;&nbsp;pages = "JM3E--5",
+          <br>&nbsp;&nbsp;year = "2018"
+		  <br>&nbsp;&nbsp;organization = "Optical Society of America"<br>
+        }`,
     Files: [
       {
         Name: "Paper",
