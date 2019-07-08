@@ -41,6 +41,12 @@ var context = {
     Title: "Demultiplexing Illumination via Low Cost Sensing and Nanosecond Coding",
     Description: "In this paper we propose a fusion of two popular contexts, time of flight range cameras and illumination multiplexing. Time of flight cameras are a low cost, consumer-oriented technology capable of acquiring range maps at 30 frames per second. Such cameras have a natural connection to conventional illumination multiplexing strategies as both paradigms rely on the capture of multiple shots and synchronized illumination. ",
   },
+    comp_xray: {
+    imgURL: "img/comp_xray/thumbnail.jpg",
+    pubURL: "comp_xray.htm",
+    Title: "Computational X-ray Imaging using Document Scanners",
+    Description: "We propose a computational imaging approach enabling document scanners to be used as frugal, high-resolution X-ray imagers. We modify the document scanner optics for X-ray sensitivity and design a post-processing algorithm to denoise images."
+  },
 }
 
 var source = document.getElementById("publication-template").innerHTML;

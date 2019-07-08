@@ -94,7 +94,7 @@ var context = {
   
     Teaser: {
       imageURL: "./img/comp_xray/xraybig.jpg",
-      imageBackgroundURL: "./img/comp_xray/xraybig.jpg",
+      imageBackgroundURL: "./img/comp_xray/F_hand_2.jpg",
       imageHeight: 555, //in pixels
       rawHTML: `
       <div class="caption">Figure 1: Optical schematic shown on the left, with (a-f) being X-ray source, imaged object, scintillator, lead-doped glass, GRIN lens, and CMOS. (middle) photo of setup; (right) MTF curves.</div>
