@@ -103,5 +103,3 @@ getTemplateAjax("js/templates/publication_template.html", function(template) {
     //do something with compiled template
     $("#SinglePaper").html(template(context));
 });
-       
-  
