@@ -53,7 +53,7 @@ var context = {
       {
         Link: "./img/blendingphysics/Fig3.jpg",
         Caption:
-          "Figure 3: (a) The hardware prototype is low-cost---to reproduce, one needs a depth sensor, polarizer, and DSLR. (b) Following from Malus's Law, the DSLR intensity should vary sinusoidally with polarization angle."
+          "Figure 3: Search space of our PhysicsNAS - In the proposed PhysicsNAS, all the nodes are densely connected by mixed operators from predefined candidate operation sets. The hidden nodes can obtain information from the original inputs or from previous hidden nodes within this search setup. The whole training process is supervised by the ground truth and physical constraints."
       },
     ],
   
