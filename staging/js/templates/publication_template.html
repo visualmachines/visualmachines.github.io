@@ -50,7 +50,7 @@
         </div>
   </div>
 
-  <div id="nav-placeholder-page"></div>
+  <!-- <div id="nav-placeholder-page"></div> -->
 
   <!-- Abstract -->
   <div class="row justify-content-center mt-5 grey_background">
@@ -62,9 +62,9 @@
 
   <div class="row justify-content-center grey_background">
               <div class="col-md-10">
-                  <img src="./img/blendingphysics/Fig1.jpg" class="img-fluid" alt="">
+                  <img src="./img/blendingphysics/Fig1.png" class="img-fluid" alt="">
                       <div class="row my-3">
-                          <p class="caption" style="margin: auto;"><strong>The concept of PBL</strong></p>
+                          <p class="caption" style="margin: auto;"><strong>Generalizing PBL across a range of sparsity in training data and correctness in the physical model.</strong></p>
                       </div>
               </div>
           </div>
@@ -72,7 +72,7 @@
       <div class="container col-md-12">
 
           <!-- Dataset -->
-          <div class="row heading mt-3 light_background" id="dataset">
+         <!--  <div class="row heading mt-3 light_background" id="dataset">
                   Dataset
           </div>
 
@@ -130,14 +130,14 @@
               </p>
 
              </br> </br></br></br>
-          </div>
+          </div> -->
 
           {{#if Photos}}
           <!-- Media -->
-          <div class="row heading mt-3 grey_background" id="media">
-                  Media
+          <div class="row heading mt-3" id="media">
+                  
           </div>
-          <div class="row justify-content-center grey_background">
+          <div class="row justify-content-center">
               <div class="col-md-6">
                   {{#each Photos}}
                   <img src="{{Link}}" class="img-fluid" alt="">
@@ -151,10 +151,10 @@
 
 
           <!-- Files -->
-          <div class="row mt-3 heading light_background" id=files>
+          <div class="row mt-3 heading grey_background" id=files>
                   Files
           </div>
-          <div class="row body light_background">
+          <div class="row body grey_background">
               <ul>
                   {{#each Files}}
                       <li>
@@ -165,10 +165,10 @@
           </div>
           
           <!-- Contact -->
-          <div class="row mt-3 heading grey_background" id="contact">
+          <div class="row mt-3 heading light_background" id="contact">
                   Contact
           </div>
-          <div class="row mb-3 body grey_background">
+          <div class="row mb-3 body light_background">
               {{#RenderTeaser Contacts}}{{/RenderTeaser}}
           </div>
 

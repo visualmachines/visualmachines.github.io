@@ -1,5 +1,5 @@
 var context = {
-    Title: "Artificial Physics: Inexact Physical Priors meet Neural Networks",
+    Title: "Blending Diverse Physical Priors with Neural Networks",
     Authors: [
       {
         Name: "Anonymous authors",
@@ -11,29 +11,24 @@ var context = {
       },
     ],
     Abstract:
-      "The emerging data-driven methods offer an alternative solution to the conventional physical reasoning by learning from high-fidelity training data. However, these methods usually lack interpretiability and require massive amounts of data in general. Hence, different approaches to incorporating prior knowledge within data-driven frameworks have been proposed to make use of both data and physics. While these approaches are successful, we demonstrate that their network architecture matters: most of the physics-based learning architectures are task specific, and can not adapt to diverse physical circumstances easily. As such, we propose the physics-based neural architecture search (PhysicsNAS) that is generalizable to all physical environments. PhysicsNAS learns both the network architectures and the associated weights with physics-inspired candidate modules, and opens the new avenue for physics-based learning. It is an important step towards flexible formulations of physics-based learning architectures for specific goals.",
+      "Rethinking physics in the era of deep learning is an increasingly important topic. This topic is special because, in addition to data, one can leverage a vast library of physical prior models (e.g. kinematics, fluid flow, etc) to perform more robust inference. The nascent sub-field of physics-based learning (PBL) studies this problem of blending neural networks with physical priors. While previous PBL algorithms have been applied successfully to specific tasks, it is hard to generalize existing PBL methods to a wide range of physics-based problems. Such generalization would require an architecture that can adapt to variations in the correctness of the physics, or in the quality of training data. No such architecture exists. In this paper, we aim to generalize PBL, by making a first attempt to bring neural architecture search (NAS) to the realm of PBL. We introduce a new method known as physics-based neural architecture search (PhysicsNAS) that is a top-performer across a diverse range of quality in the physical model and the dataset.",
     Files: [
       {
         Name: "Paper",
         Links: [
           {
             Label: "PDF",
-            Link: "http://web.media.mit.edu/~achoo/polar3D/Kadambi_polar3D.pdf"
+            Link: "https://arxiv.org/pdf/1910.00201.pdf"
           },
-          {
-            Label: "PDF Low Res",
-            Link:
-              "http://web.media.mit.edu/~achoo/polar3D/Kadambi_polar3D_LOW_RESOLUTION.pdf"
-          }
         ]
       },
       {
-        Name: "Supplement and Impl. Details",
+        Name: "Code",
         Links: [
           {
-            Label: "PDF",
+            Label: "GitHub",
             Link:
-              "http://web.media.mit.edu/~achoo/polar3D/camready/supplement_iccv.pdf"
+              "https://github.com/physicslearning/PhysicsNAS"
           }
         ]
       }
@@ -41,19 +36,35 @@ var context = {
   
     Contacts: `
       Achuta Kadambi<br>
-      MIT Media Lab<br>
-      achoo@mit.edu<br> 
+      Assistant Professor<br>
+      Electrical and Computer Engineering Department<br>
+      achuta@ee.ucla.edu<br> 
     `,
   
     Photos: [
       {
         Link: "./img/blendingphysics/Fig2.jpg",
-        Caption: "Figure 2: An overview of proposed NAS-based blending approach. Our PhysicsNAS takes advantage of all the existing methods on blending physical prior, and is capable of generating new hybrid architectures for tasks under diversified physical environments. With the augmented search space and knowledge from prior information, it is possible for the proposed PhysicsNAS to generalize its performance with limited number of training samples",
+        Caption: "An overview of proposed NAS-based blending approach. Our PhysicsNAS takes advantage of all the existing methods on blending physical prior, and is capable of generating new hybrid architectures for tasks under diversified physical environments. With the augmented search space and knowledge from prior information, it is possible for the proposed PhysicsNAS to generalize its performance with limited number of training samples.",
       },
       {
-        Link: "./img/blendingphysics/Fig3.jpg",
+        Link: "./img/blendingphysics/Fig3.png",
         Caption:
-          "Figure 3: Search space of our PhysicsNAS - In the proposed PhysicsNAS, all the nodes are densely connected by mixed operators from predefined candidate operation sets. The hidden nodes can obtain information from the original inputs or from previous hidden nodes within this search setup. The whole training process is supervised by the ground truth and physical constraints."
+          "Search space of our PhysicsNAS. In the proposed PhysicsNAS, all the nodes are densely connected by mixed operators from predefined candidate operation sets. The hidden nodes can obtain information from the original inputs or from previous hidden nodes within this search setup. The training process is supervised by both ground truth and physical constraints.",
+      },
+      {
+        Link: "./img/blendingphysics/Fig4.jpg",
+        Caption:
+          "We evaluate our method on a simulator of classical tasks. The first task (Left) is predicting the trajectory of a ball being tossed, and the second task (Right) is estimating the velocities of two objects after collision.",
+      },
+      {
+        Link: "./img/blendingphysics/Fig6.png",
+        Caption:
+          "Utilization of physical operations in PhysicsNAS. The selection of physics-inspired operation depends on its accuracy. PhysicsNAS tends to utilize the physical operations when they are more accurate (like the elastic collision model), and prefers a residual connection when they are inaccurate (like the parabola equation).",
+      },
+      {
+        Link: "./img/blendingphysics/Fig7.png",
+        Caption:
+          "Failure case. In rare situations, a single-stream network could be preferred. PhysicsNAS is unable to converge to single-stream architectures due to the edge selection mechanism.",
       },
     ],
   
