@@ -43,10 +43,6 @@ var context = {
   
     Photos: [
       {
-        Link: "./img/blendingphysics/Fig2.jpg",
-        Caption: "An overview of proposed NAS-based blending approach. Our PhysicsNAS takes advantage of all the existing methods on blending physical prior, and is capable of generating new hybrid architectures for tasks under diversified physical environments. With the augmented search space and knowledge from prior information, it is possible for the proposed PhysicsNAS to generalize its performance with limited number of training samples.",
-      },
-      {
         Link: "./img/blendingphysics/Fig3.png",
         Caption:
           "Search space of our PhysicsNAS. In the proposed PhysicsNAS, all the nodes are densely connected by mixed operators from predefined candidate operation sets. The hidden nodes can obtain information from the original inputs or from previous hidden nodes within this search setup. The training process is supervised by both ground truth and physical constraints.",
@@ -73,7 +69,7 @@ var context = {
       imageBackgroundURL: "./img/blendingphysics/Fig3.jpg",
       imageHeight: 555, //in pixels
       rawHTML: `
-      <div class="caption">Figure 2: An overview of proposed NAS-based blending approach. Our PhysicsNAS takes advantage of all the existing methods on blending physical prior, and is capable of generating new hybrid architectures for tasks under diversified physical environments. With the augmented search space and knowledge from prior information, it is possible for the proposed PhysicsNAS to generalize its performance with limited number of training samples</div>
+      <div class="caption"><strong style="margin: auto; width: 100%; display: inline-block; text-align: center;">An overview of proposed NAS-based blending approach.</strong> </br> Our PhysicsNAS takes advantage of all the existing methods on blending physical prior, and is capable of generating new hybrid architectures for tasks under diversified physical environments. With the augmented search space and knowledge from prior information, it is possible for the proposed PhysicsNAS to generalize its performance with limited number of training samples.</div>
       `,
     }
   };

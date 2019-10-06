@@ -2,15 +2,20 @@
 <style>
   .grey_background {
     background-color: #f8f9fa;
-    margin: 0 -100%;
-    padding: 0 100% !important;
+    margin: 0 -30%;
+    padding: 0 30% !important;
     padding-bottom: 10px !important;
   }
 
   .light_background {
-    margin: 0 -500%;
-    padding: 0 500% !important;
+    margin: 0 -30%;
+    padding: 0 30% !important;
     padding-bottom: 10px !important;
+  }
+
+  .center_image {
+    margin: auto;
+    display: block;
   }
 </style>
 
@@ -138,9 +143,9 @@
                   
           </div>
           <div class="row justify-content-center">
-              <div class="col-md-6">
+              <div class="col-md-8">
                   {{#each Photos}}
-                  <img src="{{Link}}" class="img-fluid" alt="">
+                  <img src="{{Link}}" class="img-fluid center_image" alt="">
                       <div class="row my-3">
                           <p class="caption" >{{Caption}}</p>
                       </div>
