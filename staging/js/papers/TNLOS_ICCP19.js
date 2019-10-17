@@ -40,11 +40,13 @@ var context = {
     
     Abstract:
       "We propose a novel non-line-of-sight (NLOS) imaging framework with long-wave infrared (IR). At long-wave IR wavelengths, certain physical parameters are more favorable for high-fidelity reconstruction. In contrast to prior work in visible light NLOS, at long-wave IR wavelengths, the hidden heat source acts as a light source. This simplifies the problem to a single bounce problem. In addition, surface reflectance has a much stronger specular reflection in the long-wave IR spectrum than in the visible light spectrum. We reformulate a light transport model that leverages these favorable physical properties of long-wave IR. Specifically, we demonstrate 2D shape recovery and 3D localization of a hidden object. Furthermore, we demonstrate near real-time and robust NLOS pose estimation of a human figure, the first such demonstration, to our knowledge.",
-    Bibtex: `@inproceedings{ICCP19_Maeda,
-          <br>&nbsp;&nbsp;author = "Tomohiro Maeda and Yiqin Wang and Ramesh Raskar and Achuta Kadambi,
-          <br>&nbsp;&nbsp;title = "Thermal Non-Line-of-Sight Imaging",
-          <br>&nbsp;&nbsp;booktitle = "IEEE International Conference on Computational Photography(ICCP)",
-          <br>&nbsp;&nbsp;year = "2019"<br>
+    Bibtex: `@inproceedings{maeda2019thermal,
+          <br>&nbsp;&nbsp;title={Thermal Non-Line-of-Sight Imaging},
+          <br>&nbsp;&nbsp;author={Maeda, Tomohiro and Wang, Yiqin and Raskar, Ramesh and Kadambi, Achuta},
+          <br>&nbsp;&nbsp;booktitle={2019 IEEE International Conference on Computational Photography (ICCP)},
+          <br>&nbsp;&nbsp;pages={1--11},
+          <br>&nbsp;&nbsp;year={2019},
+          <br>&nbsp;&nbsp;organization={IEEE}<br>
         }`,
 
     Files: [
