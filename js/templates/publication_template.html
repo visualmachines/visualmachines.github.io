@@ -1,0 +1,183 @@
+
+<style>
+  .grey_background {
+    background-color: #f8f9fa;
+    margin: 0 -30%;
+    padding: 0 30% !important;
+    padding-bottom: 10px !important;
+  }
+
+  .light_background {
+    margin: 0 -30%;
+    padding: 0 30% !important;
+    padding-bottom: 10px !important;
+  }
+
+  .center_image {
+    margin: auto;
+    display: block;
+  }
+</style>
+
+<div class="background-wrapper" class ="img-fluid" style="background-image: url(&quot;{{Teaser.imageBackgroundURL}}&quot;); height: {{Teaser.imageHeight}}px;"></div>
+  <div class="container">
+      <div class="article-meta col-md-12" style="margin: auto;">
+          <div class="row mb-3 pt-5">
+                  <div class="heading center px-2" style="font-size: 38px;">{{Title}}</div>
+              </div>
+
+          <hr style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/>
+          <img src="{{Teaser.imageURL}}" class="img-fluid" style="text-align: center; width: 100%;">
+          <div class="row justify-content-center mt-3 pb-5">
+            <div class="col-md-10">
+                <!-- Teaser (custom HTML) -->
+                {{#with Teaser}}
+                    {{#RenderTeaser rawHTML}}{{/RenderTeaser}}
+                {{/with}}
+            </div>
+        </div>
+        <div style="width: fit-content; margin: auto;">
+          <video width="320" height="240" controls>
+            <source src="./img/blendingphysics/Media2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+
+          <video width="320" height="240" controls>
+            <source src="./img/blendingphysics/Media3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="row justify-content-center mt-3 pb-5">
+          <div class="col-md-10">
+              <p class="caption" ><strong>Physics Based Learning:</strong> Observe how the Physics Based Learning model (right) which blends physical priors with neural networks performs significantly better than using just physical models (left). The physics based learning model can precisely predict the trajectory of the tossed object while simple physics provides a solution which significantly deviates from the actual trajectory. </p>
+          </div>
+        </div>
+  </div>
+
+  <!-- <div id="nav-placeholder-page"></div> -->
+
+  <!-- Abstract -->
+  <div class="row justify-content-center mt-5 grey_background">
+      <div class="col-md-12">
+          <div class="heading" id="abstract">Abstract</div>
+          {{Abstract}}
+      </div>
+  </div>
+
+  <div class="row justify-content-center grey_background">
+              <div class="col-md-12">
+                  <img src="./img/blendingphysics/Fig1.png" class="img-fluid" alt="">
+                      <div class="row my-3">
+                          <p class="caption" style="margin: auto;"><strong>Generalizing PBL across a range of sparsity in training data and correctness in the physical model.</strong></p>
+                      </div>
+              </div>
+          </div>
+
+      <div class="container col-md-12">
+
+          <!-- Dataset -->
+         <!--  <div class="row heading mt-3 light_background" id="dataset">
+                  Dataset
+          </div>
+
+          <div class="row body light_background">
+            To evaluate PhysicsNAS comprehensively, we select the following two representitive physical tasks with mismatched priors 
+
+            <div style="width: 100%;">
+              <ol>
+                <li>
+                  Predicting trajectories of an object being tossed
+                </li>
+                <li>
+                  Estimating the speed of rigid objects after collision
+                </li>
+              </ol>
+            </div>
+
+            <p style="width: 100%;">
+              <strong>Trajectory Prediction</strong> 
+            </p>
+
+            <p style="width: 100%;">
+              <p style="width: 100%;">
+                For the Trajectory Prediction task, the initial three locations of the object \(\{l_1, l_2, l_3\}\) are given as input \(X\), and our objective is to predict locations of this object in the following 15 time stamps, \(\{l_4, l_5, ..., l_{18} \}\). We only consider the displacement within a 2D plane, therefore, the coordinates of each location can be represented by two numbers, i.e. \(l_i = (l_{x_i}, l_{y_i})\). We adopt the following elementary free-falling equations as the prior, and examine different methods under this inadequate physical prior: 
+              </p>
+
+              <p style="margin: auto; width: auto%;">
+                \(
+                \begin{align}
+                \begin{aligned}
+                l_{x_i} &= l_{x_1} + v_x t_i \\
+                l_{y_i} &= l_{y_1} + v_y t_i - \frac{1}{2} gt_i^2,
+                \end{aligned}\label{eq:prior_1}
+                \end{align}
+                \)
+              </p>
+
+              <p style="width: 100%;">
+                where \(l_{x_i}\) and \(l_{y_i}\) denote the object location at time \(t_i\), \(l_{x_1}\) and \(l_{y_1}\) are the initial location of the object, \(v_x\) and \(v_y\) denote the initial velocities along horizontal and vertical directions respectively, and \(g\) is the gravitational acceleration with value of \(9.8 m/s^2\). We introduce two model mismatches: the random acceleration as the winds and an additional damping factor based on \(F_{air} = k \times v^2\) to simulate the air resistance. The future locations estimated according to mismatched prior are used as the physical input \(\hat{Y}_{phy}\). As to the physical modules in embedded physics and PhysicsNAS, we estimate parameters \(\{\hat{l}_{x_1}, \hat{l}_{y_1}, \hat{v}_x, \hat{v}_y\}\), and substitute these parameters into previous equations as the physical operation.
+              </p>
+
+              <p style="width: 100%;">
+                <strong>Collision Speed Estimation</strong> 
+              </p>
+
+              <p style="width: 100%">
+                In the Collision Speed Estimation task, we utilize the distance between two objects and the speed of these two objects in the first two frames \(\{v_{a_1}, v_{a_2}, v_{b_1}, v_{b_2}, D\}\) as the input \(X\) to estimate the speed after their collision \(\{v_{a_f}, v_{b_f}\}\). We assume the objects have the same mass, and can only move along one direction. Based on energy conservation and momentum conservation for perfectly elastic collision, we adopt the following prior:
+                \begin{align}
+                \begin{aligned}
+                m_{a} v_{a_1} + m_{b} v_{b_1} &= m_{a} v_{a_f} + m_{b} v_{b_f} \\
+                \frac{1}{2} m_{a} v_{a_1}^2 + \frac{1}{2} m_{b} v_{b_1}^2 &= \frac{1}{2} m_{a} v_{a_f}^2 + \frac{1}{2} m_{b} v_{b_f}^2.
+                \end{aligned}\label{eq:prior_2}
+                \end{align}
+                We add sliding friction to the system as mismatch, so that the conservation laws do not hold. Solutions without the consideration of friction are used as \(\hat{Y}_{phy}\), and \(\{\hat{m}_{a}, \hat{m}_{b}, \hat{v}_{a_1}, \hat{v}_{b_1}\}\) are estimated for the embedded physical modules.
+              </p>
+
+             </br> </br></br></br>
+          </div> -->
+
+          {{#if Photos}}
+          <!-- Media -->
+          <div class="row heading mt-3" id="media">
+                  
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-md-12">
+                  {{#each Photos}}
+                  <img src="{{Link}}" class="img-fluid center_image" alt="">
+                      <div class="row my-3">
+                          <p class="caption" >{{Caption}}</p>
+                      </div>
+                  {{/each}}
+              </div>
+          </div>
+          {{/if}}
+
+
+          <!-- Files -->
+          <div class="row mt-3 heading grey_background" id=files>
+                  Files
+          </div>
+          <div class="row body grey_background">
+              <ul>
+                  {{#each Files}}
+                      <li>
+                          {{Name}} {{#each Links}}(<a href="{{Link}}">{{Label}}</a>) {{/each}}
+                      </li>
+                  {{/each}}
+              </ul>
+          </div>
+          
+          <!-- Contact -->
+          <div class="row mt-3 heading light_background" id="contact">
+                  Contact
+          </div>
+          <div class="row mb-3 body light_background">
+              {{#RenderTeaser Contacts}}{{/RenderTeaser}}
+          </div>
+
+  <br>
+</div>
+
+<style type="text/css"></style>
