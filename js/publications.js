@@ -2,7 +2,7 @@ var context = {
   BPPNN_ICLR20: {
     imgURL: "img/bpnn/tn.jpg",
     pubURL: "blendingphysics.htm",
-    Title: "Blending Diverse Physical Priors with Neural Networks | ICLR 2020",
+    Title: "Blending Diverse Physical Priors with Neural Networks",
     Description: "Generalizing Physics-Based Learning (PBL), by making the first attempt to bring neural architecture search (NAS) to the realm of PBL."
   },
   TNLOS_ICCP19: {
