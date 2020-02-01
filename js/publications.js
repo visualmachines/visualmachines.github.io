@@ -1,4 +1,10 @@
 var context = {
+  visualphysics: {
+    imgURL: "img/visualphysics/thumbnail.png",
+    pubURL: "visualphysics.htm",
+    Title: "Visual Physics: Discovering Physical Laws from Videos",
+    Description: "A novel pipeline that enables discovery of underlying parameters and equations from videos of physical phenomena."
+  },
   BPPNN_ICLR20: {
     imgURL: "img/bpnn/tn.jpg",
     pubURL: "blendingphysics.htm",
