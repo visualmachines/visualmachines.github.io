@@ -149,7 +149,7 @@ Handlebars.registerHelper("AssociationsList", function(items, options) {
 });
 
 //run our template loader with callback
-getTemplateAjax("js/templates/paper_template.html", function(template) {
+getTemplateAjax("js/templates/paper_template_v2.html", function(template) {
     //do something with compiled template
     $("#SinglePaper").html(template(context));
 });
