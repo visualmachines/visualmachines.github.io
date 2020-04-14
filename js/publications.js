@@ -1,4 +1,10 @@
 var context = {
+  pnlos: {
+    imgURL: "img/polarizedNLOS/pnlos_result.gif",
+    pubURL: "pnlos.htm",
+    Title: "Polarized Non-Line-of-Sight Imaging",
+    Description: "Novel incorporation of polarization cues towards non-line-of-sight imaging."
+  },
   visualphysics: {
     imgURL: "img/visualphysics/thumbnail.png",
     pubURL: "visualphysics.htm",
