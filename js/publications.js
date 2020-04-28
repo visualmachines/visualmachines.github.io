@@ -61,7 +61,7 @@ var context = {
   },
   other: {
     imgURL: "img/polarized3D/thumbnail.jpg",
-    pubURL: "http://web.media.mit.edu/~achoo/",
+    pubURL: "http://seas.ucla.edu/~achuta/",
     Title: "Publications Prior to 2019",
     Description: "Please follow this link to visit publications prior to 2019.",
   },
