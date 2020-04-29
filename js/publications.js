@@ -1,4 +1,10 @@
 var context = {
+  PhysicsAI: {
+    imgURL: "img/physics_ai/physics_ai.png",
+    pubURL: "physics_ai.htm",
+    Title: "Blending Physics with Artificial Intelligence",
+    Description: "Overview of convergence of physics and AI for imaging and vision and the path ahead."
+  },
   pnlos: {
     imgURL: "img/polarizedNLOS/pnlos_result.gif",
     pubURL: "pnlos.htm",
