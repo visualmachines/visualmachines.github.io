@@ -121,10 +121,9 @@ var context = {
     ],
 
     Contacts: `
-      Achuta Kadambi<br>
-      Assistant Professor<br>
+      Yunhao Ba<br>
       Electrical and Computer Engineering Department<br>
-      achuta@ee.ucla.edu<br>
+      yhba@ucla.edu<br>
     `,
 
     Photos: [
