@@ -63,13 +63,18 @@ var context = {
     // },
     Abstract:
       "This paper makes a first attempt to re-examine the shape from polarization (SfP) problem using physics-based deep learning. The previous state-of-the-art for SfP have been purely physics-based. We see value in these principled models, and blend these physical models as priors into a neural network architecture. This proposed approach achieves results that exceed the previous state-of-the-art on a challenging dataset we introduce. This dataset consists of polarization images taken over a range of object textures, paints, and lighting conditions. We report that our proposed method achieves the lowest test error on each tested condition in our dataset, showing the value of blending data-driven and physics-driven approaches alike.",
-    Bibtex: `@inproceedings{Arxiv_DeepSfP_Ba,<br>
+    Bibtex: `@inproceedings{ECCV_DeepSfP_Ba,<br>
           &nbsp;&nbsp;author = "Yunhao Ba and Alex Gilbert and Franklin Wang and Jinfa Yang and Rui Chen and Yiqin Wang and Lei Yan and Boxin Shi and Achuta Kadambi,<br>
           &nbsp;&nbsp;title = "Deep Shape from Polarization",<br>
-          &nbsp;&nbsp;journal = "arXiv preprint arXiv:1607.08022",<br>
+          &nbsp;&nbsp;journal = "ECCV",<br>
           &nbsp;&nbsp;year = "2020"<br>
         }`,
     Press: [
+        {
+          Name: "Accepted to ECCV 2020!",
+          // Link:
+          //   ""
+        },
       {
         Name: "Southern California Machine Learning Symposium",
         Link:
@@ -78,11 +83,11 @@ var context = {
     ],
     Files: [
       {
-        Name: "Paper and Supplement",
+        Name: "ECCV 2020",
         Links: [
           {
-            Label: "PDF",
-            Link: "https://sites.google.com/view/franklin-wang-publications/home"
+            Label: "COMING SOON",
+            // Link: "https://sites.google.com/view/franklin-wang-publications/home"
           }
         ]
       },
