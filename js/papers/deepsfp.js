@@ -86,17 +86,8 @@ var context = {
         Name: "ECCV 2020",
         Links: [
           {
-            Label: "COMING SOON",
-            // Link: "https://sites.google.com/view/franklin-wang-publications/home"
-          }
-        ]
-      },
-      {
-        Name: "arXiv",
-        Links: [
-          {
             Label: "PDF",
-            Link: "https://arxiv.org/pdf/1903.10210.pdf"
+            Link: "https://visual.ee.ucla.edu/deepsfp_eccv.pdf"
           }
         ]
       },
