@@ -72,31 +72,29 @@ var context = {
     Press: [
         {
           Name: "Accepted to ECCV 2020!",
-          // Link:
-          //   ""
+          Link: "https://eccv2020.eu/"
         },
       {
         Name: "Southern California Machine Learning Symposium",
-        Link:
-          "https://sites.google.com/view/socalml2019"
+        Link: "https://sites.google.com/view/socalml2019"
       }
     ],
     Files: [
       {
-        Name: "ECCV 2020",
+        Name: "Paper",
         Links: [
           {
-            Label: "COMING SOON",
-            // Link: "https://sites.google.com/view/franklin-wang-publications/home"
+            Label: "PDF",
+            Link: "https://visual.ee.ucla.edu/deepsfp_eccv.pdf"
           }
         ]
       },
       {
-        Name: "arXiv",
+        Name: "Supplement",
         Links: [
           {
             Label: "PDF",
-            Link: "https://arxiv.org/pdf/1903.10210.pdf"
+            Link: "https://visual.ee.ucla.edu/deepsfp_eccv_supp.pdf"
           }
         ]
       },
