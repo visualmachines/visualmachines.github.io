@@ -1,14 +1,14 @@
 # main links
 main:
   - title: "Scientific Mission"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: /scientific_mission/
   - title: "People"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /people/
   - title: "Publications"
-    url: /year-archive/
+    url: /publications/
   - title: "Join Us"
-    url: /collection-archive/
+    url: /join_us/
   - title: "Visit"
-    url: /sitemap/
+    url: /visit/
   - title: "Internal"
     url: https://vmgwiki.a2hosted.com/index.php/Main_Page
