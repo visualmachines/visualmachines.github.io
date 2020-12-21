@@ -6,3 +6,4 @@ sitemap: false
 permalink: /
 ---
 
+This is a test
