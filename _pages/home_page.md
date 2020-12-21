@@ -5,5 +5,3 @@ excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /
 ---
-
-This is a test
