@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-layout: home
+layout: default
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /publications/
