@@ -17,7 +17,7 @@ head_scripts:
       <img src="/assets/images/vmgHomeMain.png" class="img-responsive" style="width:100%">
       <div class="over-text d-none d-md-none d-lg-block">
 	  <div class="heading" style="color:black;">Giving Robots the Gift of Sight</div>
-	  <div class="body" style="color:black">Superhuman cameras enable superhuman robotics,
+	  <div class="body-home" style="color:black">Superhuman cameras enable superhuman robotics,
 	    <br>advancing cyberphysical systems and digital health
 	  </div>
       </div>
@@ -30,27 +30,27 @@ head_scripts:
     <div class="col-md-5 offset-md-1">
       <div class="heading-home">Press</div>
       <div class="heading-home padded-top">April 2020: Achuta wins Google Faculty Award</div>
-      <div class="body">To support clinical translation of imaging projects.</div>
+      <div class="body-home">To support clinical translation of imaging projects.</div>
       <div class="heading-home padded-top">April 2020: 2 Papers, Tutorial at CVPR 2020</div>
-      <div class="body">Tutorial on <a href="visualphysicstutorial.htm">Visual Physics</a>.</div>
+      <div class="body-home">Tutorial on <a href="visualphysicstutorial.htm">Visual Physics</a>.</div>
       <div class="heading-home padded-top">October 2019: Pradyumna wins IIT Gold Medal</div>
-      <div class="body">PhD student Pradyumna Chari wins IIT-Madras President of India Gold Medal.</div>
+      <div class="body-home">PhD student Pradyumna Chari wins IIT-Madras President of India Gold Medal.</div>
       <div class="heading-home padded-top">May 2019: Paper Presentation</div>
-      <div class="body">VMG student Yiqin Wang presents paper in Japan.</div>
+      <div class="body-home">VMG student Yiqin Wang presents paper in Japan.</div>
       <br>
     </div>
     <div class="col-md-5 offset-md-1">
       <div class="heading-home">Current Teaching</div>
       <div class="heading-home padded-top">Winter 2020</div>
-      <div class="body">EE 211: Digital Image Processing</div>
+      <div class="body-home">EE 211: Digital Image Processing</div>
       <div class="heading-home padded-top">Fall 2019</div>
-      <div class="body">CS 188: Intro to Computer Vision</div>
+      <div class="body-home">CS 188: Intro to Computer Vision</div>
       <div class="heading-home padded-top">Spring 2019</div>
-      <div class="body">EE 102: Signals and Systems</div>
+      <div class="body-home">EE 102: Signals and Systems</div>
       <!--<div class="heading-home padded-top">Winter 2019</div>-->
-      <!--<div class="body">EE 211: Digital Image Processing</div>-->
+      <!--<div class="body-home">EE 211: Digital Image Processing</div>-->
       <!--<div class="heading-home padded-top">Spring 2019</div>-->
-      <!--<div class="body">TBD</div>-->
+      <!--<div class="body-home">TBD</div>-->
       <br>
     </div>
   </div>
