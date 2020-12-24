@@ -1,6 +1,6 @@
 ---
 title: "Join Us"
-layout: default
+layout: twoColumns
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /join_us/
