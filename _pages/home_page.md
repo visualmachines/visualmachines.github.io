@@ -28,7 +28,7 @@ head_scripts:
 <main role="main" class="container">
   <div class="row">
     <div class="col-md-5 offset-md-1">
-      <div class="heading-home">Press</div>
+      <div class="heading-home" style="color:#8f3985;">Press</div>
       <div class="heading-home padded-top">April 2020: Achuta wins Google Faculty Award</div>
       <div class="body-home">To support clinical translation of imaging projects.</div>
       <div class="heading-home padded-top">April 2020: 2 Papers, Tutorial at CVPR 2020</div>
@@ -40,7 +40,7 @@ head_scripts:
       <br>
     </div>
     <div class="col-md-5 offset-md-1">
-      <div class="heading-home">Current Teaching</div>
+      <div class="heading-home" style="color:#8f3985;">Current Teaching</div>
       <div class="heading-home padded-top">Winter 2020</div>
       <div class="body-home">EE 211: Digital Image Processing</div>
       <div class="heading-home padded-top">Fall 2019</div>
