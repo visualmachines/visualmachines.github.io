@@ -12,7 +12,8 @@
   z-index: 20;
 
   &__inner-wrap {
-    //position: fixed;
+    position: fixed;
+    top: 0;
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
