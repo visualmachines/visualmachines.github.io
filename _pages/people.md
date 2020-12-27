@@ -16,7 +16,7 @@ permalink: /people/
 </div>
 
 @row
-<div class="heading-home center padded">Postdoctoral Researchers (<a href="joinus.htm">Join Us</a>)</div>
+<div class="heading-home center padded">Postdoctoral Researchers (<a href="joinus.html">Join Us</a>)</div>
 <div class="heading-home center padded-students">Students</div>
 
 {% assign number_printed = 0 %}
