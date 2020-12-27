@@ -5,7 +5,7 @@ excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /people/
 ---
-<img src="/assets/images/people_achuta.png" alt="Headshot" class="column-img center-img" style="padding-left: 90px;">
+<img src="/assets/images/people_achuta.png" alt="Headshot" class="column-img" style="padding-left: 90px;">
 
 @column
 <div class="pad-center">
