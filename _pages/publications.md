@@ -1,68 +1,34 @@
-- title: "Deep Shape from Polarization"
-  image: sfp.png
-  description: This paper makes a first attempt to re-examine the shape from polarization (SfP) problem using physics-based deep learning.
-  authors: Yunhao Ba, Alex Gilbert, Franklin Wang, Jinfa Yang, Rui Chen, Yiqin Yang, Lei Yan, Boxin Shi, Achuta Kadambi
-  link:
-    url: link
-    display:  insert link
-  highlight: 1
-  news2:
+---
+title: "Publications"
+layout: twoColumns
+excerpt: "Visual Machines Group at UCLA."
+sitemap: false
+permalink: /publications/
+---
 
-- title: "Blending Physics with Artificial Intelligence"
-  image: sfp.png #YSR.png
-  description: Overview of convergence of physics and AI for imaging and vision and the path ahead.
-  authors: Achuta Kadambi
-  link:
-    url: link
-    display: insert link
-  highlight: 1
+### Publications
 
-- title: "Polarized Non-Line-of-Sight Imaging"
-  image: sfp.png #SmartPub.png
-  description: Novel incorporation of polarization cues towards non-line-of-sight imaging.
-  authors: Kenichiro Tanaka, Yasuhiro Mukaigawa, Achuta Kadambi, Nara Institute of Science and Technology (NAIST), Visual Machines Group, UCLA CVPR 2020
-  link:
-    url: link
-    display: insert link
-  highlight: 1
-  news2: #See also our papers on the theoretical modeling of such measurements, and the paper about fabrication.
+<!--(For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=TqxYWZsAAAAJ), [ResearcherID](https://www.researcherid.com/rid/D-7763-2012))-->
+<br>
 
-- title: "Visual Physics: Discovering Physical Laws from Videos"
-  image: sfp.png #TBG_ARPES.png
-  description: A novel pipeline that enables discovery of underlying parameters and equations from videos of physical phenomena.
-  authors: Pradyumna Chari, Chinmay Talegaonkar, Yunhao Ba, Achuta Kadambi, University of California Los Angeles
-  link:
-    url: link
-    display:  insert link
-  highlight: 0
-  news2:
+{% assign number_printed = 0 %}
+{% for publi in site.data.publications %}
 
-- title: "Blending Diverse Physical Priors with Neural Networks"
-  image: sfp.png #TBG_ARPES.png
-  description: Generalizing Physics-Based Learning (PBL), by making the first attempt to bring neural architecture search (NAS) to the realm of PBL.
-  authors: insert authors
-  link:
-    url: link
-    display:  insert link
-  highlight: 1
-  news2:
+{% if publi.highlight == 1 %}
+@row
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ publi.image }}" class="img-responsive" width="80%" style="float: left" />
+<!--![Insert Photo](assets/images/sfp.png)
+{:class="img-responsive" style="border: 5px red solid;"}-->
 
-- title: "Thermal Non-Line of Sight Imaging | ICCP 2019"
-  image: sfp.png #STS_news.png
-  description: A novel non-line of sight imaging framework with long-wave infared.
-  authors: Tomohiro Maeda, Yiqin Wang, Ramesh Raskar, Achuta Kadambi, MIT Media Lab, Visual Machines Group UCLA, ICCP 2019
-  link:
-    url: link
-    display:  insert link
-  highlight: 1
-  news2:
+@column
+#### {{ publi.title }}
+{{ publi.description }}
+<p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+<p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
+{{ publi.news2 }}
 
-- title: "Publications Prior to 2019"
-  image: sfp.png 
-  description: Please follow this link to visit publications prior to 2019.
-  authors:
-  link:
-    url: link
-    display:  insert link
-  highlight: 1
-  news2:
+{% assign number_printed = number_printed | plus: 1 %}
+<br>
+
+{% endif %}
+{% endfor %}
