@@ -12,11 +12,11 @@ permalink: /people/
      <div class="heading-home">Achuta Kadambi</div>
      <div class="sub-heading">Leader, Visual Machines Group</div>
      <div class="body-people">Assistant Professor, UCLA<br />Electrical and Computer Engineering<br/>PhD, Massachusetts Institute of Technology</div> <br />
-     <div class="body-people"><a href="kadambi_cv.pdf">CV/Resume</a></div>
+     <div class="body-people"><a style="color: purple;" href="/assets/kadambi_cv.pdf">CV/Resume</a></div>
 </div>
 
 @row
-<div class="heading-home center padded">Postdoctoral Researchers (<a href="joinus.html">Join Us</a>)</div>
+<div class="heading-home center padded">Postdoctoral Researchers (<a style="color: purple;" href="/join_us/">Join Us</a>)</div>
 <div class="heading-home center padded-students">Students</div>
 
 {% assign number_printed = 0 %}
