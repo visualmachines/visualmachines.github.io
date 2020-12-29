@@ -105,18 +105,8 @@ img {
 //   line-height: 1.25em;
 //   font-style: italic;
 // }
-.full-width {
-	left: 50%;
-	margin-left: -50vw;
-	margin-right: -50vw;
-	max-width: 100vw;
-	position: relative;
-	right: 50%;
-	width: 100vw;
-	max-height: 100vs;
-}
 .image-wrapper {
-  max-width: 100%;
+  width: 100%;
   /* height:100%; */
 }
 
@@ -321,7 +311,6 @@ img {
 //   max-width: 178px;
 // }
 .column-img {
-  margin: auto;
   text-align: center;
   margin: auto;
   max-width: 100%;

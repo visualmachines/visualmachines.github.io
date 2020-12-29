@@ -14,7 +14,7 @@ head_scripts:
 <main role="main" class="container-fluid">
   <div class="row">
     <div class="col-md-12 image-wrapper">
-      <img src="/assets/images/vmgHomeMain.png" class="img-responsive" style="width:100%">
+      <img src="/assets/images/vmgHomeMain.png" class="img-responsive full-width">
       <div class="over-text d-none d-md-none d-lg-block">
 	  <div class="heading" style="color:black;">Giving Robots the Gift of Sight</div>
 	  <div class="body-home" style="color:black">Superhuman cameras enable superhuman robotics,
