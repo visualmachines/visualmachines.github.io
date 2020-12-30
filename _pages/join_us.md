@@ -5,9 +5,9 @@ excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /join_us/
 ---
-
-### Want to get involved?
 <br>
+<br>
+#### Want to get involved?
 <br>
 **UCLA Grad Students:** Please carefully read about our scientific mission. If you would like to learn more, please email us your resume, (unofficial) transcript, and a few sentences on ideal post-graduation plans. We generally ask grad students to do a rotation.
 

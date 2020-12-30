@@ -1,0 +1,64 @@
+---
+---
+
+<!doctype html>
+
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}", style="margin-top:5%;">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
+
+    <div style="margin-top: 10px; margin-bottom: 10px;" class="container">
+
+      {% assign publications = content | split:"@pub" %}
+      {% assign numPublications = 1 %}
+      {% for publication in publications %}
+        {% if numPublications == 1 or numPublications == forloop.length %}
+          <div class="row" id="row-{{ forloop.index }}">
+        {% else %}
+          <div class="row" id="row-{{ forloop.index }}" style="border-bottom: 1px solid rgba(211,211,211,.5)">
+        {% endif %}
+          {% assign descriptions = publication | split:"@desc" %}
+          {% assign image = 1 %}
+          {% for description in descriptions %}
+          {% if image == 0 %}
+          <div class="col-sm-10">
+            {{ description }}
+          </div>
+          {% endif %}
+            {% if image == 1 %}
+            <div class="col-sm-2">
+              {{ description }}
+            </div>
+            {% endif %}
+            {% assign image = 0 %}
+          {% endfor %}
+        </div>
+        {% assign numPublications = numPublications | plus: 1 %}
+      {% endfor %}
+
+    </div>
+
+    {% if site.search == true %}
+    <div class="search-content">
+      {% include_cached search/search_form.html %}
+    </div>
+  {% endif %}
+
+  <div id="footer" class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include_cached footer.html %}
+    </footer>
+  </div>
+
+  {% include scripts.html %}
+
+  </body>
+</html>
