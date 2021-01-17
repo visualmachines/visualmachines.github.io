@@ -17,4 +17,4 @@ permalink: /join_us/
 
 **Postdoc Candidates:** We are looking to fill multiple postdoc positions. Strong candidates have published in either signal processing, machine learning, computer vision, or optics. Please email us your resume and three most significant publications.
 
-**Contact:** [achuta@gmail.com](mailto:achuta@gmail.com)
+**Contact:** [achuta@gmail.com](mailto:achuta@ucla.edu)
