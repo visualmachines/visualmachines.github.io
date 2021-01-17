@@ -31,7 +31,7 @@
 
           <!-- Organizers -->
           {% if section_counter == 2 %}
-            {{ section }}
+            <div style="color:#8f3985;"> {{ section }} </div>
             <div style="width:100%;"></div>
             <br>
             {% for organizer in site.data.webseries_organizers %}
@@ -51,11 +51,10 @@
 
           <!-- Entries -->
           {% if section_counter == 3 %}
-          {{ section }}
+          <div style="color:#8f3985;"> {{ section }} </div>
           <div style="width:100%;"></div>
-          <br>
             {% for entry in site.data.webseries %}
-              <div class="webseries-entry" style="border:lightgray 1px solid; width: 100%; padding:5px">
+              <div class="webseries-entry" style="border:lightgray 1px solid; width: 100%; ">
                 <div class="webseries-speaker" style="height: 250px;">
                     <div class="webseries-image" style="height: 250px; display:inline-block; text-align: center;">
                         <div style="margin: auto; display: table;">
@@ -95,7 +94,7 @@
 
           <!-- Similar Lecture Series -->
           {% if section_counter == 4 %}
-            {{ section }}
+            <div style="color:#8f3985;"> {{ section }} </div>
             <div style="width: 100%"></div>
             <br>
           {% endif %}
