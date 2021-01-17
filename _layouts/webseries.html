@@ -1,0 +1,227 @@
+---
+---
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
+
+    <div class="initial-content" style="margin:50px 100px;">
+
+      <br> <br> <br> <br> <br>
+
+      {% assign sections = content | split:"@section" %}
+      {% assign section_counter = 0 %}
+      {% for section in sections %}
+        {% assign section_counter = section_counter | plus: 1 %}
+        <div class="row">
+
+          <!-- Introduction -->
+          {% if section_counter == 1 %}
+            {{ section }}
+            <br>
+          {% endif %}
+
+          <!-- Organizers -->
+          {% if section_counter == 2 %}
+            {{ section }}
+            <div style="width:100%;"></div>
+            <br>
+            {% for organizer in site.data.webseries_organizers %}
+              <div class="col-sm-3" style="height:200px;">
+                <div style="border-radius:50%; width:125px; height:125px; text-align:center; margin:auto; overflow:hidden;">
+                  <img src="/assets/images/webseries/{{ organizer.image }}" style="overflow:hidden;">
+                </div>
+                <p style="text-align:center; font-weight:bold; padding-top:20px; margin-bottom: 0px;"> {{ organizer.name }} </p>
+                <p style="text-align:center; font-weight:bold; color:darkgray;"> {{ organizer.institution }} </p>
+              </div>
+            {% endfor %}
+            <div style="width:100%;"></div>
+            <br>
+            <br>
+            <br>
+          {% endif %}
+
+          <!-- Entries -->
+          {% if section_counter == 3 %}
+          {{ section }}
+          <div style="width:100%;"></div>
+          <br>
+            {% for entry in site.data.webseries %}
+              <div class="webseries-entry" style="border:lightgray 1px solid; width: 100%; padding:5px">
+                <div class="webseries-speaker" style="height: 250px;">
+                    <div class="webseries-image" style="height: 250px; display:inline-block; text-align: center;">
+                        <div style="margin: auto; display: table;">
+                            <div style="border-radius:50%; margin-left: auto; width:125px; height:125px; margin-top:25px; overflow:hidden; border: .5px lightgray solid;">
+                                <img alt="coming soon" src="/assets/images/webseries/{{ entry.speaker_image }}" style="line-height: 125px; overflow:hidden;">
+                            </div>
+                        </div>
+                        <p class="webseries-image-label" style="padding-top:10px; margin-bottom: 0px;margin-left:0px;"> {{ entry.speaker }} </p>
+                        <p class="webseries-image-label" style="margin-left:0px;color:#606060;"> {{ entry.insitution }} </p>
+                    </div>
+                    <div class="webseries-title" style="width:55%; height:250px; display:inline-block;">
+                        <p style="text-align: center; "><b><a href="" > {{ entry.title }} </a></b></p>
+                        <p style="color:#606060; text-align:center;"> {{ entry.description }} </p>
+                    </div>
+                </div>
+                <!-- for some reason when all the widths add up to 100, the divs spill out of the parent so I kept it at 44 here -->
+                <div class="webseries-description" style="height: 250px; padding: 50px;">
+                    <p><b> {{ entry.title }} </b></p>
+                    <p> {{ entry.summary }} </p>
+                </div>
+                <div class="webseries-info" style="height: 250px; margin-left: 5px;">
+                    <div style="padding:40px 10px 30px 10px">
+                        <!-- margin-bottom is negative so that the text is closer to the next p tag -->
+                        <p style="font-size: 50px; text-align: center; margin-bottom: -10px;"> {{ entry.date }} </p>
+                        <p style="text-align: center;"> {{ entry.month_year }} <br>
+                            {{ entry.time }} <br>
+                            <a href= "{{ entry.link }}" >[Zoom]</a></p>
+                    </div>
+                </div>
+              </div>
+              <div style="width: 100%"></div>
+              <br> <br>
+            {% endfor %}
+            <div style="width: 100%"></div>
+            <br> <br>
+          {% endif %}
+
+          <!-- Similar Lecture Series -->
+          {% if section_counter == 4 %}
+            {{ section }}
+            <div style="width: 100%"></div>
+            <br>
+          {% endif %}
+
+          {% if section_counter == 5 %}
+          <div style="border:1px lightgray solid; width:100%; padding: 20px;">
+            {{ section }}
+          </div>
+          {% endif %}
+
+
+            <!-- Responsive design -->
+            <style>
+                /*Mobile Screens*/
+                @media screen and (max-width: 500px){
+                    .container{
+                        width:90%;
+                        padding-left: 10px;
+                    }
+                    .webseries-entry {
+                        height: 900px;
+                        text-align: center;
+                    }
+                    .webseries-speaker {
+                        display: inline-block;
+                    }
+                    .webseries-image {
+                        width: 100%;
+                    }
+                    .webseries-title {
+                        width: 100%;
+                        margin-top: 0px;
+                    }
+                    .webseries-description {
+                        top: 0px;
+                        width: 100%;
+                        display: inline-block;
+                    }
+                    .webseries-info {
+                        width: 100%;
+                        display: inline-block;
+                        vertical-align: top;
+                    }
+                    .webseries-image-label {
+                        margin: auto;
+                    }
+                }
+                /*Small Desktop screens*/
+                @media screen and (max-width: 1000px) and (min-width: 501px) {
+                    .webseries-entry {
+                        height: 650px;
+                    }
+                    .webseries-speaker{
+                        width: 100%;
+                    }
+                    .webseries-image {
+                        width: 40%
+                    }
+                    .webseries-title {
+                        margin-top: 65px;
+                        width: 55%;
+                        vertical-align: top;
+                    }
+                    .webseries-description {
+                        width: 65%;
+                        display: inline-block;
+                    }
+                    .webseries-info {
+                        width: 30%;
+                        display: inline-block;
+                        vertical-align: top;
+                    }
+                    .webseries-image-label {
+                        margin: auto;
+                    }
+                }
+
+                @media screen and (min-width: 1001px) {
+                    .webseries-entry {
+                        height: 250px;
+                        display: flex;
+                    }
+                    .webseries-speaker {
+                        width:45%;
+                        display: flex;
+                        border-right: lightgray 1px solid;
+                    }
+                    .webseries-image {
+                        width: 40%
+                    }
+                    .webseries-title {
+                        margin-top: 65px;
+                        width: 55%;
+                    }
+                    .webseries-description {
+                        width:44%;
+                    }
+                    .webseries-info {
+                        width: 15%;
+                    }
+                    .webseries-image-label {
+                        margin-left: 25px;
+                    }
+                }
+            </style>
+
+        </div>
+      {% endfor %}
+
+
+    </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
