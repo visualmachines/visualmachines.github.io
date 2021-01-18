@@ -13,7 +13,7 @@ permalink: /visit/
 Room #56-147J, Engineering IV <br>
 420 Westwood Plaza <br>
 Los Angeles, CA 90095 <br>
-[achuta@gmail.com](mailto:achuta@ucla.edu) <br>
+[achuta@ucla.edu](mailto:achuta@ucla.edu) <br>
 <br>
 
 @column
