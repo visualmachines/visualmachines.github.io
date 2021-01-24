@@ -5,7 +5,7 @@
 .masthead {
   position: fixed;
   top: 0;
-  border-bottom: 1px solid $border-color;
+  // border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -19,7 +19,7 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
+    padding: 10px;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -29,9 +29,9 @@
     justify-content: space-between;
     font-family: $sans-serif-narrow;
 
-    @include breakpoint($x-large) {
-      max-width: $max-width;
-    }
+    // @include breakpoint($x-large) {
+    //   max-width: $max-width;
+    // }
 
     nav {
       z-index: 10;
@@ -39,7 +39,8 @@
 
     a {
       text-decoration: none;
-      font-size: 15px;
+      font-size: 18px;
+      font-family: 'Hind', sans-serif;
     }
   }
 }
@@ -58,7 +59,7 @@
   // z-index: 20;
   img {
     padding: 0px; 
-    max-width:600px; 
+    max-width:650px; 
     max-height:400px; 
     width: auto; 
     height: auto;

@@ -9,11 +9,11 @@ permalink: /visit/
 ### Want to get involved?
 
 @row
-**Achuta's Adress:** <br>
+**Achuta's Address:** <br>
 Room #56-147J, Engineering IV <br>
 420 Westwood Plaza <br>
 Los Angeles, CA 90095 <br>
-[achuta@gmail.com](mailto:achuta@gmail.com) <br>
+[achuta@ucla.edu](mailto:achuta@ucla.edu) <br>
 <br>
 
 @column
