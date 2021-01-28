@@ -1,21 +1,21 @@
 - title: Title TBA
-  speaker: TBD
-  speaker_image: webseries_blank.png
-  insitution: TBD
-  description: TBD
-  summary: TBD
-  date: 5
-  month_year: February, 2021
-  time: time TBD
-  link:
-- title: Title TBA
-  speaker: TBD
-  speaker_image: webseries_blank.png
-  insitution: TBD
+  speaker: Ewa Nowara
+  speaker_image: Ewa_Nowara.jpg
+  insitution: PhD at Rice University
   description: TBD
   summary: TBD
   date: 5
   month_year: March, 2021
+  time: time TBD
+  link:
+- title: Title TBA
+  speaker: Dr. Emma Alexander
+  speaker_image: Emma_Alexander.jpg
+  insitution: Postdoctoral Researcher at UC Berkeley
+  description: TBD
+  summary: TBD
+  date: 2
+  month_year: April, 2021
   time: time TBD
   link:
 - title: Title TBA
