@@ -1,68 +1,194 @@
-- title: "Deep Shape from Polarization"
-  image: sfp.png
-  description: This paper makes a first attempt to re-examine the shape from polarization (SfP) problem using physics-based deep learning.
-  authors: Yunhao Ba, Alex Gilbert, Franklin Wang, Jinfa Yang, Rui Chen, Yiqin Yang, Lei Yan, Boxin Shi, Achuta Kadambi
+- name: Diverse RPPG
+  title: "Diverse RPPG: Camera-based Heart Rate Estimation for Diverse Subject Skin Tones and Scenes"
+  image: video_demo.gif
+  thumbnail: PPG_thumbnail.png
+  description: Novel algorithm to mitigate skin tone bias in remote heart rate estimation, for improved performance on our diverse, telemedicine oriented VITAL dataset.
+  authors:
+    - name: Pradyumna
+      associations: 1
+      link: https://pradyumnachari.github.io/
+    - name: Krish Kabra
+      associations: 1
+    - name: Doruk Karinca
+      associations: 1
+      link: https://dorukkarinca.com/
+    - name: Soumyarup Lahiri
+      associations: 1
+    - name: Diplav Srivastava
+      associations: 1
+    - name: Kimaya Kulkarni
+      associations: 1
+    - name: Tianyuan Chen
+      associations: 1
+    - name: Maxime Cannesson
+      associations: 2
+    - name: Laleh Jalilian
+      associations: 2
+      link: https://www.uclahealth.org/laleh-jalilian
+    - name: Achuta Kadambi
+      associations: 1,3
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: Department of Electrical and Computer Engineering
+      link: https://www.ee.ucla.edu/
+    - name: Department of Anesthesiology and Perioperative
+      link: https://www.uclahealth.org/anes/
+    - name: California NanoSystems Institute, University of California, Los Angeles, USA
+      link: https://cnsi.ucla.edu/
   link:
-    url: link
-    display:  insert link
+    url: diverse_rppg
+    display: read more
+  highlight: 1
+  news 2:
+
+- name: DSFP
+  title: "Deep Shape from Polarization"
+  image: sfp.png
+  thumbnail: sfp.png
+  description: This paper makes a first attempt to re-examine the shape from polarization (SfP) problem using physics-based deep learning.
+  authors:
+    - name: Yunhao Ba
+      associations: 1
+      link: https://scholar.google.com/citations?user=J35vv0cAAAAJ&hl=en
+    - name: Alex Gilbert
+      associations: 1
+    - name: Franklin Wang
+      associations: 1
+    - name: Jinfa Yang
+      associations: 2
+    - name: Rui Chen
+      associations: 2
+    - name: Yiqin Yang
+      associations: 1
+    - name: Lei Yan
+      associations: 2
+      link: https://sess.pku.edu.cn/english/people/researcharea/remote/270025.htm
+    - name: Boxin Shi
+      associations: 2
+      link: http://ci.idm.pku.edu.cn/
+    - name: Achuta Kadambi
+      associations: 1
+  associations:
+    - name: University of California, Los Angeles
+      link: https://www.ucla.edu/
+    - name: Peking University
+      link: https://www.pku.edu.cn/
+  link:
+    url: deep_shape
+    display: read more
   highlight: 1
   news2:
 
-- title: "Blending Physics with Artificial Intelligence"
-  image: sfp.png #YSR.png
+- name: physics_with_ai
+  title: "Blending Physics with Artificial Intelligence"
+  image: physics_ai.png
+  thumbnail: physics_ai.png
   description: Overview of convergence of physics and AI for imaging and vision and the path ahead.
-  authors: Achuta Kadambi
+  authors:
+    - name: Achuta Kadambi
+      associations: 1
+      link: http://seas.ucla.edu/~achuta/
+  associations:
+    - name: University of California, Los Angeles
+      link: https://www.ucla.edu/
   link:
-    url: link
-    display: insert link
+    url: physics_with_ai
+    display: read more
   highlight: 1
+  news2:
 
-- title: "Polarized Non-Line-of-Sight Imaging"
-  image: sfp.png #SmartPub.png
+- name: polarized_nlos
+  title: "Polarized Non-Line-of-Sight Imaging"
+  image: results.png
+  thumbnail: pnlos_result.gif
   description: Novel incorporation of polarization cues towards non-line-of-sight imaging.
-  authors: Kenichiro Tanaka, Yasuhiro Mukaigawa, Achuta Kadambi, Nara Institute of Science and Technology (NAIST), Visual Machines Group, UCLA CVPR 2020
+  authors:
+    - name: Kenichiro Tanaka
+      associations: 1,2
+      link: https://k-tanaka.me/
+    - name: Yasuhiro Mukaigawa
+      associations: 1
+      link: http://omilab.naist.jp/~mukaigawa/
+    - name: Achuta Kadambi
+      associations: 2
+      link: https://web.media.mit.edu/~achoo/
+  associations:
+    - name: Nara Institute of Science and Technology (NAIST)
+    - name: Visual Machines Group UCLA
+  awards:
+    - name: CVPR 2020
+    - link: http://cvpr2020.thecvf.com/
   link:
-    url: link
-    display: insert link
+    url: polarized_nlos
+    display: read more
   highlight: 1
   news2: #See also our papers on the theoretical modeling of such measurements, and the paper about fabrication.
 
-- title: "Visual Physics: Discovering Physical Laws from Videos"
-  image: sfp.png #TBG_ARPES.png
+- name: visual_physics
+  title: "Visual Physics: Discovering Physical Laws from Videos"
+  image: visual_demo.gif
+  thumbnail: visual_thumbnail.png
   description: A novel pipeline that enables discovery of underlying parameters and equations from videos of physical phenomena.
-  authors: Pradyumna Chari, Chinmay Talegaonkar, Yunhao Ba, Achuta Kadambi, University of California Los Angeles
+  authors:
+    - name: Pradyumna Chari
+      associations: 1
+    - name: Chinmay Talegaonkar
+      associations: 1
+      link: https://chinmay0301.github.io/
+    - name: Yunhao Ba
+      associations: 1
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California Los Angeles
+      link: https://www.ucla.edu/
   link:
-    url: link
-    display:  insert link
-  highlight: 0
+    url: visual_physics
+    display:  read more
+  highlight: 1
   news2:
 
-- title: "Blending Diverse Physical Priors with Neural Networks"
-  image: sfp.png #TBG_ARPES.png
+- name: blending_physical_priors
+  title: "Blending Diverse Physical Priors with Neural Networks"
+  image: BDPP_first.jpg
+  thumbnail: BDPP_thumbnail.jpg
   description: Generalizing Physics-Based Learning (PBL), by making the first attempt to bring neural architecture search (NAS) to the realm of PBL.
   authors: insert authors
   link:
-    url: link
-    display:  insert link
+    url: blending_physical_priors
+    display:  read more
   highlight: 1
   news2:
 
-- title: "Thermal Non-Line of Sight Imaging | ICCP 2019"
-  image: sfp.png #STS_news.png
+- name: thermal_nlos
+  title: "Thermal Non-Line of Sight Imaging | ICCP 2019"
+  thumbnail: tnlos_thumbnail.jpg
+  image: tnlos_gif.gif #STS_news.png
   description: A novel non-line of sight imaging framework with long-wave infared.
-  authors: Tomohiro Maeda, Yiqin Wang, Ramesh Raskar, Achuta Kadambi, MIT Media Lab, Visual Machines Group UCLA, ICCP 2019
-  link:
-    url: link
-    display:  insert link
-  highlight: 1
-  news2:
-
-- title: "Publications Prior to 2019"
-  image: sfp.png 
-  description: Please follow this link to visit publications prior to 2019.
   authors:
+    - name: Tomohiro Maeda
+      associations: 1
+      link: https://web.media.mit.edu/~tomotomo/
+    - name: Yiqin Wang
+      associations: 2
+      link: https://www.linkedin.com/in/yiqin-wang-91765a139/
+    - name: Ramesh Raskar
+      associations: 1
+      link: https://web.media.mit.edu/~raskar/
+    - name: Achuta Kadambi
+      associations: 2
+      link: https://scholar.google.com/citations?user=UMzWJikAAAAJ&hl=en&oi=ao
+  associations:
+    - name: MIT Media Lab
+      link: https://web.mit.edu/
+    - name: Visual Machines Group UCLA
+      link: https://www.ucla.edu/
+  awards:
+    - name: ICCP 2019
+      link: http://iccp2019.naist.jp/
   link:
-    url: link
-    display:  insert link
+    url: thermal_nlos
+    display:  read more
   highlight: 1
   news2:
