@@ -25,11 +25,11 @@ permalink: /blending_physical_priors/
 <br>
 
   <video width="320" height="240" controls="">
-    <source src="..\..\assets\images\publication\blending_physical_video_3.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}\assets\images\publication\blending_physical_video_1.mp4" type="video/mp4">
   Your browser does not support the video tag.
   </video>
   <video width="320" height="240" controls="">
-    <source src="..\..\assets\images\publication\blending_physical_video_4.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}\assets\images\publication\blending_physical_video_2.mp4" type="video/mp4">
   Your browser does not support the video tag.
   </video>
 
