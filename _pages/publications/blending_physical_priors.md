@@ -23,7 +23,6 @@ permalink: /blending_physical_priors/
 <br>
 *Our PhysicsNAS takes advantage of all the existing methods on blending physical prior, and is capable of generating new hybrid architectures for tasks under diversified physical environments. With the augmented search space and knowledge from prior information, it is possible for the proposed PhysicsNAS to generalize its performance with limited number of training samples.*
 <br>
-<span>
   <video width="320" height="240" controls="">
     <source src="..\..\assets\images\publication\blending_physical_video_1.mp4" type="video/mp4">
   Your browser does not support the video tag.
@@ -32,7 +31,6 @@ permalink: /blending_physical_priors/
     <source src="..\..\assets\images\publication\blending_physical_video_2.mp4" type="video/mp4">
   Your browser does not support the video tag.
   </video>
-</span>
 <br>
 *<b>Physics Based Learning:</b> Observe how the Physics Based Learning model (right) which blends physical priors with neural networks performs significantly better than using just physical models (left). The physics based learning model can precisely predict the trajectory of the tossed object while simple physics provides a solution which significantly deviates from the actual trajectory.*
 <br>
