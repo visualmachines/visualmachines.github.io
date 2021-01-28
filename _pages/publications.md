@@ -45,4 +45,4 @@ Please follow this link to visit publications prior to 2019.
 {{ publi.news2 }}
 
 {% assign number_printed = number_printed | plus: 1 %}
-<br>
+<div style="width: 100%"></div>
