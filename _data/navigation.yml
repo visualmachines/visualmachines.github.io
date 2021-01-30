@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Lecture Series"
+    url: https://asuzukii.github.io/web_series/
   - title: "Scientific Mission"
     url: /scientific_mission/
   - title: "People"
@@ -10,5 +12,4 @@ main:
     url: /join_us/
   - title: "Visit"
     url: /visit/
-  - title: "Lecture Series"
-    url: https://asuzukii.github.io/web_series/
+  
