@@ -78,3 +78,17 @@
     }
   }
 }
+
+.footer_div {
+  display: inline-block; 
+  padding-left: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer_div {
+    display: inline-block; 
+    padding-left: 10%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+  }
+}
