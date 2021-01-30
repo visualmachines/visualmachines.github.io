@@ -42,6 +42,8 @@ Los Angeles, CA 90095 <br>
     .map-image{
       display: inline-block;
       width: 100%;
+      overflow-x: hidden;
+
     }
   }
 </style>
