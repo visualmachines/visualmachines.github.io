@@ -41,7 +41,7 @@ Los Angeles, CA 90095 <br>
   @media screen and (max-width: 500px){
     .map-image{
       display: inline-block;
-      width: 100%;
+      width: 70%;
       overflow-x: hidden;
       height: auto;
     }
