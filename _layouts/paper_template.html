@@ -13,15 +13,15 @@
     <div style="width:100%"></div> <br> <br>
     <div class="background-wrapper" class ="img-fluid" style="margin: 50px 100px;"></div>
     <div class="container">
-    <div class="article-meta col-md-8" style="margin: auto; box-shadow: 0px 5px 10px 0px grey; padding: 10px;">
-      <div class="center">
-        <br>
-        {{ content | split: "@section" | first }}
+      <div class="article-meta col-md-8" style="margin: auto; box-shadow: 0px 5px 10px 0px grey; padding: 10px;">
+        <div class="center">
+          <br>
+          {{ content | split: "@section" | first }}
+        </div>
       </div>
     </div>
-    </div>
 
-    <div class="container" style="margin: 0px 100px 75px 50px;">
+    <div class="container">
       {% assign sections = content | split:"@section" %}
       {% assign section_counter = 0 %}
       {% for section in sections %}
@@ -31,12 +31,10 @@
         <!-- Abstract -->
         {% if section_counter == 1 %}
         {% unless isBlank == ""  %}
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-12">
-                <div class="row mt-3 heading">Abstract</div>
-                <div class="row mt-3"> {{ section }} </div>
-            </div>
-        </div>
+          <div class="container col-md-12">
+              <div class="row mt-3 heading">Abstract</div>
+              <div class="row mt-3"> {{ section }} </div>
+          </div>
         {% endunless %}
         {% endif %}
 
@@ -126,3 +124,18 @@
 
   </body>
 </html>
+
+
+<style>
+  @media screen and (max-width: 500px){
+    .container{
+      width: 95%;
+      margin: 0px 0px 25px 10px;
+    }
+  }
+  @media screen and (min-width: 501px){
+    .container{
+      margin: 0px 100px 50px 50px;
+    }
+  }
+</style>
