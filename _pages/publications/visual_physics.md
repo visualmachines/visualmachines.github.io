@@ -19,7 +19,7 @@ permalink: /visual_physics/
 <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/>
 
 ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})
-*insertcaption*
+*Figure 1. An overview of the Visual Physics philosophy. Multiple videos describing a physics task are used as input to our proposed algorithm. The method is able to discover both governing parameters (such as initial velocities) and the governing equations (kinematic equations in the above case).*
 
 <br>
 
