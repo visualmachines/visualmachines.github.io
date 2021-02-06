@@ -5,50 +5,34 @@ excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /people/
 ---
-
 <style>
-hr { 
-  display: block;
-  margin-top: -0.4em; 
-  margin-bottom: 0em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-color: white;
-  border-width: 0em;
-  height: 1em;
-  background-color: rgb(0,123,255);
-} 
-.hide {
-  display: none;
+div.polaroid {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 10px;
+  text-align: center;
+  padding-bottom: 0.5em;
 }
 
-.hover_div:hover + .hide {
-  display: inline-block;
-  color: rgb(0,123,255);
-  margin-left: 0.5em;
-}
+
+
 </style>
 
-### <a style="color: white; background: rgb(0,123,255);">&nbsp;PI&nbsp;</a>
+<img src="/assets/images/group_photo.jpg" style="width:100%">
 
-<hr>
+## <b>PI</b>
 
 @row
-<img src="/assets/images/people_achuta.png" alt="Headshot" class="column-img">
-@column
-<div class="pad-center">
-     <div class="heading-home">Achuta Kadambi</div>
-     <div class="sub-heading">Leader, Visual Machines Group</div>
-     <div class="body-people">Assistant Professor, UCLA<br />Electrical and Computer Engineering<br/>PhD, Massachusetts Institute of Technology</div> <br/>
-     <div class="body-people"><a style="color: purple;" href="/assets/kadambi_cv.pdf">CV/Resume</a></div>
+<div class="polaroid">
+  <img src="/assets/images/prof_achuta.png" alt="Headshot" class="column-img" style="width:100%; padding-bottom: 0.5em;" />
+  <div class="sub-heading"><b>&nbsp;&nbsp;Prof. Achuta Kadambi</b><br>&nbsp;&nbsp;Leader, Visual Machines Group</div>
 </div>
+@column
+@column
+@column
 
 
 @row
-### <a style="color: white; background: rgb(0,123,255);">&nbsp;Grad/Postdoc&nbsp;</a>
-
-<hr>
+## <b>Grad/Postdoc</b>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -59,18 +43,10 @@ hr {
 {% if even_odd != 0 %}
 @column
 {% endif %}
-  <img src="{{ site.url }}/assets/images/{{ member.photo }}" alt="Insert photo" class="center-img size-image" />
-  <div class="heading-home"><a style="color: rgb(0,123,255);">{{ member.name }}</a></div>
-  <div class="sub-heading">{{ member.education }}</div>
-  <div class="hover_div" style="display: inline;">
-    <a href= "mailto:{{ member.email }}">
-      <img src="{{ site.url }}/assets/images/email_icon.svg" alt="Insert photo" class="hover" />
-    </a>
-  </div>
-  <div class="hide">Send Email</div>
-
-  
-
+<div class="polaroid">
+  <img src="{{ site.url }}/assets/images/{{ member.photo }}" alt="Insert photo" style="width:100%; padding-bottom: 0.5em;" />
+  <div class="sub-heading"><b>&nbsp;&nbsp;{{ member.name }}</b><br>&nbsp;&nbsp;{{ member.education }}</div>
+</div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}
 
@@ -85,9 +61,7 @@ hr {
 
 
 @row
-### <a style="color: white; background: rgb(0,123,255);">&nbsp;Undergrad&nbsp;</a>
-
-<hr>
+## <b>Undergrad</b>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.undergrad_team_members %}
@@ -98,15 +72,10 @@ hr {
 {% if even_odd != 0 %}
 @column
 {% endif %}
-  <img src="{{ site.url }}/assets/images/{{ member.photo }}" alt="Insert photo" class="center-img size-image" />
-  <div class="heading-home">{{ member.name }}</div>
-  <div class="sub-heading">{{ member.education }}</div>
-  <div class="hover_div" style="display: inline;">
-    <a href= "mailto:{{ member.email }}">
-      <img src="{{ site.url }}/assets/images/email_icon.svg" alt="Insert photo" class="hover" />
-    </a>
-  </div>
-  <div class="hide">Send Email</div>
+<div class="polaroid">
+  <img src="{{ site.url }}/assets/images/{{ member.photo }}" alt="Insert photo" style="width:100%; padding-bottom: 0.5em;"/>
+  <div class="sub-heading"><b>&nbsp;&nbsp;{{ member.name }}</b><br>&nbsp;&nbsp;{{ member.education }}</div>
+</div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}
 {% assign even_odd_dummy = number_printed | modulo: 4 %}
