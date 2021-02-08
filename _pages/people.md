@@ -13,6 +13,12 @@ div.polaroid {
   padding-bottom: 0.5em;
 }
 
+div.polaroidpi {
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 10px;
+  text-align: left;
+}
+
 div.imgcolorgrey {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
       filter: gray; /* IE5+ */
@@ -26,28 +32,37 @@ div.imgcolorgrey:hover {
       -webkit-transform: scale(1.01);
     }
 
+div.aligned { 
+            display: flex; 
+            align-items: center; 
+        } 
+           
+span { 
+      padding: 3em; 
+      } 
+
 </style>
 
-<div class="imgcolorgrey">
-  <img src="/assets/images/people_group.jpg" style="width:100%; height: auto;">
-</div>
+<img src="/assets/images/people_group.jpg" style="width:100%; height: auto;">
+
 @row
 
 ## <b>PI</b>
 
 @row
-<div class="polaroid">
-  <div class="imgcolorgrey">
-    <img src="/assets/images/people_achuta.png" alt="Headshot" class="column-img">
+<div class="aligned">
+  <div class="polaroidpi"> 
+    <div class="imgcolorgrey"> 
+      <img src= "/assets/images/people_achuta.png" alt="Headshot" style="width:100%;"> 
+    </div>
   </div>
-</div>
-@column
-<div class="pad-center">
-     <div class="heading-home">Achuta Kadambi</div>
-     <div class="sub-heading">Leader, Visual Machines Group</div>
-     <div class="body-people">Assistant Professor, UCLA<br />Electrical and Computer Engineering<br/>PhD, Massachusetts Institute of Technology</div> <br/>
-     <div class="body-people"><a style="color: purple;" href="/assets/kadambi_cv.pdf">CV/Resume</a></div>
-</div>
+  <span>
+    <div class="heading-home">Achuta Kadambi</div>
+    <div class="sub-heading">Leader, Visual Machines Group</div>
+    <div class="body-people">Assistant Professor, UCLA<br />Electrical and Computer Engineering<br/>PhD, Massachusetts Institute of Technology</div>
+    <div class="body-people"><a style="color: purple;" href="/assets/kadambi_cv.pdf">CV/Resume</a></div>
+  </span> 
+</div> 
 
 @row
 ## <b>Grad/Postdoc</b>
