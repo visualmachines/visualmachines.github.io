@@ -41,9 +41,18 @@ span {
       padding: 5em; 
       } 
 
+div.full-width {
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
+}
 </style>
 
-<img src="/assets/images/people_group.jpg" style="width:100%; height: auto;">
+<img class="full-width" src="/assets/images/people_group.jpg">
 
 @row
 
@@ -122,3 +131,4 @@ span {
 @column
 {% endfor %} 
 {% endif %}
+
