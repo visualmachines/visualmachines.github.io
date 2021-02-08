@@ -50,10 +50,18 @@ div.full-width {
   right: 50%;
   width: 100vw;
 }
+
+div.gradient { 
+height: 850px; 
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,0) 30%), url("../assets/images/people_group.jpg") no-repeat center; 
+background-size: cover;  
+}
+
 </style>
 
-<img class="full-width" src="/assets/images/people_group.jpg">
-
+<div class="full-width">
+  <div class='gradient'></div>
+</div>
 @row
 
 ## <b>PI</b>
