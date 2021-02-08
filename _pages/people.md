@@ -13,23 +13,39 @@ div.polaroid {
   padding-bottom: 0.5em;
 }
 
+div.imgcolorgrey {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .5s ease-in-out;  
+    }
 
+div.imgcolorgrey:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
 
 </style>
 
-<img src="/assets/images/group_photo.jpg" style="width:100%">
+<div class="imgcolorgrey">
+  <img src="/assets/images/people_group.jpg" style="width:100%; height: auto;">
+</div>
+@row
 
 ## <b>PI</b>
 
 @row
-<div class="polaroid">
-  <img src="/assets/images/prof_achuta.png" alt="Headshot" class="column-img" style="width:100%; padding-bottom: 0.5em;" />
-  <div class="sub-heading"><b>&nbsp;&nbsp;Prof. Achuta Kadambi</b><br>&nbsp;&nbsp;Leader, Visual Machines Group</div>
+<div class="imgcolorgrey">
+  <img src="/assets/images/people_achuta.png" alt="Headshot" class="column-img">
 </div>
 @column
-@column
-@column
-
+<div class="pad-center">
+     <div class="heading-home">Achuta Kadambi</div>
+     <div class="sub-heading">Leader, Visual Machines Group</div>
+     <div class="body-people">Assistant Professor, UCLA<br />Electrical and Computer Engineering<br/>PhD, Massachusetts Institute of Technology</div> <br/>
+     <div class="body-people"><a style="color: purple;" href="/assets/kadambi_cv.pdf">CV/Resume</a></div>
+</div>
 
 @row
 ## <b>Grad/Postdoc</b>
@@ -44,8 +60,10 @@ div.polaroid {
 @column
 {% endif %}
 <div class="polaroid">
-  <img src="{{ site.url }}/assets/images/{{ member.photo }}" alt="Insert photo" style="width:100%; padding-bottom: 0.5em;" />
-  <div class="sub-heading"><b>&nbsp;&nbsp;{{ member.name }}</b><br>&nbsp;&nbsp;{{ member.education }}</div>
+  <div class="imgcolorgrey">
+    <img src="{{ site.url }}/assets/images/{{ member.photo }}" alt="Insert photo" style="width:100%; padding-bottom: 0.5em;" />
+  </div>
+  <div class="sub-heading"><a style="color: black"><b>&nbsp;&nbsp;{{ member.name }}</b></a><a style="color:grey"><br>&nbsp;&nbsp;{{ member.email }}</a></div>
 </div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}
@@ -73,8 +91,10 @@ div.polaroid {
 @column
 {% endif %}
 <div class="polaroid">
-  <img src="{{ site.url }}/assets/images/{{ member.photo }}" alt="Insert photo" style="width:100%; padding-bottom: 0.5em;"/>
-  <div class="sub-heading"><b>&nbsp;&nbsp;{{ member.name }}</b><br>&nbsp;&nbsp;{{ member.education }}</div>
+  <div class="imgcolorgrey">
+    <img src="{{ site.url }}/assets/images/{{ member.photo }}" alt="Insert photo" style="width:100%; padding-bottom: 0.5em;"/>
+  </div>
+  <div class="sub-heading"><a style="color: black"><b>&nbsp;&nbsp;{{ member.name }}</b></a><a style="color:grey"><br>&nbsp;&nbsp;{{ member.email }}</a></div>
 </div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}
