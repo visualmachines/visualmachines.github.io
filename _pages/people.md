@@ -38,7 +38,7 @@ div.aligned {
         } 
            
 span { 
-      padding: 3em; 
+      padding: 5em; 
       } 
 
 </style>
