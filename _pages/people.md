@@ -36,8 +36,10 @@ div.imgcolorgrey:hover {
 ## <b>PI</b>
 
 @row
-<div class="imgcolorgrey">
-  <img src="/assets/images/people_achuta.png" alt="Headshot" class="column-img">
+<div class="polaroid">
+  <div class="imgcolorgrey">
+    <img src="/assets/images/people_achuta.png" alt="Headshot" class="column-img">
+  </div>
 </div>
 @column
 <div class="pad-center">
