@@ -43,17 +43,17 @@ span {
 
 div.full-width {
   left: 50%;
+  right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
   max-width: 100vw;
   position: relative;
-  right: 50%;
   width: 100vw;
 }
 
 div.gradient { 
-height: 850px; 
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,0) 30%), url("../assets/images/people_group.jpg") no-repeat center; 
+height: 45em; 
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,0) 30%), url("../assets/images/people_group.png") no-repeat center;
 background-size: cover;  
 }
 
@@ -70,7 +70,7 @@ background-size: cover;
 <div class="aligned">
   <div class="polaroidpi"> 
     <div class="imgcolorgrey"> 
-      <img src= "/assets/images/people_achuta.png" alt="Headshot" style="width:100%;"> 
+      <img src= "/assets/images/people_achuta.png" alt="Headshot"> 
     </div>
   </div>
   <span>
