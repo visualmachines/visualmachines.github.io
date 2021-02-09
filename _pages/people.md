@@ -41,6 +41,7 @@ span {
       padding: 5em; 
       } 
 
+
 div.full-width {
   left: 50%;
   right: 50%;
@@ -52,7 +53,7 @@ div.full-width {
 }
 
 div.gradient { 
-height: 45em; 
+height: auto; 
 background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,0) 30%), url("../assets/images/people_group.png") no-repeat center;
 background-size: cover;  
 }
@@ -60,7 +61,7 @@ background-size: cover;
 </style>
 
 <div class="full-width">
-  <div class='gradient'></div>
+  <img src= "/assets/images/people_group.jpg" alt="Headshot"> 
 </div>
 @row
 
