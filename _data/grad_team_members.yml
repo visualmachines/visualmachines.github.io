@@ -1,12 +1,41 @@
+- name: [Pradyumna Chari]
+  photo: pradyumna_chari.jpg
+  email: [pradyumnac@ucla.edu]
+  profile_link: ["pradyumnachari.github.io"] 
+
+- name: [Yunhao Ba]
+  photo: yunhao_ba.jpg
+  email: [yhba@ucla.edu]
+  profile_link: ["https://yhba-ucla.github.io/"] 
+
+- name: [Zhen Wang]
+  photo: zhen_wang.JPG
+  email: [zhenwang@ucla.edu] 
+
+- name: [Krish Kabra]
+  photo: krish_kabra.jpg
+  email: [krish@kabra.com]
+  profile_link: ["https://krishk97.github.io/"] 
+
+- name: [Doruk Karınca]
+  photo: doruk_karnica.jpeg
+  email: [dorukkarinca@cs.ucla.edu]
+  profile_link: ["dorukkarinca.com"]
+
+- name: [Chinmay Talegaonkar]
+  photo: chinmay_talegaonkar.jpeg
+  email: [chinmay0301@ucla.edu]
+  profile_link: ["https://www.linkedin.com/in/chinmay0301/"] 
+
+- name: [Deniz Bozkurt]
+  photo: deniz_bozkurt.jpeg
+  email: [denizbozkurt@g.ucla.edu]
+  profile_link: ["https://www.linkedin.com/in/deniz-bozkurt/"] 
+
 - name: [Shreeram Athreya]
   photo: shreeram_athreya.jpg
   email: [shreeram@g.ucla.edu]
   profile_link: ["https://shreeramathreya.github.io/"] 
-
-- name: [Oyku Bozkurt]
-  photo: oyku_bozkurt.jpeg
-  email: [denizbozkurt@g.ucla.edu]
-  profile_link: ["https://www.linkedin.com/in/deniz-bozkurt/"] 
 
 - name: [Ananya Deoghare]
   photo: ananya_deoghare.jpg
@@ -18,46 +47,17 @@
   email: [kimayak@ucla.edu]
   profile_link: ["https://www.linkedin.com/in/kimaya-kulkarni-37647a165/"] 
 
-- name: [Kevin Lee]
-  photo: kevin_lee.jpg
-  email: [kevin.lee@engineering.ucla.edu]
-  profile_link: ["https://www.linkedin.com/in/kevin-g-lee-567118205/"] 
-
 - name: [Siddhant Patil]
   photo: siddhant_patil.jpg
   email: [siddhantpatil@g.ucla.edu]
   profile_link: ["https://siddhantvpatil.github.io"] 
 
+- name: [Kevin Lee]
+  photo: kevin_lee.jpg
+  email: [kevin.lee@engineering.ucla.edu]
+  profile_link: ["https://www.linkedin.com/in/kevin-g-lee-567118205/"] 
+  
 - name: [Diplav Srivastava]
   photo: diplav_srivastava.jpg
   email: [diplav@g.ucla.edu]
   profile_link: ["https://www.linkedin.com/in/diplav-srivastava-19b790111/"] 
-
-- name: [Chinmay Talegaonkar]
-  photo: chinmay_talegaonkar.jpeg
-  email: [chinmay0301@ucla.edu]
-  profile_link: ["https://www.linkedin.com/in/chinmay0301/"] 
-
-- name: [Zhen Wang]
-  photo: zhen_wang.JPG
-  email: [zhenwang@ucla.edu] 
-
-- name: [Yunhao Ba]
-  photo: no_image.png
-  email: [yhba@ucla.edu]
-  profile_link: ["https://yhba-ucla.github.io/"] 
-
-- name: [Pradyumna Chari]
-  photo: no_image.png
-  email: [pradyumnac@ucla.edu]
-  profile_link: ["pradyumnachari.github.io"] 
-
-- name: [Krish Kabra]
-  photo: no_image.png
-  email: [krish@kabra.com]
-  profile_link: ["https://krishk97.github.io/"] 
-
-- name: [Doruk Karınca]
-  photo: no_image.png
-  email: [dorukkarinca@cs.ucla.edu]
-  profile_link: ["dorukkarinca.com"]
