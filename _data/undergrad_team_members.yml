@@ -4,7 +4,7 @@
   profile_link: ["https://www.linkedin.com/in/~adnan/"]
 
 - name: [Madison Belk]
-  photo: 
+  photo: no_image.png
   email: [madisonhbelk@gmail.com]
 
 - name: [Brian Chap]
@@ -13,7 +13,7 @@
   profile_link: ["http://brianchap.com/"]
 
 - name: [Tianyuan Chen]
-  photo: 
+  photo: no_image.png
   email: [tianyuanchen@g.ucla.edu]
 
 - name: [Rajeshwari Jadhav]
@@ -22,8 +22,13 @@
   profile_link: ["http://rajeshwarijadhav.github.io"]
 
 - name: [Jerry Li]
-  photo: 
+  photo: no_image.png
   email: [jli5@g.ucla.edu]
+
+- name: [Justin Lin]
+  photo: justin_lin.jpg
+  email: [research@justinwlin.com]
+  profile_link: ["justinwlin.com"] 
 
 - name: [Noe Motamedi]
   photo: noe_motamedi.jpeg
@@ -61,7 +66,7 @@
   profile_link: ["https://curesh.github.io/personal_website/ResumeChandraSureshFinal.pdf"]
 
 - name: [Ameya Tilaye]
-  photo: 
+  photo: no_image.png
   email: [atilaye@g.ucla.edu]
   profile_link: ["https://www.linkedin.com/in/ameya-t-8a1739194/"]
 

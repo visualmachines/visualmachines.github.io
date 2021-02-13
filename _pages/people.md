@@ -86,7 +86,7 @@ background-size: cover;
 ## <b>Grad/Postdoc</b>
 
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in site.data.grad_team_members %}
 {% assign even_odd = number_printed | modulo: 4 %}
 {% if even_odd == 0 %}
 @row
@@ -96,9 +96,26 @@ background-size: cover;
 {% endif %}
 <div class="polaroid">
   <div class="imgcolorgrey">
-    <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; padding-bottom: 0.5em;" />
+    <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
   </div>
-  <div class="sub-heading"><a style="color: black"><b>&nbsp;&nbsp;{{ member.name }}</b></a><a style="color:grey"><br>&nbsp;&nbsp;{{ member.email }}</a></div>
+
+  <div class="sub-heading">
+    <a style="color: black">
+      <b>&nbsp;&nbsp;{{ member.name }}</b>
+    </a>
+    <br>
+    &nbsp;
+    <a style="color:grey" href="mailto:{{ member.email }}">
+      Send Email
+    </a>
+    <br>
+    {% if member.profile_link %}
+      &nbsp;
+      <a style="color: grey;" href="{{ member.profile_link }}">
+        Profile Link
+      </a>
+    {% endif %}
+  </div>
 </div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}
@@ -134,19 +151,17 @@ background-size: cover;
     </a>
     <br>
     &nbsp;
-    <a style="color:grey" href="mailto:{{ member.email }}">
+    <a style="color: grey" href="mailto:{{ member.email }}">
       Send Email
     </a>
     <br>
     {% if member.profile_link %}
       &nbsp;
-      <a style="color: blue;" href="{{ member.profile_link }}">
+      <a style="color: grey;" href="{{ member.profile_link }}">
         Profile Link
       </a>
     {% endif %}
-    
-</div>
-
+  </div>
 </div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}
