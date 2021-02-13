@@ -13,10 +13,14 @@
   email: [rajeshwari@ucla.edu]
   profile_link: ["http://rajeshwarijadhav.github.io"]
 
+- name: [Jerry Li]
+  photo: jerry_li.jpg
+  email: [jli5@g.ucla.edu]
+  
 - name: [Justin Lin]
   photo: justin_lin.jpg
   email: [research@justinwlin.com]
-  profile_link: ["justinwlin.com"] 
+  profile_link: ["https://justinwlin.com"] 
 
 - name: [Noe Motamedi]
   photo: noe_motamedi.jpeg
@@ -65,10 +69,6 @@
 - name: [Tianyuan Chen]
   photo: no_image.png
   email: [tianyuanchen@g.ucla.edu]
-
-- name: [Jerry Li]
-  photo: no_image.png
-  email: [jli5@g.ucla.edu]
 
 - name: [Ameya Tilaye]
   photo: no_image.png
