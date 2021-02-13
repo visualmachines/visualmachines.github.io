@@ -58,6 +58,15 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,0) 30%)
 background-size: cover;  
 }
 
+div.overflow-information{
+    color: grey; 
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%; //change based on when you want the dots to appear
+}
+
 </style>
 
 <div class="full-width">
@@ -96,30 +105,30 @@ background-size: cover;
 {% endif %}
 <div class="polaroid">
   <div class="imgcolorgrey">
-    <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
+    <a href="{{ member.profile_link }}">
+      <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
+    </a>
   </div>
 
   <div class="sub-heading">
-    <a style="color: black">
-      <b>&nbsp;&nbsp;{{ member.name }}</b>
+    &nbsp;
+    <a style="color: black" href="{{ member.profile_link }}">
+      <b>{{ member.name }}</b>
     </a>
     <br>
     &nbsp;
-    <a style="color:grey" href="mailto:{{ member.email }}">
-      Send Email
+    <a style="color:grey">
+      <div class="overflow-information">
+        <a style="color:grey" href="mailto:{{ member.email }}">
+        {{ member.email }}
+        </a>
+      </div>
     </a>
-    <br>
-    {% if member.profile_link %}
-      &nbsp;
-      <a style="color: grey;" href="{{ member.profile_link }}">
-        Profile Link
-      </a>
-    {% endif %}
+    
   </div>
 </div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}
-
 {% assign even_odd_dummy = number_printed | modulo: 4 %}
 {% if even_odd_dummy != 0 %}
 {% assign number_print_left = 4 | minus:even_odd_dummy %}
@@ -154,9 +163,14 @@ background-size: cover;
     </a>
     <br>
     &nbsp;
-    <a style="color: grey" href="mailto:{{ member.email }}">
-      {{ member.email }}
+    <a style="color:grey">
+      <div class="overflow-information">
+        <a style="color:grey" href="mailto:{{ member.email }}">
+        {{ member.email }}
+        </a>
+      </div>
     </a>
+    
   </div>
 </div>
 {% assign number_printed = number_printed | plus: 1 %}
@@ -168,4 +182,3 @@ background-size: cover;
 @column
 {% endfor %} 
 {% endif %}
-
