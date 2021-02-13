@@ -142,25 +142,21 @@ background-size: cover;
 {% endif %}
 <div class="polaroid">
   <div class="imgcolorgrey">
-    <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
+    <a href="{{ member.profile_link }}">
+      <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
+    </a>
   </div>
 
   <div class="sub-heading">
-    <a style="color: black">
-      <b>&nbsp;&nbsp;{{ member.name }}</b>
+    &nbsp;
+    <a style="color: black" href="{{ member.profile_link }}">
+      <b>{{ member.name }}</b>
     </a>
     <br>
     &nbsp;
     <a style="color: grey" href="mailto:{{ member.email }}">
-      Send Email
+      {{ member.email }}
     </a>
-    <br>
-    {% if member.profile_link %}
-      &nbsp;
-      <a style="color: grey;" href="{{ member.profile_link }}">
-        Profile Link
-      </a>
-    {% endif %}
   </div>
 </div>
 {% assign number_printed = number_printed | plus: 1 %}

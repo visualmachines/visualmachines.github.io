@@ -3,27 +3,15 @@
   email: [adnan.armouti@gmail.com]
   profile_link: ["https://www.linkedin.com/in/~adnan/"]
 
-- name: [Madison Belk]
-  photo: no_image.png
-  email: [madisonhbelk@gmail.com]
-
 - name: [Brian Chap]
   photo: brian_chap.jpg
   email: [brianchap@protonmail.com]
   profile_link: ["http://brianchap.com/"]
 
-- name: [Tianyuan Chen]
-  photo: no_image.png
-  email: [tianyuanchen@g.ucla.edu]
-
 - name: [Rajeshwari Jadhav]
   photo: rajeshwari_jadhav.jpeg
   email: [rajeshwari@ucla.edu]
   profile_link: ["http://rajeshwarijadhav.github.io"]
-
-- name: [Jerry Li]
-  photo: no_image.png
-  email: [jli5@g.ucla.edu]
 
 - name: [Justin Lin]
   photo: justin_lin.jpg
@@ -65,12 +53,24 @@
   email: [chandra.b.suresh@gmail.com]
   profile_link: ["https://curesh.github.io/personal_website/ResumeChandraSureshFinal.pdf"]
 
-- name: [Ameya Tilaye]
-  photo: no_image.png
-  email: [atilaye@g.ucla.edu]
-  profile_link: ["https://www.linkedin.com/in/ameya-t-8a1739194/"]
-
 - name: [Ethan Yang]
   photo: ethan_yang.jpg
   email: [eyang657@g.ucla.edu]
   profile_link: ["www.linkedin.com/in/ethan-yang-60078b1b9"] 
+
+- name: [Madison Belk]
+  photo: no_image.png
+  email: [madisonhbelk@gmail.com]
+
+- name: [Tianyuan Chen]
+  photo: no_image.png
+  email: [tianyuanchen@g.ucla.edu]
+
+- name: [Jerry Li]
+  photo: no_image.png
+  email: [jli5@g.ucla.edu]
+
+- name: [Ameya Tilaye]
+  photo: no_image.png
+  email: [atilaye@g.ucla.edu]
+  profile_link: ["https://www.linkedin.com/in/ameya-t-8a1739194/"]
