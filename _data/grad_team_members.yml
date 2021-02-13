@@ -5,7 +5,8 @@
 
 - name: [Zhen Wang]
   photo: zhen_wang.JPG
-  email: [zhenwang@ucla.edu] 
+  email: [zhenwang@ucla.edu]
+  profile_link: ["mailto:zhenwang@ucla.edu"]
 
 - name: [Guangyuan Zhao]
   photo: guangyuan_zhao.jpg
@@ -42,7 +43,6 @@
   email: [kevin.lee@engineering.ucla.edu]
   profile_link: ["https://www.linkedin.com/in/kevin-g-lee-567118205/"] 
 
-
 - name: [Ananya Deoghare]
   photo: ananya_deoghare.jpg
   email: [ananyadd1607@g.ucla.edu]
@@ -56,7 +56,7 @@
 - name: [Siddhant Patil]
   photo: siddhant_patil.jpg
   email: [siddhantpatil@g.ucla.edu]
-  profile_link: ["https://siddhantvpatil.github.io"] 
+  profile_link: ["https://siddhantvpatil.github.io/"] 
 
 - name: [Shreeram Athreya]
   photo: shreeram_athreya.jpg
@@ -67,4 +67,3 @@
   photo: diplav_srivastava.jpg
   email: [diplav@g.ucla.edu]
   profile_link: ["https://www.linkedin.com/in/diplav-srivastava-19b790111/"] 
-

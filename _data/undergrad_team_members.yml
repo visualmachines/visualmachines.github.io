@@ -16,6 +16,7 @@
 - name: [Jerry Li]
   photo: jerry_li.jpg
   email: [jli5@g.ucla.edu]
+  profile_link: ["mailto:jli5@g.ucla.edu"]
   
 - name: [Justin Lin]
   photo: justin_lin.jpg
@@ -60,15 +61,17 @@
 - name: [Ethan Yang]
   photo: ethan_yang.jpg
   email: [eyang657@g.ucla.edu]
-  profile_link: ["www.linkedin.com/in/ethan-yang-60078b1b9"] 
+  profile_link: ["https://www.linkedin.com/in/ethan-yang-60078b1b9"] 
 
 - name: [Madison Belk]
   photo: no_image.png
   email: [madisonhbelk@gmail.com]
+  profile_link: ["mailto:madisonhbelk@gmail.com"]
 
 - name: [Tianyuan Chen]
   photo: no_image.png
   email: [tianyuanchen@g.ucla.edu]
+  profile_link: ["mailto:tianyuanchen@g.ucla.edu"]
 
 - name: [Ameya Tilaye]
   photo: no_image.png
