@@ -111,8 +111,6 @@ background-size: cover;
 {% endfor %} 
 {% endif %}
 
-
-
 @row
 ## <b>Undergrad</b>
 
