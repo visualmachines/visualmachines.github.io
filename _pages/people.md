@@ -54,14 +54,14 @@ div.full-width {
 
 div.gradient { 
 height: auto; 
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,0) 30%), url("../assets/images/people_group.png") no-repeat center;
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,0) 30%), url("../assets/images/people/group.png") no-repeat center;
 background-size: cover;  
 }
 
 </style>
 
 <div class="full-width">
-  <img src= "/assets/images/people_group.jpg" alt="Headshot"> 
+  <img src= "/assets/images/people/group.jpg" alt="Headshot"> 
 </div>
 @row
 
@@ -71,7 +71,7 @@ background-size: cover;
 <div class="aligned">
   <div class="polaroidpi"> 
     <div class="imgcolorgrey"> 
-      <img src= "/assets/images/people_achuta.png" alt="Headshot"> 
+      <img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
     </div>
   </div>
   <span>
@@ -96,7 +96,7 @@ background-size: cover;
 {% endif %}
 <div class="polaroid">
   <div class="imgcolorgrey">
-    <img src="{{ site.url }}/assets/images/{{ member.photo }}" alt="Insert photo" style="width:100%; padding-bottom: 0.5em;" />
+    <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; padding-bottom: 0.5em;" />
   </div>
   <div class="sub-heading"><a style="color: black"><b>&nbsp;&nbsp;{{ member.name }}</b></a><a style="color:grey"><br>&nbsp;&nbsp;{{ member.email }}</a></div>
 </div>
@@ -127,9 +127,28 @@ background-size: cover;
 {% endif %}
 <div class="polaroid">
   <div class="imgcolorgrey">
-    <img src="{{ site.url }}/assets/images/{{ member.photo }}" alt="Insert photo" style="width:100%; padding-bottom: 0.5em;"/>
+    <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
   </div>
-  <div class="sub-heading"><a style="color: black"><b>&nbsp;&nbsp;{{ member.name }}</b></a><a style="color:grey"><br>&nbsp;&nbsp;{{ member.email }}</a></div>
+
+  <div class="sub-heading">
+    <a style="color: black">
+      <b>&nbsp;&nbsp;{{ member.name }}</b>
+    </a>
+    <br>
+    &nbsp;
+    <a style="color:grey" href="mailto:{{ member.email }}">
+      Send Email
+    </a>
+    <br>
+    {% if member.profile_link %}
+      &nbsp;
+      <a style="color: blue;" href="{{ member.profile_link }}">
+        Profile Link
+      </a>
+    {% endif %}
+    
+</div>
+
 </div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}

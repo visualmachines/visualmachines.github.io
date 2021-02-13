@@ -1,23 +1,71 @@
-- name: [Yunhao Bao]
-  photo: people_yunhao.jpg
-  dept: [ECE Department]
-  education: [Undergraduate Student]
-  email: [yunhao.bao@ucla.edu]
+- name: [Adnan Armouti]
+  photo: adnan_armouti.png
+  email: [adnan.armouti@gmail.com]
+  profile_link: [https://www.linkedin.com/in/~adnan/]
 
-- name: [Yunhao Bao]
-  photo: people_yunhao.jpg
-  dept: [ECE Department]
-  education: [Undergraduate Student]
-  email: [yunhao.bao@ucla.edu]
+- name: [Madison Belk]
+  photo: 
+  email: [madisonhbelk@gmail.com]
 
-- name: [Yunhao Bao]
-  photo: people_yunhao.jpg
-  dept: [ECE Department]
-  education: [Undergraduate Student]
-  email: [yunhao.bao@ucla.edu]
+- name: [Brian Chap]
+  photo: brian_chap.jpg
+  email: [brianchap@protonmail.com]
+  profile_link: [http://brianchap.com/]
 
-- name: [Yunhao Bao]
-  photo: people_yunhao.jpg
-  dept: [ECE Department]
-  education: [Undergraduate Student]
-  email: [yunhao.bao@ucla.edu]
+- name: [Tianyuan Chen]
+  photo: 
+  email: [tianyuanchen@g.ucla.edu]
+
+- name: [Rajeshwari Jadhav]
+  photo: rajeshwari_jadhav.jpeg
+  email: [rajeshwari@ucla.edu]
+  profile_link: [http://rajeshwarijadhav.github.io]
+
+- name: [Jerry Li]
+  photo: 
+  email: [jli5@g.ucla.edu]
+
+- name: [Noe Motamedi]
+  photo: noe_motamedi.jpeg
+  email: [noemotamedi@g.ucla.edu]
+  profile_link: [https://www.linkedin.com/in/noemotamedi/]
+
+- name: [Ziyi Peng]
+  photo: ziyi_peng.jpeg
+  email: [ziyipeng@g.ucla.edu]
+  profile_link: [https://www.linkedin.com/in/ziyipeng22/]
+
+- name: [Arnold Pfahnl]
+  photo: arnold_pfahnl.jpg
+  email: [ajpfahnl@ucla.edu]
+  profile_link: [http://linkedin.com/in/arnold-pfahnl/]
+
+- name: [Hari Senthilkumar]
+  photo: hari_senthilkumar.png
+  email: [harikrishna.s2000@gmail.com]
+  profile_link: [https://www.linkedin.com/in/hari-s-114618118/]
+
+- name: [Siddharth Somasundaram]
+  photo: siddharth_somasundaram.png
+  email: [somasundaram.siddharth@gmail.com]
+  profile_link: [https://www.linkedin.com/in/sidsoma/]
+
+- name: [Alethea Sung-Miller]
+  photo: alethea_sung_miller.JPG
+  email: [aletheasm@ucla.edu]
+  profile_link: [https://www.aletheakatherine.com/]
+
+- name: [Chandra Suresh]
+  photo: chandra_suresh.jpg
+  email: [chandra.b.suresh@gmail.com]
+  profile_link: [https://curesh.github.io/personal_website/ResumeChandraSureshFinal.pdf]
+
+- name: [Ameya Tilaye]
+  photo: 
+  email: [atilaye@g.ucla.edu]
+  profile_link: [https://www.linkedin.com/in/ameya-t-8a1739194/]
+
+- name: [Ethan Yang]
+  photo: ethan_yang.jpg
+  email: [eyang657@g.ucla.edu]
+  profile_link: [www.linkedin.com/in/ethan-yang-60078b1b9] 
