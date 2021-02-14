@@ -5,6 +5,7 @@ excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /join_us/
 ---
+![Frisbee Picture](/assets/images/vmg_frisbee_2019.png)
 <br>
 <br>
 #### Want to get involved?
