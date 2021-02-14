@@ -118,11 +118,12 @@
       max-width: 400px;
     }
   }
+  a:hover {
+    text-decoration: none; 
+    color: orange;
+  }
 }
-.masthead__menu-item:hover {
-  text-decoration: none; 
-  color: orange;
-}
+
 
 @media screen and (max-width: 600px) {
   img {
