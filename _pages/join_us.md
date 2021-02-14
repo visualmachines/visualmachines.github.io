@@ -13,7 +13,7 @@ permalink: /join_us/
 
 **UCLA Undergraduate Students:** Please email us your resume, an (unofficial) transcript, and a few sentences on your ideal post-graduation plans.
 
-**Outside Students:** Please apply to the UCLA graduate program in ECE and mention Professor Kadambi in your application.
+**Outside Students:** Please apply to the UCLA graduate program in ECE or CS. Due to the volume of applicants we get, please list Achuta as a preferred adviser as this makes it easier to sort.
 
 **Postdoc Candidates:** We are looking to fill multiple postdoc positions. Strong candidates have published in either signal processing, machine learning, computer vision, or optics. Please email us your resume and three most significant publications.
 
