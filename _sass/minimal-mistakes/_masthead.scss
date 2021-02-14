@@ -124,7 +124,8 @@
   
 }
 
-.masthead__menu-item:hover {
+.masthead__menu-item a:hover {
+  text-decoration: none;
   color: orange;
 }
 @media screen and (max-width: 600px) {
