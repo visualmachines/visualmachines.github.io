@@ -118,8 +118,11 @@
       max-width: 400px;
     }
   }
+  li:hover {
+    color: orange;
+  }
   a:hover {
-    // text-decoration: none; 
+    text-decoration: none; 
     color: orange;
   }
 }
