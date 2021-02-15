@@ -1,0 +1,44 @@
+---
+---
+
+<!doctype html>
+
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" style="margin-top:100px;">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
+
+    <div style="margin-bottom: 50px;">
+      {{ content | split: "@text" | first }}
+
+
+        <div class="container">
+          {{ content | split: "@text" | last }}
+        </div>
+
+
+    </div>
+
+    {% if site.search == true %}
+    <div class="search-content">
+      {% include_cached search/search_form.html %}
+    </div>
+  {% endif %}
+
+  <div id="footer" class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include_cached footer.html %}
+    </footer>
+  </div>
+
+  {% include scripts.html %}
+
+  </body>
+</html>
