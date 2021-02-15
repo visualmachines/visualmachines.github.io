@@ -92,7 +92,7 @@ div.overflow-information{
 </div> 
 
 @row
-## <b>Grad/Postdoc</b>
+## <b>Graduate / Post doc</b>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.grad_team_members %}
@@ -138,7 +138,7 @@ div.overflow-information{
 {% endif %}
 
 @row
-## <b>Undergrad</b>
+## <b>Undergraduate</b>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.undergrad_team_members %}
