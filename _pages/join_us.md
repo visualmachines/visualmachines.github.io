@@ -6,7 +6,7 @@ sitemap: false
 permalink: /join_us/
 ---
 
-![Frisbee Picture](/assets/images/vmg_frisbee_2019.jpg){:style="height: 400px; width:20000px; object-fit: cover; object-position: 0% 90%"}
+![Frisbee Picture](/assets/images/vmg_frisbee_2019.jpg){:style="height: auto; width:100%; object-fit: cover; object-position: 0% 90%"}
 
 <br>
 
