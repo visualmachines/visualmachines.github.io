@@ -13,35 +13,10 @@ div.polaroid {
   padding-bottom: 0.5em;
 }
 
-div.polaroidpi {
-  width: 50%;
-  box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 10px;
-  text-align: left;
-}
-
-div.imgcolorgrey {
-    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-      filter: gray; /* IE5+ */
-      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-      -webkit-transition: all .5s ease-in-out;  
-    }
-
-div.imgcolorgrey:hover {
-    filter: none;
-      -webkit-filter: grayscale(0);
-      -webkit-transform: scale(1.01);
-    }
-
 div.aligned { 
-            display: flex; 
             align-items: center; 
         } 
-           
-span { 
-      padding: 5em; 
-      } 
-
-
+        
 div.full-width {
   left: 50%;
   right: 50%;
@@ -50,12 +25,6 @@ div.full-width {
   max-width: 100vw;
   position: relative;
   width: 100vw;
-}
-
-div.gradient { 
-height: auto; 
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,0) 30%), url("../assets/images/people/group.png") no-repeat center;
-background-size: cover;  
 }
 
 div.overflow-information{
@@ -77,18 +46,13 @@ div.overflow-information{
 ## <b>PI</b>
 
 @row
+<img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
+@column
 <div class="aligned">
-  <div class="polaroidpi"> 
-    <div class="imgcolorgrey"> 
-      <img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
-    </div>
-  </div>
-  <span>
-    <div class="heading-home">Achuta Kadambi</div>
-    <div class="sub-heading">Leader, Visual Machines Group</div>
-    <div class="body-people">Assistant Professor, UCLA<br />Electrical and Computer Engineering<br/>PhD, Massachusetts Institute of Technology</div>
-    <div class="body-people"><a style="color: purple;" href="/assets/kadambi_cv.pdf">CV/Resume</a></div>
-  </span> 
+  <div class="heading-home">Achuta Kadambi</div>
+  <div class="sub-heading">Leader, Visual Machines Group</div>
+  <div class="body-people">Assistant Professor, UCLA<br />Electrical Engineering and Computer Science<br/>PhD, Massachusetts Institute of Technology</div>
+  <div class="body-people"><a style="color: purple;" href="/assets/kadambi_cv.pdf">CV/Resume</a></div>
 </div> 
 
 @row
@@ -104,11 +68,9 @@ div.overflow-information{
 @column
 {% endif %}
 <div class="polaroid">
-  <div class="imgcolorgrey">
-    <a href="{{ member.profile_link }}">
-      <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
-    </a>
-  </div>
+  <a href="{{ member.profile_link }}">
+    <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
+  </a>
 
   <div class="sub-heading">
     &nbsp;
@@ -150,11 +112,9 @@ div.overflow-information{
 @column
 {% endif %}
 <div class="polaroid">
-  <div class="imgcolorgrey">
-    <a href="{{ member.profile_link }}">
-      <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
-    </a>
-  </div>
+  <a href="{{ member.profile_link }}">
+    <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
+  </a>
 
   <div class="sub-heading">
     &nbsp;
