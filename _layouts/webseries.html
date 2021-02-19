@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <!-- for some reason when all the widths add up to 100, the divs spill out of the parent so I kept it at 44 here -->
-                <div class="webseries-description" style="height: 250px; padding: 50px;">
+                <div class="webseries-description" style="height: auto; padding: 50px;">
                     <p><b> {{ entry.title }} </b></p>
                     <p> {{ entry.summary }} </p>
                 </div>
@@ -172,13 +172,12 @@
 
                 @media screen and (min-width: 1001px) {
                     .webseries-entry {
-                        height: 250px;
+                        height: auto;
                         display: flex;
                     }
                     .webseries-speaker {
                         width:45%;
                         display: flex;
-                        border-right: lightgray 1px solid;
                     }
                     .webseries-image {
                         width: 40%
@@ -189,6 +188,8 @@
                     }
                     .webseries-description {
                         width:44%;
+                        height: auto;
+                        border-left: 1px lightgray solid;
                     }
                     .webseries-info {
                         width: 15%;
@@ -202,7 +203,7 @@
         </div>
       {% endfor %}
 
-      <div style="width:100%"></div>
+
     </div>
 
     {% if site.search == true %}
