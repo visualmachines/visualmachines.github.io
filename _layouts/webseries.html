@@ -66,7 +66,7 @@
                         <p class="webseries-image-label" style="margin-left:0px;color:#606060;"> {{ entry.insitution }} </p>
                     </div>
                     <div class="webseries-title" style="width:55%; height:250px; display:inline-block;">
-                        <p style="text-align: center; "><b><a href="" > {{ entry.title }} </a></b></p>
+                        <p style="text-align: center; "><b><a href="{{ entry.link }}" > {{ entry.title }} </a></b></p>
                         <p style="color:#606060; text-align:center;"> {{ entry.description }} </p>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                         <p style="font-size: 50px; text-align: center; margin-bottom: -10px;"> {{ entry.date }} </p>
                         <p style="text-align: center;"> {{ entry.month_year }} <br>
                             {{ entry.time }} <br>
-                            <a href= "{{ entry.link }}" >[Zoom]</a></p>
+                            <a href= "{{ entry.link }}" >[Sign-up]</a></p>
                     </div>
                 </div>
               </div>
