@@ -65,10 +65,6 @@
                         <p class="webseries-image-label" style="padding-top:10px; margin-bottom: 0px;margin-left:0px;"> {{ entry.speaker }} </p>
                         <p class="webseries-image-label" style="margin-left:0px;color:#606060;"> {{ entry.insitution }} </p>
                     </div>
-                    <div class="webseries-title" style="width:55%; height:250px; display:inline-block;">
-                        <p style="text-align: center; "><b><a href="{{ entry.link }}" > {{ entry.title }} </a></b></p>
-                        <p style="color:#606060; text-align:center;"> {{ entry.description }} </p>
-                    </div>
                 </div>
                 <!-- for some reason when all the widths add up to 100, the divs spill out of the parent so I kept it at 44 here -->
                 <div class="webseries-description" style="height: auto; padding: 50px;">
@@ -81,7 +77,7 @@
                         <p style="font-size: 50px; text-align: center; margin-bottom: -10px;"> {{ entry.date }} </p>
                         <p style="text-align: center;"> {{ entry.month_year }} <br>
                             {{ entry.time }} <br>
-                            <a href= "{{ entry.link }}" >[Sign-up]</a></p>
+                            <a href= "{{ entry.link }}" >[Zoom]</a></p>
                     </div>
                 </div>
               </div>
@@ -115,7 +111,7 @@
                         padding-left: 10px;
                     }
                     .webseries-entry {
-                        height: 500px;
+                        height: auto;
                         text-align: center;
                     }
                     .webseries-speaker {
@@ -130,6 +126,7 @@
                     }
                     .webseries-description {
                         display: none;
+                        height: auto;
                     }
                     .webseries-info {
                         width: 100%;
@@ -143,7 +140,8 @@
                 /*Small Desktop screens*/
                 @media screen and (max-width: 1000px) and (min-width: 501px) {
                     .webseries-entry {
-                        height: 650px;
+                        height: auto;
+
                     }
                     .webseries-speaker{
                         width: 100%;
@@ -159,6 +157,7 @@
                     .webseries-description {
                         width: 65%;
                         display: inline-block;
+                        height: auto;
                     }
                     .webseries-info {
                         width: 30%;
@@ -176,20 +175,22 @@
                         display: flex;
                     }
                     .webseries-speaker {
-                        width:45%;
+                        margin-top: 25px;
+                        width: 20%;
                         display: flex;
+                        justify-content: center;
                     }
                     .webseries-image {
                         width: 40%
+                        border: 1px blue solid;
                     }
                     .webseries-title {
                         margin-top: 65px;
                         width: 55%;
                     }
                     .webseries-description {
-                        width:44%;
+                        width: 70%;
                         height: auto;
-                        border-left: 1px lightgray solid;
                     }
                     .webseries-info {
                         width: 15%;
