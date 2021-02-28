@@ -29,8 +29,8 @@ head_scripts:
   <div class="row">
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Press</div>
-	       <div class="heading-home padded-top">March 2021: Lab wins 2 Grants.</div>
-      <div class="body-home">NSF CAREER and COVID19 UCOP Grant.</div>
+	       <div class="heading-home padded-top">Feb 2021: Achuta wins NSF CAREER Award</div>
+      <div class="body-home">To support research on computational light transport.</div>
       <div class="heading-home padded-top">April 2020: Achuta wins Google Faculty Award</div>
       <div class="body-home">To support clinical translation of imaging projects.</div>
       <div class="heading-home padded-top">April 2020: 2 Papers, Tutorial at CVPR 2020</div>
