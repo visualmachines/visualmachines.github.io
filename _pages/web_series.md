@@ -7,13 +7,12 @@ permalink: /web_series/
 ---
 
 
-#### [Frontiers in Computational Imaging and Sensing - Monthly Lecture Series]({{ site.baseurl }}{% link _pages/web_series.md %})
+#### [Warren Grundfest Lectures in Computational Imaging  - First Friday of Each Month]({{ site.baseurl }}{% link _pages/web_series.md %})
 
 The Frontiers in Computational Imaging (FCI) is a lecture series that highlights rising stars in computational imaging. The series is co-organized by
-[UCLA]({{ site.baseurl }}{% link _pages/home_page.md %}) and [Caltech](http://users.cms.caltech.edu/~klbouman/). 
-Inspired by the hardships junior researchers face during COVID-19, [Akasha Imaging](http://akasha.im/) 
-generously provides a small monetary award to all speakers with a non-permanent academic position 
-(e.g. PhD student, postdoc). Lectures occur on the First Friday of each month at 12 noon California time. For questions, please write the lead organizer
+[UCLA]({{ site.baseurl }}{% link _pages/home_page.md %}) and [Caltech](http://users.cms.caltech.edu/~klbouman/). This is a named lecture in honor of the late SPIE Fellow [Prof. Warren Grundfest (UCLA)](https://www.bioeng.ucla.edu/in-memoriam-warren-s-grundfest/). The lecture includes an honorarium for junior candidates. Inspired by the hardships junior researchers face during COVID-19, [Akasha Imaging](http://akasha.im/) 
+ provides a small monetary award to all speakers with a non-permanent academic position 
+(e.g. PhD student, postdoc). Lectures occur on the First Friday of each month at 12 noon California time. The lead organizer is
 [Pradyumna Chari](https://pradyumnachari.github.io/).
 <br>
 
