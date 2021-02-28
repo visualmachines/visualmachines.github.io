@@ -29,6 +29,8 @@ head_scripts:
   <div class="row">
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Press</div>
+	       <div class="heading-home padded-top">March 2021: Lab wins 2 Grants.</div>
+      <div class="body-home">NSF CAREER and COVID19 UCOP Grant.</div>
       <div class="heading-home padded-top">April 2020: Achuta wins Google Faculty Award</div>
       <div class="body-home">To support clinical translation of imaging projects.</div>
       <div class="heading-home padded-top">April 2020: 2 Papers, Tutorial at CVPR 2020</div>
@@ -37,8 +39,6 @@ head_scripts:
       <div class="body-home">PhD student Pradyumna Chari 
 	  	   <a style="color: purple;" href="https://tinyurl.com/2nd7c2yh">wins IIT-Madras President of India Gold Medal.</a>
 	  </div>
-      <div class="heading-home padded-top">May 2019: Paper Presentation</div>
-      <div class="body-home">VMG student Yiqin Wang presents paper in Japan.</div>
       <br>
     </div>
     <div class="col-md-5 offset-md-1">
