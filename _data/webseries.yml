@@ -11,7 +11,7 @@
 - title: Differential Defocus in Cameras and Microscopes
   speaker: Dr. Emma Alexander
   speaker_image: EA.jpg
-  insitution: Postdoctoral Researcher at UC Berkeley
+  insitution: Postdoc, UC Berkeley
   description: 
   summary: Image defocus provides a useful depth cue in computer vision, and can also be used to recover phase information in coherent microscopy. In a differential setting, both problems can be addressed by solving simple equations, known as Depth from Differential Defocus and the Transport of Intensity Equation. Relating these governing equations requires putting them on equal footing, so we'll look at the assumptions common to photography and microscopy applications, and go through a gentle introduction to coherence, light fields and Wigner Distribution Functions, and generalized phase. We'll show that depth from defocus can be seen as a special case of phase recovery, with a new interpretation of phase for incoherent settings.
   date: 2
