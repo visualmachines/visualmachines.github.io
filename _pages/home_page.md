@@ -29,9 +29,9 @@ head_scripts:
   <div class="row">
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Press</div>
-	       <div class="heading-home padded-top">Feb 2021: Achuta wins NSF CAREER Award</div>
+	       <div class="heading-home padded-top">Feb 2021: Achuta and the Lab win NSF CAREER Award</div>
       <div class="body-home">Details on the <a style="color: purple;" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2046737&HistoricalAwards=false">NSF Website</a>.</div>
-      <div class="heading-home padded-top">April 2020: Achuta wins Google Faculty Award</div>
+      <div class="heading-home padded-top">April 2020: Achuta and the Lab win Google Faculty Award</div>
       <div class="body-home">To support clinical translation of imaging projects.</div>
       <div class="heading-home padded-top">April 2020: 2 Papers, Tutorial at CVPR 2020</div>
       <div class="body-home">Tutorial on <a style="color: purple;" href="https://visual.ee.ucla.edu/visualphysicstutorial.htm">Visual Physics</a>.</div>
