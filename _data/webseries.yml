@@ -4,9 +4,9 @@
   insitution: PhD at Rice University
   description: 
   summary: Imagine when you looked at someone, you could see their heartbeat. A suite of techniques called imaging photoplethysmography has recently enabled contactless measurements of vital signs with cameras by leveraging small intensity changes in the skin caused by cardiac activity. Measuring vital signs remotely is advantageous in several applications, including virtual doctor appointments, especially relevant during a pandemic, as well as more comfortable sleep monitoring, or monitoring of prematurely born infants. However, the camera-based physiological signals are very weak and easily corrupted by varying illumination, video compression artifacts, and head motion. Therefore, most existing methods only work in controlled settings and fail in realistic applications. We developed a denoising deep learning algorithm based on convolutional attention networks that can faithfully recover physiological signals even from heavily corrupted videos. Moreover, our denoising algorithm can recover subtle waveform dynamics, previously not possible to measure with cameras. We also discuss how we can improve the performance of deep learning methods and avoid overfitting when training on very small and not diverse datasets.
-  date: 5
-  month_year: March, 2021
-  time: 12 noon Pacific Time
+  date: March 5
+  month_year: 2021
+  time: 12 noon PT
   link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
 - title: Differential Defocus in Cameras and Microscopes
   speaker: Dr. Emma Alexander
@@ -16,5 +16,5 @@
   summary: Image defocus provides a useful depth cue in computer vision, and can also be used to recover phase information in coherent microscopy. In a differential setting, both problems can be addressed by solving simple equations, known as Depth from Differential Defocus and the Transport of Intensity Equation. Relating these governing equations requires putting them on equal footing, so we'll look at the assumptions common to photography and microscopy applications, and go through a gentle introduction to coherence, light fields and Wigner Distribution Functions, and generalized phase. We'll show that depth from defocus can be seen as a special case of phase recovery, with a new interpretation of phase for incoherent settings.
   date: 2
   month_year: April, 2021
-  time: time TBD
+  time: 12 noon PT
   link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
