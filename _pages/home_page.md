@@ -46,9 +46,9 @@ head_scripts:
       <div class="heading-home padded-top">Winter 2021</div>
       <div class="body-home">CS 188: Intro to Computer Vision</div>
       <div class="heading-home padded-top">Spring 2021</div>
-      <div class="body-home">CS 102: Signals and Systems</div>
+      <div class="body-home">ECE 102: Signals and Systems</div>
       <div class="heading-home padded-top">Fall 2021</div>
-      <div class="body-home">EE 239: Computational Imaging</div>
+      <div class="body-home">ECE 239: Computational Imaging</div>
       <!--<div class="heading-home padded-top">Winter 2019</div>-->
       <!--<div class="body-home">EE 211: Digital Image Processing</div>-->
       <!--<div class="heading-home padded-top">Spring 2019</div>-->
