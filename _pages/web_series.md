@@ -9,14 +9,11 @@ permalink: /web_series/
 
 #### [Frontiers in Computational Imaging and Sensing - Monthly Lecture Series]({{ site.baseurl }}{% link _pages/web_series.md %})
 
-The Frontiers in Computational Imaging (FCI) is a unique lecture series in computational
-imaging that highlights junior stars in the field. The series is co-organized by
+The Frontiers in Computational Imaging (FCI) is a lecture series that highlights rising stars in computational imaging. The series is co-organized by
 [UCLA]({{ site.baseurl }}{% link _pages/home_page.md %}) and [Caltech](http://users.cms.caltech.edu/~klbouman/). 
 Inspired by the hardships junior researchers face during COVID-19, [Akasha Imaging](http://akasha.im/) 
 generously provides a small monetary award to all speakers with a non-permanent academic position 
-(e.g. PhD student, postdoc). Computational imaging is an emerging field with many virtual events 
-happening - we encourage visitors to check out a related seminar from our colleagues at CMU/Rice/MIT 
-as well as the SPACE seminar series (linked below). For questions, please write the lead organizer
+(e.g. PhD student, postdoc). Lectures occur on the First Friday of each month at 12 noon California time. For questions, please write the lead organizer
 [Pradyumna Chari](https://pradyumnachari.github.io/).
 <br>
 
