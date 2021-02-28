@@ -32,5 +32,5 @@ The Grundfest Lecture series highlights rising stars in computational imaging. T
 
 @section
 [TUM Visual Computing Group: AI Lecture Series](https://niessner.github.io/TUM-AI-Lecture-Series/?fbclid=IwAR3qxbYd4ixlTqFzSPqUGXpJY9HnMjZaePsxt5e9cjKyc6sXQoiE6O4l7DE){:style="font-size: 20px"} <br> <br>
-[CMU Computational Imaging Lecture Series](https://www.seebelowtheskin.org/webinars/?fbclid=IwAR3W-1DEcj9fsFLvNLx7z4XLhirhopqblno1YA-tx7QRmRWXqi-zqD5-cMc){:style="font-size: 20px"} <br> <br>
+[Seebelowtheskin Webinar Series](https://www.seebelowtheskin.org/webinars/?fbclid=IwAR3W-1DEcj9fsFLvNLx7z4XLhirhopqblno1YA-tx7QRmRWXqi-zqD5-cMc){:style="font-size: 20px"} <br> <br>
 [SPACE Lecture Series](https://sites.google.com/view/sps-space){:style="font-size: 20px"}
