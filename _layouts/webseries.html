@@ -12,14 +12,12 @@
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
-
+    <br> <br> <br> <br> <br>
+    <div>
+      <img src="/assets/images/webseries/Lecture_Banner.jpeg" alt="Banner" style="width:100%; height:auto; margin-bottom:12px; margin-left:-17px;">
+    </div>
     <div class="initial-content" style="margin:50px 100px;">
 
-      <br> <br> <br> <br> <br>
-      
-      <div>
-        <img src="/assets/images/webseries/Lecture_Banner.jpeg" alt="Banner" style="width:100%; height:auto; margin-bottom:12px; margin-left:-17px;">
-      </div>
       
       {% assign sections = content | split:"@section" %}
       {% assign section_counter = 0 %}
