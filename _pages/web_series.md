@@ -8,6 +8,8 @@ permalink: /web_series/
 
 ![Lecture Picture](/assets/images/webseries/Lecture_Banner.jpeg){:style="height: auto; width:100%; object-fit: cover; object-position: 0% 90%"}
 
+<br> 
+
 #### [Warren Grundfest Lectures in Computational Imaging  - First Friday of Each Month]({{ site.baseurl }}{% link _pages/web_series.md %})
 
 The Grundfest Lecture series highlights rising stars in computational imaging. The series is co-organized by
