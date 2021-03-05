@@ -64,11 +64,11 @@ achuta@ee.ucla.edu
 **What is the philosophy behind Visual Physics?**
 Through history, major physical discoveries have followed a principled sequence: visual observations, inference and conclusions. The apocryphal story of Newton and the falling apple, in relation to the discovery of gravity, perfectly epitomizes this notion. Through our work on 'Visual Physics', we look to make a first attempt at bringing this framework and notion of discovery to the domain of machines.
 
-**What are the technical contributions as part of Visual Physics?**
+**What are the technical contributions as part of Visual Physics?** \
 We propose an AI-driven pipeline capable of identifying governing physical parameters and equations, from videos of motion-dependent physics phenomena. We show promising results for both synthetic and real videos, where human interpretable equations are obtained as the end output.
 
-**What is the significance of this work as part of the larger domain of AI for discovery and physics?**
+**What is the significance of this work as part of the larger domain of AI for discovery and physics?** \
 We see this work as a precursor to sustained research towards discovery of increasingly complex, and eventually unknown, physical phenomena from videos. If successful, the use cases for such capabilities are wide ranging: from better understanding astronomical interactions to delving deeper into the behavior of cancers and physiological phenomena.
 
-**How does Visual Physics compare with existing art?**
+**How does Visual Physics compare with existing art?** \
 Most existing works address one part of the visual physics pipeline: [Iten18] addresses the discovery of governing physical parameters from measured physical data, while a large amount of prior work on genetic programming and symbolic regression addresses the notion of discovering governing equations from appropriate data. On the other hand, [Huang18] addresses the visual physics pipeline; however, the physics phenomena that may be addressed by them is limited since their proposed method is unable to discover governing parameters. To the best of our knowledge, our proposed method is the first to address the entire discovery pipeline without any prior information about the physics phenomenon under consideration.
