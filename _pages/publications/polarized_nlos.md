@@ -63,7 +63,6 @@ achuta@ee.ucla.edu
 
 @section
 **What is the effective angle of the polarizer?**\
-
 It is an angle-dependent effect of the polarizer. Light leakage occurs when the light ray is oblique to the polarizer. Figure 2 below in media and in the paper shows pictures of the same scene from top and oblique views. While the LCD monitor is invisible from top view (a), it is slightly visible from certain oblique views depending on the zenith and azimuth angles (b). (c) The original angle of polarizer from top view. (d) The effective angle from oblique view. The polarizer axis is slightly declined. (e) Light leakage pattern of crossed polarizers from oblique view. This effect is angle dependent, therefore it can be used for analyzing NLOS observations.
 
 **Is the reflected light polarized?**
