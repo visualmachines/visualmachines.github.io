@@ -34,7 +34,7 @@ head_scripts:
       <div class="heading-home padded-top">April 2020: Achuta wins Google Faculty Award</div>
       <div class="body-home">To support clinical translation of imaging projects.</div>
       <div class="heading-home padded-top">April 2020: 2 Papers, Tutorial at CVPR 2020</div>
-      <div class="body-home">Tutorial on <a style="color: purple;" href="https://visual.ee.ucla.edu/visualphysicstutorial.htm">Visual Physics</a>.</div>
+      <div class="body-home">Tutorial on Visual Physics.</div>
       <div class="heading-home padded-top">October 2019: Pradyumna wins IIT Gold Medal</div>
       <div class="body-home">PhD student Pradyumna Chari 
 	  	   <a style="color: purple;" href="https://tinyurl.com/2nd7c2yh">wins IIT-Madras President of India Gold Medal.</a>
