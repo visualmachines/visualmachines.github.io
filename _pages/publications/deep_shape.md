@@ -65,9 +65,10 @@ Electrical and Computer Engineering Department <br>
 yhba@ucla.edu
 
 @section
+
 **What is Shape from Polarization?**
-\
 Shape from Polarization (SfP) tries to reconstruct an object's 3D shape (surface normals and/or depth) from polarization images. 
+\
 
 **How does a polarized 2D camera obtain 3D geometry?**
 For about two centuries, the Fresnel equations have linked surface normals with material and polarimetric properties. However, such equations alone cannot solve for full 3D geometry. We use a physics-based deep learning method to obtain state-of-the-art performance compared to previous purely physics-based methods. 
