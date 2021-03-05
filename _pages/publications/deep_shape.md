@@ -65,28 +65,19 @@ Electrical and Computer Engineering Department <br>
 yhba@ucla.edu
 
 @section
-<b>What is Shape from Polarization?</b>
-
+**What is Shape from Polarization?**
 Shape from Polarization (SfP) tries to reconstruct an object's 3D shape (surface normals and/or depth) from polarization images. 
-\
 
-<b>How does a polarized 2D camera obtain 3D geometry?</b>
-
+**How does a polarized 2D camera obtain 3D geometry?**
 For about two centuries, the Fresnel equations have linked surface normals with material and polarimetric properties. However, such equations alone cannot solve for full 3D geometry. We use a physics-based deep learning method to obtain state-of-the-art performance compared to previous purely physics-based methods. 
-\
 
-<b>How does Shape from Polarization compare to other 3D reconstruction methods?</b>
-
+**How does Shape from Polarization compare to other 3D reconstruction methods?**
 Shape from Polarization is just one of a number of techniques for reconstructing 3D shape from 2D images, such as photometric stereo, multi-view stereo, and Structure from Motion. However, SfP is unique in it's minimal requirement for known setup, strong priors, or active lighting. Our deep SfP technique can reconstruct surface normals in a single shot with a standard polarization camera, and we show that this holds for various unkown lighting conditions. 
-\
 
-<b>What is in the SfP dataset?</b>
-
+**What is in the SfP dataset?**
 The dataset consists of 338 items: 27 objects, in 4 orientations, and under 3 different lighting conditions (indoor lighting, sunlight, and overcast). Each item is stored as a matlab file with 4 polarization images (0°, 45°, 90°, and 135°), an object foreground mask, the ground truth surface normals, and the physical priors calculated from Fresnel's equation. We have also published an additional set of items which were not included in the paper. This set includes 9 objects, under different indoor lighting conditions, with 5 different lighting directions each. 
-\
 
-<b>What are some consumer applications of this work?</b>
-
+**What are some consumer applications of this work?**
 Deep SfP could find use in any application requiring 3D sensing— such as virtual reality, autonomous navigation, and industrial inspection. Requiring only sigle-shot, passive capture it offers various advantages over current 3D reconstruction techniques.
 
 @section
