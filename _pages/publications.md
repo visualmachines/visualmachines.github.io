@@ -20,9 +20,17 @@ permalink: /publications/
 {:class="img-responsive" style="border: 5px red solid;"}-->
 
 @desc
+{% if publi.link.external == 1 %}
+<h3><a href="{{ publi.link.url }}" rel="bookmark"> {{ publi.title }}</a></h3>
+{% else %}
 <h3><a href="{{ site.baseurl }}/{{ publi.link.url }}" rel="bookmark"> {{ publi.title }}</a></h3>
+{% endif %}
 {{ publi.description }}
+{% if publi.link.external == 1 %}
+<p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+{% else %}
 <p><strong><a href="{{ site.baseurl }}/{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+{% endif %}
 <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
 {{ publi.news2 }}
 
