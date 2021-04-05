@@ -1,13 +1,3 @@
-- title: Digital Health and Wellbeing: Data-Driven and Human-Centered Personalized and Adaptive Assistant
-  speaker: Professor Akane Sano
-  speaker_image: AkaneSano_003-trimmed.jpg
-  insitution: Assistant Professor at Rice University
-  description: 
-  summary: Imagine 24/7 rich human multimodal data could identify changes in physiology and behavior, and provide personalized early warnings to help you, patients, or clinicians for making better decisions or behavioral changes to support health and wellbeing. I will introduce a series of studies, algorithms, and systems we have developed for measuring, predicting, and supporting personalized health and wellbeing for clinical populations as well as people at increased risk of adverse events, including ongoing COVID-19 related projects. I will also discuss challenges, learned lessons, and potential future directions in digital health and wellbeing research.
-  date: 7
-  month_year: May, 2021
-  time: 12 noon PT
-  link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
 - title: Can cameras really measure vital signs? Algorithms and systems for camera-based health monitoring in unconstrained settings.
   speaker: Ewa Nowara
   speaker_image: Ewa_Nowara_Picture.png
@@ -26,5 +16,15 @@
   summary: Image defocus provides a useful depth cue in computer vision, and can also be used to recover phase information in coherent microscopy. In a differential setting, both problems can be addressed by solving simple equations, known as Depth from Differential Defocus and the Transport of Intensity Equation. Relating these governing equations requires putting them on equal footing, so we'll look at the assumptions common to photography and microscopy applications, and go through a gentle introduction to coherence, light fields and Wigner Distribution Functions, and generalized phase. We'll show that depth from defocus can be seen as a special case of phase recovery, with a new interpretation of phase for incoherent settings.
   date: 2
   month_year: April, 2021
+  time: 12 noon PT
+  link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
+- title: Digital Health and Wellbeing: Data-Driven and Human-Centered Personalized and Adaptive Assistant
+  speaker: Professor Akane Sano
+  speaker_image: AkaneSano_003-trimmed.jpg
+  insitution: Assistant Professor at Rice University
+  description: 
+  summary: Imagine 24/7 rich human multimodal data could identify changes in physiology and behavior, and provide personalized early warnings to help you, patients, or clinicians for making better decisions or behavioral changes to support health and wellbeing. I will introduce a series of studies, algorithms, and systems we have developed for measuring, predicting, and supporting personalized health and wellbeing for clinical populations as well as people at increased risk of adverse events, including ongoing COVID-19 related projects. I will also discuss challenges, learned lessons, and potential future directions in digital health and wellbeing research.
+  date: 7
+  month_year: May, 2021
   time: 12 noon PT
   link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
