@@ -1,3 +1,17 @@
+- name: Achieving Fairness in Medical Devices
+  title: "Achieving Fairness in Medical Devices"
+  image:
+  thumbnail: FairnessInMedicalDevices_thumbnail.png
+  description: Medical devices can be biased across multiple axes, including the physics of light. How can we rethink the engineering of medical devices using Pareto principles?
+  authors:
+  associations:
+  link:
+    external: 1
+    url: https://science.sciencemag.org/lookup/doi/10.1126/science.abe9195
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: Diverse RPPG
   title: "Diverse RPPG: Camera-based Heart Rate Estimation for Diverse Subject Skin Tones and Scenes"
   image: video_demo.gif
