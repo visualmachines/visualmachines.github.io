@@ -28,3 +28,13 @@
   month_year: May, 2021
   time: 12 noon PT
   link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
+- title: "Enabling an Image-Based Graphics Pipeline with Neural Radiance Fields"
+  speaker: Pratul Srinivasan
+  speaker_image: pratul_srinivasan.jpg
+  insitution: Google Researcher
+  description: 
+  summary: Neural Radiance Fields (NeRFs) have recently emerged as an effective and simple solution for recovering 3D representations of complex objects and scenes from captured images. However, there is still a long way to go before we will be able to use NeRF-like representations of real-world content in graphics pipelines as easily as standard computer graphics representations of artist-designed content, such as textured triangle meshes. I will discuss and review NeRF, and then talk about some of our recent work towards extending NeRF to enable more of the functionality we expect from the 3D representations we use in computer graphics.
+  date: 4
+  month_year: June, 2021
+  time: 12 noon PT
+  link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
