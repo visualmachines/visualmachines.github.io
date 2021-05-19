@@ -3,7 +3,7 @@ title: "Blending Diverse Physical Priors with Neural Networks"
 layout: paper_template
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
-permalink: /blending_physical_priors/
+permalink: /blendingphysics.htm/
 ---
 
 {% for publication in site.data.publications %}
