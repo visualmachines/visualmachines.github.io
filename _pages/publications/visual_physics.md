@@ -3,7 +3,7 @@ title: "Visual Physics: Discovering Physical Laws from Videos"
 layout: paper_template
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
-permalink: /visual_physics/
+permalink: /visualphysics.htm/
 ---
 
 {% for publication in site.data.publications %}
