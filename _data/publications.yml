@@ -50,7 +50,7 @@
     - name: California NanoSystems Institute, University of California, Los Angeles, USA
       link: https://cnsi.ucla.edu/
   link:
-    url: diverse_rppg
+    url: diverse_rppg.htm
     display: read more
   highlight: 1
   news 2:
@@ -88,7 +88,7 @@
     - name: Peking University
       link: https://www.pku.edu.cn/
   link:
-    url: deep_shape
+    url: deepsfp.htm
     display: read more
   highlight: 1
   news2:
@@ -106,7 +106,7 @@
     - name: University of California, Los Angeles
       link: https://www.ucla.edu/
   link:
-    url: physics_with_ai
+    url: physics_ai.htm
     display: read more
   highlight: 1
   news2:
@@ -133,7 +133,7 @@
     - name: CVPR 2020
     - link: http://cvpr2020.thecvf.com/
   link:
-    url: polarized_nlos
+    url: pnlos.htm
     display: read more
   highlight: 1
   news2: #See also our papers on the theoretical modeling of such measurements, and the paper about fabrication.
@@ -172,7 +172,7 @@
     - name: University of California Los Angeles
       link: https://www.ucla.edu/
   link:
-    url: visual_physics
+    url: visualphysics.htm
     display:  read more
   highlight: 1
   news2:
@@ -184,7 +184,7 @@
   description: Generalizing Physics-Based Learning (PBL), by making the first attempt to bring neural architecture search (NAS) to the realm of PBL.
   authors: insert authors
   link:
-    url: blending_physical_priors
+    url: blendingphysics.htm
     display:  read more
   highlight: 1
   news2:
@@ -216,7 +216,7 @@
     - name: ICCP 2019
       link: http://iccp2019.naist.jp/
   link:
-    url: thermal_nlos
+    url: TNLOS_ICCP19.htm
     display:  read more
   highlight: 1
   news2:
