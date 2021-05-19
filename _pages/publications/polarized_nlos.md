@@ -3,7 +3,7 @@ title: "Polarized Non-Line-of-Sight Imaging"
 layout: paper_template
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
-permalink: /polarized_nlos/
+permalink: /pnlos.htm/
 ---
 
 {% for publication in site.data.publications %}
