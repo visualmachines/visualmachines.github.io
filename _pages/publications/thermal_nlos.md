@@ -3,7 +3,7 @@ title: "Thermal Non-Line of Sight Imaging | ICCP 2019"
 layout: paper_template
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
-permalink: /TNLOS_ICCP19/
+permalink: /TNLOS_ICCP19.htm/
 ---
 
 {% for publication in site.data.publications %}
