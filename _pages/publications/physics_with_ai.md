@@ -43,7 +43,7 @@ For centuries, humans have discovered the physical laws that underpin our world.
 
 
 @section
-- Paper ([PDF](https://visual.ee.ucla.edu/spie_survey.pdf))
+- Paper ([PDF]({{ site.baseurl }}/assets/spie_survey.pdf))
 
 @section
 @inproceedings{kadambi2020blending, \
