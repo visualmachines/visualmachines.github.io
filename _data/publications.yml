@@ -1,7 +1,7 @@
 - name: Remote-PPG by Synthetic Augmentation
   title: "Overcoming Difficulty in Obtaining Dark-skinned Subjects for Remote-PPG by Synthetic Augmentation"
   image:
-  thumbnail: RemotePPGbySyntheticAugmentation_thumbnail.png
+  thumbnail: RemotePPG_thumbnail.png
   description: Camera-based remote photoplethysmography (rPPG) provides a non-contact way to measure physiological signals (e.g., heart rate) using facial videos.
   authors:
   associations:
