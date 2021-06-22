@@ -43,8 +43,8 @@ This paper makes a first attempt to re-examine the shape from polarization (SfP)
 
 
 @section
-- Paper ([PDF](https://visual.ee.ucla.edu/deepsfp_eccv.pdf))
-- Supplement ([PDF](https://visual.ee.ucla.edu/deepsfp_eccv_supp.pdf))
+- Paper ([PDF]({{ site.baseurl }}/assets/deepsfp_eccv.pdf))
+- Supplement ([PDF]({{ site.baseurl }}/assets/deepsfp_eccv_supp.pdf))
 - Data Set with Train/Test List ([Link](https://drive.google.com/file/d/1EtjfMTfpanJotH92GFz300X_ZEmGXuqr/view?usp=sharing))
 
 @section
