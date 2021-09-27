@@ -1,7 +1,7 @@
 - title: Can cameras really measure vital signs? Algorithms and systems for camera-based health monitoring in unconstrained settings.
   speaker: Ewa Nowara
   speaker_image: Ewa_Nowara_Picture.png
-  insitution: PhD at Rice University
+  institution: PhD at Rice University
   description: 
   summary: Imagine when you looked at someone, you could see their heartbeat. A suite of techniques called imaging photoplethysmography has recently enabled contactless measurements of vital signs with cameras by leveraging small intensity changes in the skin caused by cardiac activity. Measuring vital signs remotely is advantageous in several applications, including virtual doctor appointments, especially relevant during a pandemic, as well as more comfortable sleep monitoring, or monitoring of prematurely born infants. However, the camera-based physiological signals are very weak and easily corrupted by varying illumination, video compression artifacts, and head motion. Therefore, most existing methods only work in controlled settings and fail in realistic applications. We developed a denoising deep learning algorithm based on convolutional attention networks that can faithfully recover physiological signals even from heavily corrupted videos. Moreover, our denoising algorithm can recover subtle waveform dynamics, previously not possible to measure with cameras. We also discuss how we can improve the performance of deep learning methods and avoid overfitting when training on very small and not diverse datasets.
   date: 5
@@ -11,7 +11,7 @@
 - title: Differential Defocus in Cameras and Microscopes
   speaker: Dr. Emma Alexander
   speaker_image: EA.jpg
-  insitution: Postdoc, UC Berkeley
+  institution: Postdoc, UC Berkeley
   description: 
   summary: Image defocus provides a useful depth cue in computer vision, and can also be used to recover phase information in coherent microscopy. In a differential setting, both problems can be addressed by solving simple equations, known as Depth from Differential Defocus and the Transport of Intensity Equation. Relating these governing equations requires putting them on equal footing, so we'll look at the assumptions common to photography and microscopy applications, and go through a gentle introduction to coherence, light fields and Wigner Distribution Functions, and generalized phase. We'll show that depth from defocus can be seen as a special case of phase recovery, with a new interpretation of phase for incoherent settings.
   date: 2
@@ -21,7 +21,7 @@
 - title: "Digital Health and Wellbeing: Data-Driven and Human-Centered Personalized and Adaptive Assistant"
   speaker: Professor Akane Sano
   speaker_image: AkaneSano_003 - trimmed.JPG
-  insitution: Assistant Professor at Rice University
+  institution: Assistant Professor at Rice University
   description: 
   summary: Imagine 24/7 rich human multimodal data could identify changes in physiology and behavior, and provide personalized early warnings to help you, patients, or clinicians for making better decisions or behavioral changes to support health and wellbeing. I will introduce a series of studies, algorithms, and systems we have developed for measuring, predicting, and supporting personalized health and wellbeing for clinical populations as well as people at increased risk of adverse events, including ongoing COVID-19 related projects. I will also discuss challenges, learned lessons, and potential future directions in digital health and wellbeing research.
   date: 7
@@ -31,7 +31,7 @@
 - title: "Enabling an Image-Based Graphics Pipeline with Neural Radiance Fields"
   speaker: Pratul Srinivasan
   speaker_image: pratul_srinivasan.jpg
-  insitution: Google Research
+  institution: Google Research
   description: 
   summary: Neural Radiance Fields (NeRFs) have recently emerged as an effective and simple solution for recovering 3D representations of complex objects and scenes from captured images. However, there is still a long way to go before we will be able to use NeRF-like representations of real-world content in graphics pipelines as easily as standard computer graphics representations of artist-designed content, such as textured triangle meshes. I will discuss and review NeRF, and then talk about some of our recent work towards extending NeRF to enable more of the functionality we expect from the 3D representations we use in computer graphics.
   date: 4
@@ -41,7 +41,7 @@
 - title: "One Photon at a Time: Compensating for Nonideal Electronics in LiDAR Imaging"
   speaker: Joshua Rapp
   speaker_image: joshua_rapp.jpg
-  insitution: Research Scientist at Mitsubishi Electric Research Laboratories
+  institution: Research Scientist at Mitsubishi Electric Research Laboratories
   description: 
   summary: "Forming a digital image—with a conventional camera or computational imaging system—requires converting properties of light into a sequence of bits. The mechanisms transforming optical energy into digital signals can often be idealized or ignored, but problems such as quantization or saturation become noticeable when imaging at the limits of the sensors. One such example arises in the case of single-photon lidar, which aims to form 3D images from individual photon detections. In this talk, we consider two factors that prevent perfect recording of each photon arrival time with infinite precision: finite temporal quantization and missed detections during detector dead times. We show that incorporating nonidealities into our acquisition models significantly mitigate their effect on our ability to form accurate depth images."
   date: 2
@@ -51,7 +51,7 @@
 - title: "Computational astronomical imaging: inference and sensing algorithms for future black hole observations"
   speaker: He Sun
   speaker_image: he_sun.jpeg
-  insitution: Postdoc, Caltech
+  institution: Postdoc, Caltech
   description:
   summary: "Recent development in computational imaging has led to a series of great discoveries in astronomy, such as the first image of a black hole (M87*) acquired by the Event Horizon Telescope (EHT). In this talk, I will introduce two new computational imaging algorithms we have developed for advancing future black hole observations. First, I will introduce Deep Probabilistic Imaging: a novel variational inference algorithm that trains a deep generative model to quantify the uncertainty of a reconstructed image. This approach helps to better characterize the confidence of structures in a black hole reconstruction, leading to more reliable scientific interpretations. Second, I will present “cosense”, a physics-informed deep learning approach that jointly optimizes a telescope network design with an image reconstruction approach. This algorithm is currently being used to select new telescope locations for the next generation Event Horizon Telescope (ngEHT). I will also briefly show the general applications of these algorithms in other scientific imaging tasks, such as exoplanet discovery and MRI."
   date: 1
