@@ -48,3 +48,14 @@
   month_year: July, 2021
   time: 12 noon PT
   link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
+- title: "Computational astronomical imaging: inference and sensing algorithms for future black hole observations"
+  speaker: He Sun
+  speaker_image: he_sun.jpeg
+  insitution: Postdoc, Caltech
+  description:
+  summary: "Recent development in computational imaging has led to a series of great discoveries in astronomy, such as the first image of a black hole (M87*) acquired by the Event Horizon Telescope (EHT). In this talk, I will introduce two new computational imaging algorithms we have developed for advancing future black hole observations. First, I will introduce Deep Probabilistic Imaging: a novel variational inference algorithm that trains a deep generative model to quantify the uncertainty of a reconstructed image. This approach helps to better characterize the confidence of structures in a black hole reconstruction, leading to more reliable scientific interpretations. Second, I will present “cosense”, a physics-informed deep learning approach that jointly optimizes a telescope network design with an image reconstruction approach. This algorithm is currently being used to select new telescope locations for the next generation Event Horizon Telescope (ngEHT). I will also briefly show the general applications of these algorithms in other scientific imaging tasks, such as exoplanet discovery and MRI."
+  date: 1
+  month_year: October, 2021
+  time: 12 noon PT
+  link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
+
