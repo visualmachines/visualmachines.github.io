@@ -60,7 +60,7 @@
   link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
 - title: "Artificial Intelligence in Dermatology: Opportunities and Challenges"
   speaker: Roxana Daneshjou
-  speaker_image: Roxana_Daneshjou.jpeg
+  speaker_image: Roxana_Daneshjou.jpg
   institution: Postdoc, Stanford School of Medicine
   description:
   summary: "The clinical practice of dermatology is visual in nature: physicians make decisions after either directly assessing the skin or viewing clinical photos.  Deep learning algorithms have the potential to streamline processes in dermatology and teledermatology. However, the development of generalizable and robust clinical algorithms will require diverse, high quality datasets. I will discuss our work in developing a deep learning algorithm for assessing photo quality in teledermatology. After completing initial in silico testing, we are translating this work from “bytes” to “bedside”.  Additionally, I will discuss the challenges for developing fair and robust algorithms in dermatology and what steps we can take to address these challenges."
