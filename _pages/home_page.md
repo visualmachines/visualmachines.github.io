@@ -29,11 +29,13 @@ head_scripts:
   <div class="row">
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Press</div>
-	    <div class="heading-home padded-top">September 2021: Achuta wins early career awards from NSF CAREER, DARPA YFA, and ARO YIP.</div>
-	    	<div class="heading-home padded-top">NSF CAREER</div>
-	    	<div class="heading-home padded-top">DARPA YFA</div>
-	    	<div class="heading-home padded-top">ARO YIP</div>
-      <div class="body-home">Details on the <a style="color: purple;" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2046737&HistoricalAwards=false">NSF Website</a>, UCLA Article on <a style="color: purple;" href="https://samueli.ucla.edu/ucla-electrical-engineer-receives-darpa-young-faculty-award-for-contactless-covid-testing/">DARPA Award</a> and UCLA Article on <a style="color: purple;" href="https://samueli.ucla.edu/ucla-professor-awarded-us-army-young-investigator-grant-for-fairness-in-ai-research/">ARO YIP</a>.  </div>
+	    <div class="heading-home padded-top">September 2021: Achuta wins early career awards from:</div>
+	    <div class="heading-home padded-top">	NSF CAREER</div>
+	    <div class="body-home">	Details on the <a style="color: purple;" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2046737&HistoricalAwards=false">NSF Website</a>.</div>
+	    <div class="heading-home padded-top">	DARPA YFA</div>
+	    <div class="body-home">	Details in UCLA Article on <a style="color: purple;" href="https://samueli.ucla.edu/ucla-electrical-engineer-receives-darpa-young-faculty-award-for-contactless-covid-testing/">DARPA Award</a>.</div>
+	    	<div class="heading-home padded-top">	ARO YIP</div>
+      	    <div class="body-home">	Details in UCLA Article on <a style="color: purple;" href="https://samueli.ucla.edu/ucla-professor-awarded-us-army-young-investigator-grant-for-fairness-in-ai-research/">ARO YIP Award</a>.  </div>
 	    <div class="heading-home padded-top">April 2021: New paper in Science</div>
       <div class="body-home">On the fairness of medical device physics.</div>
       <div class="heading-home padded-top">April 2020: Achuta wins Google Faculty Award</div>
