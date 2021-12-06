@@ -29,6 +29,8 @@ head_scripts:
   <div class="row">
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Press</div>
+	    <div class="heading-home padded-top">Nov 2021: MIT Press Textbook Out</div>
+	    <div class="body-home">Computational Imaging available as <a style="color: purple;" href="http://imagingtext.github.io/">free download</a>.</div>
 	    <div class="heading-home padded-top">Sept 2021: Achuta wins DARPA YFA</div>
 	    <div class="body-home">Details in the <a style="color: purple;" href="https://samueli.ucla.edu/ucla-electrical-engineer-receives-darpa-young-faculty-award-for-contactless-covid-testing/">UCLA Newsroom</a>.</div>
 	    <div class="heading-home padded-top">May 2021: Achuta wins ARO YIP Award</div>
