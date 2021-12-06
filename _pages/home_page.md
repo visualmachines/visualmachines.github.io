@@ -30,7 +30,7 @@ head_scripts:
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Press</div>
 	    <div class="heading-home padded-top">September 2021: Achuta wins early career grants: NSF CAREER, DARPA YFA, ARO YIP</div>
-	    <div class="body-home">Details on the <a style="color: purple;" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2046737&HistoricalAwards=false">NSF Website</a> and UCLA <a style="color: purple;" href="https://samueli.ucla.edu/ucla-electrical-engineer-receives-darpa-young-faculty-award-for-contactless-covid-testing/">Newsroom</a>.</div>
+	    <div class="body-home">Details on the <a style="color: purple;" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2046737&HistoricalAwards=false">NSF Website</a> and <a style="color: purple;" href="https://samueli.ucla.edu/ucla-electrical-engineer-receives-darpa-young-faculty-award-for-contactless-covid-testing/">UCLA Newsroom</a>.</div>
 	    <div class="heading-home padded-top">April 2021: New paper in Science</div>
       <div class="body-home">On the fairness of medical device physics.</div>
       <div class="heading-home padded-top">April 2020: Achuta wins Google Faculty Award</div>
