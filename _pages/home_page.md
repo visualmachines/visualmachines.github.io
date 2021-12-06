@@ -30,7 +30,7 @@ head_scripts:
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Press</div>
 	    <div class="heading-home padded-top">Sep 2021: Achuta wins DARPA Young Faculty Award</div>
-	    <div class="body-home">Details <a style="color: purple;" href="https://samueli.ucla.edu/ucla-electrical-engineer-receives-darpa-young-faculty-award-for-contactless-covid-testing/">UCLA Newsroom</a>.</div>
+	    <div class="body-home">Details in the <a style="color: purple;" href="https://samueli.ucla.edu/ucla-electrical-engineer-receives-darpa-young-faculty-award-for-contactless-covid-testing/">UCLA Newsroom</a>.</div>
 	    <div class="heading-home padded-top">May 2021: Achuta wins Young Investigator Program Award (ARO)</div>
 	    <div class="body-home">Details in the <a style="color: purple;" href="https://samueli.ucla.edu/ucla-professor-awarded-us-army-young-investigator-grant-for-fairness-in-ai-research/">UCLA Newsroom</a>.</div>  
 	    <div class="heading-home padded-top">April 2021: New paper in Science</div>
