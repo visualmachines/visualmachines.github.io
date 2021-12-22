@@ -1,6 +1,16 @@
+- title: "TBD"
+  speaker: Florian Willomitzer
+  speaker_image: FWillomitzer_compressed_squared.jpg
+  institution: Research Assistant Professor, Northwestern University
+  description:
+  summary: "TBD"
+  date: 4
+  month_year: March, 2022
+  time: 12 noon PT
+  link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
 - title: "Foundational Geometric Vision and its Role in Modern 3D Data-Acquisition Methods"
   speaker: Suryansh Kumar
-  speaker_image: Roxana_Daneshjou.jpg
+  speaker_image: suryansh_kumar.JPG
   institution: Senior Researcher, CVL group at ETH Zurich
   description:
   summary: "In the coming decade, dense, detailed, and precise 3D data acquisition of objects or scenes is sure to become one of the most important problems in computer vision and industrial machine vision. Moreover, it can be helpful for a wide range of other cutting-edge scientific disciplines such as metrology, geometry processing, forensics, etc. Unfortunately, at present, we don't have a general-purpose vision algorithm or framework for dense 3D data acquisition to meet the required precision. In this talk, I will present a few of our recent ideas and algorithms showing how a mindful use of existing classical geometric ideas can help us get closer to the goal of high-fidelity 3D data acquisition from images or available depth-sensing modalities. Furthermore, the talk will briefly discuss the dense 3D data acquisition methods using an online robot system and its current challenges. To conclude, this talk will pivot around the blueprint of classical geometric vision ideas and how to use it to effectively exploit the strength of deep neural networks for more trustworthy 3D data acquisition."
