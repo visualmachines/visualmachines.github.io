@@ -52,7 +52,7 @@ div.overflow-information{
   <div class="heading-home">Achuta Kadambi</div>
   <div class="sub-heading">Leader, Visual Machines Group</div>
   <div class="body-people">Assistant Professor, UCLA<br />Electrical Engineering and Computer Science<br/>PhD, Massachusetts Institute of Technology</div>
-  <div class="body-people"><a style="color: purple;" href="/assets/Kadambi CV (9).pdf">CV/Resume</a></div>
+  <div class="body-people"><a style="color: purple;" href="/assets/Kadambi CV (12).pdf">CV/Resume</a></div>
 </div> 
 
 @row
