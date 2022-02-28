@@ -1,9 +1,9 @@
-- title: "TBD"
+- title: "Utilizing Nature’s Limits for better Computational 3D Imaging"
   speaker: Florian Willomitzer
   speaker_image: FWillomitzer_compressed_squared.jpg
   institution: Research Assistant Professor, Northwestern University
   description:
-  summary: "TBD"
+  summary: "Computational 3D imaging and 3D display principles are ‘enabling technologies’ that have the potential to foster transformational technical changes in the next decades. The list of possible future applications scenarios is long: Novel breeds of cameras could see through tissue, fog, or around corners. Portable medical 3D imaging and 3D display devices could effectively assist doctors in diagnosis and therapy. Precise and fast 3D scanners could become essential for measuring and analyzing dynamic scenes during robotic surgery, industrial inspection, autonomous navigation, or cultural heritage applications. Novel 3D display and eye-tracking methods could finally enable immersive AR/VR experiences. These are just a few examples. In midst of these seemingly endless possibilities, the knowledge about fundamental physical and information-theoretical limits in imaging proves to be a powerful tool: By knowing that our imaging device already operates at the physical limit (e.g., of resolution), we can avoid unnecessary effort and investments in better hardware such as faster detectors, or cameras with higher pixel resolution. Moreover, limits often appear as uncertainty products, making it possible to optimize our system towards a specific quantity (e.g., speed) by trading in information less critical for the respective application. Although the imaging device is essential in this optimization, the central role is assumed by the illumination, which serves as encoder of the desired information. In this talk, I will discuss the virtue of limits and merit of illumination modalities in computational 3D imaging systems using the examples of my research discussed above. Among other systems, I will introduce a novel method to image hidden objects through scattering media and around corners, and a ‘single-shot 3D camera’ for the motion-robust, precise, and dense 3D measurement of fast live scenes."
   date: 4
   month_year: March, 2022
   time: 12 noon PT
