@@ -1,3 +1,13 @@
+- title: "Computational imaging with multiply scattered photons"
+  speaker: Adithya Pediredla
+  speaker_image: AdithyaPediredla.jpeg
+  institution: Project Scientist, Carnegie Mellon University
+  description:
+  summary: "Computational imaging has advanced to a point where the next significant milestone is to image in the presence of multiply-scattered light. Though traditionally treated as noise, multiply-scattered light carries information that can enable previously impossible imaging capabilities, such as imaging around corners and deep inside tissue. The combinatorial complexity of multiply-scattered light transport makes it necessary to use increasingly complex imaging systems to make imaging with multiply-scattered light feasible; examples include time-of-flight, structured-light, and acousto-optic imaging systems. The combined complexity of physics and systems makes the optimization of imaging of multiply-scattered light a challenging, high-dimensional design problem. In my research, I utilize graphics and physics-based rendering to explore this complex design space and create imaging systems that optimally sense multiply-scattered light. I will show two examples of this approach. First, I will discuss how to develop rendering tools for time-of-flight cameras, and how to use these tools to design and build optimal time-of-flight systems for non-line-of-sight imaging. Second, I will discuss how to simulate continuously-refractive radiative transfer and use such simulations to optimize acousto-optic systems for imaging inside tissue and other scattering media."
+  date: 1
+  month_year: April, 2022
+  time: 12 noon PT
+  link: https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
 - title: "Utilizing Nature’s Limits for better Computational 3D Imaging"
   speaker: Florian Willomitzer
   speaker_image: FWillomitzer_compressed_squared.jpg
