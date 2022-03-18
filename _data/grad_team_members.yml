@@ -24,7 +24,7 @@
   profile_link: ["https://ellinzhao.github.io/"] 
   
 - name: [Henry Peters]
-  photo: HenryPeters - Henry Peters.jpg
+  photo: henry_new.jpg
   email: [hpeters@g.ucla.edu]
   profile_link: ["https://henryp12345.github.io/henrypetersresearchsite/"] 
 
@@ -38,6 +38,11 @@
   email: [shijiezhou@ucla.edu]
   profile_link: ["https://shijiezhou-ucla.github.io/"] 
 
+- name: [Adnan Armouti]
+  photo: adnan_armouti.png
+  email: [adnan.armouti@gmail.com]
+  profile_link: ["https://www.linkedin.com/in/~adnan/"]
+
 - name: [Ananya Deoghare]
   photo: ananya_deoghare.jpg
   email: [ananyadd1607@g.ucla.edu]
@@ -47,6 +52,11 @@
   photo: anirudh_bh.jpg
   email: [anirudhbh0707@g.ucla.edu]
   profile_link: ["https://www.linkedin.com/in/anirudh-bindiganavale-harish-30a453149/"]
+
+- name: [Chethan Chinder Chandrappa]
+  photo: Chetan.jpg
+  email: [chinderc@ucla.edu]
+  profile_link: ["mailto:chinderc@ucla.edu"]
 
 - name: [Diplav Srivastava]
   photo: diplav_srivastava.jpg
