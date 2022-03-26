@@ -19,7 +19,7 @@ permalink: /rppg_avatars.htm/
 <hr class="center" style="width: 83%; color: grey; height: 0.18px; background-color:grey;"/>
 
 ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})
-*Our proposed framework has successfully incorporated pulsatile signals into the reference image. The estimated pulse waves from PRN exhibit high correlation to the ground-truth waves, and the heart rates are preserved in the frequency
+* Our proposed framework has successfully incorporated pulsatile signals into the reference image. The estimated pulse waves from PRN exhibit high correlation to the ground-truth waves, and the heart rates are preserved in the frequency
 domain.*
 <br>
 
