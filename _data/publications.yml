@@ -1,6 +1,6 @@
 - name: rPPG synthetic avatars
   title: "Synthesizing Biorealistic Face Avatars to Train Remote Vital Sign Detectors"
-  image: video_demo.gif
+  image: avatars_video_demo.gif
   thumbnail: rppg_generation_thumbnail.png
   description: A scalable biophysical learning based method to generate biorealistic synthetic rPPG videos given any reference image and target rPPG signal.
   authors:
@@ -30,7 +30,7 @@
     - name: University of California, Los Angeles 
       link: https://www.ucla.edu 
   link:
-    url: rppg_generation.htm
+    url: rppg_avatars.htm
     display: read more
   highlight: 1
   news 2:
