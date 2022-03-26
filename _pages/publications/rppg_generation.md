@@ -10,9 +10,8 @@ permalink: /rppg_avatars.htm/
 {% if publication.name == "rPPG synthetic avatars" %}
 
 # {{ publication.title }}
-<body>
-<p style="color:#FF0000";> CVPR 2022</p>
-</body>
+<font color="red">CVPR 2022</font>
+
 {% for author in publication.authors %} [{{ author.name }}]({{author.link}})<sup>{{ author.associations }}</sup>
 {% endfor %}
 {% assign count = 1 %}
