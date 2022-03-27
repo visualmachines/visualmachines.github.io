@@ -17,7 +17,7 @@ permalink: /rppg_avatars.htm/
 {% for association in publication.associations %} [{{ association.name }}]({{association.link}})<sup>{{count}}</sup> {% assign count = count | plus: 1 %}
 {% endfor %}
 
-<font color="gray" size="5">[CVPR 2022, New Orleans](https://cvpr2022.thecvf.com/)</font>
+<font color="gray" size="5"><a href="https://cvpr2022.thecvf.com/">CVPR 2022, New Orleans</a></font>
 
 <hr class="center" style="width: 70%; color: grey; height: 0.1px; background-color:grey;"/>
 
