@@ -10,13 +10,14 @@ permalink: /rppg_avatars.htm/
 {% if publication.name == "rPPG synthetic avatars" %}
 
 # {{ publication.title }}
-<font color="red" size="5">CVPR 2022</font>
 
 {% for author in publication.authors %} [{{ author.name }}]({{author.link}})<sup>{{ author.associations }}</sup>
 {% endfor %}
 {% assign count = 1 %}
 {% for association in publication.associations %} [{{ association.name }}]({{association.link}})<sup>{{count}}</sup> {% assign count = count | plus: 1 %}
 {% endfor %}
+
+<font color="gray" size="5">[CVPR 2022, New Orleans](https://cvpr2022.thecvf.com/)</font>
 
 <hr class="center" style="width: 70%; color: grey; height: 0.1px; background-color:grey;"/>
 
