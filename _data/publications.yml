@@ -1,3 +1,16 @@
+- name: CCD_2021
+  title: "Computational Cameras and Displays Workshop 2021"
+  image:
+  thumbnail: ccd_2021_thumbnail.png
+  description: Computational photography has become an increasingly active area of research within the computer vision community. The CCD workshop series serves as an annual gathering place for researchers and practitioners who design, build, and use computational cameras.
+  authors:
+  associations:
+  link:
+    url: ccd2021.htm
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: Remote-PPG by Synthetic Augmentation
   title: "Overcoming Difficulty in Obtaining Dark-skinned Subjects for Remote-PPG by Synthetic Augmentation"
   image:
