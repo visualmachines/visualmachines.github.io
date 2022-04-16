@@ -1,7 +1,3 @@
-
-
-
-
 ---
 title: "rPPG synthetic avatars"
 layout: paper_template
