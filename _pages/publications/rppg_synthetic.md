@@ -51,7 +51,12 @@ Accelerated by telemedicine, advances in Remote Photoplethysmography (rPPG) are 
 Sample videos available [here](https://drive.google.com/drive/folders/1n0ssQrAIBPYezFGLmMjpOjfEWwTj34hP?usp=sharing)
 
 @section
-Forthcoming.
+@inproceedings{wang2022synthetic,
+  title={Synthetic Generation of Face Videos with Plethysmograph Physiology},
+  author={Wang, Zhen and Ba, Yunhao and Chari, Pradyumna and Bozkurt, Oyku Deniz and Brown, Gianna and Patwa, Parth and Vaddi, Niranjan and Jalilian, Laleh and Kadambi, Achuta},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2022}
+}
 
 @section
 @section
