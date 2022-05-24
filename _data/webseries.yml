@@ -1,3 +1,13 @@
+- title: "Bio-inspired depth sensing using computational optics"
+  speaker: Qi Guo
+  speaker_image: qi_guo.jpeg
+  institution: Assisstant Professor, Purdue University
+  description:
+  summary: "Computational visual sensing combines efficient computation and novel optics to provide computer vision systems that minimize size, weight, and power while maximizing speed, accuracy, and functionality. In these systems, signals are processed both optically and electronically, using the strengths of each to maximally exploit the visual characteristics of an environment. Computational visual sensors are often inspired by nature, where invertebrates and other small animals have evolved with optics and neural wirings that synergize to perceive with extremely small size and power. In this talk, I will present a class of small computational sensors for passively measuring depth.  They are inspired by the eyes of jumping spiders, which have specialized, multi-layered retinae and sense depth using optical defocus. We make three main contributions in inventing these sensors. First, we propose a novel, physics-based depth cue leveraging differential changes of image defocus. The depth cue takes the form of a simple analytical expression and is robust to optical non-idealities. Second, we incorporate the physics-based depth cue into the design of a neural network, which yields an efficient computational graph that predicts per-pixel depth and confidence at below 700 floating-point operations (FLOPs) per output pixel. Third, we designed two optical setups to pair with the computation. One setup consists of a deformable lens and has an extended working range due to its ability to perform optical accommodation. The other uses a specially-designed metasurface, which is an ultra-thin, flat nanophotonic device with versatile wavefront shaping capability. It is one of the world’s first nanophotonic depth sensors. Both setups are monocular and compact, and both can measure scene depth at 100 frames per second. Our computational depth sensors are one example of how optics and computation will evolve in the future to achieve artificial visual sensing on tiny platforms where vision is currently impossible."
+  date: 3
+  month_year: June, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
 - title: "Video denoising in starlight using a learned, physics-informed noise model"
   speaker: Kristina Monakhova
   speaker_image: 06955867-F2F2-4B91-A3F4-CEC58A3BE933.png
