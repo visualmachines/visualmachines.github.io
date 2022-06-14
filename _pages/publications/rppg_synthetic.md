@@ -50,7 +50,7 @@ Accelerated by telemedicine, advances in Remote Photoplethysmography (rPPG) are 
 - Dataset (Due to IRB protocol, please fill in [Data Request Form](https://docs.google.com/forms/d/e/1FAIpQLSc6rtDlh9G1ZesZSa6eHqcJguXl9aYvbyaoiRlrtAQaOC6Y8Q/viewform?usp=pp_url) for complete dataset.)\
 Sample videos available [here](https://drive.google.com/drive/folders/1n0ssQrAIBPYezFGLmMjpOjfEWwTj34hP?usp=sharing)
 - Code (Forthcoming)
-- 
+
 @section
 @inproceedings{wang2022synthetic, \
    &nbsp; title={Synthetic Generation of Face Videos with Plethysmograph Physiology}, \
