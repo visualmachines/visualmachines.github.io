@@ -1,18 +1,17 @@
 - name: equi_pleth_camera_rf
   title: "Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography"
-  image: avatars_video_demo.gif
-  thumbnail: rppg_generation_thumbnail.png
-  description: A scalable biophysical learning based method to generate biorealistic synthetic rPPG videos given any reference image and target rPPG signal.
+  image: siggraph_611_represent.jpg
+  thumbnail: siggraph_611_represent.jpg
+  description: A multimodal fusion approach between camera and radar to achieve more equitable and robust plethysmography.
   authors:
     - name: Alexander Vilesov
       associations: 1
-      link: https://zhenwangwz.github.io/
+      link: https://asvilesov.github.io/
     - name: Pradyumna Chari
       associations: 1
       link: https://pradyumnachari.github.io
     - name: Adnan Armouti
       associations: 1
-      link: https://pradyumnachari.github.io
     - name: Anirudh B. Harish
       associations: 1
     - name: Kimaya Kulkarni 
