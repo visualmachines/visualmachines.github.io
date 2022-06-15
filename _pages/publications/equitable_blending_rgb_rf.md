@@ -17,7 +17,7 @@ permalink: /equi_pleth_camera_rf.htm/
 {% for association in publication.associations %} [{{ association.name }}]({{association.link}})<sup>{{count}}</sup> {% assign count = count | plus: 1 %}
 {% endfor %}
 
-<font color="gray" size="5"><a href="https://cvpr2022.thecvf.com/">CVPR 2022, New Orleans</a></font>
+<font color="gray" size="5"><a href="https://s2022.siggraph.org/">Siggraph 2022, Vancouver Canada</a></font>
 
 <hr class="center" style="width: 70%; color: grey; height: 0.1px; background-color:grey;"/>
 
@@ -52,10 +52,10 @@ Sample videos available [here](https://drive.google.com/drive/folders/1n0ssQrAIB
 - Code (Forthcoming)
 
 @section
-@inproceedings{wang2022synthetic, \
+@inproceedings{vilesov2022blending, \
    &nbsp; title={Synthetic Generation of Face Videos with Plethysmograph Physiology}, \
-   &nbsp; author={Wang, Zhen and Ba, Yunhao and Chari, Pradyumna and Bozkurt, Oyku Deniz and Brown, Gianna and Patwa, Parth and Vaddi, Niranjan and Jalilian, Laleh and Kadambi, Achuta}, \
-   &nbsp; booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, \
+   &nbsp; author={A. Vilesov, P. Chari, A. Armouti, A. B. Harish, K. Kulkarni, A. Deoghare, L. Jalilian, and A. Kadambi}, \
+   &nbsp; booktitle={Siggraph}, \
    &nbsp; year={2022} \
 }
 
