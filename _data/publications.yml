@@ -1,4 +1,39 @@
 - name: rPPG synthetic avatars
+  title: "Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography"
+  image: avatars_video_demo.gif
+  thumbnail: rppg_generation_thumbnail.png
+  description: A scalable biophysical learning based method to generate biorealistic synthetic rPPG videos given any reference image and target rPPG signal.
+  authors:
+    - name: Alexander Vilesov
+      associations: 1
+      link: https://zhenwangwz.github.io/
+    - name: Pradyumna Chari
+      associations: 1
+      link: https://pradyumnachari.github.io
+    - name: Adnan Armouti
+      associations: 1
+      link: https://pradyumnachari.github.io
+    - name: Anirudh B. Harish
+      associations: 1
+    - name: Kimaya Kulkarni 
+      associations: 1
+    - name: Ananya Deoghare
+      associations: 1
+    - name: Laleh Jalilian
+      associations: 1
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles 
+      link: https://www.ucla.edu 
+  link:
+    url: equi_plethys_camera_rf.htm
+    display: read more
+  highlight: 1
+  news 2:
+
+- name: rPPG synthetic avatars
   title: "Synthetic Generation of Face Videos with Plethysmograph Physiology"
   image: avatars_video_demo.gif
   thumbnail: rppg_generation_thumbnail.png
