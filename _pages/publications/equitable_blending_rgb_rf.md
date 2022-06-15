@@ -22,8 +22,7 @@ permalink: /equi_pleth_camera_rf.htm/
 <hr class="center" style="width: 70%; color: grey; height: 0.1px; background-color:grey;"/>
 
 ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})
-*Our proposed framework has successfully incorporated pulsatile signals into the reference image. The estimated pulse waves from PRN exhibit high correlation to the ground-truth waves, and the heart rates are preserved in the frequency
-domain.*
+*To overcome fundamental biases in camera-based remote plethysmography, we propose an adversarial learning-based fair fusion method, using a novel RGB-Radar hardware setup.*
 <br>
 
 {% endif %}
@@ -42,20 +41,19 @@ domain.*
 -->
 
 @section
-Accelerated by telemedicine, advances in Remote Photoplethysmography (rPPG) are beginning to offer a viable path toward non-contact physiological measurement. Unfortunately, the datasets for rPPG are limited as they require videos of the human face paired with ground-truth, synchronized heart rate data from a medical-grade health monitor. Also troubling is that the datasets are not inclusive of diverse populations, i.e., current real rPPG facial video datasets are imbalanced in terms of races or skin tones, leading to accuracy disparities on different demographic groups.  This paper proposes a scalable biophysical learning based method to generate physio-realistic synthetic rPPG videos given any reference image and target rPPG signal and shows that it could further improve the state-of-the-art physiological measurement and reduces the bias among different groups. We also collect a largest rPPG dataset of its kind (UCLA-rPPG) with a diverse presence of subject skin tones, in the hope that this could serve as a benchmark dataset for different skin tones in this area and ensure that advances of the technique can benefit all people for healthcare equity.
+With the resurgence of non-contact vital sign sensing due to the COVID-19 pandemic, remote heart-rate monitoring has gained significant prominence. Many existing methods use cameras; however previous work shows a performance loss for darker skin tones. In this paper, we show through light transport analysis that the camera modality is fundamentally biased against darker skin tones. We propose to reduce this bias through multi-modal fusion with a complementary and fairer modality – radar. Through a novel debiasing oriented fusion framework, we achieve performance gains over all tested baselines and achieve skin tone fairness improvements over the RGB modality. That is, the associated Pareto frontier between performance and fairness is improved when compared to the RGB modality. In addition, performance improvements are obtained over the radar-based method, with small trade-offs in fairness. We also open-source the largest multi-modal remote heart-rate estimation dataset of paired camera and radar measurements with a focus on skin tone representation.
 
 
 @section
-- Paper ([Link](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Synthetic_Generation_of_Face_Videos_With_Plethysmograph_Physiology_CVPR_2022_paper.pdf))
-- Dataset (Due to IRB protocol, please fill in [Data Request Form](https://docs.google.com/forms/d/e/1FAIpQLSc6rtDlh9G1ZesZSa6eHqcJguXl9aYvbyaoiRlrtAQaOC6Y8Q/viewform?usp=pp_url) for complete dataset.)\
-Sample videos available [here](https://drive.google.com/drive/folders/1n0ssQrAIBPYezFGLmMjpOjfEWwTj34hP?usp=sharing)
+- Paper (Forthcoming)
+- Dataset (Forthcoming)
 - Code (Forthcoming)
 
 @section
 @inproceedings{vilesov2022blending, \
    &nbsp; title={Synthetic Generation of Face Videos with Plethysmograph Physiology}, \
    &nbsp; author={A. Vilesov, P. Chari, A. Armouti, A. B. Harish, K. Kulkarni, A. Deoghare, L. Jalilian, and A. Kadambi}, \
-   &nbsp; booktitle={Siggraph}, \
+   &nbsp; journal={ACM Trans. Graph. (SIGGRAPH)}, \
    &nbsp; year={2022} \
 }
 
