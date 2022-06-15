@@ -1,4 +1,4 @@
-- name: rPPG synthetic avatars
+- name: equi_pleth_camera_rf
   title: "Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography"
   image: avatars_video_demo.gif
   thumbnail: rppg_generation_thumbnail.png
@@ -28,7 +28,7 @@
     - name: University of California, Los Angeles 
       link: https://www.ucla.edu 
   link:
-    url: equi_plethys_camera_rf.htm
+    url: equi_pleth_camera_rf.htm
     display: read more
   highlight: 1
   news 2:
