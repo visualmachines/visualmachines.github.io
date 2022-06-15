@@ -3,11 +3,11 @@ title: "Blending Camera and 77 Ghz Radar for Robust, Equitable Plethysmography"
 layout: paper_template
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
-permalink: /rppg_avatars.htm/
+permalink: /equi_pleth_camera_rf.htm/
 ---
 
 {% for publication in site.data.publications %}
-{% if publication.name == "rPPG synthetic avatars" %}
+{% if publication.name == "equi_pleth_camera_rf" %}
 
 # {{ publication.title }}
 
