@@ -4,13 +4,13 @@
   thumbnail: siggraph_611_represent.jpg
   description: A multimodal fusion approach between camera and radar to achieve more equitable and robust plethysmography.
   authors:
-    - name: Alexander Vilesov*
+    - name: Alexander Vilesov
       associations: 1
       link: https://asvilesov.github.io/
-    - name: Pradyumna Chari*
+    - name: Pradyumna Chari
       associations: 1
       link: https://pradyumnachari.github.io
-    - name: Adnan Armouti*
+    - name: Adnan Armouti
       associations: 1
     - name: Anirudh B. Harish
       associations: 1
