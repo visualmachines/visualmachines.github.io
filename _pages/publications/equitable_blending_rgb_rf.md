@@ -45,13 +45,13 @@ With the resurgence of non-contact vital sign sensing due to the COVID-19 pandem
 
 
 @section
-- Paper (Forthcoming)
+- Paper ([Link](https://drive.google.com/file/d/1ywsMiIm2jMGBY3MbfB4xJBM8Lhkw32-S/view?usp=drive_web)) 
 - Dataset (Forthcoming)
 - Code (Forthcoming)
 
 @section
 @inproceedings{vilesov2022blending, \
-   &nbsp; title={Synthetic Generation of Face Videos with Plethysmograph Physiology}, \
+   &nbsp; title={Blending Camera and 77 Ghz Radar for Robust, Equitable Plethysmography}, \
    &nbsp; author={A. Vilesov, P. Chari, A. Armouti, A. B. Harish, K. Kulkarni, A. Deoghare, L. Jalilian, and A. Kadambi}, \
    &nbsp; journal={ACM Trans. Graph. (SIGGRAPH)}, \
    &nbsp; year={2022} \
