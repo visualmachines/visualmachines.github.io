@@ -1,6 +1,5 @@
 ---
-title: "Blending Camera and 77 GHz Radar Sensing for Equitable, Robust
-Plethysmography"
+title: "Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography"
 layout: paper_template
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
@@ -52,7 +51,7 @@ With the resurgence of non-contact vital sign sensing due to the COVID-19 pandem
 
 @section
 @inproceedings{vilesov2022blending, \
-   &nbsp; title={Blending Camera and 77 Ghz Radar for Robust, Equitable Plethysmography}, \
+   &nbsp; title={Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography}, \
    &nbsp; author={A. Vilesov, P. Chari, A. Armouti, A. B. Harish, K. Kulkarni, A. Deoghare, L. Jalilian, and A. Kadambi}, \
    &nbsp; journal={ACM Trans. Graph. (SIGGRAPH)}, \
    &nbsp; year={2022} \
