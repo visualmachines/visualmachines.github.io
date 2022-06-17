@@ -11,7 +11,7 @@ permalink: /equi_pleth_camera_rf.htm/
 
 # {{ publication.title }}
 
-{% for author in publication.authors %} [{{ author.name }}]({{author.link}})<sup>{{ author.associations }}</sup>
+{% for author in publication.authors %} [{{ author.name }}]({{author.link}})<sup>{{ author.contribution }}</sup><sup>{{ author.associations }}</sup>
 {% endfor %}
 {% assign count = 1 %}
 {% for association in publication.associations %} [{{ association.name }}]({{association.link}})<sup>{{count}}</sup> {% assign count = count | plus: 1 %}
