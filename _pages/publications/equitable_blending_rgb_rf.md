@@ -17,7 +17,7 @@ permalink: /equi_pleth_camera_rf.htm/
 {% for association in publication.associations %} [{{ association.name }}]({{association.link}})<sup>{{count}}</sup> {% assign count = count | plus: 1 %}
 {% endfor %}
 
-<font color="gray" size="5"><a href="https://s2022.siggraph.org/">Siggraph 2022, Vancouver Canada</a></font>
+<font color="gray" size="5"><a href="https://s2022.siggraph.org/">SIGGRAPH 2022, Vancouver, Canada</a></font>
 
 <hr class="center" style="width: 70%; color: grey; height: 0.1px; background-color:grey;"/>
 
