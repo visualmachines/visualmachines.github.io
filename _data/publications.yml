@@ -6,7 +6,6 @@
   authors:
     - name: Alexander Vilesov
       associations: 1
-      contribution: *
       link: https://asvilesov.github.io/
     - name: Pradyumna Chari
       associations: 1
