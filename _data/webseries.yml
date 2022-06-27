@@ -1,3 +1,13 @@
+- title: "Computational Interferometry"
+  speaker: Alankar Kotwal
+  speaker_image: kotwal.jpeg
+  institution: PhD candidate, Carnegie Mellon University
+  description:
+  summary: "Optical interferometry is a technique that uses the wave-optics phenomenon of interference caused by the superposition of two or more light waves to measure the properties of the waves or of the scenes they interact with. Due to its capability to resolve micron-scale displacements, interferometry has found applications in physics, biomedical imaging, and precision fabrication. We introduce a class of new interferometric techniques, collectively called computational interferometry, that allows combining these capabilities with precise, micron-scale control on the set of light paths imaged by the camera in the scene of interest. We show how to design and build prototype optical systems to implement computational interferometry specialized to a few application settings: imaging through scattering and micron-scale 3D shape acquisition. We further show how computational interferometry allows us to perform these tasks robustly to adverse environmental conditions such as global illumination, ambient lighting, and environment mechanical noise. Lastly, we showcase an interferometric system that enables passive time-of-flight imaging using only sunlight as a light source, with micron-scale depth reconstructions captured in uncontrolled outdoor environments with an interferometer built on an ordinary utility cart. Our computational interferometry techniques find applications in seeing through scattering media such as tissue, inspection, and precision manufacturing."
+  date: 1
+  month_year: July, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
 - title: "Bio-inspired depth sensing using computational optics"
   speaker: Qi Guo
   speaker_image: qi_guo.jpeg
