@@ -1,4 +1,4 @@
-- name: rPPG synthetic augmentation
+- name: rPPG augmentation
   title: "Style Transfer with Bio-realistic Appearance Manipulation for Skin-tone Inclusive rPPG"
   image: RemotePPG_thumbnail.png
   thumbnail: RemotePPG_thumbnail.png
