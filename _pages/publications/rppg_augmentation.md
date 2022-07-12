@@ -7,7 +7,7 @@ permalink: /rppg_augmentation.htm/
 ---
 
 {% for publication in site.data.publications %}
-{% if publication.name == "rPPG synthetic avatars" %}
+{% if publication.name == "rPPG augmentation" %}
 
 # {{ publication.title }}
 
