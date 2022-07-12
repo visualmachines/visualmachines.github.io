@@ -1,3 +1,32 @@
+- name: rPPG synthetic augmentation
+  title: "Style Transfer with Bio-realistic Appearance Manipulation for Skin-tone Inclusive rPPG"
+  image: RemotePPG_thumbnail.png
+  thumbnail: RemotePPG_thumbnail.png
+  description:  A first attempt that transfers light-skinned subjects to dark skin tones while preserving the pulse signals in the facial videos.
+  authors:
+    - name: Yunhao Ba
+      associations: 1
+      link: https://yhba-ucla.github.io/
+    - name: Zhen Wang
+      associations: 1
+      link: https://zhenwangwz.github.io/
+    - name: Doruk Karinca
+      associations: 1
+    - name: Oyku Deniz Bozkurt
+      associations: 1
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles 
+      link: https://www.ucla.edu 
+  link:
+    url: rppg_augmentation.htm
+    display: read more
+  highlight: 1
+  news 2:
+
+
 - name: equi_pleth_camera_rf
   title: "Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography"
   image: siggraph_611_represent.jpg
@@ -83,19 +112,19 @@
   highlight: 1
   news 2:
 
-- name: Remote-PPG by Synthetic Augmentation
-  title: "Overcoming Difficulty in Obtaining Dark-skinned Subjects for Remote-PPG by Synthetic Augmentation"
-  image:
-  thumbnail: RemotePPG_thumbnail.png
-  description: Camera-based remote photoplethysmography (rPPG) provides a non-contact way to measure physiological signals (e.g., heart rate) using facial videos.
-  authors:
-  associations:
-  link:
-    external: 1
-    url: https://arxiv.org/abs/2106.06007?fbclid=IwAR1WHhYMVxDaRoqYpwIPSvxomu41PY6Q3M5l6iDvJByggGFgN1fV0CrPy0k
-    display: read more
-  highlight: 1
-  news 2:
+# - name: Remote-PPG by Synthetic Augmentation
+#   title: "Overcoming Difficulty in Obtaining Dark-skinned Subjects for Remote-PPG by Synthetic Augmentation"
+#   image:
+#   thumbnail: RemotePPG_thumbnail.png
+#   description: Camera-based remote photoplethysmography (rPPG) provides a non-contact way to measure physiological signals (e.g., heart rate) using facial videos.
+#   authors:
+#   associations:
+#   link:
+#     external: 1
+#     url: https://arxiv.org/abs/2106.06007?fbclid=IwAR1WHhYMVxDaRoqYpwIPSvxomu41PY6Q3M5l6iDvJByggGFgN1fV0CrPy0k
+#     display: read more
+#   highlight: 1
+#   news 2:
 
 - name: Achieving Fairness in Medical Devices
   title: "Achieving Fairness in Medical Devices"
