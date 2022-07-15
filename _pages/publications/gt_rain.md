@@ -7,7 +7,7 @@ permalink: /gt_rain.htm/
 ---
 
 {% for publication in site.data.publications %}
-{% if publication.name == "gt_rain" %}
+{% if publication.name == "GT-Rain" %}
 
 # {{ publication.title }}
 {% for author in publication.authors %} [{{ author.name }}]({{author.link}})<sup>{{ author.associations }}</sup>
