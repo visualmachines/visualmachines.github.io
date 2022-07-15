@@ -1,3 +1,48 @@
+- name: GT-Rain
+  title: "Not Just Streaks: Towards Ground Truth for Single Image Deraining"
+  image: GT-Rain.png
+  thumbnail: GT-Rain.png
+  description:  Filling the sim2real domain gap by collecting the first real paired single image deraining dataset.
+  authors:
+    - name: Yunhao Ba
+      associations: 1
+      link: https://yhba-ucla.github.io/
+    - name: Howard Zhang
+      associations: 1
+      link: https://zhenwangwz.github.io/
+    - name: Akira Suzuki
+      associations: 1
+    - name: Arnold Pfahnl
+      associations: 1
+    - name: Chethan Chinder Chandrappa
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+    - name: Celso de Melo
+      associations: 2
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+    - name: Suya You
+      associations: 2
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+    - name: Stefano Soatto
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+    - name: Alex Wong
+      associations: 3
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles 
+      link: https://www.ucla.edu 
+    - name: US Army Research Laboratory
+    - name: Yale University  
+  link:
+    url: rppg_augmentation.htm
+    display: read more
+  highlight: 1
+  news 2:
+  
 - name: MIME
   title: "MIME: Minority Inclusion for Majority Group Enhancement of AI Performance"
   image: RemotePPG_thumbnail.png
