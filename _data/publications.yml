@@ -2,7 +2,7 @@
   title: "Not Just Streaks: Towards Ground Truth for Single Image Deraining"
   image: GT-Rain.png
   thumbnail: GT-Rain.png
-  description:  Filling the sim2real domain gap by collecting the first real paired single image deraining dataset.
+  description:  Filling the sim2real domain gap by collecting a real paired single image deraining dataset.
   authors:
     - name: Yunhao Ba
       associations: 1
