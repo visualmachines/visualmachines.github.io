@@ -63,16 +63,16 @@ methods on real rainy images under various conditions.
 @section
 <div class="row">
   <div class="column">
-    <img src={{ site.baseurl }}/assets/images/publications/{{ publication.image }}>
+    <img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
   </div>
   <div class="column">
-    <img src={{ site.baseurl }}/assets/images/publications/{{ publication.image }}>
+    <img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
   </div>
   <div class="column">
-    <img src={{ site.baseurl }}/assets/images/publications/{{ publication.image }}>
+    <img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
   </div>
   <div class="column">
-    <img src={{ site.baseurl }}/assets/images/publications/{{ publication.image }}>
+    <img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
   </div>
 </div>
 @section
