@@ -95,7 +95,7 @@ methods on real rainy images under various conditions.
       <figcaption> Rainy Image </figcaption>
     </figure>
     <figure> 
-      <img src= "/assets/images/gt-rain/131_DGL-1.png" alt="Missing"> 
+      <img src= "/assets/images/gt-rain/131_DGNL-1.png" alt="Missing"> 
       <figcaption> DGNL-Net </figcaption>
     </figure>
   </div>
@@ -105,17 +105,17 @@ methods on real rainy images under various conditions.
       <figcaption> SPANet </figcaption>
     </figure>
     <figure> 
-      <img src= "/assets/images/gt-rain/EDv4-1.png" alt="Missing"> 
-      <figcaption> Rainy Image </figcaption>
+      <img src= "/assets/images/gt-rain/131_EDv4-1.png" alt="Missing"> 
+      <figcaption> EDR V4 (S) </figcaption>
     </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/131_HRR-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (S)</figcaption>
+      <figcaption> HRR </figcaption>
     </figure>
     <figure> 
-      <img src= "/assets/images/gt-rain/131_EDV$rain1400-1.png" alt="Missing"> 
+      <img src= "/assets/images/gt-rain/131_EDv4rain1400-1.png" alt="Missing"> 
       <figcaption> EDR V4 (R) </figcaption>
     </figure>
   </div>
