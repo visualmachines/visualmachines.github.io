@@ -12,16 +12,26 @@ permalink: /gt_rain.htm/
   padding: 0 4px;
 }
 
-/* Create two equal columns that sits next to each other */
 .column {
-  flex: 25%;
+  flex: 20%;
   padding: 0 4px;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+figure {
+  overflow: hidden;
+  backgroundSize : contain;
+  margin: auto;
+  margin-top:4px;
 }  
+
+figure img {
+  margin-top: 0 4px;
+}
+
+figcaption {
+  text-align: center;
+}
+ 
 </style>
 {% for publication in site.data.publications %}
 {% if publication.name == "GT-Rain" %}
@@ -80,16 +90,34 @@ methods on real rainy images under various conditions.
 @section
 <div class="row">
   <div class="column">
-    <img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
+    <figure> 
+      <img src= "/assets/images/gt-rain/131_rain-1.png" alt="Missing"> 
+      <figcaption> Rainy Image </figcaption>
+    </figure>
   </div>
   <div class="column">
-    <img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
+    <figure> 
+      <img src= "/assets/images/gt-rain/131_SPANet-1.png" alt="Missing"> 
+      <figcaption> SPANet </figcaption>
+    </figure>
   </div>
   <div class="column">
-    <img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
+    <figure> 
+      <img src= "/assets/images/gt-rain/131_HRR-1.png" alt="Missing"> 
+      <figcaption> HRR </figcaption>
+    </figure>
   </div>
   <div class="column">
-    <img src= "/assets/images/people/achuta_kadambi.png" alt="Headshot"> 
+    <figure> 
+      <img src= "/assets/images/gt-rain/131_MSPFN-1.png" alt="Missing"> 
+      <figcaption> MSPFN </figcaption>
+    </figure>
+  </div>
+  <div class="column">
+    <figure> 
+      <img src= "/assets/images/gt-rain/131_RCDNET-1.png" alt="Missing"> 
+      <figcaption> RCDNet </figcaption>
+    </figure>
   </div>
 </div>
 @section
