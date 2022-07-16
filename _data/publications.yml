@@ -9,26 +9,31 @@
       link: https://yhba-ucla.github.io/
     - name: Howard Zhang
       associations: 1
-      link: https://zhenwangwz.github.io/
+      link: mailto:hwdz15508@g.ucla.edu
+    - name: Ethan Yang
+      associations: 1
+      link: mailto:eyang657@g.ucla.edu
     - name: Akira Suzuki
       associations: 1
+      link: mailto:asuzuki100@ucla.edu
     - name: Arnold Pfahnl
       associations: 1
+      link: http://linkedin.com/in/arnold-pfahnl/
     - name: Chethan Chinder Chandrappa
       associations: 1
-      link: https://www.ee.ucla.edu/achuta-kadambi/
+      link: mailto:chinderc@ucla.edu
     - name: Celso de Melo
       associations: 2
-      link: https://www.ee.ucla.edu/achuta-kadambi/
+      link: https://www.celsodemelo.net/
     - name: Suya You
       associations: 2
-      link: https://www.ee.ucla.edu/achuta-kadambi/
+      link: https://ieeexplore.ieee.org/author/37273287300
     - name: Stefano Soatto
       associations: 1
-      link: https://www.ee.ucla.edu/achuta-kadambi/
+      link: http://web.cs.ucla.edu/~soatto/
     - name: Alex Wong
       associations: 3
-      link: https://www.ee.ucla.edu/achuta-kadambi/
+      link: https://www.linkedin.com/in/alexklwong
     - name: Achuta Kadambi
       associations: 1
       link: https://www.ee.ucla.edu/achuta-kadambi/
@@ -36,7 +41,9 @@
     - name: University of California, Los Angeles 
       link: https://www.ucla.edu 
     - name: US Army Research Laboratory
+      link: https://www.arl.army.mil/
     - name: Yale University  
+      link: https://www.yale.edu/
   link:
     url: gt_rain.htm
     display: read more
