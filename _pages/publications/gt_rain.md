@@ -25,7 +25,7 @@ figure {
 }  
 
 figure img {
-  margin-top: 0 4px;
+  margin-top: 4px;
 }
 
 figcaption {
@@ -94,17 +94,29 @@ methods on real rainy images under various conditions.
       <img src= "/assets/images/gt-rain/131_rain-1.png" alt="Missing"> 
       <figcaption> Rainy Image </figcaption>
     </figure>
+    <figure> 
+      <img src= "/assets/images/gt-rain/131_DGL-1.png" alt="Missing"> 
+      <figcaption> DGNL-Net </figcaption>
+    </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/131_SPANet-1.png" alt="Missing"> 
       <figcaption> SPANet </figcaption>
     </figure>
+    <figure> 
+      <img src= "/assets/images/gt-rain/EDv4-1.png" alt="Missing"> 
+      <figcaption> Rainy Image </figcaption>
+    </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/131_HRR-1.png" alt="Missing"> 
-      <figcaption> HRR </figcaption>
+      <figcaption> EDR V4 (S)</figcaption>
+    </figure>
+    <figure> 
+      <img src= "/assets/images/gt-rain/131_EDV$rain1400-1.png" alt="Missing"> 
+      <figcaption> EDR V4 (R) </figcaption>
     </figure>
   </div>
   <div class="column">
@@ -112,11 +124,19 @@ methods on real rainy images under various conditions.
       <img src= "/assets/images/gt-rain/131_MSPFN-1.png" alt="Missing"> 
       <figcaption> MSPFN </figcaption>
     </figure>
+    <figure> 
+      <img src= "/assets/images/gt-rain/131_MPRNet-1.png" alt="Missing"> 
+      <figcaption> MPRNet </figcaption>
+    </figure>
   </div>
   <div class="column">
     <figure> 
-      <img src= "/assets/images/gt-rain/131_RCDNET-1.png" alt="Missing"> 
+      <img src= "/assets/images/gt-rain/131_RCDNet-1.png" alt="Missing"> 
       <figcaption> RCDNet </figcaption>
+    </figure>
+    <figure> 
+      <img src= "/assets/images/gt-rain/131_ours-1.png" alt="Missing"> 
+      <figcaption> Ours </figcaption>
     </figure>
   </div>
 </div>
