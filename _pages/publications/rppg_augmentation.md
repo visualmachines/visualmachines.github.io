@@ -22,9 +22,7 @@ permalink: /rppg_augmentation.htm/
 <hr class="center" style="width: 70%; color: grey; height: 0.1px; background-color:grey;"/>
 
 ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})
-* Skin color reflectance map for indigenous people. A diverse rPPG dataset may not be accessible for some
-countries/regions due to the skin color distribution. Synthetic dark-skinned subjects are critical for the worldwide
-deployment of rPPG. Skin color data from Chaplin, G.*
+*Illustration of real frames and the corresponding synthetic frames in the UBFC-RPPG dataset. Our proposed framework has successfully incorporated pulsatile signals when translating the skin color. The estimated pulse waves from PRN exhibit high correlation to the ground-truth waves, and the heart rates are preserved in the frequency domain.*
 <br>
 
 {% endif %}
