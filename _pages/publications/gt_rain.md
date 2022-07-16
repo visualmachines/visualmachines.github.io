@@ -22,7 +22,7 @@ permalink: /gt_rain.htm/
   margin-top: 8px;
   vertical-align: middle;
 }  
-<style>
+</style>
 {% for publication in site.data.publications %}
 {% if publication.name == "GT-Rain" %}
 
