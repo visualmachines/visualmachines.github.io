@@ -74,7 +74,7 @@
 - name: rPPG augmentation
   title: "Style Transfer with Bio-realistic Appearance Manipulation for Skin-tone Inclusive rPPG"
   image: dark_skin_results.pdf 
-  thumbnail: RemotePPG_thumbnail.png
+  thumbnail: rppg_dark_skin.png
   description:  An attempt that transfers light-skinned subjects to dark skin tones while preserving the pulse signals in the facial videos.
   authors:
     - name: Yunhao Ba
