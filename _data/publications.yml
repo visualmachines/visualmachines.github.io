@@ -138,7 +138,7 @@
   title: "Synthetic Generation of Face Videos with Plethysmograph Physiology"
   image: avatars_video_demo.gif
   thumbnail: rppg_generation_thumbnail.png
-  description: A scalable biophysical learning based method to generate biorealistic synthetic rPPG videos given any reference image and target rPPG signal.
+  description: A scalable biophysical neural rendering method to generate biorealistic synthetic rPPG videos given any reference image and target rPPG signal as input.
   authors:
     - name: Zhen Wang
       associations: 1
