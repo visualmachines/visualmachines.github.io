@@ -61,6 +61,20 @@ methods on real rainy images under various conditions.
 - Dataset (Forthcoming)
 
 @section
+<div class="row">
+  <div class="column">
+    <img src={{ site.baseurl }}/assets/images/publications/{{ publication.image }}>
+  </div>
+  <div class="column">
+    <img src={{ site.baseurl }}/assets/images/publications/{{ publication.image }}>
+  </div>
+  <div class="column">
+    <img src={{ site.baseurl }}/assets/images/publications/{{ publication.image }}>
+  </div>
+  <div class="column">
+    <img src={{ site.baseurl }}/assets/images/publications/{{ publication.image }}>
+  </div>
+</div>
 @section
 @section
 Yunhao Ba <br>
