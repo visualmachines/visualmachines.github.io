@@ -5,7 +5,24 @@ excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /gt_rain.htm/
 ---
+<style>
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}  
+<style>
 {% for publication in site.data.publications %}
 {% if publication.name == "GT-Rain" %}
 
