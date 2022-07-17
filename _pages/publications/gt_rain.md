@@ -21,7 +21,7 @@ figure {
   overflow: hidden;
   backgroundSize : contain;
   margin: auto;
-  margin-top:3px;
+  margin-top:1px;
 }  
 
 figure img {
@@ -95,6 +95,14 @@ methods on real rainy images under various conditions.
 <div class="figures">
   <div class="column">
     <figure> 
+      <img src= "/assets/images/gt-rain/94_rain-1.png" alt="Missing"> 
+      <figcaption> Rainy Image </figcaption>
+    </figure>
+    <figure> 
+      <img src= "/assets/images/gt-rain/94_DGNL-1.png" alt="Missing"> 
+      <figcaption> DGNL-Net </figcaption>
+    </figure>
+    <figure> 
       <img src= "/assets/images/gt-rain/131_rain-1.png" alt="Missing"> 
       <figcaption> Rainy Image </figcaption>
     </figure>
@@ -104,6 +112,14 @@ methods on real rainy images under various conditions.
     </figure>
   </div>
   <div class="column">
+    <figure> 
+      <img src= "/assets/images/gt-rain/94_SPANet-1.png" alt="Missing"> 
+      <figcaption> SPANet </figcaption>
+    </figure>
+    <figure> 
+      <img src= "/assets/images/gt-rain/94_EDv4-1.png" alt="Missing"> 
+      <figcaption> EDR V4 (S) </figcaption>
+    </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_SPANet-1.png" alt="Missing"> 
       <figcaption> SPANet </figcaption>
@@ -115,6 +131,14 @@ methods on real rainy images under various conditions.
   </div>
   <div class="column">
     <figure> 
+      <img src= "/assets/images/gt-rain/94_HRR-1.png" alt="Missing"> 
+      <figcaption> HRR </figcaption>
+    </figure>
+    <figure> 
+      <img src= "/assets/images/gt-rain/94_EDv4rain1400-1.png" alt="Missing"> 
+      <figcaption> EDR V4 (R) </figcaption>
+    </figure>
+    <figure> 
       <img src= "/assets/images/gt-rain/131_HRR-1.png" alt="Missing"> 
       <figcaption> HRR </figcaption>
     </figure>
@@ -124,6 +148,14 @@ methods on real rainy images under various conditions.
     </figure>
   </div>
   <div class="column">
+    <figure> 
+      <img src= "/assets/images/gt-rain/94_MSPFN-1.png" alt="Missing"> 
+      <figcaption> MSPFN </figcaption>
+    </figure>
+    <figure> 
+      <img src= "/assets/images/gt-rain/94_MPRNet-1.png" alt="Missing"> 
+      <figcaption> MPRNet </figcaption>
+    </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_MSPFN-1.png" alt="Missing"> 
       <figcaption> MSPFN </figcaption>
@@ -135,6 +167,14 @@ methods on real rainy images under various conditions.
   </div>
   <div class="column">
     <figure> 
+      <img src= "/assets/images/gt-rain/94_RCDNet-1.png" alt="Missing"> 
+      <figcaption> RCDNet </figcaption>
+    </figure>
+    <figure> 
+      <img src= "/assets/images/gt-rain/94_ours-1.png" alt="Missing"> 
+      <figcaption> Ours </figcaption>
+    </figure>
+    <figure> 
       <img src= "/assets/images/gt-rain/131_RCDNet-1.png" alt="Missing"> 
       <figcaption> RCDNet </figcaption>
     </figure>
@@ -144,6 +184,7 @@ methods on real rainy images under various conditions.
     </figure>
   </div>
 </div>
+
 @section
 @section
 Yunhao Ba <br>
