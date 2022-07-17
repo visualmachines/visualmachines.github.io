@@ -139,7 +139,7 @@ ence on Computer Vision and Pattern Recognition. pp. 3855–3863 (2017)
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_DGNL-1.png" alt="Missing"> 
-      <figcaption> DGNL-Net </figcaption>
+      <figcaption> DGNL-Net [5]  </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_rain-1.png" alt="Missing"> 
@@ -147,67 +147,67 @@ ence on Computer Vision and Pattern Recognition. pp. 3855–3863 (2017)
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_DGNL-1.png" alt="Missing"> 
-      <figcaption> DGNL-Net </figcaption>
+      <figcaption> DGNL-Net [5] </figcaption>
     </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/94_SPANet-1.png" alt="Missing"> 
-      <figcaption> SPANet </figcaption>
+      <figcaption> SPANet [1]</figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_EDv4-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (S) </figcaption>
+      <figcaption> EDR V4 (S) [6] </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_SPANet-1.png" alt="Missing"> 
-      <figcaption> SPANet </figcaption>
+      <figcaption> SPANet [1]</figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_EDv4-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (S) </figcaption>
+      <figcaption> EDR V4 (S) [6]</figcaption>
     </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/94_HRR-1.png" alt="Missing"> 
-      <figcaption> HRR </figcaption>
+      <figcaption> HRR [2]</figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_EDv4rain1400-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (R) </figcaption>
+      <figcaption> EDR V4 (R) [6]</figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_HRR-1.png" alt="Missing"> 
-      <figcaption> HRR </figcaption>
+      <figcaption> HRR [2]</figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_EDv4rain1400-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (R) </figcaption>
+      <figcaption> EDR V4 (R) [6]</figcaption>
     </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/94_MSPFN-1.png" alt="Missing"> 
-      <figcaption> MSPFN </figcaption>
+      <figcaption> MSPFN [3]</figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_MPRNet-1.png" alt="Missing"> 
-      <figcaption> MPRNet </figcaption>
+      <figcaption> MPRNet [7]</figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_MSPFN-1.png" alt="Missing"> 
-      <figcaption> MSPFN </figcaption>
+      <figcaption> MSPFN [3]</figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_MPRNet-1.png" alt="Missing"> 
-      <figcaption> MPRNet </figcaption>
+      <figcaption> MPRNet [7]</figcaption>
     </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/94_RCDNet-1.png" alt="Missing"> 
-      <figcaption> RCDNet </figcaption>
+      <figcaption> RCDNet [4]</figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_ours-1.png" alt="Missing"> 
@@ -215,7 +215,7 @@ ence on Computer Vision and Pattern Recognition. pp. 3855–3863 (2017)
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_RCDNet-1.png" alt="Missing"> 
-      <figcaption> RCDNet </figcaption>
+      <figcaption> RCDNet [4]</figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_derain-1.png" alt="Missing"> 
