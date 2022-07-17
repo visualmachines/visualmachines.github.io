@@ -1,6 +1,6 @@
 ---
 title: "Not Just Streaks: Towards Ground Truth for Single Image Derainings"
-layout: paper_template
+layout: paper_template_gt-rain
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /gt_rain.htm/
@@ -186,6 +186,7 @@ methods on real rainy images under various conditions.
 
 Note EDR V4 (S) [6] denotes the EDR model trained on SPA-Data [1], and EDR V4 (R) [6] denotes the EDR model
 trained on Rain14000 [8].
+
 [1] Wang, T., Yang, X., Xu, K., Chen, S., Zhang, Q., Lau, R.W.: Spatial attentive
 single-image deraining with a high quality real rain dataset. In: Proceedings of the
 IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12270–
