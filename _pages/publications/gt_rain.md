@@ -193,34 +193,26 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12270–
 12279 (2019)
 
 [2] Li, R., Cheong, L.F., Tan, R.T.: Heavy rain image restoration: Integrating physics
-model and conditional adversarial learning. In: Proceedings of the IEEE/CVF Con-
-ference on Computer Vision and Pattern Recognition. pp. 1633–1642 (2019
+model and conditional adversarial learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 1633–1642 (2019
 
-[3] Jiang, K., Wang, Z., Yi, P., Chen, C., Huang, B., Luo, Y., Ma, J., Jiang, J.: Multi-
-scale progressive fusion network for single image deraining. In: Proceedings of the
-IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 8346–
-8355 (2020)
+[3] Jiang, K., Wang, Z., Yi, P., Chen, C., Huang, B., Luo, Y., Ma, J., Jiang, J.: Multiscale progressive fusion network for single image deraining. In: Proceedings of theIEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 8346–8355 (2020)
 
-[4] Wang, H., Xie, Q., Zhao, Q., Meng, D.: A model-driven deep neural network for sin-
-gle image rain removal. In: Proceedings of the IEEE/CVF Conference on Computer
+[4] Wang, H., Xie, Q., Zhao, Q., Meng, D.: A model-driven deep neural network for single image rain removal. In: Proceedings of the IEEE/CVF Conference on Computer
 Vision and Pattern Recognition (June 2020)
 
 [5] Hu, X., Zhu, L., Wang, T., Fu, C.W., Heng, P.A.: Single-image real-time rain removal
 based on depth-guided non-local features. IEEE Transactions on Image Processing
 30, 1759–1770 (2021)
 
-[6] Guo, Q., Sun, J., Juefei-Xu, F., Ma, L., Xie, X., Feng, W., Liu, Y., Zhao, J.: Ef-
-ficientderain: Learning pixel-wise dilation filtering for high-efficiency single-image
+[6] Guo, Q., Sun, J., Juefei-Xu, F., Ma, L., Xie, X., Feng, W., Liu, Y., Zhao, J.: Efficientderain: Learning pixel-wise dilation filtering for high-efficiency single-image
 deraining. In: Proceedings of the AAAI Conference on Artificial Intelligence. vol. 35,
 pp. 1487–1495 (2021)
 
 [7] Zamir, S.W., Arora, A., Khan, S., Hayat, M., Khan, F.S., Yang, M.H., Shao, L.:
-Multi-stage progressive image restoration. In: Proceedings of the IEEE/CVF Con-
-ference on Computer Vision and Pattern Recognition. pp. 14821–14831 (2021)
+Multi-stage progressive image restoration. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 14821–14831 (2021)
 
 [8] Fu, X., Huang, J., Zeng, D., Huang, Y., Ding, X., Paisley, J.: Removing rain from
-single images via a deep detail network. In: Proceedings of the IEEE/CVF Confer-
-ence on Computer Vision and Pattern Recognition. pp. 3855–3863 (2017)
+single images via a deep detail network. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 3855–3863 (2017)
 @section
 @section
 @section
