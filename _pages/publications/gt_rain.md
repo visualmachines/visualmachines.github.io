@@ -26,10 +26,13 @@ figure {
 
 figure img {
   margin-top: 4px;
+  margin-bottom: 0px;
+  border-radius: 0px;
 }
 
 figcaption {
   text-align: center;
+  font-family: Helvetica, sans-serif;
 }
  
 </style>
