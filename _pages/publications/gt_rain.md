@@ -21,12 +21,12 @@ figure {
   overflow: hidden;
   backgroundSize : contain;
   margin: auto;
-  margin-top:6px;
+  margin-top:3px;
 }  
 
 figure img {
   margin-top: 0px;
-  margin-bottom: -4px;
+  margin-bottom: -2px;
   border-radius: 0px;
 }
 
