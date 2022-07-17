@@ -6,33 +6,34 @@ sitemap: false
 permalink: /gt_rain.htm/
 ---
 <style>
-.row {
+.figures {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 0px;
 }
 
 .column {
   flex: 20%;
-  padding: 0 4px;
+  padding: 0 3px;
 }
 
 figure {
   overflow: hidden;
   backgroundSize : contain;
   margin: auto;
-  margin-top:4px;
+  margin-top:6px;
 }  
 
 figure img {
-  margin-top: 4px;
-  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: -4px;
   border-radius: 0px;
 }
 
 figcaption {
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
 }
  
 </style>
@@ -91,7 +92,7 @@ methods on real rainy images under various conditions.
 - Dataset (Forthcoming)
 
 @section
-<div class="row">
+<div class="figures">
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/131_rain-1.png" alt="Missing"> 
