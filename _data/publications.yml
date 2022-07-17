@@ -1,3 +1,30 @@
+- name: mime
+  title: "MIME: Minority Inclusion for Majority Group Enhancement of AI Performance"
+  image: mime.png
+  thumbnail: mime.png
+  description: Inclusion of minority samples improves test error for the majority group.
+  authors:
+    - name: Pradyumna Chari
+      associations: 1
+      link: https://pradyumnachari.github.io/
+    - name: Yunhao Ba
+      associations: 1
+      link: https://yhba-ucla.github.io/
+    - name: Shreeram Athreya
+      associations: 1
+      link: https://shreeramathreya.github.io
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles 
+      link: https://www.ucla.edu
+  link:
+    url: mime.htm
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: GT-Rain
   title: "Not Just Streaks: Towards Ground Truth for Single Image Deraining"
   image: GT-Rain.png
@@ -50,34 +77,6 @@
   highlight: 1
   news 2:
   
-# - name: MIME
-#   title: "MIME: Minority Inclusion for Majority Group Enhancement of AI Performance"
-#   image: RemotePPG_thumbnail.png
-#   thumbnail: RemotePPG_thumbnail.png
-#   description:  A first attempt that transfers light-skinned subjects to dark skin tones while preserving the pulse signals in the facial videos.
-#   authors:
-#     - name: Yunhao Ba
-#       associations: 1
-#       link: https://yhba-ucla.github.io/
-#     - name: Zhen Wang
-#       associations: 1
-#       link: https://zhenwangwz.github.io/
-#     - name: Kerim Doruk Karinca
-#       associations: 1
-#     - name: Oyku Deniz Bozkurt
-#       associations: 1
-#     - name: Achuta Kadambi
-#       associations: 1
-#       link: https://www.ee.ucla.edu/achuta-kadambi/
-#   associations:
-#     - name: University of California, Los Angeles 
-#       link: https://www.ucla.edu 
-#   link:
-#     url: rppg_augmentation.htm
-#     display: read more
-#   highlight: 1
-#   news 2:
-
 - name: rPPG augmentation
   title: "Style Transfer with Bio-realistic Appearance Manipulation for Skin-tone Inclusive rPPG"
   image: dark_skin_results.png
