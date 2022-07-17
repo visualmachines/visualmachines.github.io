@@ -179,7 +179,7 @@ methods on real rainy images under various conditions.
       <figcaption> RCDNet </figcaption>
     </figure>
     <figure> 
-      <img src= "/assets/images/gt-rain/131_ours-1.png" alt="Missing"> 
+      <img src= "/assets/images/gt-rain/131_derain-1.png" alt="Missing"> 
       <figcaption> Ours </figcaption>
     </figure>
   </div>
