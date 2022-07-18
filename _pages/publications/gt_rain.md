@@ -36,8 +36,8 @@ figcaption {
   font-size: 1rem;
 }
    
-.container{
-	display: flex;
+.container{	
+  display: flex;
   justify-content: space-between;
 }
 
