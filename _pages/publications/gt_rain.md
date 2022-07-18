@@ -38,7 +38,6 @@ figcaption {
    
 .gif-container{	
   display: flex;
-  flex-wrap: wrap;
 }
 
 div#comparison1 { 
