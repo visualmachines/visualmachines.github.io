@@ -48,7 +48,7 @@ div#comparison1 {
   max-height: 600px;
   overflow: hidden; }
   
-div#comparison1 figure { 
+div#comparison1 pic { 
   background-image: url(/assets/images/gt-rain/72__rain.png); 
   background-size: cover;
   position: relative;
@@ -57,7 +57,7 @@ div#comparison1 figure {
   margin: 0; 
 }
 
-div#comparison1 figure #divisor { 
+div#comparison1 pic #divisor { 
   background-image: url(/assets/images/gt-rain/72_derain.png);
   background-size: cover;
   position: relative;
@@ -82,7 +82,7 @@ div#comparison2 {
   max-height: 600px;
   overflow: hidden; }
   
-div#comparison2 figure { 
+div#comparison2 pic { 
   background-image: url(/assets/images/gt-rain/img2.png); 
   background-size: cover;
   position: relative;
@@ -91,7 +91,7 @@ div#comparison2 figure {
   margin: 0; 
 }
 
-div#comparison2 figure #divisor { 
+div#comparison2 pic #divisor { 
   background-image: url(/assets/images/gt-rain/img2_ours.png);
   background-size: cover;
   position: relative;
@@ -116,7 +116,7 @@ div#comparison3 {
   max-height: 600px;
   overflow: hidden; }
   
-div#comparison3 figure { 
+div#comparison3 pic { 
   background-image: url(/assets/images/gt-rain/74__rain.png); 
   background-size: cover;
   position: relative;
@@ -125,7 +125,7 @@ div#comparison3 figure {
   margin: 0; 
 }
 
-div#comparison3 figure #divisor { 
+div#comparison3 pic #divisor { 
   background-image: url(/assets/images/gt-rain/74_derain.png);
   background-size: cover;
   position: relative;
@@ -150,7 +150,7 @@ div#comparison4 {
   max-height: 600px;
   overflow: hidden; }
   
-div#comparison4 figure { 
+div#comparison4 pic { 
   background-image: url(/assets/images/gt-rain/59__rain.png); 
   background-size: cover;
   position: relative;
@@ -159,7 +159,7 @@ div#comparison4 figure {
   margin: 0; 
 }
 
-div#comparison4 figure #divisor { 
+div#comparison4 pic #divisor { 
   background-image: url(/assets/images/gt-rain/59_derain.png);
   background-size: cover;
   position: relative;
@@ -362,24 +362,24 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
 
 <div class="container">
 <div id="comparison1">
-  <figure>
+  <pic>
     <div id="divisor"></div>
-  </figure>
+  </pic>
 </div>
 <div id="comparison2">
-  <figure>
+  <pic>
     <div id="divisor"></div>
-  </figure>
+  </pic>
 </div>
 <div id="comparison3">
-  <figure>
+  <pic>
     <div id="divisor"></div>
-  </figure>
+  </pic>
 </div>
 <div id="comparison4">
-  <figure>
+  <pic>
     <div id="divisor"></div>
-  </figure>
+  </pic>
 </div>
 </div>
 
