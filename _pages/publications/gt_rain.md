@@ -49,7 +49,7 @@ div#comparison1 {
   max-height: 600px;
   overflow: hidden; }
   
-div#comparison1 pic { 
+div#comparison1 figure { 
   background-image: url(/assets/images/gt-rain/72__rain.png); 
   background-size: cover;
   position: relative;
@@ -58,7 +58,7 @@ div#comparison1 pic {
   margin: 0; 
 }
 
-div#comparison1 pic #divisor { 
+div#comparison1 figure #divisor { 
   background-image: url(/assets/images/gt-rain/72_derain.png);
   background-size: cover;
   position: relative;
@@ -362,14 +362,14 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
 @section
 <div class="gif-container">
 <div id="comparison1">
-  <pic>
+  <figure>
     <div id="divisor"></div>
-  </pic>
+  </figure>
 </div>
 <div id="comparison2">
-  <pic>
+  <figure>
     <div id="divisor"></div>
-  </pic>
+  </figure>
 </div>
 <div id="comparison3">
   <pic>
