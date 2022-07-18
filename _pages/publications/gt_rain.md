@@ -39,6 +39,7 @@ figcaption {
 .container{	
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 div#comparison1 { 
