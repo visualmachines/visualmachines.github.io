@@ -43,15 +43,15 @@ figcaption {
 }
 
 div#comparison1 { 
-  width: 24vw;
-  height: 24vw;
+  width: 18vw;
+  height: 15vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; }
   
 div#comparison1 pic { 
   background-image: url(/assets/images/gt-rain/72__rain.png); 
-  background-size: cover;
+  background-size: auto 15vw;
   position: relative;
   width: 100%; 
   height: 100%;
@@ -60,7 +60,7 @@ div#comparison1 pic {
 
 div#comparison1 pic #divisor { 
   background-image: url(/assets/images/gt-rain/72_derain.png);
-  background-size: cover;
+  background-size: auto 15vw;
   position: relative;
   width: 100%; 
   box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
@@ -77,15 +77,15 @@ div#comparison1 pic #divisor {
 }
   
 div#comparison2 { 
-  width: 24vw;
-  height: 24vw;
+  width: 18vw;
+  height: 15vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; }
   
 div#comparison2 pic { 
   background-image: url(/assets/images/gt-rain/img2.png); 
-  background-size: cover;
+  background-size: auto 15vw;
   position: relative;
   width: 100%; 
   height: 100%;
@@ -94,7 +94,7 @@ div#comparison2 pic {
 
 div#comparison2 pic #divisor { 
   background-image: url(/assets/images/gt-rain/img2_ours.png);
-  background-size: cover;
+  background-size: auto 15vw;
   position: relative;
   width: 100%; 
   box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
@@ -111,15 +111,15 @@ div#comparison2 pic #divisor {
 }
   
 div#comparison3 { 
-  width: 24vw;
-  height: 24vw;
+  width: 18vw;
+  height: 15vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; }
   
 div#comparison3 pic { 
   background-image: url(/assets/images/gt-rain/74__rain.png); 
-  background-size: cover;
+  background-size: auto 15vw;
   position: relative;
   width: 100%; 
   height: 100%;
@@ -128,7 +128,7 @@ div#comparison3 pic {
 
 div#comparison3 pic #divisor { 
   background-image: url(/assets/images/gt-rain/74_derain.png);
-  background-size: cover;
+  background-size: auto 15vw;
   position: relative;
   width: 100%; 
   box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
@@ -145,15 +145,15 @@ div#comparison3 pic #divisor {
 }
 
 div#comparison4 { 
-  width: 24vw;
-  height: 24vw;
+  width: 18vw;
+  height: 15vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; }
   
 div#comparison4 pic { 
   background-image: url(/assets/images/gt-rain/59__rain.png); 
-  background-size: cover;
+  background-size: auto 15vw;
   position: relative;
   width: 100%; 
   height: 100%;
@@ -162,7 +162,7 @@ div#comparison4 pic {
 
 div#comparison4 pic #divisor { 
   background-image: url(/assets/images/gt-rain/59_derain.png);
-  background-size: cover;
+  background-size: auto 15vw;
   position: relative;
   width: 100%; 
   box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
@@ -360,7 +360,6 @@ Multi-stage progressive image restoration. In: Proceedings of the IEEE/CVF Confe
 [8] Fu, X., Huang, J., Zeng, D., Huang, Y., Ding, X., Paisley, J.: Removing rain from
 single images via a deep detail network. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 3855–3863 (2017)
 @section
-
 <div class="gif-container">
 <div id="comparison1">
   <pic>
@@ -383,8 +382,7 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
   </pic>
 </div>
 </div>
-
-
+@section
 @section
 @section
 Yunhao Ba <br>
