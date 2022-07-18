@@ -42,8 +42,8 @@ figcaption {
 }
 
 div#comparison1 { 
-  width: 18.18vw;
-  height: 12vw;
+  width: 19.998vw;
+  height: 13.2vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
@@ -63,7 +63,7 @@ div#comparison1 figure #divisor {
   background-size: cover;
   position: relative;
   width: 100%; 
-  box-shadow: 1 0px 5px 1px rgba(0,0,0,.5);
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);
   overflow: hidden;
   bottom: 0;
   height: 100%;
@@ -77,8 +77,8 @@ div#comparison1 figure #divisor {
 }
   
 div#comparison2 { 
-  width: 18vw;
-  height: 12vw;
+  width: 19.8vw;
+  height: 13.2vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
@@ -98,7 +98,7 @@ div#comparison2 figure #divisor {
   background-size: cover;
   position: relative;
   width: 100%; 
-  box-shadow: 1 0px 5px 1px rgba(0,0,0,.5);
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);
   overflow: hidden;
   bottom: 0;
   height: 100%;
@@ -112,8 +112,8 @@ div#comparison2 figure #divisor {
 }
   
 div#comparison3 { 
-  width: 15vw;
-  height: 12vw;
+  width: 16.5vw;
+  height: 13.2vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
@@ -133,7 +133,7 @@ div#comparison3 figure #divisor {
   background-size: cover;
   position: relative;
   width: 100%; 
-  box-shadow: 1 0px 5px 1px rgba(0,0,0,.5);
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);
   overflow: hidden;
   bottom: 0;
   height: 100%;
@@ -147,15 +147,15 @@ div#comparison3 figure #divisor {
 }
 
 div#comparison4 { 
-  width: 18.12vw;
-  height: 12vw;
+  width: 19.932vw;
+  height: 13.2vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
   padding: 0 3px;}
   
 div#comparison4 figure { 
-  background-image: url(/assets/images/gt-rain/59_rain.png); 
+  background-image: url(/assets/images/gt-rain/59__rain.png); 
   background-size: cover;
   position: relative;
   width: 100%; 
@@ -168,7 +168,7 @@ div#comparison4 figure #divisor {
   background-size: cover;
   position: relative;
   width: 100%; 
-  box-shadow: 1 0px 5px 1px rgba(0,0,0,.5);
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);
   overflow: hidden;
   bottom: 0;
   height: 100%;
