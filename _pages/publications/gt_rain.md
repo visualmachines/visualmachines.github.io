@@ -35,7 +35,152 @@ figcaption {
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 1rem;
 }
- 
+   
+.container{
+	display: flex;
+  justify-content: space-between;
+}
+
+div#comparison1 { 
+  width: 24vw;
+  height: 24vw;
+  max-width: 600px;
+  max-height: 600px;
+  overflow: hidden; }
+  
+div#comparison1 figure { 
+  background-image: url(/assets/images/gt-rain/72__rain.png); 
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+div#comparison1 figure #divisor { 
+  background-image: url(/assets/images/gt-rain/72_derain.png);
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+  
+  
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+  
+div#comparison2 { 
+  width: 24vw;
+  height: 24vw;
+  max-width: 600px;
+  max-height: 600px;
+  overflow: hidden; }
+  
+div#comparison2 figure { 
+  background-image: url(/assets/images/gt-rain/img2.png); 
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+div#comparison2 figure #divisor { 
+  background-image: url(/assets/images/gt-rain/img2_ours.png);
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+  
+  
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+  
+div#comparison3 { 
+  width: 24vw;
+  height: 24vw;
+  max-width: 600px;
+  max-height: 600px;
+  overflow: hidden; }
+  
+div#comparison3 figure { 
+  background-image: url(/assets/images/gt-rain/74__rain.png); 
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+div#comparison3 figure #divisor { 
+  background-image: url(/assets/images/gt-rain/74_derain.png);
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+  
+  
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+div#comparison4 { 
+  width: 24vw;
+  height: 24vw;
+  max-width: 600px;
+  max-height: 600px;
+  overflow: hidden; }
+  
+div#comparison4 figure { 
+  background-image: url(/assets/images/gt-rain/59__rain.png); 
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+div#comparison4 figure #divisor { 
+  background-image: url(/assets/images/gt-rain/59_derain.png);
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+  
+  
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+@keyframes slide {
+0% {width: 0%}
+  20% { width: 0%; }
+  80% { width: 100%; }
+}  
 </style>
 {% for publication in site.data.publications %}
 {% if publication.name == "GT-Rain" %}
@@ -214,6 +359,31 @@ Multi-stage progressive image restoration. In: Proceedings of the IEEE/CVF Confe
 [8] Fu, X., Huang, J., Zeng, D., Huang, Y., Ding, X., Paisley, J.: Removing rain from
 single images via a deep detail network. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 3855–3863 (2017)
 @section
+
+<div class="container">
+<div id="comparison1">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+<div id="comparison2">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+<div id="comparison3">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+<div id="comparison4">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+</div>
+
+
 @section
 @section
 Yunhao Ba <br>
