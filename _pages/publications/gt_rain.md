@@ -36,7 +36,7 @@ figcaption {
   font-size: 1rem;
 }
    
-.container{	
+.gif-container{	
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -361,7 +361,7 @@ Multi-stage progressive image restoration. In: Proceedings of the IEEE/CVF Confe
 single images via a deep detail network. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 3855–3863 (2017)
 @section
 
-<div class="container">
+<div class="gif-container">
 <div id="comparison1">
   <pic>
     <div id="divisor"></div>
