@@ -38,7 +38,7 @@ figcaption {
    
 .gif-container{	
   display: flex;
-  padding: 0 3px;
+  padding: 0 30px;
   flex-wrap: wrap;
 }
 
@@ -63,7 +63,7 @@ div#comparison1 figure #divisor {
   background-size: cover;
   position: relative;
   width: 100%; 
-  box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
+  box-shadow: 1 0px 5px 1px rgba(0,0,0,.5);
   overflow: hidden;
   bottom: 0;
   height: 100%;
@@ -83,7 +83,7 @@ div#comparison2 {
   max-height: 600px;
   overflow: hidden; }
   
-div#comparison2 pic { 
+div#comparison2 figure { 
   background-image: url(/assets/images/gt-rain/img2.png); 
   background-size: cover;
   position: relative;
@@ -92,12 +92,12 @@ div#comparison2 pic {
   margin: 0; 
 }
 
-div#comparison2 pic #divisor { 
+div#comparison2 figure #divisor { 
   background-image: url(/assets/images/gt-rain/img2_ours.png);
   background-size: cover;
   position: relative;
   width: 100%; 
-  box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
+  box-shadow: 1 0px 5px 1px rgba(0,0,0,.5);
   overflow: hidden;
   bottom: 0;
   height: 100%;
@@ -117,7 +117,7 @@ div#comparison3 {
   max-height: 600px;
   overflow: hidden; }
   
-div#comparison3 pic { 
+div#comparison3 figure { 
   background-image: url(/assets/images/gt-rain/74__rain.png); 
   background-size: cover;
   position: relative;
@@ -126,12 +126,12 @@ div#comparison3 pic {
   margin: 0; 
 }
 
-div#comparison3 pic #divisor { 
+div#comparison3 figure #divisor { 
   background-image: url(/assets/images/gt-rain/74_derain.png);
   background-size: cover;
   position: relative;
   width: 100%; 
-  box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
+  box-shadow: 1 0px 5px 1px rgba(0,0,0,.5);
   overflow: hidden;
   bottom: 0;
   height: 100%;
@@ -151,7 +151,7 @@ div#comparison4 {
   max-height: 600px;
   overflow: hidden; }
   
-div#comparison4 pic { 
+div#comparison4 figure { 
   background-image: url(/assets/images/gt-rain/59_derain.png); 
   background-size: cover;
   position: relative;
@@ -160,12 +160,12 @@ div#comparison4 pic {
   margin: 0; 
 }
 
-div#comparison4 pic #divisor { 
+div#comparison4 figure #divisor { 
   background-image: url(/assets/images/gt-rain/59_derain.png);
   background-size: cover;
   position: relative;
   width: 100%; 
-  box-shadow: 0 5px 10px -2px rgba(0,0,0,.3);
+  box-shadow: 1 0px 5px 1px rgba(0,0,0,.5);
   overflow: hidden;
   bottom: 0;
   height: 100%;
@@ -372,14 +372,14 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
   </figure>
 </div>
 <div id="comparison3">
-  <pic>
+  <figure>
     <div id="divisor"></div>
-  </pic>
+  </figure>
 </div>
 <div id="comparison4">
-  <pic>
+  <figure>
     <div id="divisor"></div>
-  </pic>
+  </figure>
 </div>
 </div>
 @section
