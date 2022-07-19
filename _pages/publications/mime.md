@@ -46,19 +46,16 @@ Several papers have rightly included minority groups in artificial intelligence 
 
 @section
 - Paper (Forthcoming) <!-- ([Link](https://drive.google.com/file/d/1c0h7UNYsZdO_QPr3feylZ0n6A5mAly6p/view?usp=sharing)) -->
-- Dataset (Forthcoming)
-- Code (Forthcoming)
+- Code and Dataset <!-- https://github.com/UCLA-VMG/MIME (Forthcoming) -->
 
 @section
 
-Forthcoming
-<!--
-@inproceedings{vilesov2022blending, \
-   &nbsp; title={Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography}, \
-   &nbsp; author={A. Vilesov, P. Chari, A. Armouti, A. B. Harish, K. Kulkarni, A. Deoghare, L. Jalilian, and A. Kadambi}, \
-   &nbsp; journal={ACM Trans. Graph. (SIGGRAPH)}, \
-   &nbsp; year={2022} \
-} -->
+@InProceedings{chari2022mime,
+      author={Chari, Pradyumna and Ba, Yunhao and Athreya, Shreeram and Kadambi, Achuta},
+      title={MIME: Minority Inclusion for Majority Group Enhancement of AI Performance},
+      booktitle={ECCV},
+      year={2022}
+}
 
 @section
 @section
