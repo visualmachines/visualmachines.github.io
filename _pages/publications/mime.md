@@ -46,7 +46,7 @@ Several papers have rightly included minority groups in artificial intelligence 
 
 @section
 - Paper (Forthcoming) <!-- ([Link](https://drive.google.com/file/d/1c0h7UNYsZdO_QPr3feylZ0n6A5mAly6p/view?usp=sharing)) -->
-- Code and Dataset <!-- https://github.com/UCLA-VMG/MIME (Forthcoming) -->
+- Code and Dataset <!-- ([Link](https://github.com/UCLA-VMG/MIME)) -->
 
 @section
 
@@ -61,4 +61,4 @@ Several papers have rightly included minority groups in artificial intelligence 
 @section
 Pradyumna Chari \
 Electrical and Computer Engineering Department \
-mailto:pradyumnac@ucla.edu
+[Link](mailto:pradyumnac@ucla.edu)
