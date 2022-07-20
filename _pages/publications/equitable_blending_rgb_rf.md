@@ -51,10 +51,10 @@ With the resurgence of non-contact vital sign sensing due to the COVID-19 pandem
 
 @section
 @inproceedings{vilesov2022blending, \
-   &nbsp; title={Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography}, \
-   &nbsp; author={A. Vilesov, P. Chari, A. Armouti, A. B. Harish, K. Kulkarni, A. Deoghare, L. Jalilian, and A. Kadambi}, \
-   &nbsp; journal={ACM Trans. Graph. (SIGGRAPH)}, \
-   &nbsp; year={2022} \
+  &nbsp; title={Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography}, \
+  &nbsp; author={Vilesov, Alexander and Chari, Pradyumna and Armouti, Adnan and Harish, Anirudh B and Kulkarni, Kimaya and Deoghare, Ananya and Jalilian, Laleh and Kadambi, Achuta}, \
+  &nbsp; booktitle={ACM Trans. Graph. (SIGGRAPH)}, \
+  &nbsp; year={2022} \
 }
 
 @section
