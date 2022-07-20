@@ -51,7 +51,6 @@ Several papers have rightly included minority groups in artificial intelligence 
 @section
 <figure> 
   <img src= "/assets/images/publications/mime/results.png" alt="Missing"> 
-  <figcaption> <big><b>When domain gap is small, the MIME effect holds.</b> In the presence of large domain gap, MIME effect is absent. On five datasets, majority performance is maximized with some inclusion of minorities. All experiments are run for several trials and realizations. On dataset six, the gender classification task is rescoped to occur in a high domain gap setting. The majority group is chickens and the minority group is humans. Here, the MIME effect is absent. These observations validate our proposed theory. </big></figcaption>
 </figure>
 **When domain gap is small, the MIME effect holds.** In the presence of large domain gap, MIME effect is absent. On five datasets, majority performance is maximized with some inclusion of minorities. All experiments are run for several trials and realizations. On dataset six, the gender classification task is rescoped to occur in a high domain gap setting. The majority group is chickens and the minority group is humans. Here, the MIME effect is absent. These observations validate our proposed theory.
 
@@ -65,7 +64,6 @@ Several papers have rightly included minority groups in artificial intelligence 
 }
 
 @section
-
 @section
 
 Pradyumna Chari \
