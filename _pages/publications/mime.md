@@ -49,6 +49,12 @@ Several papers have rightly included minority groups in artificial intelligence 
 - Code and Dataset <!-- ([Link](https://github.com/UCLA-VMG/MIME)) -->
 
 @section
+<figure> 
+  <img src= "/assets/images/mime/results.png" alt="Missing"> 
+  <figcaption> <b>When domain gap is small, the MIME effect holds.</b> In the presence of large domain gap, MIME effect is absent. On five datasets, majority performance is maximized with some inclusion of minorities. All experiments are run for several trials and realizations. On dataset six, the gender classification task is rescoped to occur in a high domain gap setting. The majority group is chickens and the minority group is humans. Here, the MIME effect is absent. These observations validate our proposed theory. </figcaption>
+</figure>
+
+@section
 @inproceedings{chari2022mime, \
    &nbsp; author={Chari, Pradyumna and Ba, Yunhao and Athreya, Shreeram and Kadambi, Achuta}, \
    &nbsp; title={MIME: Minority Inclusion for Majority Group Enhancement of AI Performance}, \
@@ -57,7 +63,6 @@ Several papers have rightly included minority groups in artificial intelligence 
 }
 
 @section
-@section
 Pradyumna Chari \
 Electrical and Computer Engineering Department \
-[pradyumnac@ucla.edu](mailto:pradyumnac@ucla.edu)\
+Email:[pradyumnac@ucla.edu](mailto:pradyumnac@ucla.edu)
