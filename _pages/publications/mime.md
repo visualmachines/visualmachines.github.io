@@ -49,12 +49,11 @@ Several papers have rightly included minority groups in artificial intelligence 
 - Code and Dataset <!-- ([Link](https://github.com/UCLA-VMG/MIME)) -->
 
 @section
-
-@InProceedings{chari2022mime,
-      author={Chari, Pradyumna and Ba, Yunhao and Athreya, Shreeram and Kadambi, Achuta},
-      title={MIME: Minority Inclusion for Majority Group Enhancement of AI Performance},
-      booktitle={ECCV},
-      year={2022}
+@inproceedings{chari2022mime, \
+   &nbsp; author={Chari, Pradyumna and Ba, Yunhao and Athreya, Shreeram and Kadambi, Achuta}, \
+   &nbsp; title={MIME: Minority Inclusion for Majority Group Enhancement of AI Performance}, \
+   &nbsp; booktitle={ECCV}, \
+   &nbsp; year={2022}
 }
 
 @section
