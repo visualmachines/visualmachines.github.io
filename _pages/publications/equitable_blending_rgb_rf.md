@@ -45,7 +45,7 @@ With the resurgence of non-contact vital sign sensing due to the COVID-19 pandem
 
 
 @section
-- Paper ([Link](https://drive.google.com/file/d/1c0h7UNYsZdO_QPr3feylZ0n6A5mAly6p/view?usp=sharing)) 
+- Paper ([Link](https://dl.acm.org/doi/10.1145/3528223.3530161)) 
 - Dataset (Forthcoming)
 - Code (Forthcoming)
 
