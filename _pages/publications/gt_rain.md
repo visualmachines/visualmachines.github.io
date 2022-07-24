@@ -237,7 +237,29 @@ methods on real rainy images under various conditions.
 - Paper (Forthcoming)
 - Code (Forthcoming)
 - Dataset (Forthcoming)
-
+@section
+<div class="gif-container">
+<div id="comparison1">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+<div id="comparison2">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+<div id="comparison3">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+<div id="comparison4">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+</div>
 @section
 <div class="figures">
   <div class="column">
@@ -334,7 +356,7 @@ methods on real rainy images under various conditions.
 
 Note EDR V4 (S) [6] denotes the EDR model trained on SPA-Data [1], and EDR V4 (R) [6] denotes the EDR model
 trained on Rain14000 [8].
-
+<sub>
 [1] Wang, T., Yang, X., Xu, K., Chen, S., Zhang, Q., Lau, R.W.: Spatial attentive
 single-image deraining with a high quality real rain dataset. In: Proceedings of the
 IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12270–
@@ -361,29 +383,7 @@ Multi-stage progressive image restoration. In: Proceedings of the IEEE/CVF Confe
 
 [8] Fu, X., Huang, J., Zeng, D., Huang, Y., Ding, X., Paisley, J.: Removing rain from
 single images via a deep detail network. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 3855–3863 (2017)
-@section
-<div class="gif-container">
-<div id="comparison1">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-<div id="comparison2">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-<div id="comparison3">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-<div id="comparison4">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-</div>
+</sub>
 @section
 @section
 @section
