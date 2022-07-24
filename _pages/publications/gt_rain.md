@@ -354,33 +354,50 @@ methods on real rainy images under various conditions.
   </div>
 </div>
 
+<sub>
 Note EDR V4 (S) [6] denotes the EDR model trained on SPA-Data [1], and EDR V4 (R) [6] denotes the EDR model
 trained on Rain14000 [8].
+</sub>  
+  
 <sub>
 [1] Wang, T., Yang, X., Xu, K., Chen, S., Zhang, Q., Lau, R.W.: Spatial attentive
 single-image deraining with a high quality real rain dataset. In: Proceedings of the
 IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12270–
 12279 (2019)
-
+</sub>
+  
+<sub>  
 [2] Li, R., Cheong, L.F., Tan, R.T.: Heavy rain image restoration: Integrating physics
 model and conditional adversarial learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 1633–1642 (2019
-
+</sub>
+  
+<sub>
 [3] Jiang, K., Wang, Z., Yi, P., Chen, C., Huang, B., Luo, Y., Ma, J., Jiang, J.: Multiscale progressive fusion network for single image deraining. In: Proceedings of theIEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 8346–8355 (2020)
-
+</sub>
+  
+<sub>
 [4] Wang, H., Xie, Q., Zhao, Q., Meng, D.: A model-driven deep neural network for single image rain removal. In: Proceedings of the IEEE/CVF Conference on Computer
 Vision and Pattern Recognition (June 2020)
-
+</sub>
+  
+<sub>
 [5] Hu, X., Zhu, L., Wang, T., Fu, C.W., Heng, P.A.: Single-image real-time rain removal
 based on depth-guided non-local features. IEEE Transactions on Image Processing
 30, 1759–1770 (2021)
-
+</sub>
+  
+<sub>
 [6] Guo, Q., Sun, J., Juefei-Xu, F., Ma, L., Xie, X., Feng, W., Liu, Y., Zhao, J.: Efficientderain: Learning pixel-wise dilation filtering for high-efficiency single-image
 deraining. In: Proceedings of the AAAI Conference on Artificial Intelligence. vol. 35,
 pp. 1487–1495 (2021)
-
+</sub>
+  
+<sub>
 [7] Zamir, S.W., Arora, A., Khan, S., Hayat, M., Khan, F.S., Yang, M.H., Shao, L.:
 Multi-stage progressive image restoration. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 14821–14831 (2021)
-
+</sub>
+  
+<sub>
 [8] Fu, X., Huang, J., Zeng, D., Huang, Y., Ding, X., Paisley, J.: Removing rain from
 single images via a deep detail network. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 3855–3863 (2017)
 </sub>
