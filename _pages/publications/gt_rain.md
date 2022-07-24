@@ -269,7 +269,7 @@ methods on real rainy images under various conditions.
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_DGNL-1.png" alt="Missing"> 
-      <figcaption> DGNL-Net [5]  </figcaption>
+      <figcaption> DGNL-Net <sup>[5]</sup>  </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_rain-1.png" alt="Missing"> 
