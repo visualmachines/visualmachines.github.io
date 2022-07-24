@@ -269,7 +269,7 @@ methods on real rainy images under various conditions.
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_DGNL-1.png" alt="Missing"> 
-      <figcaption> DGNL-Net <sup>[5]</sup>  </figcaption>
+      <figcaption> DGNL-Net<sup>[5]</sup>  </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_rain-1.png" alt="Missing"> 
@@ -277,67 +277,67 @@ methods on real rainy images under various conditions.
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_DGNL-1.png" alt="Missing"> 
-      <figcaption> DGNL-Net [5] </figcaption>
+      <figcaption> DGNL-Net<sup>[5]</sup> </figcaption>
     </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/94_SPANet-1.png" alt="Missing"> 
-      <figcaption> SPANet [1]</figcaption>
+      <figcaption> SPANet<sup>[1]</sup></figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_EDv4-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (S) [6] </figcaption>
+      <figcaption> EDR V4 (S)<sup>[6]</sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_SPANet-1.png" alt="Missing"> 
-      <figcaption> SPANet [1]</figcaption>
+      <figcaption> SPANet<sup>[1]</sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_EDv4-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (S) [6]</figcaption>
+      <figcaption> EDR V4 (S)<sup>[6]</sup> </figcaption>
     </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/94_HRR-1.png" alt="Missing"> 
-      <figcaption> HRR [2]</figcaption>
+      <figcaption> HRR<sup>[2]</sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_EDv4rain1400-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (R) [6]</figcaption>
+      <figcaption> EDR V4 (R)<sup>[6]</sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_HRR-1.png" alt="Missing"> 
-      <figcaption> HRR [2]</figcaption>
+      <figcaption> HRR<sup>[2]</sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_EDv4rain1400-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (R) [6]</figcaption>
+      <figcaption> EDR V4 (R)<sup>[6]</sup> </figcaption>
     </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/94_MSPFN-1.png" alt="Missing"> 
-      <figcaption> MSPFN [3]</figcaption>
+      <figcaption> MSPFN<sup>[3]</sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_MPRNet-1.png" alt="Missing"> 
-      <figcaption> MPRNet [7]</figcaption>
+      <figcaption> MPRNet<sup>[7]<sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_MSPFN-1.png" alt="Missing"> 
-      <figcaption> MSPFN [3]</figcaption>
+      <figcaption> MSPFN<sup>[3]</sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_MPRNet-1.png" alt="Missing"> 
-      <figcaption> MPRNet [7]</figcaption>
+      <figcaption> MPRNet<sup>[7]</sup> </figcaption>
     </figure>
   </div>
   <div class="column">
     <figure> 
       <img src= "/assets/images/gt-rain/94_RCDNet-1.png" alt="Missing"> 
-      <figcaption> RCDNet [4]</figcaption>
+      <figcaption> RCDNet<sup>[4]</sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_derain-1.png" alt="Missing"> 
@@ -345,7 +345,7 @@ methods on real rainy images under various conditions.
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_RCDNet-1.png" alt="Missing"> 
-      <figcaption> RCDNet [4]</figcaption>
+      <figcaption> RCDNet<sup>[4]</sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_ours-1.png" alt="Missing"> 
@@ -355,8 +355,8 @@ methods on real rainy images under various conditions.
 </div>
 
 <sub>
-Note EDR V4 (S) [6] denotes the EDR model trained on SPA-Data [1], and EDR V4 (R) [6] denotes the EDR model
-trained on Rain14000 [8].
+Note EDR V4 (S)<sup>[6]</sup> denotes the EDR model trained on SPA-Data<sup>[1]</sup>, and EDR V4 (R)<sup>[6]</sup> denotes the EDR model
+trained on Rain14000<sup>[8]</sup>.
 </sub>
 
 <sub>
