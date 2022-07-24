@@ -323,7 +323,7 @@ methods on real rainy images under various conditions.
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/94_MPRNet-1.png" alt="Missing"> 
-      <figcaption> MPRNet<sup>[7]<sup> </figcaption>
+      <figcaption> MPRNet<sup>[7]</sup> </figcaption>
     </figure>
     <figure> 
       <img src= "/assets/images/gt-rain/131_MSPFN-1.png" alt="Missing"> 
