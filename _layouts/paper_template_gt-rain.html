@@ -48,21 +48,21 @@
         {% endunless %}
         {% endif %}
       
-        <!-- Comparison -->
+        <!-- Results -->
         {% if section_counter == 3 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
-          <div class="row mt-3 heading"> Comparsion </div>
+          <div class="row mt-3 heading"> Results </div>
           <div class="row mt-3"> {{ section }} </div>
         </div>
         {% endunless %}
         {% endif %}
 
-        <!-- Additional Results -->
+        <!-- Additional Comparison -->
         {% if section_counter == 4 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
-          <div class="row mt-3 heading"> Additional Results </div>
+          <div class="row mt-3 heading"> Additional Comparison </div>
           <div class="row mt-3"> {{ section }} </div>
         </div>
         {% endunless %}
