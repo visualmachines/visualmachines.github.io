@@ -39,7 +39,12 @@ figcaption {
 .gif-container{	
   display: flex;
 }
-
+.teaser-container{	
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
 div#comparison1 { 
   width: 19.24vw;
   height: 12.7vw;
@@ -180,8 +185,8 @@ div#comparison4 figure #divisor {
   animation-direction: alternate;
 }
 div#comparison_teaser_1 { 
-  width: 50%;
-  height: 74%;
+  width: 19.18vw;
+  height: 12.7vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
@@ -214,8 +219,8 @@ div#comparison_teaser_1 figure #divisor {
 }
   
 div#comparison_teaser_2 { 
-  width: 50%;
-  height: 74%;
+  width: 19.18vw;
+  height: 12.7vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
