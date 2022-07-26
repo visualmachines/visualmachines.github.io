@@ -197,7 +197,12 @@ div#comparison4 figure #divisor {
 
 <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/>
 
-![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})
+<!-- ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }}) -->
+<div id="comparison1">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
 *The points above depict datasets and their corresponding outputs
 from models trained on them. These outputs come from a real rain image from
 the Internet.*
