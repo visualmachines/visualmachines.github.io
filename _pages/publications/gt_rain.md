@@ -282,9 +282,7 @@ div#comparison_teaser_2 figure #divisor {
   </figure>
 </div>
 </div>
-*The points above depict datasets and their corresponding outputs
-from models trained on them. These outputs come from a real rain image from
-the Internet.*
+***Left:** Previous state of the art MPRNet<sup>[7]</sup> <br> **Right:** Ours*
 <br>
 
 {% endif %}
