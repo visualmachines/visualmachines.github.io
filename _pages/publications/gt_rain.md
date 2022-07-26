@@ -180,7 +180,10 @@ div#comparison4 figure #divisor {
   animation-direction: alternate;
 }
 div#comparison_teaser_1 { 
-  width: 50%;
+  width: 19.18vw;
+  height: 12.7vw;
+  max-width: 600px;
+  max-height: 600px;
   overflow: hidden; 
   padding: 0 3px;
 }  
@@ -211,7 +214,10 @@ div#comparison_teaser_1 figure #divisor {
 }
   
 div#comparison_teaser_2 { 
-  width: 50%;
+  width: 19.18vw;
+  height: 12.7vw;
+  max-width: 600px;
+  max-height: 600px;
   overflow: hidden; 
   padding: 0 3px;
 }
