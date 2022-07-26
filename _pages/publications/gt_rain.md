@@ -193,7 +193,7 @@ div#comparison_teaser_1 {
   padding: 0 3px;
 }  
 div#comparison_teaser_1 figure { 
-  background-image: url(/assets/images/gt-rain/94.png); 
+  background-image: url(/assets/images/gt-rain/94.jpg); 
   background-size: cover;
   position: relative;
   width: 100%; 
@@ -227,7 +227,7 @@ div#comparison_teaser_2 {
   padding: 0 3px;
 }
 div#comparison_teaser_2 figure { 
-  background-image: url(/assets/images/gt-rain/94.png); 
+  background-image: url(/assets/images/gt-rain/94.jpg); 
   background-size: cover;
   position: relative;
   width: 100%; 
