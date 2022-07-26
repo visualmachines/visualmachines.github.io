@@ -38,6 +38,7 @@ figcaption {
    
 .gif-container{	
   display: flex;
+  justify-content: space-between;
 }
 .teaser-container{	
   display: flex;
