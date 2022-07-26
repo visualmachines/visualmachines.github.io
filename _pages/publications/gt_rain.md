@@ -270,7 +270,7 @@ div#comparison_teaser_2 figure #divisor {
 <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/>
 
 <!-- ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }}) -->
-<div class="gif-container">
+<div class="teaser-container">
 <div id="comparison_teaser_1">
   <figure>
     <div id="divisor"></div>
