@@ -267,7 +267,7 @@ div#comparison_teaser_2 figure #divisor {
 {% for association in publication.associations %} [{{ association.name }}]({{association.link}})<sup>{{count}}</sup> {% assign count = count | plus: 1 %}
 {% endfor %}
 
-<hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/>
+<!-- <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/> -->
 
 <!-- ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }}) -->
 <div class="teaser-container">
