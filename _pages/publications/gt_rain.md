@@ -6,7 +6,7 @@ sitemap: false
 permalink: /gt_rain.htm/
 ---
 <style>
-.container{
+!.container{
   margin: 0px auto 50px auto;
 }
 .figures {
@@ -271,7 +271,7 @@ div#comparison_teaser_2 figure #divisor {
 {% endfor %}
 
 <font color="gray" size="5"><a href="https://eccv2022.ecva.net">ECCV 2022, Tel Aviv, Israel</a></font>
-
+<br>
 <!-- <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/> -->
 
 <!-- ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }}) -->
