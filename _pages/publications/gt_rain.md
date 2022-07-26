@@ -282,7 +282,7 @@ div#comparison_teaser_2 figure #divisor {
   </figure>
 </div>
 </div>
-***Left:** Previous state of the art MPRNet<sup>[7]</sup> <br> **Right:** Ours*
+***Left:** Previous state of the art MPRNet<sup>[7]</sup>. **Right:** Ours*
 <br>
 
 {% endif %}
