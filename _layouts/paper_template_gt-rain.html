@@ -13,7 +13,12 @@
     <div style="width:100%"></div> <br> <br>
     <div class="background-wrapper" class ="img-fluid" style="margin: 50px 100px;"></div>
     <div class="container">
+      
+      <!--
       <div class="article-meta col-md-8" style="margin: auto; box-shadow: 0px 5px 10px 0px grey; padding: 10px;">
+      -->
+      
+      <div style="margin: auto; padding: 10px;">
         <div class="center">
           <br>
           {{ content | split: "@section" | first }}
@@ -136,7 +141,7 @@
   }
   @media screen and (min-width: 501px){
     .container{
-      margin: 0px 100px 50px 50px;
+      margin: 0px auto 50px auto;
     }
   }
 </style>
