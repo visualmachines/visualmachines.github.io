@@ -6,6 +6,9 @@ sitemap: false
 permalink: /gt_rain.htm/
 ---
 <style>
+.container{
+  margin: 0px auto 50px auto;
+}
 .figures {
   display: flex;
   flex-wrap: wrap;
@@ -266,6 +269,8 @@ div#comparison_teaser_2 figure #divisor {
 {% assign count = 1 %}
 {% for association in publication.associations %} [{{ association.name }}]({{association.link}})<sup>{{count}}</sup> {% assign count = count | plus: 1 %}
 {% endfor %}
+
+<font color="gray" size="5"><a href="https://eccv2022.ecva.net">ECCV 2022, Tel Aviv, Israel</a></font>
 
 <!-- <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/> -->
 
