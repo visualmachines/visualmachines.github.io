@@ -53,7 +53,7 @@ div#comparison1 {
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
-  padding: 0 1px;}
+  padding: 0 2px;}
   
 div#comparison1 figure { 
   background-image: url(/assets/images/gt-rain/72__rain.png); 
@@ -88,7 +88,7 @@ div#comparison2 {
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
-  padding: 0 1px;}
+  padding: 0 2px;}
   
 div#comparison2 figure { 
   background-image: url(/assets/images/gt-rain/img2.png); 
@@ -123,7 +123,7 @@ div#comparison3 {
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
-  padding: 0 1px;}
+  padding: 0 2px;}
   
 div#comparison3 figure { 
   background-image: url(/assets/images/gt-rain/74__rain.png); 
@@ -158,7 +158,7 @@ div#comparison4 {
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
-  padding: 0 1px;}
+  padding: 0 2px;}
   
 div#comparison4 figure { 
   background-image: url(/assets/images/gt-rain/59__rain.png); 
