@@ -253,8 +253,9 @@ div#comparison_teaser_2 figure #divisor {
 }
 @keyframes slide {
 0% {width: 0%}
-  20% { width: 0%; }
-  80% { width: 100%; }
+  19% {box-shadow: 0px 0px 0px 0px rgba(0,0,0,.5);}
+  20% { width: 0%; box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);}
+  80% { width: 100%; box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);}
 }  
 </style>
 {% for publication in site.data.publications %}
