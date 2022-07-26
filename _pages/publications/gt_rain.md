@@ -185,15 +185,15 @@ div#comparison4 figure #divisor {
   animation-direction: alternate;
 }
 div#comparison_teaser_1 { 
-  width: 19.18vw;
-  height: 12.7vw;
+  width: 20vw;
+  height: 31vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
   padding: 0 3px;
 }  
 div#comparison_teaser_1 figure { 
-  background-image: url(/assets/images/gt-rain/59__rain.png); 
+  background-image: url(/assets/images/gt-rain/94.png); 
   background-size: cover;
   position: relative;
   width: 100%; 
@@ -201,7 +201,7 @@ div#comparison_teaser_1 figure {
   margin: 0; 
 }
 div#comparison_teaser_1 figure #divisor { 
-  background-image: url(/assets/images/gt-rain/59_derain.png);
+  background-image: url(/assets/images/gt-rain/94_MPRNet.png);
   background-size: cover;
   position: relative;
   width: 100%; 
@@ -219,15 +219,15 @@ div#comparison_teaser_1 figure #divisor {
 }
   
 div#comparison_teaser_2 { 
-  width: 19.18vw;
-  height: 12.7vw;
+  width: 20vw;
+  height: 31vw;
   max-width: 600px;
   max-height: 600px;
   overflow: hidden; 
   padding: 0 3px;
 }
 div#comparison_teaser_2 figure { 
-  background-image: url(/assets/images/gt-rain/59__rain.png); 
+  background-image: url(/assets/images/gt-rain/94.png); 
   background-size: cover;
   position: relative;
   width: 100%; 
@@ -235,7 +235,7 @@ div#comparison_teaser_2 figure {
   margin: 0; 
 }
 div#comparison_teaser_2 figure #divisor { 
-  background-image: url(/assets/images/gt-rain/59_derain.png);
+  background-image: url(/assets/images/gt-rain/94_ours.png);
   background-size: cover;
   position: relative;
   width: 100%; 
