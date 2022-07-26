@@ -179,6 +179,67 @@ div#comparison4 figure #divisor {
   animation-duration: 5s;
   animation-direction: alternate;
 }
+div#comparison_teaser_1 { 
+  width: 50%;
+  overflow: hidden; 
+  padding: 0 3px;
+}  
+div#comparison_teaser_1 figure { 
+  background-image: url(/assets/images/gt-rain/59__rain.png); 
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+div#comparison_teaser_1 figure #divisor { 
+  background-image: url(/assets/images/gt-rain/59_derain.png);
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+  
+  
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+  
+div#comparison_teaser_2 { 
+  width: 50%;
+  overflow: hidden; 
+  padding: 0 3px;
+}
+div#comparison_teaser_2 figure { 
+  background-image: url(/assets/images/gt-rain/59__rain.png); 
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+div#comparison_teaser_2 figure #divisor { 
+  background-image: url(/assets/images/gt-rain/59_derain.png);
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+  
+  
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
 @keyframes slide {
 0% {width: 0%}
   20% { width: 0%; }
@@ -198,10 +259,17 @@ div#comparison4 figure #divisor {
 <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/>
 
 <!-- ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }}) -->
-<div id="comparison1">
+<div class="gif-container">
+<div id="comparison_teaser_1">
   <figure>
     <div id="divisor"></div>
   </figure>
+</div>
+<div id="comparison_teaser_2">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
 </div>
 *The points above depict datasets and their corresponding outputs
 from models trained on them. These outputs come from a real rain image from
