@@ -391,7 +391,7 @@ div#comparison_teaser_2 figure #divisor {
   animation-name: slide;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 5.s;
+  animation-duration: 5.5s;
   animation-direction: alternate;
 }
 @keyframes slide {
