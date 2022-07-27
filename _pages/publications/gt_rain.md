@@ -186,6 +186,146 @@ div#comparison4 figure #divisor {
   animation-duration: 5s;
   animation-direction: alternate;
 }
+  
+div#mcomparison1 { 
+  width: 19.24vw;
+  height: 12.7vw;
+  max-width: 600px;
+  max-height: 600px;
+  overflow: hidden; 
+  padding: 0 2px;}
+  
+div#mcomparison1 figure { 
+  background-image: url(/assets/images/gt-rain/72__rain.png); 
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+div#mcomparison1 figure #divisor { 
+  background-image: url(/assets/images/gt-rain/72MPRNet.png);
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+  
+  
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+  
+div#mcomparison2 { 
+  width: 19.05vw;
+  height: 12.7vw;
+  max-width: 600px;
+  max-height: 600px;
+  overflow: hidden; 
+  padding: 0 2px;}
+  
+div#mcomparison2 figure { 
+  background-image: url(/assets/images/gt-rain/img2.png); 
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+div#mcomparison2 figure #divisor { 
+  background-image: url(/assets/images/gt-rain/img2MPRNet.png);
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+  
+  
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+  
+div#mcomparison3 { 
+  width: 15.875vw;
+  height: 12.7vw;
+  max-width: 600px;
+  max-height: 600px;
+  overflow: hidden; 
+  padding: 0 2px;}
+  
+div#mcomparison3 figure { 
+  background-image: url(/assets/images/gt-rain/74__rain.png); 
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+div#mcomparison3 figure #divisor { 
+  background-image: url(/assets/images/gt-rain/74MPRNet.png);
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+  
+  
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+div#mcomparison4 { 
+  width: 19.18vw;
+  height: 12.7vw;
+  max-width: 600px;
+  max-height: 600px;
+  overflow: hidden; 
+  padding: 0 2px;}
+  
+div#mcomparison4 figure { 
+  background-image: url(/assets/images/gt-rain/59__rain.png); 
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+div#mcomparison4 figure #divisor { 
+  background-image: url(/assets/images/gt-rain/59MPRNet.png);
+  background-size: cover;
+  position: relative;
+  width: 100%; 
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.5);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+  
+  
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
 div#comparison_teaser_1 { 
   width: 20vw;
   height: 31vw;
@@ -342,6 +482,29 @@ methods on real rainy images under various conditions.
   </figure>
 </div>
 <div id="comparison4">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+</div>
+
+<div class="gif-container">
+<div id="mcomparison1">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+<div id="mcomparison2">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+<div id="mcomparison3">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+</div>
+<div id="mcomparison4">
   <figure>
     <div id="divisor"></div>
   </figure>
