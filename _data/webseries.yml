@@ -1,3 +1,13 @@
+- title: "Shady business: Occluder-aided Non-Line-of-Sight Imaging"
+  speaker: Charles Saunders
+  speaker_image: charles.jpg
+  institution: Postdoc Research Scientist, Meta
+  description:
+  summary: "Non-line-of-sight (NLOS) imaging involves the reconstruction of scenes that are not directly visible to the observer. Typically, this is based upon measurements of light originating or returning from the scene that has then scattered from a diffuse reflector (such as a wall) towards the observer. The results of NLOS imaging range from the recovery of 2D photograph-like images of a hidden area, to determining the position, motion or number of hidden objects, to 3D reconstructions of a hidden space. In this talk, I will discuss two rather different NLOS imaging methods that we have developed: Computational Periscopy, and Edge-Resolved Transient Imaging. Although the methods differ greatly in their aims and mechanisms, they still share a common thread: the opportunistic use of occluders (objects that block light) that are ubiquitous to the spaces around us. "
+  date: 5
+  month_year: Aug, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
 - title: "Computational Interferometry"
   speaker: Alankar Kotwal
   speaker_image: kotwal.jpeg
