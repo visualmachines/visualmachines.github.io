@@ -80,7 +80,7 @@ div#comparison1 figure #divisor {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5.5s;
-  animation-direction: alternate;
+  animation-direction:normal;
 }
   
 div#comparison2 { 
@@ -115,7 +115,7 @@ div#comparison2 figure #divisor {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5.5s;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
   
 div#comparison3 { 
@@ -150,7 +150,7 @@ div#comparison3 figure #divisor {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5.5s;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
 
 div#comparison4 { 
@@ -185,7 +185,7 @@ div#comparison4 figure #divisor {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5.5s;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
   
 div#mcomparison1 { 
@@ -220,7 +220,7 @@ div#mcomparison1 figure #divisor {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5.5s;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
   
 div#mcomparison2 { 
@@ -255,7 +255,7 @@ div#mcomparison2 figure #divisor {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5.5s;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
   
 div#mcomparison3 { 
@@ -290,7 +290,7 @@ div#mcomparison3 figure #divisor {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5.5s;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
 
 div#mcomparison4 { 
@@ -325,7 +325,7 @@ div#mcomparison4 figure #divisor {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5.5s;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
 div#comparison_teaser_1 { 
   width: 20vw;
@@ -358,7 +358,7 @@ div#comparison_teaser_1 figure #divisor {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5.5s;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
   
 div#comparison_teaser_2 { 
@@ -392,7 +392,7 @@ div#comparison_teaser_2 figure #divisor {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5.5s;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
 @keyframes slide {
 0% {width: 0%; box-shadow: 0px 0px 0px 0px rgba(0,0,0,.5);}
