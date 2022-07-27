@@ -40,7 +40,7 @@ figcaption {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding-bottom: 7px;
+  padding-top: 7px;
 }
 .teaser-container{	
   display: flex;
