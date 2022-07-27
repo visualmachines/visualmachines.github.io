@@ -40,7 +40,7 @@ figcaption {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding-bottom: 3px;
+  padding-bottom: 7px;
 }
 .teaser-container{	
   display: flex;
@@ -428,7 +428,7 @@ div#comparison_teaser_2 figure #divisor {
   </figure>
 </div>
 </div>
-***Left:** Previous state of the art MPRNet<sup>[7]</sup>. **Right:** Ours*
+***Left:** Previous state of the art MPRNet<sup>[7]</sup>. **Right:** Ours.*
 <br>
 
 {% endif %}
@@ -466,7 +466,7 @@ methods on real rainy images under various conditions.
 - Code (Forthcoming)
 - Dataset (Forthcoming)
 @section
-**Top:**  Ours. **Bottom:**  Previous state of the art MPRNet<sup>[7]</sup>.
+***Top:** Ours. **Bottom:** Previous state of the art MPRNet<sup>[7]</sup>.*
 <div class="gif-container">
 <div id="comparison1">
   <figure>
