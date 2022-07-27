@@ -119,7 +119,7 @@ div#comparison2 figure #divisor {
 }
   
 div#comparison3 { 
-  width: 15.875vw;
+  width: 15.88vw;
   height: 12.7vw;
   max-width: 600px;
   max-height: 600px;
@@ -259,7 +259,7 @@ div#mcomparison2 figure #divisor {
 }
   
 div#mcomparison3 { 
-  width: 15.875vw;
+  width: 15.88vw;
   height: 12.7vw;
   max-width: 600px;
   max-height: 600px;
