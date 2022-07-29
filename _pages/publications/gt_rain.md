@@ -346,8 +346,6 @@ div#comparison_teaser_1 figure #divisor {
 div#comparison_teaser_2 { 
   width: 20vw;
   height: 31vw;
-  max-width: 600px;
-  max-height: 600px;
   overflow: hidden; 
   padding: 0 3px;
 }
