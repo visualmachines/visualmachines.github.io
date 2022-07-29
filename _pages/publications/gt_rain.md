@@ -51,8 +51,6 @@ figcaption {
 div#comparison1 { 
   width: 19.24vw;
   height: 12.7vw;
-  max-width: 600px;
-  max-height: 600px;
   overflow: hidden; 
   padding: 0 2px;}
   
@@ -86,8 +84,6 @@ div#comparison1 figure #divisor {
 div#comparison2 { 
   width: 19.05vw;
   height: 12.7vw;
-  max-width: 600px;
-  max-height: 600px;
   overflow: hidden; 
   padding: 0 2px;}
   
@@ -121,8 +117,6 @@ div#comparison2 figure #divisor {
 div#comparison3 { 
   width: 15.88vw;
   height: 12.7vw;
-  max-width: 600px;
-  max-height: 600px;
   overflow: hidden; 
   padding: 0 2px;}
   
@@ -156,8 +150,6 @@ div#comparison3 figure #divisor {
 div#comparison4 { 
   width: 19.18vw;
   height: 12.7vw;
-  max-width: 600px;
-  max-height: 600px;
   overflow: hidden; 
   padding: 0 2px;}
   
@@ -191,8 +183,6 @@ div#comparison4 figure #divisor {
 div#mcomparison1 { 
   width: 19.24vw;
   height: 12.7vw;
-  max-width: 600px;
-  max-height: 600px;
   overflow: hidden; 
   padding: 0 2px;}
   
@@ -226,8 +216,6 @@ div#mcomparison1 figure #divisor {
 div#mcomparison2 { 
   width: 19.05vw;
   height: 12.7vw;
-  max-width: 600px;
-  max-height: 600px;
   overflow: hidden; 
   padding: 0 2px;}
   
@@ -261,8 +249,6 @@ div#mcomparison2 figure #divisor {
 div#mcomparison3 { 
   width: 15.88vw;
   height: 12.7vw;
-  max-width: 600px;
-  max-height: 600px;
   overflow: hidden; 
   padding: 0 2px;}
   
@@ -296,8 +282,6 @@ div#mcomparison3 figure #divisor {
 div#mcomparison4 { 
   width: 19.18vw;
   height: 12.7vw;
-  max-width: 600px;
-  max-height: 600px;
   overflow: hidden; 
   padding: 0 2px;}
   
@@ -330,8 +314,6 @@ div#mcomparison4 figure #divisor {
 div#comparison_teaser_1 { 
   width: 20vw;
   height: 31vw;
-  max-width: 600px;
-  max-height: 600px;
   overflow: hidden; 
   padding: 0 3px;
 }  
