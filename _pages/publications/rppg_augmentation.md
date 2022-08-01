@@ -45,6 +45,7 @@ Data-driven remote vital sign estimation provides an efficient alternative to on
 @section
 
 - Paper (Forthcoming)
+- Code ([Link](https://github.com/UCLA-VMG/rPPG_augmentation))
 
 @section
 @section
