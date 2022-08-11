@@ -621,11 +621,11 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
 }
 ~~~
 
-@InProceedings{ba2022gt-rain,
-      &nbsp; author={Ba, Yunhao and Zhang, Howard, and Yang, Ethan, and Suzuki, Akira and Pfahnl, Arnold and Chandrappa, Chethan Chinder and de Melo, Celso and You, Suya and Soatto, Stefano and Wong, Alex and Kadambi, Achuta}, \
-      &nbsp; title={Not Just Streaks: Towards Ground Truth for Single Image Deraining}, \
-      &nbsp; booktitle={ECCV}, \
-      &nbsp; year={2022} \
+@InProceedings{ba2022gt-rain, \
+      >author={Ba, Yunhao and Zhang, Howard, and Yang, Ethan, and Suzuki, Akira and Pfahnl, Arnold and Chandrappa, Chethan Chinder and de Melo, Celso and You, Suya and Soatto, Stefano and Wong, Alex and Kadambi, Achuta}, \
+      >title={Not Just Streaks: Towards Ground Truth for Single Image Deraining}, \
+      >booktitle={ECCV}, \
+      >year={2022} \
 }
 
 @section
