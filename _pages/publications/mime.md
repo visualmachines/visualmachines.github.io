@@ -46,6 +46,7 @@ Several papers have rightly included minority groups in artificial intelligence 
 
 @section
 - Paper ([Link](https://drive.google.com/file/d/1rU-VWnmJc1hixIPAR7WepJ7nAhkrNpKd/view?usp=sharing)) <!-- ([Link](https://drive.google.com/file/d/1c0h7UNYsZdO_QPr3feylZ0n6A5mAly6p/view?usp=sharing)) -->
+- Paper - Low-Res ([Link](https://drive.google.com/file/d/1GS9Q8wALjN1Z6sKtpDUtp2lp3hDKuV-L/view?usp=sharing))
 - Code and Data ([Link](https://github.com/UCLA-VMG/MIME))
 
 @section
