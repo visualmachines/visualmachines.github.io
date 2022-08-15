@@ -47,7 +47,7 @@ With the resurgence of non-contact vital sign sensing due to the COVID-19 pandem
 @section
 - Paper ([Link](https://dl.acm.org/doi/10.1145/3528223.3530161)) 
 - Dataset (Forthcoming)
-- Code (Forthcoming)
+- Code ([Link](https://github.com/UCLA-VMG/EquiPleth/))
 
 @section
 @inproceedings{vilesov2022blending, \
