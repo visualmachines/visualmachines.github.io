@@ -443,8 +443,8 @@ demonstrate that our model outperforms the state-of-the-art deraining
 methods on real rainy images under various conditions.
 @section
 - Paper (Forthcoming)
-- Code (link[https://github.com/UCLA-VMG/GT-RAIN])
-- Dataset (link[https://drive.google.com/drive/folders/1NSRl954QPcGIgoyJa_VjQwh_gEaHWPb8?usp=sharing])
+- Code ([link](https://github.com/UCLA-VMG/GT-RAIN))
+- Dataset ([link](https://drive.google.com/drive/folders/1NSRl954QPcGIgoyJa_VjQwh_gEaHWPb8?usp=sharing))
 @section
 ***Top:** Ours. **Bottom:** Previous state of the art MPRNet<sup>[7]</sup>.*
 <div class="gif-container">
