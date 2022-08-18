@@ -46,15 +46,21 @@ With the resurgence of non-contact vital sign sensing due to the COVID-19 pandem
 
 @section
 - Paper ([Link](https://dl.acm.org/doi/10.1145/3528223.3530161)) 
-- Dataset (Forthcoming)
+- Low-Res Paper ([Link](https://drive.google.com/file/d/1TSQpXoqkLtEgA3K1bSsQedVTjyQb65sa/view?usp=sharing))
+- Dataset (Please submit the [data request form](https://docs.google.com/forms/d/e/1FAIpQLSfFqFXyp4-xH2NSx7Hk33FxSUb-MdwmwVCH3C_kUeQshJzn7Q/viewform) for access to the dataset)
 - Code ([Link](https://github.com/UCLA-VMG/EquiPleth/))
+- Slides ([Link](https://docs.google.com/presentation/d/1arSZlesm3VgBBglVNgi2xmAntTNgeLUfbt1LALtjDXw/edit#slide=id.g1428981a6f5_4_80))
 
 @section
-@inproceedings{vilesov2022blending, \
+@article{vilesov2022blending, \
   &nbsp; title={Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography}, \
-  &nbsp; author={Vilesov, Alexander and Chari, Pradyumna and Armouti, Adnan and Harish, Anirudh B and Kulkarni, Kimaya and Deoghare, Ananya and Jalilian, Laleh and Kadambi, Achuta}, \
-  &nbsp; booktitle={ACM Trans. Graph. (SIGGRAPH)}, \
-  &nbsp; year={2022} \
+  &nbsp; author={Vilesov, Alexander and Chari, Pradyumna and Armouti, Adnan and Harish, Anirudh Bindiganavale and Kulkarni, Kimaya and Deoghare, Ananya and Jalilian, Laleh and Kadambi, Achuta}, \
+  &nbsp; journal={ACM Transactions on Graphics (TOG)}, \
+  &nbsp; volume={41}, \
+  &nbsp; number={4}, \
+  &nbsp; pages={1--14}, \
+  &nbsp; year={2022}, \
+  &nbsp; publisher={ACM New York, NY, USA} \
 }
 
 @section
