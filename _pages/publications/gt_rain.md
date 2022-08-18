@@ -626,7 +626,7 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
 Yunhao Ba <br>
 Electrical and Computer Engineering Department <br>
 yhba@ucla.edu <br> 
-&nbsp<br>
+&nbsp;<br>
 Howard Zhang <br>
 Electrical and Computer Engineering Department <br>
 hwdz15508@g.ucla.edu
