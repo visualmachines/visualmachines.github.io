@@ -442,7 +442,7 @@ invariant loss between rainy and clean images. Extensive experiments
 demonstrate that our model outperforms the state-of-the-art deraining
 methods on real rainy images under various conditions.
 @section
-- Paper (Forthcoming)
+- Paper ([link](https://drive.google.com/drive/folders/1b3oiKyj-h1vlMb1d84ffyOx-GTFJPb4O?usp=sharing))
 - Code ([link](https://github.com/UCLA-VMG/GT-RAIN))
 - Dataset ([link](https://drive.google.com/drive/folders/1NSRl954QPcGIgoyJa_VjQwh_gEaHWPb8?usp=sharing))
 @section
@@ -626,3 +626,7 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
 Yunhao Ba <br>
 Electrical and Computer Engineering Department <br>
 yhba@ucla.edu
+
+Howard Zhang <br>
+Electrical and Computer Engineering Department <br>
+hwdz15508@g.ucla.edu
