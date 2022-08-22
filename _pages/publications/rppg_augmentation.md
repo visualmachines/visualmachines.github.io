@@ -44,8 +44,9 @@ permalink: /rppg_augmentation.htm/
 Data-driven remote vital sign estimation provides an efficient alternative to on-site clinical monitoring, however, its performance can be biased due to the imbalanced training sets. In this work, we take remote photoplethysmography (rPPG) as an example to examine the performance bias from skin tone variations in non-contact heart rate estimation. In rPPG, recent deep learning models have significantly improved the accuracy of the physiological measurement, however, the existing datasets MMSE-HR, AFRL, and UBFC-RPPG only contain roughly 10%, 0%, and 5% of dark-skinned subjects respectively. The imbalanced training sets result in a poor generalization capability of these models and lead to unwanted bias toward different demographic groups. In Western academia, it is regrettably difficult in a university setting to collect data on these dark-skinned subjects. Here we show a first attempt to overcome the lack of dark-skinned subjects by synthetic augmentation. A joint optimization framework is utilized to translate real videos from light-skinned subjects to dark skin tones while retaining their pulsatile signals. In the experiment, our method exhibits around 38% reduction in mean absolute error for the dark-skinned group and 49% improvement on bias mitigation, as compared with the previous work trained with just real samples.
 @section
 
-- Paper (Forthcoming)
+- Paper ([Link](https://drive.google.com/file/d/1Y5OHxx1PBW3S37jp6izA64EvGLbAJU4j/view?usp=sharing))
 - Code ([Link](https://github.com/UCLA-VMG/rPPG_augmentation))
+- Slides ([Link](https://docs.google.com/presentation/d/10169VJOuxUaLblFSPgLyg8ir39tEXze08YcjekCHO7c/edit?usp=sharing))
 
 @section
 @section
