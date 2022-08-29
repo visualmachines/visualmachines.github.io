@@ -1,3 +1,13 @@
+- title: "Imaging, Fast and Slow: Computational Imaging for Sensing High-speed Phenomena"
+  speaker: Mark Sheinin
+  speaker_image: mark.jpg
+  institution: Postdoctoral Research Associate, Carnegie Mellon University
+  description:
+  summary: "The world is full of phenomena that are either too fast or too minute for our eyes to observe. Moreover, despite recent advances in sensor technologies, most cameras are just as blind to these phenomena as our eyes. One reason for this limitation is that capturing high-speed video at high-spatial resolutions is fundamentally challenging. Computational imaging is an exciting field that allows us to build novel vision systems that can capture these high-speed phenomena, consequently revealing additional hidden information about our environments. In this talk, I will cover three projects using computational imaging to sense various fast phenomena. First, I will describe the ACam - a camera designed to capture the minute flicker of artificial lights ubiquitous in our modern environments. I will show that bulb flicker is a powerful visual cue that enables various applications like scene light source unmixing, reflection separation, and remote analyses of the electric grid itself. Second, I will describe Diffraction Line Imaging, a novel imaging principle that exploits diffractive optics to capture sparse 2D scenes with 1D (line) sensors. The method's applications include fast motion capture and structured light 3D scanning with line illumination and line sensing. Lastly, I will present a novel method for sensing minute high-frequency surface vibrations (up to 63kHz) for multiple scene sources simultaneously, using \"slow\" sensors rated for only 130Hz operation. Applications include capturing vibration caused by audio sources (e.g., speakers, human voice, and musical instruments) and analyzing the vibration modes of objects."
+  date: 2
+  month_year: Sept, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
 - title: "Shady business: Occluder-aided Non-Line-of-Sight Imaging"
   speaker: Charles Saunders
   speaker_image: charles.jpg
