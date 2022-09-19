@@ -1,0 +1,19 @@
+- name: [Doruk Karınca]
+  photo: doruk_karnica.jpeg
+  email: [dorukkarinca@cs.ucla.edu]
+  profile_link: ["https://dorukkarinca.com"]
+
+- name: [Kevin G. Lee]
+  photo: kevin_lee.jpg
+  email: [kevin.lee@engineering.ucla.edu]
+  profile_link: ["https://www.linkedin.com/in/kevin-g-lee-567118205/"] 
+
+- name: [Oyku Deniz Bozkurt]
+  photo: deniz_bozkurt.jpeg
+  email: [denizbozkurt@g.ucla.edu]
+  profile_link: ["https://www.linkedin.com/in/deniz-bozkurt/"] 
+  
+- name: [Chinmay Talegaonkar]
+  photo: no_image.png
+  email: [chinmay0301@gmail.com]
+  profile_link: ["https://www.linkedin.com/in/chinmay0301/"] 
