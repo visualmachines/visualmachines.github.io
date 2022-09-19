@@ -32,36 +32,16 @@
   photo: howard_pic.jpg
   email: [hwdz15508@g.ucla.edu]
   profile_link: ["mailto:hwdz15508@g.ucla.edu"] 
+
+- name: [Rishi Upadhyay]
+  photo: Shijie Zhou-VMG - Shijie Zhou.jpg
+  email: [shijiezhou@ucla.edu]
+  profile_link: ["https://www.linkedin.com/in/rishi-upadhyay/"] 
   
 - name: [Shijie Zhou]
   photo: Shijie Zhou-VMG - Shijie Zhou.jpg
   email: [shijiezhou@ucla.edu]
   profile_link: ["https://shijiezhou-ucla.github.io/"] 
-
-- name: [Adnan Armouti]
-  photo: adnan_armouti.png
-  email: [adnan.armouti@gmail.com]
-  profile_link: ["https://www.linkedin.com/in/~adnan/"]
-
-- name: [Ananya Deoghare]
-  photo: ananya_deoghare.jpg
-  email: [ananyadd1607@g.ucla.edu]
-  profile_link: ["https://www.linkedin.com/in/ananya-deoghare-b60435106/"]
- 
-- name: [Anirudh Bindiganavale Harish]
-  photo: anirudh_bh.jpg
-  email: [anirudhbh0707@g.ucla.edu]
-  profile_link: ["https://www.linkedin.com/in/anirudh-bindiganavale-harish-30a453149/"]
-
-- name: [Chethan Chinder Chandrappa]
-  photo: Chetan.jpg
-  email: [chinderc@ucla.edu]
-  profile_link: ["mailto:chinderc@ucla.edu"]
-
-- name: [Diplav Srivastava]
-  photo: diplav_srivastava.jpg
-  email: [diplav@g.ucla.edu]
-  profile_link: ["https://www.linkedin.com/in/diplav-srivastava-19b790111/"] 
 
 - name: [Doruk Karınca]
   photo: doruk_karnica.jpeg
@@ -73,22 +53,7 @@
   email: [kevin.lee@engineering.ucla.edu]
   profile_link: ["https://www.linkedin.com/in/kevin-g-lee-567118205/"] 
 
-- name: [Kimaya Kulkarni]
-  photo: kimaya_kulkarni.jpeg
-  email: [kimayak@ucla.edu]
-  profile_link: ["https://www.linkedin.com/in/kimaya-kulkarni-37647a165/"] 
-
 - name: [Oyku Deniz Bozkurt]
   photo: deniz_bozkurt.jpeg
   email: [denizbozkurt@g.ucla.edu]
   profile_link: ["https://www.linkedin.com/in/deniz-bozkurt/"] 
-
-- name: [Parth Patwa]
-  photo: parth - PARTH PATWA.jpg
-  email: [parthpatwa@g.ucla.edu]
-  profile_link: ["https://parthpatwa.github.io/"] 
-
-- name: [Shreeram Athreya]
-  photo: shreeram_athreya.jpg
-  email: [shreeram@g.ucla.edu]
-  profile_link: ["https://shreeramathreya.github.io/"] 
