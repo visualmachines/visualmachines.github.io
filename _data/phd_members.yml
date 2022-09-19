@@ -1,0 +1,59 @@
+- name: [Yunhao Ba]
+  photo: yunhao_ba.jpg
+  email: [yhba@ucla.edu]
+  profile_link: ["https://yhba-ucla.github.io/"] 
+
+- name: [Pradyumna Chari]
+  photo: pradyumna_chari.jpg
+  email: [pradyumnac@ucla.edu]
+  profile_link: ["https://pradyumnachari.github.io"] 
+
+- name: [Zhen Wang]
+  photo: zhen_wang.JPG
+  email: [zhenwang@ucla.edu]
+  profile_link: ["https://zhenwangwz.github.io/"]
+
+- name: [Alexander (Sasha) Vilesov]
+  photo: alexander_v.jpg
+  email: [vilesov@ucla.edu]
+  profile_link: ["https://asvilesov.github.io/"] 
+
+- name: [Ellin Zhao]
+  photo: ellin.jpg
+  email: [ellinz@ucla.edu]
+  profile_link: ["https://ellinzhao.github.io/"] 
+  
+- name: [Henry Peters]
+  photo: henry_new.jpg
+  email: [hpeters@g.ucla.edu]
+  profile_link: ["https://henryp12345.github.io/henrypetersresearchsite/"] 
+
+- name: [Howard Zhang]
+  photo: howard_pic.jpg
+  email: [hwdz15508@g.ucla.edu]
+  profile_link: ["mailto:hwdz15508@g.ucla.edu"] 
+
+- name: [Rishi Upadhyay]
+  photo: no_image.png
+  email: [https://www.linkedin.com/in/rishi-upadhyay/]
+  profile_link: ["https://www.linkedin.com/in/rishi-upadhyay/"] 
+  
+- name: [Shijie Zhou]
+  photo: Shijie Zhou-VMG - Shijie Zhou.jpg
+  email: [shijiezhou@ucla.edu]
+  profile_link: ["https://shijiezhou-ucla.github.io/"] 
+
+- name: [Doruk Karınca]
+  photo: doruk_karnica.jpeg
+  email: [dorukkarinca@cs.ucla.edu]
+  profile_link: ["https://dorukkarinca.com"]
+
+- name: [Kevin G. Lee]
+  photo: kevin_lee.jpg
+  email: [kevin.lee@engineering.ucla.edu]
+  profile_link: ["https://www.linkedin.com/in/kevin-g-lee-567118205/"] 
+
+- name: [Oyku Deniz Bozkurt]
+  photo: deniz_bozkurt.jpeg
+  email: [denizbozkurt@g.ucla.edu]
+  profile_link: ["https://www.linkedin.com/in/deniz-bozkurt/"]
