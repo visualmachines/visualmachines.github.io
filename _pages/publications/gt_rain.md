@@ -445,6 +445,7 @@ methods on real rainy images under various conditions.
 - Paper ([link](https://drive.google.com/drive/folders/1b3oiKyj-h1vlMb1d84ffyOx-GTFJPb4O?usp=sharing))
 - Code ([link](https://github.com/UCLA-VMG/GT-RAIN))
 - Dataset ([link](https://drive.google.com/drive/folders/1NSRl954QPcGIgoyJa_VjQwh_gEaHWPb8?usp=sharing))
+- Challenge (forthcoming)
 @section
 ***Top:** Ours. **Bottom:** Previous state of the art MPRNet<sup>[7]</sup>.*
 <div class="gif-container">
