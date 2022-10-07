@@ -1,7 +1,7 @@
 - title: "Rethinking Supervision for Some Vision Tasks"
   speaker: Alex Wong
   speaker_image: alex_wong.jpeg
-  institution: Professor, Yale University
+  institution: Assistant Professor, Yale University
   description:
   summary: "Deep neural networks are highly parameterized functions that have seen empirical successes across a number of computer vision tasks. Due to their size, they require tens of thousands to millions of training examples, which typically come in the form of an image or images and human annotated ground truth. Curating vision datasets, in general, amounts to numerous man-hours; tasks like depth estimation requires an even more massive effort. In this talk, I will introduce alternative forms of supervision that leverage geometric constraints, synthetic data, or the abundance of pretrained models available online for depth estimation, which has traditionally relied largely on expensive manual labeling. I will show that doing so can lead to smaller and much faster models that are comparable in performance to state-of-the-art methods trained on human annotated ground truth. I will also discuss single image deraining, which unlike most vision tasks, have traditionally relied on synthetic data for supervision – this is largely due to the intractability of collecting the ideal image and ground truth pair for learning to remove rain. I will introduce another notion of “ground truth”, which enables us to collect a large scale dataset of real data, that does not suffer from the sim2real gap, and conclude with an invitation to participate in a sponsored challenge centered around the dataset."
   date: 7
