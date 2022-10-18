@@ -45,7 +45,7 @@ This paper makes a first attempt to re-examine the shape from polarization (SfP)
 @section
 - Paper ([PDF](https://link.springer.com/chapter/10.1007%2F978-3-030-58586-0_33?fbclid=IwAR3B7VM-sXnEFGMGQRGu8G_CC1hBGXmPiael9fnnGLzkTGmET8h8q-XGKzU))
 - Supplement ([PDF]({{ site.baseurl }}/assets/deepsfp_eccv_supp.pdf))
-- Data Set with Train/Test List ([Link](https://drive.google.com/file/d/1EtjfMTfpanJotH92GFz300X_ZEmGXuqr/view?usp=sharing))
+- Data Set with Train/Test List ([Link](https://drive.google.com/file/d/1L8V7gCEIhucppCUT3YL4lHT_ITg7PIPm/view?usp=sharing))
 
 @section
 @inproceedings{ECCV_DeepSfP_Ba, \
