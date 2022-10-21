@@ -451,8 +451,8 @@ methods on real rainy images under various conditions.
 The GT-RAIN challenge invites the public to push the boundary of single image deraining for challenging real world images degraded by various degrees of rainy weather that were collected from all around the world -- stretching from North America to Asia. The competition features the first large scale dataset comprised of real rainy image and ground truth image pairs captured from over 115 scenes. The challenge is sponsored by the US Army Research Laboratory (ARL) with monetary awards for the best performing teams: $1000 USD for first place, $800 USD for second place and $500 USD for third place.  
 
 &nbsp;<br>
-&nbsp;<br>
--Challenge updated ([link](https://codalab.lisn.upsaclay.fr/competitions/7988))
+
+-Challenge ([link](https://codalab.lisn.upsaclay.fr/competitions/7988))
 @section
 ***Top:** Ours. **Bottom:** Previous state of the art MPRNet<sup>[7]</sup>.*
 <div class="gif-container">
