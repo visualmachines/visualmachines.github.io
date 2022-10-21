@@ -53,8 +53,18 @@
         {% endunless %}
         {% endif %}
       
-        <!-- Results -->
+        <!-- Challenge -->
         {% if section_counter == 3 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12">
+          <div class="row mt-3 heading"> Challenge </div>
+          <div class="row mt-3"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+      
+        <!-- Results -->
+        {% if section_counter == 4 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
           <div class="row mt-3 heading"> Results </div>
@@ -64,7 +74,7 @@
         {% endif %}
 
         <!-- Additional Comparison -->
-        {% if section_counter == 4 %}
+        {% if section_counter == 5 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
           <div class="row mt-3 heading"> Additional Comparison </div>
@@ -74,7 +84,7 @@
         {% endif %}
       
         <!-- Failure Cases -->
-        {% if section_counter == 5 %}
+        {% if section_counter == 6 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
           <div class="row mt-3 heading"> Failure Cases </div>
@@ -84,7 +94,7 @@
         {% endif %}
 
         <!-- Citation -->
-        {% if section_counter == 6 %}
+        {% if section_counter == 7 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
           <div class="row mt-3 heading"> Citation </div>
@@ -94,7 +104,7 @@
         {% endif %}
 
         <!-- Contact -->
-        {% if section_counter == 7 %}
+        {% if section_counter == 8 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
           <div class="row mt-3 heading"> Contact </div>
