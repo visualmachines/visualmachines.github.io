@@ -57,7 +57,7 @@
         {% if section_counter == 3 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
-          <div class="row mt-3 heading">Challenge &nbsp;<span class="badge">New</span></div>
+          <div class="row mt-3 heading">[Challenge](https://codalab.lisn.upsaclay.fr/competitions/7988) &nbsp;<span class="badge">New</span></div>
           <div class="row mt-3"> {{ section }} </div>
         </div>
         {% endunless %}
@@ -157,8 +157,11 @@
   .badge {
     background-color: red;
     color: white;
-    padding: 4px 8px;
+    padding: 5px 5px;
     text-align: center;
     border-radius: 5px;
+    font-size: 70%;
+    height: 30px;
+    margin-top: 4px;
   }
 </style>
