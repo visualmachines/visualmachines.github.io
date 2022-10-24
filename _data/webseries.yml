@@ -1,3 +1,13 @@
+- title: "Computational Imaging: Chloroplasts to Tree Canopies"
+  speaker: Regina Eckert
+  speaker_image: regina.jpg
+  institution: Postdoctoral researcher, JPL
+  description:
+  summary: "Computational imaging is both a highly abstract and extremely detailed field. From 40,000 feet, we formulate how sensing hardware and imaging software can work together optimally. But if we zoom in, each application space and sensing task will demand unique computational imaging solutions. In this talk, I’ll discuss two computational imaging problems I’ve encountered in two very different domains. First, I’ll talk about 3D quantitative refractive index imaging of microscopic phase objects. I will introduce a novel microscope design with increased measurement diversity to improve the 3D imaging system. Second, I’ll discuss remote sensing imaging spectroscopy, or hyperspectral imaging, for Earth science applications. I’ll show how leveraging atmospheric smoothness can enable us to better image surface properties of the Earth. I will then discuss the commonalities I’ve seen in computational imaging across scales and applications, and how we might improve our computational imaging frameworks for chloroplasts to tree canopies and everything in between."
+  date: 4
+  month_year: Nov, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
 - title: "Rethinking Supervision for Some Vision Tasks"
   speaker: Alex Wong
   speaker_image: alex_wong.jpeg
