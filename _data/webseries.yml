@@ -1,3 +1,13 @@
+- title: "Computational Imaging of the Black Hole at the Center of our Galaxy"
+  speaker: Aviad Levis
+  speaker_image: aviad.jpg
+  institution: Postdoctoral scholar, Caltech
+  description:
+  summary: "The Event Horizon Telescope (EHT) is a unique computational camera with a goal of imaging the glowing fluid surrounding supermassive black holes. In May of 2022, the EHT collaboration revealed the first images of the black hole at the center of our galaxy: Sagittarius A* (Sgr A*). These images were computationally reconstructed from measurements taken by synchronized telescopes around the globe. Imaging Sgr A* was challenging due to its evolution, which is dynamic on the timescale of acquisition. The test our imaging pipelines in a challenging, realistic setting we developed stochastic dynamic models that mimic EHT observations of Sgr A*. While images certainly offer interesting insights, looking toward the future, we are developing new computational algorithms that aim to go beyond a 2D image. For example, could we use EHT observations to recover the dynamic evolution or even the 3D structure? In this talk, I will highlight new and exciting prospects for the future of black-hole imaging. By peeling away different layers of the underlying physics, we show how computational algorithms could shed light on complex dynamic processes. Our hope is that in the not-too-distant future, they will enable scientific discovery and even provide a glimpse into the very nature of space-time itself in our galaxy's most extreme environment."
+  date: 2
+  month_year: Dec, 2022
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
 - title: "Computational Imaging: Chloroplasts to Tree Canopies"
   speaker: Regina Eckert
   speaker_image: regina.jpg
