@@ -18,7 +18,7 @@ head_scripts:
 <main role="main" class="container-fluid">
   <div class="row">
     <div class="col-md-12 image-wrapper">
-      <img src="/assets/images/vmgHomeMain.png" class="img-responsive full-width" style="max-width: 1000%;">
+      <img src="/assets/images/website_chosen_square.png" class="img-responsive full-width" style="max-width: 1000%;">
       <div class="over-text d-none d-md-none d-lg-block">
 	  <div class="heading" style="color:black;">Giving Robots the Gift of Sight</div>
 	  <div class="body-home" style="color:black">Superhuman cameras enable superhuman robotics,
@@ -34,9 +34,9 @@ head_scripts:
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Press</div>
 	    <div class="heading-home padded-top">Research on DailyBruin's Front Page</div>
-	    <div class="body-home">SIGGRAPH 2022 work on equitable computational imaging for heart rate estimation featured b		    <a style="color: purple;" href="https://dailybruin.com/2022/09/29/ucla-visual-machines-group-develops-biosensor-that-could-eliminate-racial-bias">Daily Bruin</a>.</div>
+	    <div class="body-home">SIGGRAPH 2022 work on equitable computational imaging for heart rate estimation featured on<a style="color: purple;" href="https://dailybruin.com/2022/09/29/ucla-visual-machines-group-develops-biosensor-that-could-eliminate-racial-bias">Daily Bruin</a>.</div>
 	     <div class="heading-home padded-top">2022: Achuta wins IEEE-HKN Engineer under 35</div>
-	    <div class="body-home">Achuta wins IEEE-HKN's Outstanding Young Professional under 35 y.o. award. <a style="color: purple;" href="https://hkn.ieee.org/news-and-updates/2022/10/ieee-eta-kappa-nu-announces-its-2022-awards-program-recipients">link</a></div>  
+	    <div class="body-home">Achuta wins IEEE-HKN's Outstanding Young Professional under 35 y.o. award. <a style="color: purple;" href="https://hkn.ieee.org/news-and-updates/2022/10/ieee-eta-kappa-nu-announces-its-2022-awards-program-recipients">[link]</a></div>  
 	    <div class="heading-home padded-top">2021: Achuta wins DARPA YFA for contact-free COVID testing</div>
 	    <div class="body-home">Details in the <a style="color: purple;" href="https://samueli.ucla.edu/ucla-electrical-engineer-receives-darpa-young-faculty-award-for-contactless-covid-testing/">UCLA Newsroom</a>.</div>
 	    <div class="heading-home padded-top">2021: New paper in Science</div>
