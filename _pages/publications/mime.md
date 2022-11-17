@@ -45,7 +45,7 @@ Several papers have rightly included minority groups in artificial intelligence 
 
 
 @section
-- Paper ([Link](https://drive.google.com/file/d/1rU-VWnmJc1hixIPAR7WepJ7nAhkrNpKd/view?usp=sharing)) <!-- ([Link](https://drive.google.com/file/d/1c0h7UNYsZdO_QPr3feylZ0n6A5mAly6p/view?usp=sharing)) -->
+- Paper ([Link](https://link.springer.com/chapter/10.1007/978-3-031-19778-9_19)) <!-- ([Link](https://drive.google.com/file/d/1c0h7UNYsZdO_QPr3feylZ0n6A5mAly6p/view?usp=sharing)) -->
 - Low-Res Paper ([Link](https://drive.google.com/file/d/1GS9Q8wALjN1Z6sKtpDUtp2lp3hDKuV-L/view?usp=sharing))
 - Code and Data ([Link](https://github.com/UCLA-VMG/MIME))
 
@@ -58,10 +58,12 @@ Several papers have rightly included minority groups in artificial intelligence 
 @section
 
 @inproceedings{chari2022mime, \
-   &nbsp; author={Chari, Pradyumna and Ba, Yunhao and Athreya, Shreeram and Kadambi, Achuta}, \
    &nbsp; title={MIME: Minority Inclusion for Majority Group Enhancement of AI Performance}, \
-   &nbsp; booktitle={ECCV}, \
-   &nbsp; year={2022}
+   &nbsp; author={Chari, Pradyumna and Ba, Yunhao and Athreya, Shreeram and Kadambi, Achuta}, \
+   &nbsp; booktitle={European Conference on Computer Vision}, \
+   &nbsp; pages={326--343}, \
+   &nbsp; year={2022}, \
+   &nbsp; organization={Springer}
 }
 
 @section
