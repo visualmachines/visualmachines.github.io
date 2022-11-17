@@ -16,9 +16,9 @@ head_scripts:
     <div class="col-md-12 image-wrapper">
       <img src="/assets/images/website_chosen_square.png" class="img-responsive full-width" style="max-width: 1000%;">
       <div class="over-text d-none d-md-none d-lg-block">
-	  <div class="heading" style="color:black;">Giving Robots the Gift of Sight</div>
-	  <div class="body-home" style="color:black">Superhuman cameras enable superhuman robotics,
-	    <br>advancing cyberphysical systems and digital health
+	  <div class="heading" style="color:white;">Can Signal Processing Simulate Humans?</div>
+	  <div class="body-home" style="color:white">Simulating the human body enables insights in the simulation-world
+	    <br> to inform the design of real-world devices in precision medicine and human interaction.
 	  </div>
       </div>
     </div>
