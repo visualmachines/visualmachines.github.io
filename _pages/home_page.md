@@ -4,7 +4,7 @@ layout: home
 sitemap: false
 permalink: /
 header:
-  overlay_image: /assets/images/vmgHomeMain.png
+  overlay_image: /assets/images/website_chosen_square.png
 
 excerpt: >
 
