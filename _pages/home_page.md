@@ -7,11 +7,7 @@ header:
   overlay_image: /assets/images/vmgHomeMain.png
 
 excerpt: >
-
-
-
-  <h4>Digital Twin Project</h4><h5>Simulating a Synthetic Human Body as a Cyber-physical System.
-</h5>
+  <h4>Giving Robots the Gift of Sight</h4><h5>Superhuman cameras enable superhuman robotics,<br>advancing cyberphysical systems and digital health</h5>
 head_scripts:
 
 ---
