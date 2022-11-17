@@ -33,15 +33,15 @@ head_scripts:
   <div class="row">
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Press</div>
-	    <div class="heading-home padded-top">Nov 2021: MIT Press Textbook Out</div>
-	    <div class="body-home">Computational Imaging available as <a style="color: purple;" href="http://imagingtext.github.io/">free download</a>.</div>
-	    <div class="heading-home padded-top">Sept 2021: Achuta wins DARPA YFA</div>
+	    <div class="heading-home padded-top">Research on DailyBruin's Front Page</div>
+	    <div class="body-home">SIGGRAPH 2022 work on equitable computational imaging for heart rate estimation featured b		    <a style="color: purple;" href="https://dailybruin.com/2022/09/29/ucla-visual-machines-group-develops-biosensor-that-could-eliminate-racial-bias">Daily Bruin</a>.</div>
+	     <div class="heading-home padded-top">2022: Achuta wins IEEE-HKN Engineer under 35</div>
+	    <div class="body-home">Achuta wins IEEE-HKN's Outstanding Young Professional under 35 y.o. award. <a style="color: purple;" href="https://hkn.ieee.org/news-and-updates/2022/10/ieee-eta-kappa-nu-announces-its-2022-awards-program-recipients">link</a></div>  
+	    <div class="heading-home padded-top">2021: Achuta wins DARPA YFA for contact-free COVID testing</div>
 	    <div class="body-home">Details in the <a style="color: purple;" href="https://samueli.ucla.edu/ucla-electrical-engineer-receives-darpa-young-faculty-award-for-contactless-covid-testing/">UCLA Newsroom</a>.</div>
-	    <div class="heading-home padded-top">May 2021: Achuta wins ARO YIP Award</div>
-	    <div class="body-home">Details in the <a style="color: purple;" href="https://samueli.ucla.edu/ucla-professor-awarded-us-army-young-investigator-grant-for-fairness-in-ai-research/">UCLA Newsroom</a>.</div>  
-	    <div class="heading-home padded-top">April 2021: New paper in Science</div>
+	    <div class="heading-home padded-top">2021: New paper in Science</div>
       <div class="body-home">On the fairness of medical device physics.</div>
-	    <div class="heading-home padded-top">March 2021: Achuta wins NSF CAREER Award</div>
+	    <div class="heading-home padded-top">2021: Achuta wins NSF CAREER Award</div>
 	    <div class="body-home">Details on the <a style="color: purple;" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2046737&HistoricalAwards=false">NSF Website</a>. </div> 
       <div class="heading-home padded-top">April 2020: Achuta wins Google Faculty Award</div>
       <div class="body-home">To support clinical translation of imaging projects.</div>
