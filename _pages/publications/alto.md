@@ -50,7 +50,7 @@ This work introduces alternating latent topologies (ALTO) for high-fidelity reco
 An overview of our method. Given input surface points, we obtain an implicit occupancy field with iterative alternation between features in the forms of points and 2D or 3D grids. Then we decode the occupancy values for query points with a learned attention-based interpolation from neighboring grids.
 
 <figure> 
-  <img src= "/assets/images/publications/alto_figures/scannet.png" alt="Missing"> 
+  <img src= "/assets/images/publications/alto_figures/unet_grid_final.png" alt="Missing"> 
 </figure>
 An illustration of our ALTO encoder.} (Left) As an example, we show the ALTO block instantiated by alternating between two latent topologies: point and triplanes via an ''in-network'' fashion, i.e. within each level of an hourglass framework U-Net.  'Concatenate' refers to concatenation of the ALTO block output triplane in the downsampling stage and the ALTO block input triplane in the corresponding upsampling stage. (Right) We expand on ALTO block to illustrate the sequential grid-to-point and point-to-grid conversion. There are skip connections for both point and grid features between two consecutive levels in the ALTO U-Net. 
 
