@@ -9,10 +9,8 @@
       link: https://zhenwangwz.github.io/
     - name: Shijie Zhou
       associations: 1
-#       link: https://yhba-ucla.github.io/
     - name: Jeong Joon Park
       associations: 2
-#       link: https://shreeramathreya.github.io
     - name: Jeong Joon Park
       associations: 2
     - name: Despoina Paschalidou
@@ -32,7 +30,6 @@
     - name: Stanford University
       link: https://www.stanford.edu
     - name: US Army Research Laboratory
-#       link: https://www.ucla.edu
   link:
     url: alto.htm
     display: read more
