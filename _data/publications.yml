@@ -1,3 +1,44 @@
+- name: alto
+  title: "ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction"
+  image: alto_teaser.gif
+  thumbnail: alto_teaser.gif
+  description: Rethinking latent topologies for fast and detailed implicit 3D reconstructions.
+  authors:
+    - name: Zhen Wang
+      associations: 1
+      link: https://zhenwangwz.github.io/
+    - name: Shijie Zhou
+      associations: 1
+#       link: https://yhba-ucla.github.io/
+    - name: Jeong Joon Park
+      associations: 2
+#       link: https://shreeramathreya.github.io
+    - name: Jeong Joon Park
+      associations: 2
+    - name: Despoina Paschalidou
+      associations: 2
+    - name: Suya You
+      associations: 3     
+    - name: Gordon Wetzstein,
+      associations: 2 
+    - name: Leonidas Guibas
+      associations: 2
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles 
+      link: https://www.ucla.edu
+    - name: Stanford University
+      link: https://www.stanford.edu
+    - name: US Army Research Laboratory
+#       link: https://www.ucla.edu
+  link:
+    url: alto.htm
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: mime
   title: "MIME: Minority Inclusion for Majority Group Enhancement of AI Performance"
   image: mime.png
