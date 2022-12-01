@@ -1,6 +1,6 @@
 ---
 title: "ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction"
-layout: paper_template_mime
+layout: paper_template_alto
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /alto.htm/
@@ -42,6 +42,8 @@ permalink: /alto.htm/
 
 @section
 This work introduces alternating latent topologies (ALTO) for high-fidelity reconstruction of implicit 3D surfaces from noisy point clouds. Previous work identifies that the spatial arrangement of latent encodings is important to recover detail. One school of thought is to encode a latent vector for each point (point latents). Another school of thought is to project point latents into a grid (grid latents) which could be a voxel grid or triplane grid. Each school of thought has tradeoffs. Grid latents are coarse and lose high-frequency detail. In contrast, point latents preserve detail. However, point latents are more difficult to decode into a surface, and quality and runtime suffer. In this paper, we propose ALTO to sequentially alternate between geometric representations, before converging to an easy-to-decode latent. We find that this preserves spatial expressiveness and makes decoding lightweight. We validate ALTO on implicit 3D recovery and observe not only a performance improvement over the state-of-the-art, but a  runtime improvement of 3-10 times.
+
+@section 
 
 @section
 - Paper (Forthcoming) <!-- ([Link](https://drive.google.com/file/d/1c0h7UNYsZdO_QPr3feylZ0n6A5mAly6p/view?usp=sharing)) -->
