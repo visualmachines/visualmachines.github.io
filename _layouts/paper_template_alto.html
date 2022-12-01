@@ -1,0 +1,161 @@
+---
+---
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+  <body>
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
+    <div style="width:100%"></div> <br> <br>
+    <div class="background-wrapper" class ="img-fluid" style="margin: 50px 100px;"></div>
+    <div class="container">
+      <div class="article-meta col-md-8" style="margin: auto; box-shadow: 0px 5px 10px 0px grey; padding: 10px;">
+        <div class="center">
+          <br>
+          {{ content | split: "@section" | first }}
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      {% assign sections = content | split:"@section" %}
+      {% assign section_counter = 0 %}
+      {% for section in sections %}
+        {% assign isBlank = section | strip_newlines %}
+
+
+        <!-- Abstract -->
+        {% if section_counter == 1 %}
+        {% unless isBlank == ""  %}
+          <div class="container col-md-12">
+              <div class="row mt-3 heading">Abstract</div>
+              <div class="row mt-3"> {{ section }} </div>
+          </div>
+        {% endunless %}
+        {% endif %}
+
+        <!-- Method -->
+        {% if section_counter == 2 %}
+        {% unless isBlank == ""  %}
+          <div class="container col-md-12">
+              <div class="row mt-3 heading">Method</div>
+              <div class="row mt-3"> {{ section }} </div>
+          </div>
+        {% endunless %}
+        {% endif %}
+      
+        <!-- Files -->
+        {% if section_counter == 3 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12">
+          <div class="row mt-3 heading"> Files </div>
+          <div class="row mt-3"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+
+        <!-- Results -->
+        {% if section_counter == 4 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12">
+          <div class="row mt-3 heading"> Results </div>
+          <div class="row mt-3"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+      
+        <!-- Citation -->
+        {% if section_counter == 5 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12">
+          <div class="row mt-3 heading"> Citation </div>
+          <div class="row mt-3"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+
+        <!-- Press -->
+        {% if section_counter == 6 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12">
+          <div class="row mt-3 heading"> Press </div>
+          <div class="row mt-3"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+
+        <!-- Contact -->
+        {% if section_counter == 7 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12">
+          <div class="row mt-3 heading"> Contact </div>
+          <div class="row mt-3"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+
+        <!-- FAQ -->
+        {% if section_counter == 8 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12">
+          <div class="row mt-3  heading"> Frequently Asked Questions (FAQ) </div>
+          <div class="row mt-3"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+
+        <!-- Media -->
+        {% if section_counter == 9 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12" >
+          <div class="row mt-3  heading"> Media </div>
+          <div class="center" style="width: 50%;"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+
+        {% unless isBlank == ""  or section_counter == 0 %}
+          <div style="width:100%"></div> <br>
+        {% endunless %}
+
+        {% assign section_counter = section_counter | plus: 1 %}
+      {% endfor %}
+      </div>
+
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
+
+
+<style>
+  @media screen and (max-width: 500px){
+    .container{
+      width: 95%;
+      margin: 0px 0px 25px 10px;
+    }
+  }
+  @media screen and (min-width: 501px){
+    .container{
+      margin: 0px 100px 50px 50px;
+    }
+  }
+</style>
