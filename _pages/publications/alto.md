@@ -22,7 +22,7 @@ permalink: /alto.htm/
 <hr class="center" style="width: 70%; color: grey; height: 0.1px; background-color:grey;"/>
 
 ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})
-*Rethinking latent topologies for fast and detailed implicit 3D reconstructions. Recent work (POCO CVPR'22) has used latent encodings for each point to preserve 3D detail. We introduce ALTO, which can alternate between latent topologies like grid latents and point latents to speed up inference and recover more detail, like the 3D reconstruction of a thin lamp-post. *
+**Rethinking latent topologies for fast and detailed implicit 3D reconstructions.** Recent work (POCO CVPR'22) has used latent encodings for each point to preserve 3D detail. We introduce ALTO, which can alternate between latent topologies like grid latents and point latents to speed up inference and recover more detail, like the 3D reconstruction of a thin lamp-post. 
 <br>
 
 {% endif %}
@@ -77,9 +77,10 @@ Forthcoming
 @section
 @section
 
-Zhen Wang \
-Electrical and Computer Engineering Department \
-zhenwang@ucla.edu
-
-Shijie Zhou \ 
-shijiezhou@ucla.edu
+Zhen Wang <br>
+Electrical and Computer Engineering Department <br>
+zhenwang@ucla.edu <br>
+&nbsp;<br>
+Shijie Zhou <br>
+Electrical and Computer Engineering Department <br>
+shijiezhou@ucla.edu <br>
