@@ -77,7 +77,6 @@ Cross-dataset evaluation of ALTO and baselines by training on Synthetic Rooms an
 Forthcoming 
 
 @section
-@section
 
 Zhen Wang <br>
 Electrical and Computer Engineering Department <br>
