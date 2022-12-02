@@ -13,7 +13,12 @@
     <div style="width:100%"></div> <br> <br>
     <div class="background-wrapper" class ="img-fluid" style="margin: 50px 100px;"></div>
     <div class="container">
+      
+      <!--
       <div class="article-meta col-md-8" style="margin: auto; box-shadow: 0px 5px 10px 0px grey; padding: 10px;">
+      -->
+      
+      <div style="margin: auto; padding: 10px;">
         <div class="center">
           <br>
           {{ content | split: "@section" | first }}
@@ -38,18 +43,8 @@
         {% endunless %}
         {% endif %}
 
-        <!-- Method -->
-        {% if section_counter == 2 %}
-        {% unless isBlank == ""  %}
-          <div class="container col-md-12">
-              <div class="row mt-3 heading">Method</div>
-              <div class="row mt-3"> {{ section }} </div>
-          </div>
-        {% endunless %}
-        {% endif %}
-      
         <!-- Files -->
-        {% if section_counter == 3 %}
+        {% if section_counter == 2 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
           <div class="row mt-3 heading"> Files </div>
@@ -57,7 +52,17 @@
         </div>
         {% endunless %}
         {% endif %}
-
+      
+        <!-- Method -->
+        {% if section_counter == 2 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12">
+          <div class="row mt-3 heading"> Method </div>
+          <div class="row mt-3"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+      
         <!-- Results -->
         {% if section_counter == 4 %}
         {% unless isBlank == ""  %}
@@ -67,9 +72,29 @@
         </div>
         {% endunless %}
         {% endif %}
-      
-        <!-- Citation -->
+
+        <!-- Additional Comparison -->
         {% if section_counter == 5 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12">
+          <div class="row mt-3 heading"> Additional Comparison </div>
+          <div class="row mt-3"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+      
+        <!-- Failure Cases -->
+        {% if section_counter == 6 %}
+        {% unless isBlank == ""  %}
+        <div class="container col-md-12">
+          <div class="row mt-3 heading"> Failure Cases </div>
+          <div class="row mt-3"> {{ section }} </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+
+        <!-- Citation -->
+        {% if section_counter == 7 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
           <div class="row mt-3 heading"> Citation </div>
@@ -78,18 +103,8 @@
         {% endunless %}
         {% endif %}
 
-        <!-- Press -->
-        {% if section_counter == 6 %}
-        {% unless isBlank == ""  %}
-        <div class="container col-md-12">
-          <div class="row mt-3 heading"> Press </div>
-          <div class="row mt-3"> {{ section }} </div>
-        </div>
-        {% endunless %}
-        {% endif %}
-
         <!-- Contact -->
-        {% if section_counter == 7 %}
+        {% if section_counter == 8 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
           <div class="row mt-3 heading"> Contact </div>
@@ -98,25 +113,6 @@
         {% endunless %}
         {% endif %}
 
-        <!-- FAQ -->
-        {% if section_counter == 8 %}
-        {% unless isBlank == ""  %}
-        <div class="container col-md-12">
-          <div class="row mt-3  heading"> Frequently Asked Questions (FAQ) </div>
-          <div class="row mt-3"> {{ section }} </div>
-        </div>
-        {% endunless %}
-        {% endif %}
-
-        <!-- Media -->
-        {% if section_counter == 9 %}
-        {% unless isBlank == ""  %}
-        <div class="container col-md-12" >
-          <div class="row mt-3  heading"> Media </div>
-          <div class="center" style="width: 50%;"> {{ section }} </div>
-        </div>
-        {% endunless %}
-        {% endif %}
 
         {% unless isBlank == ""  or section_counter == 0 %}
           <div style="width:100%"></div> <br>
@@ -150,12 +146,22 @@
   @media screen and (max-width: 500px){
     .container{
       width: 95%;
-      margin: 0px 0px 25px 10px;
+      margin: 0px auto 50px auto;
     }
   }
   @media screen and (min-width: 501px){
     .container{
-      margin: 0px 100px 50px 50px;
+      margin: 0px auto 50px auto;
     }
+  }
+  .badge {
+    background-color: red;
+    color: white;
+    padding: 6px 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 70%;
+    height: 30px;
+    margin-top: 3px;
   }
 </style>
