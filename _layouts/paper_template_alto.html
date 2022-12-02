@@ -47,7 +47,7 @@
         {% if section_counter == 2 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
-          <div class="row mt-3 heading"> Files </div>
+          <div class="row mt-3 heading"> Method </div>
           <div class="row mt-3"> {{ section }} </div>
         </div>
         {% endunless %}
@@ -57,7 +57,7 @@
         {% if section_counter == 2 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
-          <div class="row mt-3 heading"> Method </div>
+          <div class="row mt-3 heading"> Files </div>
           <div class="row mt-3"> {{ section }} </div>
         </div>
         {% endunless %}
@@ -73,28 +73,8 @@
         {% endunless %}
         {% endif %}
 
-        <!-- Additional Comparison -->
-        {% if section_counter == 5 %}
-        {% unless isBlank == ""  %}
-        <div class="container col-md-12">
-          <div class="row mt-3 heading"> Additional Comparison </div>
-          <div class="row mt-3"> {{ section }} </div>
-        </div>
-        {% endunless %}
-        {% endif %}
-      
-        <!-- Failure Cases -->
-        {% if section_counter == 6 %}
-        {% unless isBlank == ""  %}
-        <div class="container col-md-12">
-          <div class="row mt-3 heading"> Failure Cases </div>
-          <div class="row mt-3"> {{ section }} </div>
-        </div>
-        {% endunless %}
-        {% endif %}
-
         <!-- Citation -->
-        {% if section_counter == 7 %}
+        {% if section_counter == 5 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
           <div class="row mt-3 heading"> Citation </div>
@@ -104,7 +84,7 @@
         {% endif %}
 
         <!-- Contact -->
-        {% if section_counter == 8 %}
+        {% if section_counter == 6 %}
         {% unless isBlank == ""  %}
         <div class="container col-md-12">
           <div class="row mt-3 heading"> Contact </div>
