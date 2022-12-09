@@ -57,7 +57,7 @@ An overview of our method. Given input surface points, we obtain an implicit occ
 An illustration of our ALTO encoder.} (Left) As an example, we show the ALTO block instantiated by alternating between two latent topologies: point and triplanes via an ''in-network'' fashion, i.e. within each level of an hourglass framework U-Net.  'Concatenate' refers to concatenation of the ALTO block output triplane in the downsampling stage and the ALTO block input triplane in the corresponding upsampling stage. (Right) We expand on ALTO block to illustrate the sequential grid-to-point and point-to-grid conversion. There are skip connections for both point and grid features between two consecutive levels in the ALTO U-Net. 
 
 @section
-- Paper (Forthcoming) <!-- ([Link](https://drive.google.com/file/d/1c0h7UNYsZdO_QPr3feylZ0n6A5mAly6p/view?usp=sharing)) -->
+- Paper ([Link](http://arxiv.org/abs/2212.04096)) 
 - Code (Forthecoming)
 - Model (Forthcoming)
 
