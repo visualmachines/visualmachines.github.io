@@ -58,8 +58,7 @@ An illustration of our ALTO encoder.} (Left) As an example, we show the ALTO blo
 
 @section
 - Paper ([Link](http://arxiv.org/abs/2212.04096)) 
-- Code (Forthecoming)
-- Model (Forthcoming)
+- Code ([Link](https://github.com/wzhen1/ALTO))
 
 @section
 <figure> 
