@@ -74,10 +74,10 @@ Cross-dataset evaluation of ALTO and baselines by training on Synthetic Rooms an
 @section
 
 @article{wang2022alto, \
-  &nbsp; title={ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction}, \ 
+  &nbsp; title={ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction}, 
   &nbsp; author={Wang, Zhen and Zhou, Shijie and Park, Jeong Joon and Paschalidou, Despoina and You, Suya and Wetzstein, Gordon and Guibas, Leonidas and Kadambi, Achuta},  
-  &nbsp; journal={arXiv preprint arXiv:2212.04096}, \ 
-  &nbsp; year={2022} \
+  &nbsp; journal={arXiv preprint arXiv:2212.04096},
+  &nbsp; year={2022} 
 }
 
 @section
