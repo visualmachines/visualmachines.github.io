@@ -67,6 +67,8 @@ head_scripts:
       <div class="body-home">ECE 113: Discrete-Time Signal Processing</div>
       <div class="heading-home padded-top">Spring 2023</div>
       <div class="body-home">ECE 188 / CS 188: Introduction to Computer Vision</div>
+      <div class="heading-home padded-top">Achuta Office Hours (2023)</div>
+      <div class="body-home">Wed. 10-11am in E4, 56-147J</div>
       <!--<div class="heading-home padded-top">Winter 2019</div>-->
       <!--<div class="body-home">EE 211: Digital Image Processing</div>-->
       <!--<div class="heading-home padded-top">Spring 2019</div>-->
