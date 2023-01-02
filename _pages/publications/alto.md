@@ -19,7 +19,7 @@ permalink: /alto.htm/
 
 <font color="gray" size="5">Preprint</font>
 
-<hr class="center" style="width: 70%; color: grey; height: 0.1px; background-color:grey;"/>
+<hr class="center" style="width: 40%; color: grey; height: 0.1px; background-color:grey;"/>
 
 <figure>
   <img src= "/assets/images/publications/alto_figures/anim.gif" alt="Missing"> 
