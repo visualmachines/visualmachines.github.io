@@ -1,7 +1,7 @@
 - name: alto
   title: "ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction"
   image: alto_teaser.gif
-  thumbnail: alto_teaser.gif
+  thumbnail: anim.gif
   description: Rethinking latent topologies for fast and detailed implicit 3D reconstructions.
   authors:
     - name: Zhen Wang
