@@ -22,7 +22,7 @@ permalink: /alto.htm/
 <hr class="center" style="width: 70%; color: grey; height: 0.1px; background-color:grey;"/>
 
 <figure> 
-  <img src= "/assets/images/publications/alto_figures/teaser_png.png" alt="Missing"> 
+  <img src= "/assets/images/publications/alto_figures/anim.gif" alt="Missing"> 
 </figure>
 **Rethinking latent topologies for fast and detailed implicit 3D reconstructions.** Recent work (POCO CVPR'22) has used latent encodings for each point to preserve 3D detail. We introduce ALTO, which can alternate between latent topologies like grid latents and point latents to speed up inference and recover more detail, like the 3D reconstruction of a thin lamp-post. 
 <br>
