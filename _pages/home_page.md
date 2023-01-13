@@ -31,7 +31,7 @@ head_scripts:
       <div class="heading-home" style="color:#8f3985;">News</div>
       
 	    <div class="heading-home padded-top">Dec 2022: Achuta wins IEEE-HKN Under 35 Award</div>
-	    <div class="body-home">For inclusive inventions in EECS and bioengineering.</div>
+	    <div class="body-home">For inclusive inventions in EECS and bioengineering. <a style="color: purple;" href="https://www.ee.ucla.edu/prof-kadambi-wins-ieee-hkn-under-35-award/">UCLA Article.</a></div>
      
              <div class="heading-home padded-top">Nov 2022: Pradyumna and Achuta win UIST Best Demo Award (Hon. Mention)</div>
         <div class="body-home">A pressure-sensitive speckle sensor to enable humans to interact with ordinary surfaces as if they were touch sensors.</div>   
