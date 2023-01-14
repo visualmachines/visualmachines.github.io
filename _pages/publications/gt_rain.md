@@ -442,7 +442,7 @@ invariant loss between rainy and clean images. Extensive experiments
 demonstrate that our model outperforms the state-of-the-art deraining
 methods on real rainy images under various conditions.
 @section
-- Paper ([link](https://drive.google.com/drive/folders/1b3oiKyj-h1vlMb1d84ffyOx-GTFJPb4O?usp=sharing))
+- Paper ([link]([https://drive.google.com/drive/folders/1b3oiKyj-h1vlMb1d84ffyOx-GTFJPb4O?usp=sharing](https://link.springer.com/chapter/10.1007/978-3-031-20071-7_42)))
 - Code ([link](https://github.com/UCLA-VMG/GT-RAIN))
 - Dataset ([link](https://drive.google.com/drive/folders/1NSRl954QPcGIgoyJa_VjQwh_gEaHWPb8?usp=sharing))
 - Poster ([link](https://drive.google.com/file/d/1LmTB41ZYfybzew78lVI0WbfeKOho2T10/view?usp=sharing))
