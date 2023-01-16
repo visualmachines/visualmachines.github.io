@@ -442,7 +442,7 @@ invariant loss between rainy and clean images. Extensive experiments
 demonstrate that our model outperforms the state-of-the-art deraining
 methods on real rainy images under various conditions.
 @section
-- Paper ([link](https://drive.google.com/drive/folders/1b3oiKyj-h1vlMb1d84ffyOx-GTFJPb4O?usp=sharing))
+- Paper ([link](https://link.springer.com/chapter/10.1007/978-3-031-20071-7_42))
 - Code ([link](https://github.com/UCLA-VMG/GT-RAIN))
 - Dataset ([link](https://drive.google.com/drive/folders/1NSRl954QPcGIgoyJa_VjQwh_gEaHWPb8?usp=sharing))
 - Poster ([link](https://drive.google.com/file/d/1LmTB41ZYfybzew78lVI0WbfeKOho2T10/view?usp=sharing))
@@ -618,11 +618,13 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
 
 
 
-@InProceedings{ba2022gt-rain, \
-  &nbsp;&nbsp;author={Ba, Yunhao and Zhang, Howard and Yang, Ethan and Suzuki, Akira and Pfahnl, Arnold and Chandrappa, Chethan Chinder and de Melo, Celso and You, Suya and Soatto, Stefano and Wong, Alex and Kadambi, Achuta}, \
+@inproceedings{ba2022not, \
   &nbsp;&nbsp;title={Not Just Streaks: Towards Ground Truth for Single Image Deraining}, \
+  &nbsp;&nbsp;author={Ba, Yunhao and Zhang, Howard and Yang, Ethan and Suzuki, Akira and Pfahnl, Arnold and Chandrappa, Chethan Chinder and de Melo, Celso M and You, Suya and Soatto, Stefano and Wong, Alex and others}, \
   &nbsp;&nbsp;booktitle={European Conference on Computer Vision}, \
-  &nbsp;&nbsp;year={2022} \
+  &nbsp;&nbsp;pages={723--740}, \
+  &nbsp;&nbsp;year={2022}, \
+  &nbsp;&nbsp;organization={Springer} \
 }
 
 
