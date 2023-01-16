@@ -45,14 +45,17 @@ This paper makes a first attempt to re-examine the shape from polarization (SfP)
 @section
 - Paper ([PDF](https://link.springer.com/chapter/10.1007%2F978-3-030-58586-0_33?fbclid=IwAR3B7VM-sXnEFGMGQRGu8G_CC1hBGXmPiael9fnnGLzkTGmET8h8q-XGKzU))
 - Supplement ([PDF]({{ site.baseurl }}/assets/deepsfp_eccv_supp.pdf))
-- Data Set with Train/Test List ([Link](https://drive.google.com/file/d/1L8V7gCEIhucppCUT3YL4lHT_ITg7PIPm/view?usp=sharing))
+- Data Set with Train/Test List ([Link](https://drive.google.com/file/d/1-CYRwU9Uwry7XgcEWhwX2P8nIJtOKKZZ/view?usp=sharing))
+- Official Code Repository ([Link](https://github.com/UCLA-VMG/DeepSfP))
 
 @section
-@inproceedings{ECCV_DeepSfP_Ba, \
-  &nbsp; author = "Yunhao Ba and Alex Gilbert and Franklin Wang and Jinfa Yang and Rui Chen and Yiqin Wang and Lei Yan and Boxin Shi and Achuta Kadambi", \
-  &nbsp; title = "Deep Shape from Polarization", \
-  &nbsp; journal = "ECCV", \
-  &nbsp; year = "2020" \
+@inproceedings{ba2020deep,
+  title={Deep shape from polarization},
+  author={Ba, Yunhao and Gilbert, Alex and Wang, Franklin and Yang, Jinfa and Chen, Rui and Wang, Yiqin and Yan, Lei and Shi, Boxin and Kadambi, Achuta},
+  booktitle={European Conference on Computer Vision},
+  pages={554--571},
+  year={2020},
+  organization={Springer}
 }
 
 @section
