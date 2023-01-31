@@ -1,3 +1,13 @@
+- title: "Seeing Beneath the Skin with Computational Photography"
+  speaker: Daniel McDuff
+  speaker_image: Daniel_McDuff.jpg
+  institution: Staff Research Scientist, Google and Affiliate Professor, University of Washington
+  description:
+  summary: "For more than two decades, telehealth held the promise of greater access to healthcare services in the home but remained as a niche opportunity due to a combination of regulatory, economic, and cultural barriers that prevented the expansion and innovation of digital health services. The SARS-CoV-2 pandemic promoted a rapid and explosive growth of online services that provided an effective mechanism for safely providing care without risk of exposure. Remote patient monitoring is now gaining adoption and new physiological and medical imaging modalities that leverage recent advances in computational photography are emerging. These methods use everyday sensors to non-invasively inspect and measure the internal state of the body. I will present research on physiological and behavioral measurement via ubiquitous hardware, and highlight approaches that capture multimodal signals (e.g., facial and motor movements, heart rate and HRV, respiration, blood pressure) without contact with the body. I'll show examples of state-of-the-art, on-device neural models and a synthetics data pipeline to help us learn more robust representations and achieve performance close to that of contact sensors. Following this, I will give examples of novel human-computer interfaces that leverage these signals to improve health, wellbeing and communication."
+  date: 3
+  month_year: Feb, 2023
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
 - title: "Computational Imaging of the Black Hole at the Center of our Galaxy"
   speaker: Aviad Levis
   speaker_image: aviad.jpg
