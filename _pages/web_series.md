@@ -4,6 +4,7 @@ layout: webseries
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /web_series/
+page.header.og_image: /assets/images/webseries/Daniel_McDuff.jpg
 ---
 
 #### [Warren Grundfest Lectures in Computational Imaging  - First Friday of Each Month]({{ site.baseurl }}{% link _pages/web_series.md %})
