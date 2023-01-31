@@ -6,6 +6,12 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <meta name="twitter:card" content="summary"><!-- required -->
+    <meta name="twitter:site" content="@AchutaKadambi"><!-- required -->
+    <meta name="twitter:title" content="Warren Grundfest Lecture Series"><!-- required -->
+    <meta name="twitter:description" content="Speaker: Daniel McDuff"><!-- optional -->
+    <meta name="twitter:image" content="assets/images/webseries/Daniel_McDuff.jpg"><!-- optional -->
+    <meta name="twitter:image:alt" content="Speaker profile picture"><!-- optional -->
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
