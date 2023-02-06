@@ -1,3 +1,13 @@
+- title: "Uncertain Surface Reconstruction"
+  speaker: Silvia Sellán
+  speaker_image: silvia.jpeg
+  institution: PhD student, University of Toronto
+  description: 
+  summary: "We propose a method to introduce uncertainty to the surface reconstruction problem. Specifically, we introduce a statistical extension of the classic Poisson Surface Reconstruction algorithm for recovering shapes from 3D point clouds. Instead of outputting an implicit function, we represent the reconstructed shape as a modified Gaussian Process, which allows us to conduct statistical queries (e.g., the likelihood of a point in space being on the surface or inside a solid). We show that this perspective improves PSR's integration into the online scanning process, broadens its application realm, and opens the door to other lines of research such as applying task-specific priors."
+  date: 3
+  month_year: Mar, 2023
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
 - title: "Seeing Beneath the Skin with Computational Photography"
   speaker: Daniel McDuff
   speaker_image: Daniel_McDuff.jpg
