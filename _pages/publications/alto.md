@@ -17,7 +17,7 @@ permalink: /alto.htm/
 {% for association in publication.associations %} [{{ association.name }}]({{association.link}})<sup>{{count}}</sup> {% assign count = count | plus: 1 %}
 {% endfor %}
 
-<font color="gray" size="5">Preprint</font>
+<font color="gray" size="5">CVPR 2023, Vancouver</font>
 
 <hr class="center" style="width: 40%; color: grey; height: 0.07px; background-color:grey;"/>
 
