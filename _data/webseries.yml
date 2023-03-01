@@ -1,3 +1,13 @@
+- title: "Beyond RGB: Next-Gen Cameras for Untangling Light Transport"
+  speaker: Akshat Dave
+  speaker_image: akshat.jpg
+  institution: PhD student, Rice University
+  description:
+  summary: "Images result from a complex interplay between light and objects in a scene. Capturing and decoding this interplay, known as light transport, is crucial for generating photorealistic digital twins, uncovering hidden information, and enhancing scene understanding from images. However, traditional RGB cameras are ill-suited for inferring light transport due to inherent ambiguities. In this talk, I will discuss how next-generation cameras can disentangle light transport by capturing unique dimensions of light, such as time-of-flight and polarization. I will explain how polarization is a useful and practical cue for inverse rendering. I will show how snapshot polarization cameras enable reflectance separation of dynamic scenes and radiance decomposition under unstructured lighting. I will also describe how measuring the time-of-flight distribution of light allows us to see around the corner and how the advances in conventional line-of-sight imaging can inspire us to design effective non-line-of-sight imaging systems."
+  date: 7
+  month_year: Apr, 2023
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
 - title: "Uncertain Surface Reconstruction"
   speaker: Silvia Sellán
   speaker_image: silvia.jpeg
