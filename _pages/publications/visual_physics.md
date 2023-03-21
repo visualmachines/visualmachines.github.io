@@ -56,15 +56,15 @@ In this paper, we teach a machine to discover the laws of physics from video str
 
 Coming soon!
 
-<!--@section
-@article{chari2019visual, \
+<!-- @section -->
+<!--@article{chari2019visual, \
   &nbsp; title={Visual Physics: Discovering Physical Laws from Videos}, \
   &nbsp; author={Chari, Pradyumna and Talegaonkar, Chinmay and Ba, Yunhao and Kadambi, Achuta}, \
   &nbsp; journal={arXiv preprint arXiv:1911.11893}, \
   &nbsp; year={2019} \
 }-->
 
-@section
+
 @section
 
 Achuta Kadambi<br>
@@ -72,8 +72,8 @@ Assistant Professor<br>
 Electrical and Computer Engineering Department<br>
 achuta@ee.ucla.edu
 
-<!--@section
-**What is the philosophy behind Visual Physics?**
+
+<!--**What is the philosophy behind Visual Physics?**
 Through history, major physical discoveries have followed a principled sequence: visual observations, inference and conclusions. The apocryphal story of Newton and the falling apple, in relation to the discovery of gravity, perfectly epitomizes this notion. Through our work on 'Visual Physics', we look to make a first attempt at bringing this framework and notion of discovery to the domain of machines.
 
 **What are the technical contributions as part of Visual Physics?** \
