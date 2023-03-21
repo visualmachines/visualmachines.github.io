@@ -1,6 +1,6 @@
 - name: visual_physics
   title: "On Learning Mechanical Laws of Motion from Video Using Neural Networks"
-  image: vp_access_teaser.jpeg #visual_demo.gif
+  image: vp_access_teaser.jpg #visual_demo.gif
   thumbnail: visual_thumbnail.png
   description: A novel pipeline that enables discovery of underlying parameters and equations from videos of physical phenomena.
   authors:
