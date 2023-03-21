@@ -52,6 +52,10 @@ In this paper, we teach a machine to discover the laws of physics from video str
 - Low-res paper (Coming soon!)
 - Code and data (Coming soon!)
 
+@section
+
+Coming soon!
+
 <!--@section
 @article{chari2019visual, \
   &nbsp; title={Visual Physics: Discovering Physical Laws from Videos}, \
@@ -61,15 +65,12 @@ In this paper, we teach a machine to discover the laws of physics from video str
 }-->
 
 @section
-
 @section
 
 Achuta Kadambi<br>
 Assistant Professor<br>
 Electrical and Computer Engineering Department<br>
 achuta@ee.ucla.edu
-
-@section
 
 <!--@section
 **What is the philosophy behind Visual Physics?**
