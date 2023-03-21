@@ -1,3 +1,38 @@
+- name: visual_physics
+  title: "On Learning Mechanical Laws of Motion from Video Using Neural Networks"
+  image: vp_access_teaser.jpeg #visual_demo.gif
+  thumbnail: visual_thumbnail.png
+  description: A novel pipeline that enables discovery of underlying parameters and equations from videos of physical phenomena.
+  authors:
+    - name: Pradyumna Chari
+      associations: 1
+    - name: Yunhao Ba
+      associations: 1
+    - name: Shijie Zhou
+      associations: 1
+      link: https://shijiezhou-ucla.github.io/
+    - name: Chinmay Talegaonkar
+      associations: 1,2
+      link: https://chinmay0301.github.io/
+    - name: Shreeram Athreya
+      associations: 1
+      link: https://shreeramathreya.github.io/
+    - name: Achuta Kadambi
+      associations: 1,3
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California Los Angeles
+      link: https://www.ucla.edu/
+    - name: University of California, San Diego
+      link: https://www.ucsd.edu/
+    - name: California Nanosystems Institute, UCLA
+      link: https://cnsi.ucla.edu
+  link:
+    url: visualphysics.htm
+    display:  read more
+  highlight: 1
+  news2:
+
 - name: alto
   title: "ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction"
   image: anim.gif
@@ -400,30 +435,30 @@
   highlight: 1
   news 2:
 
-- name: visual_physics
-  title: "Visual Physics: Discovering Physical Laws from Videos"
-  image: visual_demo.gif
-  thumbnail: visual_thumbnail.png
-  description: A novel pipeline that enables discovery of underlying parameters and equations from videos of physical phenomena.
-  authors:
-    - name: Pradyumna Chari
-      associations: 1
-    - name: Chinmay Talegaonkar
-      associations: 1
-      link: https://chinmay0301.github.io/
-    - name: Yunhao Ba
-      associations: 1
-    - name: Achuta Kadambi
-      associations: 1
-      link: https://www.ee.ucla.edu/achuta-kadambi/
-  associations:
-    - name: University of California Los Angeles
-      link: https://www.ucla.edu/
-  link:
-    url: visualphysics.htm
-    display:  read more
-  highlight: 1
-  news2:
+# - name: visual_physics
+#   title: "Visual Physics: Discovering Physical Laws from Videos"
+#   image: visual_demo.gif
+#   thumbnail: visual_thumbnail.png
+#   description: A novel pipeline that enables discovery of underlying parameters and equations from videos of physical phenomena.
+#   authors:
+#     - name: Pradyumna Chari
+#       associations: 1
+#     - name: Chinmay Talegaonkar
+#       associations: 1
+#       link: https://chinmay0301.github.io/
+#     - name: Yunhao Ba
+#       associations: 1
+#     - name: Achuta Kadambi
+#       associations: 1
+#       link: https://www.ee.ucla.edu/achuta-kadambi/
+#   associations:
+#     - name: University of California Los Angeles
+#       link: https://www.ucla.edu/
+#   link:
+#     url: visualphysics.htm
+#     display:  read more
+#   highlight: 1
+#   news2:
 
 - name: blending_physical_priors
   title: "Blending Diverse Physical Priors with Neural Networks"
