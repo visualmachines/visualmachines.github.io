@@ -59,13 +59,16 @@ In this paper, we teach a machine to discover the laws of physics from video str
   &nbsp; journal={arXiv preprint arXiv:1911.11893}, \
   &nbsp; year={2019} \
 }-->
-
+@section
+@section
 @section
 Achuta Kadambi<br>
 Assistant Professor<br>
 Electrical and Computer Engineering Department<br>
 achuta@ee.ucla.edu
 
+@section
+@section
 
 <!--@section
 **What is the philosophy behind Visual Physics?**
