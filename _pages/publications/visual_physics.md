@@ -52,14 +52,19 @@ In this paper, we teach a machine to discover the laws of physics from video str
 - Low-res paper (Coming soon!)
 - Code and data (Coming soon!)
 
-<!--@section
+<!--
+
+@section
+
 @article{chari2019visual, \
   &nbsp; title={Visual Physics: Discovering Physical Laws from Videos}, \
   &nbsp; author={Chari, Pradyumna and Talegaonkar, Chinmay and Ba, Yunhao and Kadambi, Achuta}, \
   &nbsp; journal={arXiv preprint arXiv:1911.11893}, \
   &nbsp; year={2019} \
-}-->
-@section
+}
+
+-->
+
 @section
 @section
 Achuta Kadambi<br>
