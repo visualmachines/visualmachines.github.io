@@ -52,25 +52,22 @@ In this paper, we teach a machine to discover the laws of physics from video str
 - Low-res paper (Coming soon!)
 - Code and data (Coming soon!)
 
-<!--
-@section
+<!--@section
 @article{chari2019visual, \
   &nbsp; title={Visual Physics: Discovering Physical Laws from Videos}, \
   &nbsp; author={Chari, Pradyumna and Talegaonkar, Chinmay and Ba, Yunhao and Kadambi, Achuta}, \
   &nbsp; journal={arXiv preprint arXiv:1911.11893}, \
   &nbsp; year={2019} \
-}
--->
+}-->
 
-@section
 @section
 Achuta Kadambi<br>
 Assistant Professor<br>
 Electrical and Computer Engineering Department<br>
 achuta@ee.ucla.edu
 
-<!--
-@section
+
+<!--@section
 **What is the philosophy behind Visual Physics?**
 Through history, major physical discoveries have followed a principled sequence: visual observations, inference and conclusions. The apocryphal story of Newton and the falling apple, in relation to the discovery of gravity, perfectly epitomizes this notion. Through our work on 'Visual Physics', we look to make a first attempt at bringing this framework and notion of discovery to the domain of machines.
 
@@ -81,5 +78,4 @@ We propose an AI-driven pipeline capable of identifying governing physical param
 We see this work as a precursor to sustained research towards discovery of increasingly complex, and eventually unknown, physical phenomena from videos. If successful, the use cases for such capabilities are wide ranging: from better understanding astronomical interactions to delving deeper into the behavior of cancers and physiological phenomena.
 
 **How does Visual Physics compare with existing art?** \
-Most existing works address one part of the visual physics pipeline: [Iten18] addresses the discovery of governing physical parameters from measured physical data, while a large amount of prior work on genetic programming and symbolic regression addresses the notion of discovering governing equations from appropriate data. On the other hand, [Huang18] addresses the visual physics pipeline; however, the physics phenomena that may be addressed by them is limited since their proposed method is unable to discover governing parameters. To the best of our knowledge, our proposed method is the first to address the entire discovery pipeline without any prior information about the physics phenomenon under consideration.
--->
+Most existing works address one part of the visual physics pipeline: [Iten18] addresses the discovery of governing physical parameters from measured physical data, while a large amount of prior work on genetic programming and symbolic regression addresses the notion of discovering governing equations from appropriate data. On the other hand, [Huang18] addresses the visual physics pipeline; however, the physics phenomena that may be addressed by them is limited since their proposed method is unable to discover governing parameters. To the best of our knowledge, our proposed method is the first to address the entire discovery pipeline without any prior information about the physics phenomenon under consideration.-->
