@@ -1,3 +1,27 @@
+- name: pcon
+  title: "pCON: Polarimetric Coordinate Networks for Neural Scene Representations"
+  image: pcon_teaser.png
+  thumbnail: pcon_teaser.png
+  description: pCON learns to fit an image by learning a series of reconstructions with different singular values.
+  authors:
+    - name: Henry Peters
+      associations: 1
+      link: https://www.linkedin.com/in/henrypeters129/
+    - name: Yunhao Ba
+      associations: 1
+      link: https://yhba-ucla.github.io/
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles 
+      link: https://www.ucla.edu
+  link:
+    url: pcon.htm
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: visual_physics
   title: "On Learning Mechanical Laws of Motion from Video Using Neural Networks"
   image: vp_access_teaser.jpg #visual_demo.gif
