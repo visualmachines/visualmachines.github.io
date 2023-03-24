@@ -49,8 +49,8 @@ figcaption {
 }
   
 div#comparison1 { 
-  width: 12vw;
-  height: 16vw;
+  width: 36vw;
+  height: 48vw;
   overflow: hidden; 
   padding: 0 2px;}
   
@@ -82,8 +82,8 @@ div#comparison1 figure #divisor {
 }
   
 div#comparison2 { 
-  width: 10.6vw;
-  height: 16vw;
+  width: 31.8vw;
+  height: 48vw;
   overflow: hidden; 
   padding: 0 2px;}
   
@@ -396,22 +396,6 @@ div#comparison_teaser_2 figure #divisor {
 <!-- <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/> -->
 
 ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})
-<!-- 
-
-<div class="teaser-container">
-<div id="comparison_teaser_1">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-<div id="comparison_teaser_2">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-</div> 
-
--->
 *Your caption here!*
 <br>
 
@@ -443,7 +427,7 @@ Coming soon!
 <!--The GT-RAIN challenge invites the public to push the boundary of single image deraining for challenging real world images degraded by various degrees of rainy weather that were collected from all around the world -- stretching from North America to Asia. The competition features the first large scale dataset comprised of real rainy image and ground truth image pairs captured from over 115 scenes. The challenge is sponsored by the US Army Research Laboratory (ARL) with monetary awards for the best performing teams: $1000 USD for first place, $800 USD for second place and $500 USD for third place.-->
 
 @section
-<div class="gif-container">
+<div class="teaser-container">
 <div id="comparison1">
   <figure>
     <div id="divisor"></div>
