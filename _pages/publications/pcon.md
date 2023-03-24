@@ -67,10 +67,11 @@ Coming soon!
 @section
 @section
 
-Henry Peters \
-Computer Science Department \
-hpeters@ucla.edu 
-
-Yunhao Ba \
-Electrical and Computer Engineering Department \
-yhba@ucla.edu
+Henry Peters <br>
+Computer Science Department <br>
+hpeters@ucla.edu <br>
+&nbsp;<br>
+Yunhao Ba <br>
+Electrical and Computer Engineering Department <br>
+yhba@ucla.edu <br>
+<br>
