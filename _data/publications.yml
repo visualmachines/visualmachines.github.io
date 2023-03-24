@@ -1,3 +1,50 @@
+- name: w_stream
+  title: "WeatherStream: Light Transport Automation of Single Image Deweathering"
+  image: wstream/wstream_teaser.gif
+  thumbnail: wstream/wstream_teaser.gif
+  description: We introduce WeatherStream, an automatic pipeline capturing all real-world weather effects, along with their clean image pairs.
+  authors:
+    - name: Howard Zhang
+      associations: 1
+      link: mailto:hwdz15508@g.ucla.edu
+    - name: Yunhao Ba
+      associations: 1
+      link: https://yhba-ucla.github.io/
+    - name: Ethan Yang
+      associations: 1
+      link: mailto:eyang657@g.ucla.edu
+    - name: Varan Mehra
+      associations: 1
+      link: mailto:hwdz15508@g.ucla.edu
+    - name: Blake Gella
+      associations: 1
+      link: mailto:hwdz15508@g.ucla.edu
+    - name: Akira Suzuki
+      associations: 1
+      link: mailto:asuzuki100@ucla.edu
+    - name: Arnold Pfahnl
+      associations: 1
+      link: http://linkedin.com/in/arnold-pfahnl/
+    - name: Chethan Chinder Chandrappa
+      associations: 1
+      link: mailto:chinderc@ucla.edu
+    - name: Alex Wong
+      associations: 2
+      link: https://www.linkedin.com/in/alexklwong
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles 
+      link: https://www.ucla.edu
+    - name: Yale University  
+      link: https://www.yale.edu/
+  link:
+    url: wstream.htm
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: pcon
   title: "pCON: Polarimetric Coordinate Networks for Neural Scene Representations"
   image: pcon/pcon_teaser.png
