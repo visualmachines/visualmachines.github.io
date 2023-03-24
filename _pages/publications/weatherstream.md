@@ -3,7 +3,7 @@ title: "WeatherStream: Light Transport Automation of Single Image Deweathering"
 layout: paper_template_gt-rain
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
-permalink: /weather_stream.htm/
+permalink: /wstream.htm/
 ---
 <style>
 .figures {
@@ -382,7 +382,7 @@ div#comparison_teaser_2 figure #divisor {
 }  
 </style>
 {% for publication in site.data.publications %}
-{% if publication.name == "GT-Rain" %}
+{% if publication.name == "w_stream" %}
 
 # {{ publication.title }}
 {% for author in publication.authors %} [{{ author.name }}]({{author.link}})<sup>{{ author.associations }}</sup>
