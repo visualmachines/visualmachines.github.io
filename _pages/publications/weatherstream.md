@@ -49,13 +49,13 @@ figcaption {
 }
   
 div#comparison1 { 
-  width: 19.24vw;
-  height: 12.7vw;
+  width: 12vw;
+  height: 16vw;
   overflow: hidden; 
   padding: 0 2px;}
   
 div#comparison1 figure { 
-  background-image: url(/assets/images/gt-rain/72__rain.png); 
+  background-image: url(/assets/images/publications/wstream/res1_1.png); 
   background-size: cover;
   position: relative;
   width: 100%; 
@@ -64,7 +64,7 @@ div#comparison1 figure {
 }
 
 div#comparison1 figure #divisor { 
-  background-image: url(/assets/images/gt-rain/72_derain.png);
+  background-image: url(/assets/images/publications/wstream/res1_2.png);
   background-size: cover;
   position: relative;
   width: 100%; 
@@ -82,13 +82,13 @@ div#comparison1 figure #divisor {
 }
   
 div#comparison2 { 
-  width: 19.05vw;
-  height: 12.7vw;
+  width: 10.6vw;
+  height: 16vw;
   overflow: hidden; 
   padding: 0 2px;}
   
 div#comparison2 figure { 
-  background-image: url(/assets/images/gt-rain/img2.png); 
+  background-image: url(/assets/images/publications/wstream/res2_1.png); 
   background-size: cover;
   position: relative;
   width: 100%; 
@@ -97,7 +97,7 @@ div#comparison2 figure {
 }
 
 div#comparison2 figure #divisor { 
-  background-image: url(/assets/images/gt-rain/img2_ours.png);
+  background-image: url(/assets/images/publications/wstream/res2_2.png);
   background-size: cover;
   position: relative;
   width: 100%; 
@@ -396,7 +396,9 @@ div#comparison_teaser_2 figure #divisor {
 <!-- <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/> -->
 
 ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})
-<!-- <div class="teaser-container">
+<!-- 
+
+<div class="teaser-container">
 <div id="comparison_teaser_1">
   <figure>
     <div id="divisor"></div>
@@ -407,8 +409,10 @@ div#comparison_teaser_2 figure #divisor {
     <div id="divisor"></div>
   </figure>
 </div>
-</div> -->
-***Left:** Previous state of the art MPRNet<sup>[7]</sup>. **Right:** Ours.*
+</div> 
+
+-->
+*Your caption here!*
 <br>
 
 {% endif %}
@@ -439,7 +443,6 @@ Coming soon!
 <!--The GT-RAIN challenge invites the public to push the boundary of single image deraining for challenging real world images degraded by various degrees of rainy weather that were collected from all around the world -- stretching from North America to Asia. The competition features the first large scale dataset comprised of real rainy image and ground truth image pairs captured from over 115 scenes. The challenge is sponsored by the US Army Research Laboratory (ARL) with monetary awards for the best performing teams: $1000 USD for first place, $800 USD for second place and $500 USD for third place.-->
 
 @section
-***Top:** Ours. **Bottom:** Previous state of the art MPRNet<sup>[7]</sup>.*
 <div class="gif-container">
 <div id="comparison1">
   <figure>
@@ -451,41 +454,8 @@ Coming soon!
     <div id="divisor"></div>
   </figure>
 </div>
-<div id="comparison3">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
 </div>
-<div id="comparison4">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-</div>
-
-<div class="gif-container">
-<div id="mcomparison1">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-<div id="mcomparison2">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-<div id="mcomparison3">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-<div id="mcomparison4">
-  <figure>
-    <div id="divisor"></div>
-  </figure>
-</div>
-</div>
-
+*Results caption here.*
 
 @section
 @section
