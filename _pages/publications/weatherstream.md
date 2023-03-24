@@ -430,8 +430,8 @@ Today single image deweathering is arguably more sensitive to the dataset type, 
 
 @section
 - Paper - Coming soon! <!-- ([link](https://link.springer.com/chapter/10.1007/978-3-031-20071-7_42))-->
-- Code - Coming soon! <!-- ([link](https://github.com/UCLA-VMG/GT-RAIN))-->
-- Dataset - Coming soon! <!-- ([link](https://drive.google.com/drive/folders/1NSRl954QPcGIgoyJa_VjQwh_gEaHWPb8?usp=sharing))-->
+- Code - ([link](https://drive.google.com/drive/folders/1MmXeSBgoeAJT6FHlWhZwBVET9RHpiG4W?usp=sharing))
+- Dataset - ([link](https://drive.google.com/drive/folders/12Z9rBSTs0PPNHLieyU2vnCTzR6fOFLrT?usp=sharing))
 - Poster - Coming soon! <!-- ([link](https://drive.google.com/file/d/1LmTB41ZYfybzew78lVI0WbfeKOho2T10/view?usp=sharing))-->
 - Video - Coming soon! <!-- ([link](https://drive.google.com/file/d/1kODUREmzin1xH1OSCejV3h0M4SlaCB68/view?usp=sharing))-->
 @section
@@ -506,7 +506,7 @@ Coming soon!
 @section
 Howard Zhang <br>
 Electrical and Computer Engineering Department <br>
-hwdz15508@g.ucla.edu
+hwdz15508@g.ucla.edu <br>
 &nbsp;<br>
 Yunhao Ba <br>
 Electrical and Computer Engineering Department <br>
