@@ -1,7 +1,7 @@
 - name: pcon
   title: "pCON: Polarimetric Coordinate Networks for Neural Scene Representations"
-  image: pcon_teaser.png
-  thumbnail: pcon_teaser.png
+  image: pcon/pcon_teaser.png
+  thumbnail: pcon/pcon_teaser.png
   description: pCON learns to fit an image by learning a series of reconstructions with different singular values.
   authors:
     - name: Henry Peters
