@@ -391,12 +391,12 @@ div#comparison_teaser_2 figure #divisor {
 {% for association in publication.associations %} [{{ association.name }}]({{association.link}})<sup>{{count}}</sup> {% assign count = count | plus: 1 %}
 {% endfor %}
 <p>
-<font color="gray" size="5"><a href="https://cvpr2023.thecvf.com">CVPR 2023, Vancouver</a></font>
+<font color="gray" size="5"><a href="https://cvpr2023.thecvf.com">CVPR 2023, Vancouver, Canada</a></font>
 </p>
 <!-- <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/> -->
 
-<!-- ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }}) -->
-<div class="teaser-container">
+![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})
+<!-- <div class="teaser-container">
 <div id="comparison_teaser_1">
   <figure>
     <div id="divisor"></div>
@@ -407,7 +407,7 @@ div#comparison_teaser_2 figure #divisor {
     <div id="divisor"></div>
   </figure>
 </div>
-</div>
+</div> -->
 ***Left:** Previous state of the art MPRNet<sup>[7]</sup>. **Right:** Ours.*
 <br>
 
@@ -485,101 +485,9 @@ Coming soon!
   </figure>
 </div>
 </div>
+
+
 @section
-<div class="figures">
-  <div class="column">
-    <figure> 
-      <img src= "/assets/images/gt-rain/94_rain-1.png" alt="Missing"> 
-      <figcaption> Rainy Image </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/94_DGNL-1.png" alt="Missing"> 
-      <figcaption> DGNL-Net<sup>[5]</sup>  </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/131_rain-1.png" alt="Missing"> 
-      <figcaption> Rainy Image </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/131_DGNL-1.png" alt="Missing"> 
-      <figcaption> DGNL-Net<sup>[5]</sup> </figcaption>
-    </figure>
-  </div>
-  <div class="column">
-    <figure> 
-      <img src= "/assets/images/gt-rain/94_SPANet-1.png" alt="Missing"> 
-      <figcaption> SPANet<sup>[1]</sup></figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/94_EDv4-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (S)<sup>[6]</sup> </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/131_SPANet-1.png" alt="Missing"> 
-      <figcaption> SPANet<sup>[1]</sup> </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/131_EDv4-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (S)<sup>[6]</sup> </figcaption>
-    </figure>
-  </div>
-  <div class="column">
-    <figure> 
-      <img src= "/assets/images/gt-rain/94_HRR-1.png" alt="Missing"> 
-      <figcaption> HRR<sup>[2]</sup> </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/94_EDv4rain1400-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (R)<sup>[6]</sup> </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/131_HRR-1.png" alt="Missing"> 
-      <figcaption> HRR<sup>[2]</sup> </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/131_EDv4rain1400-1.png" alt="Missing"> 
-      <figcaption> EDR V4 (R)<sup>[6]</sup> </figcaption>
-    </figure>
-  </div>
-  <div class="column">
-    <figure> 
-      <img src= "/assets/images/gt-rain/94_MSPFN-1.png" alt="Missing"> 
-      <figcaption> MSPFN<sup>[3]</sup> </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/94_MPRNet-1.png" alt="Missing"> 
-      <figcaption> MPRNet<sup>[7]</sup> </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/131_MSPFN-1.png" alt="Missing"> 
-      <figcaption> MSPFN<sup>[3]</sup> </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/131_MPRNet-1.png" alt="Missing"> 
-      <figcaption> MPRNet<sup>[7]</sup> </figcaption>
-    </figure>
-  </div>
-  <div class="column">
-    <figure> 
-      <img src= "/assets/images/gt-rain/94_RCDNet-1.png" alt="Missing"> 
-      <figcaption> RCDNet<sup>[4]</sup> </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/94_derain-1.png" alt="Missing"> 
-      <figcaption> Ours </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/131_RCDNet-1.png" alt="Missing"> 
-      <figcaption> RCDNet<sup>[4]</sup> </figcaption>
-    </figure>
-    <figure> 
-      <img src= "/assets/images/gt-rain/131_ours-1.png" alt="Missing"> 
-      <figcaption> Ours </figcaption>
-    </figure>
-  </div>
-</div>
-
-
 @section
 @section
 
