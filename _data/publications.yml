@@ -1,3 +1,46 @@
+- name: Diverse RPPG
+  title: "Diverse RPPG: Camera-based Heart Rate Estimation for Diverse Subject Skin Tones and Scenes"
+  image: video_demo.gif
+  thumbnail: PPG_thumbnail.png
+  description: Novel algorithm to mitigate skin tone bias in remote heart rate estimation, for improved performance on our diverse, telemedicine oriented VITAL dataset.
+  authors:
+    - name: Pradyumna Chari
+      associations: 1
+      link: https://pradyumnachari.github.io/
+    - name: Krish Kabra
+      associations: 1
+    - name: Doruk Karinca
+      associations: 1
+      link: https://dorukkarinca.com/
+    - name: Soumyarup Lahiri
+      associations: 1
+    - name: Diplav Srivastava
+      associations: 1
+    - name: Kimaya Kulkarni
+      associations: 1
+    - name: Tianyuan Chen
+      associations: 1
+    - name: Maxime Cannesson
+      associations: 2
+    - name: Laleh Jalilian
+      associations: 2
+      link: https://www.uclahealth.org/laleh-jalilian
+    - name: Achuta Kadambi
+      associations: 1,3
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: Department of Electrical and Computer Engineering
+      link: https://www.ee.ucla.edu/
+    - name: Department of Anesthesiology and Perioperative
+      link: https://www.uclahealth.org/anes/
+    - name: California NanoSystems Institute, University of California, Los Angeles, USA
+      link: https://cnsi.ucla.edu/
+  link:
+    url: diverse_rppg.htm
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: w_stream
   title: "WeatherStream: Light Transport Automation of Single Image Deweathering"
   image: wstream/wstream_teaser.gif
@@ -362,49 +405,6 @@
   link:
     external: 1
     url: https://science.sciencemag.org/lookup/doi/10.1126/science.abe9195
-    display: read more
-  highlight: 1
-  news 2:
-
-- name: Diverse RPPG
-  title: "Diverse RPPG: Camera-based Heart Rate Estimation for Diverse Subject Skin Tones and Scenes"
-  image: video_demo.gif
-  thumbnail: PPG_thumbnail.png
-  description: Novel algorithm to mitigate skin tone bias in remote heart rate estimation, for improved performance on our diverse, telemedicine oriented VITAL dataset.
-  authors:
-    - name: Pradyumna
-      associations: 1
-      link: https://pradyumnachari.github.io/
-    - name: Krish Kabra
-      associations: 1
-    - name: Doruk Karinca
-      associations: 1
-      link: https://dorukkarinca.com/
-    - name: Soumyarup Lahiri
-      associations: 1
-    - name: Diplav Srivastava
-      associations: 1
-    - name: Kimaya Kulkarni
-      associations: 1
-    - name: Tianyuan Chen
-      associations: 1
-    - name: Maxime Cannesson
-      associations: 2
-    - name: Laleh Jalilian
-      associations: 2
-      link: https://www.uclahealth.org/laleh-jalilian
-    - name: Achuta Kadambi
-      associations: 1,3
-      link: https://www.ee.ucla.edu/achuta-kadambi/
-  associations:
-    - name: Department of Electrical and Computer Engineering
-      link: https://www.ee.ucla.edu/
-    - name: Department of Anesthesiology and Perioperative
-      link: https://www.uclahealth.org/anes/
-    - name: California NanoSystems Institute, University of California, Los Angeles, USA
-      link: https://cnsi.ucla.edu/
-  link:
-    url: diverse_rppg.htm
     display: read more
   highlight: 1
   news 2:
