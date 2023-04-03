@@ -622,7 +622,7 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
   }
 </script>
 <button id="copyBtn" onclick="copyToClipboard()" style="background-color: #4a82ba; border: none; color: white; padding: 5px 10px; text-align: center; text-decoration: none; display: inline-block; font-size: 13px; border-radius: 5px;">Copy Citation</button>
-<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace;">
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
 @inproceedings{ba2022not, <br>
   &nbsp;&nbsp;title={Not Just Streaks: Towards Ground Truth for Single Image Deraining}, <br>
   &nbsp;&nbsp;author={Ba, Yunhao and Zhang, Howard and Yang, Ethan and Suzuki, Akira and Pfahnl, Arnold and Chandrappa, Chethan Chinder and de Melo, Celso M and You, Suya and Soatto, Stefano and Wong, Alex and others}, <br>
