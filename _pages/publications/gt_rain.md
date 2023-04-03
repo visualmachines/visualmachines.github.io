@@ -628,13 +628,13 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
   }
 </script>
 <div style="background-color: #f2f2f2; padding: 10px;">
-@inproceedings{ba2022not, \\
-  &nbsp;&nbsp;title={Not Just Streaks: Towards Ground Truth for Single Image Deraining}, \\
-  &nbsp;&nbsp;author={Ba, Yunhao and Zhang, Howard and Yang, Ethan and Suzuki, Akira and Pfahnl, Arnold and Chandrappa, Chethan Chinder and de Melo, Celso M and You, Suya and Soatto, Stefano and Wong, Alex and others}, \\
-  &nbsp;&nbsp;booktitle={European Conference on Computer Vision}, \\
-  &nbsp;&nbsp;pages={723--740}, \\
-  &nbsp;&nbsp;year={2022}, \\
-  &nbsp;&nbsp;organization={Springer} \\
+@inproceedings{ba2022not, <br>
+  &nbsp;&nbsp;title={Not Just Streaks: Towards Ground Truth for Single Image Deraining}, <br>
+  &nbsp;&nbsp;author={Ba, Yunhao and Zhang, Howard and Yang, Ethan and Suzuki, Akira and Pfahnl, Arnold and Chandrappa, Chethan Chinder and de Melo, Celso M and You, Suya and Soatto, Stefano and Wong, Alex and others}, <br>
+  &nbsp;&nbsp;booktitle={European Conference on Computer Vision}, <br>
+  &nbsp;&nbsp;pages={723--740}, <br>
+  &nbsp;&nbsp;year={2022}, <br>
+  &nbsp;&nbsp;organization={Springer} <br>
 }
 </div>
 
