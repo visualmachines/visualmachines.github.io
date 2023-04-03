@@ -616,8 +616,7 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
 @section
 @section
 
-
-<button id="copyBtn" onclick="copyToClipboard()">Copy Text</button>
+<button id="copyBtn" onclick="copyToClipboard()" style="background-color: #4CAF50; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 5px;">Copy Citation</button>
 <script>
   function copyToClipboard() {
   const textToCopy = "This is the text to be copied.";
