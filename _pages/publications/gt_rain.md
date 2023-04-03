@@ -615,18 +615,13 @@ single images via a deep detail network. In: Proceedings of the IEEE/CVF Confere
 </sub>
 @section
 @section
-
-<button id="copyBtn" onclick="copyToClipboard()" style="background-color: #4a82ba; border: none; color: white; padding: 5px 10px; text-align: center; text-decoration: none; display: inline-block; font-size: 13px; border-radius: 5px;">Copy Citation</button>
 <script>
   function copyToClipboard() {
   const textToCopy = "This is the text to be copied.";
-  navigator.clipboard.writeText(textToCopy).then(function() {
-    console.log("Text copied to clipboard successfully.");
-  }, function() {
-    console.error("Error copying text to clipboard.");
-  });
+  navigator.clipboard.writeText(textToCopy);
   }
 </script>
+<button id="copyBtn" onclick="copyToClipboard()" style="background-color: #4a82ba; border: none; color: white; padding: 5px 10px; text-align: center; text-decoration: none; display: inline-block; font-size: 13px; border-radius: 5px;">Copy Citation</button>
 <div style="background-color: #f2f2f2; padding: 10px; font-family: monospace;">
 @inproceedings{ba2022not, <br>
   &nbsp;&nbsp;title={Not Just Streaks: Towards Ground Truth for Single Image Deraining}, <br>
