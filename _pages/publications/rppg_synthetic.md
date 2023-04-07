@@ -57,6 +57,7 @@ Sample videos available [here](https://drive.google.com/drive/folders/1n0ssQrAIB
    &nbsp; title={Synthetic Generation of Face Videos with Plethysmograph Physiology}, \
    &nbsp; author={Wang, Zhen and Ba, Yunhao and Chari, Pradyumna and Bozkurt, Oyku Deniz and Brown, Gianna and Patwa, Parth and Vaddi, Niranjan and Jalilian, Laleh and Kadambi, Achuta}, \
    &nbsp; booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, \
+   &nbsp: pages={20587--20596}, \
    &nbsp; year={2022} \
 }
 
