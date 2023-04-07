@@ -50,7 +50,7 @@ Accelerated by telemedicine, advances in Remote Photoplethysmography (rPPG) are 
 - Real Dataset (Due to IRB protocol, please fill in [Data Request Form](https://docs.google.com/forms/d/e/1FAIpQLSc6rtDlh9G1ZesZSa6eHqcJguXl9aYvbyaoiRlrtAQaOC6Y8Q/viewform?usp=pp_url) for complete dataset.)\
 Sample videos available [here](https://drive.google.com/drive/folders/1n0ssQrAIBPYezFGLmMjpOjfEWwTj34hP?usp=sharing)
 - Synthetic Dataset ([Link](https://drive.google.com/file/d/1qUM_MVHBGvhFCb8i2IPpguQBgJex9N_8/view?usp=sharing))
-- Code (Forthcoming)
+- Code ([Link](https://github.com/UCLA-VMG/rppg_synthetic))
 
 @section
 @inproceedings{wang2022synthetic, \
