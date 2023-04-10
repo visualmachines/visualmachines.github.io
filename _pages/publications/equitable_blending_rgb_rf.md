@@ -52,16 +52,18 @@ With the resurgence of non-contact vital sign sensing due to the COVID-19 pandem
 - Slides ([Link](https://docs.google.com/presentation/d/1arSZlesm3VgBBglVNgi2xmAntTNgeLUfbt1LALtjDXw/edit#slide=id.g1428981a6f5_4_80))
 
 @section
-@article{vilesov2022blending, \
-  &nbsp; title={Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography}, \
-  &nbsp; author={Vilesov, Alexander and Chari, Pradyumna and Armouti, Adnan and Harish, Anirudh Bindiganavale and Kulkarni, Kimaya and Deoghare, Ananya and Jalilian, Laleh and Kadambi, Achuta}, \
-  &nbsp; journal={ACM Transactions on Graphics (TOG)}, \
-  &nbsp; volume={41}, \
-  &nbsp; number={4}, \
-  &nbsp; pages={1--14}, \
-  &nbsp; year={2022}, \
-  &nbsp; publisher={ACM New York, NY, USA} \
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
+@article{vilesov2022blending, <br>
+  &nbsp; title={Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography}, <br>
+  &nbsp; author={Vilesov, Alexander and Chari, Pradyumna and Armouti, Adnan and Harish, Anirudh Bindiganavale and Kulkarni, Kimaya and Deoghare, Ananya and Jalilian, Laleh and Kadambi, Achuta}, <br>
+  &nbsp; journal={ACM Transactions on Graphics (TOG)}, <br>
+  &nbsp; volume={41}, <br>
+  &nbsp; number={4}, <br>
+  &nbsp; pages={1--14}, <br>
+  &nbsp; year={2022}, <br>
+  &nbsp; publisher={ACM New York, NY, USA} <br>
 }
+</div>
 
 @section
 @section
