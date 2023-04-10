@@ -47,13 +47,14 @@ This paper presents a method of passive non-line-of-sight (NLOS) imaging using p
 - Paper ([CVPR 2020](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tanaka_Polarized_Non-Line-of-Sight_Imaging_CVPR_2020_paper.pdf))
 
 @section
-@inproceedings{CVPR2020_Tanaka, \
-  &nbsp; author = "Kenichiro Tanaka and Yasuhiro Mukaigawa and Achuta Kadambi, \
-  &nbsp; title = "Polarized Non-Line-of-Sight Imaging", \
-  &nbsp; booktitle = "Conference on Computer Vision and Pattern Recognition (CVPR)", \
-  &nbsp; year = "2020" \
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
+@inproceedings{CVPR2020_Tanaka, <br>
+  &nbsp; author = "Kenichiro Tanaka and Yasuhiro Mukaigawa and Achuta Kadambi, <br>
+  &nbsp; title = "Polarized Non-Line-of-Sight Imaging", <br>
+  &nbsp; booktitle = "Conference on Computer Vision and Pattern Recognition (CVPR)", <br>
+  &nbsp; year = "2020" <br>
 }
-
+</div>
 @section
 @section
 Achuta Kadambi \
