@@ -72,14 +72,14 @@ Object-level comparisons on ShapeNet. On the car, ALTO recovers the detail of ha
 Cross-dataset evaluation of ALTO and baselines by training on Synthetic Rooms and testing on real-world ScanNet-v2. Note the large conference-room table is missing in ConvONet (purple inset). The ladder (yellow inset) is a high-frequency surface and we believe our method is qualitatively closest.
 
 @section
-
-@article{wang2022alto, \
-  &nbsp; title={ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction}, \
-  &nbsp; author={Wang, Zhen and Zhou, Shijie and Park, Jeong Joon and Paschalidou, Despoina and You, Suya and Wetzstein, Gordon and Guibas, Leonidas and Kadambi, Achuta},  
-  &nbsp; journal={arXiv preprint arXiv:2212.04096}, \
-  &nbsp; year={2022} 
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
+@article{wang2022alto, <br>
+  &nbsp; title={ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction}, <br>
+  &nbsp; author={Wang, Zhen and Zhou, Shijie and Park, Jeong Joon and Paschalidou, Despoina and You, Suya and Wetzstein, Gordon and Guibas, Leonidas and Kadambi, Achuta},  <br>
+  &nbsp; journal={arXiv preprint arXiv:2212.04096}, <br>
+  &nbsp; year={2022} <br>
 }
-
+</div>
 @section
 
 Zhen Wang <br>
