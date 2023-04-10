@@ -396,7 +396,8 @@ div#comparison_teaser_2 figure #divisor {
 <!-- <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/> -->
 
 ![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})<br>
-**We propose a new dataset, publicly available, that makes all image-based deweathering models we tested perform better.**
+**We propose a new dataset, publicly available,<br>
+that makes all image-based deweathering models we tested perform better.**
 <br>
 
 {% endif %}
