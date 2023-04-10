@@ -49,14 +49,16 @@ This paper makes a first attempt to re-examine the shape from polarization (SfP)
 - Official Code Repository ([Link](https://github.com/UCLA-VMG/DeepSfP))
 
 @section
-@inproceedings{ba2020deep,
-  title={Deep shape from polarization},
-  author={Ba, Yunhao and Gilbert, Alex and Wang, Franklin and Yang, Jinfa and Chen, Rui and Wang, Yiqin and Yan, Lei and Shi, Boxin and Kadambi, Achuta},
-  booktitle={European Conference on Computer Vision},
-  pages={554--571},
-  year={2020},
-  organization={Springer}
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
+@inproceedings{ba2020deep, <br>
+  title={Deep shape from polarization}, <br>
+  author={Ba, Yunhao and Gilbert, Alex and Wang, Franklin and Yang, Jinfa and Chen, Rui and Wang, Yiqin and Yan, Lei and Shi, Boxin and Kadambi, Achuta}, <br>
+  booktitle={European Conference on Computer Vision}, <br>
+  pages={554--571}, <br>
+  year={2020}, <br>
+  organization={Springer} <br>
 }
+</div>
 
 @section
 - Accepted to ECCV 2020! ([Link](https://eccv2020.eu/))
