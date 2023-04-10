@@ -395,7 +395,7 @@ div#comparison_teaser_2 figure #divisor {
 </p>
 <!-- <hr class="center" style="width: 80%; color: grey; height: 0.2px; background-color:grey;"/> -->
 
-![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})
+![image]({{ site.baseurl }}/assets/images/publications/{{ publication.image }})<br>
 **We propose a new dataset, publicly available, that makes all image-based deweathering models we tested perform better.**
 <br>
 
