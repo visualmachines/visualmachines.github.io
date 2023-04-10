@@ -53,13 +53,15 @@ Sample videos available [here](https://drive.google.com/drive/folders/1n0ssQrAIB
 - Code ([Link](https://github.com/UCLA-VMG/rppg_synthetic))
 
 @section
-@inproceedings{wang2022synthetic, \
-   &nbsp; title={Synthetic Generation of Face Videos with Plethysmograph Physiology}, \
-   &nbsp; author={Wang, Zhen and Ba, Yunhao and Chari, Pradyumna and Bozkurt, Oyku Deniz and Brown, Gianna and Patwa, Parth and Vaddi, Niranjan and Jalilian, Laleh and Kadambi, Achuta}, \
-   &nbsp; booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, \
-   &nbsp; pages={20587--20596}, \
-   &nbsp; year={2022} \
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
+@inproceedings{wang2022synthetic, <br>
+   &nbsp; title={Synthetic Generation of Face Videos with Plethysmograph Physiology}, <br>
+   &nbsp; author={Wang, Zhen and Ba, Yunhao and Chari, Pradyumna and Bozkurt, Oyku Deniz and Brown, Gianna and Patwa, Parth and Vaddi, Niranjan and Jalilian, Laleh and Kadambi, Achuta}, <br>
+   &nbsp; booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, <br>
+   &nbsp; pages={20587--20596}, <br>
+   &nbsp; year={2022} <br>
 }
+</div>
 
 @section
 @section
