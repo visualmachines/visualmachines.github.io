@@ -45,11 +45,13 @@ Heart rate (HR) is an essential clinical measure for the assessment of cardiores
 - Paper ([PDF](https://arxiv.org/abs/2010.12769))
 
 @section
-@inproceedings{Chari2020DiverseRC, \
-  &nbsp; author = {Pradyumna Chari and Krish Kabra and Doruk Karinca and Soumyarup Lahiri and Diplav Srivastava and Kimaya Kulkarni and Tianyuan Chen and Maxime Cannesson and Laleh Jalilian and A. Kadambi}, \
-  &nbsp; title = {Diverse R-PPG: Camera-Based Heart Rate Estimation for Diverse Subject Skin-Tones and Scenes}, \
-  &nbsp; year = {2020} \
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
+@inproceedings{Chari2020DiverseRC, <br>
+  &nbsp; author = {Pradyumna Chari and Krish Kabra and Doruk Karinca and Soumyarup Lahiri and Diplav Srivastava and Kimaya Kulkarni and Tianyuan Chen and Maxime Cannesson and Laleh Jalilian and A. Kadambi}, <br>
+  &nbsp; title = {Diverse R-PPG: Camera-Based Heart Rate Estimation for Diverse Subject Skin-Tones and Scenes}, <br>
+  &nbsp; year = {2020} <br>
 }
+</div>
 
 @section
 @section
