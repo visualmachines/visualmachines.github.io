@@ -56,15 +56,16 @@ Several papers have rightly included minority groups in artificial intelligence 
 **When domain gap is small, the MIME effect holds.** In the presence of large domain gap, MIME effect is absent. On five datasets, majority performance is maximized with some inclusion of minorities. All experiments are run for several trials and realizations. On dataset six, the gender classification task is rescoped to occur in a high domain gap setting. The majority group is chickens and the minority group is humans. Here, the MIME effect is absent. These observations validate our proposed theory.
 
 @section
-
-@inproceedings{chari2022mime, \
-   &nbsp; title={MIME: Minority Inclusion for Majority Group Enhancement of AI Performance}, \
-   &nbsp; author={Chari, Pradyumna and Ba, Yunhao and Athreya, Shreeram and Kadambi, Achuta}, \
-   &nbsp; booktitle={European Conference on Computer Vision}, \
-   &nbsp; pages={326--343}, \
-   &nbsp; year={2022}, \
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
+@inproceedings{chari2022mime, <br>
+   &nbsp; title={MIME: Minority Inclusion for Majority Group Enhancement of AI Performance}, <br>
+   &nbsp; author={Chari, Pradyumna and Ba, Yunhao and Athreya, Shreeram and Kadambi, Achuta}, <br>
+   &nbsp; booktitle={European Conference on Computer Vision}, <br>
+   &nbsp; pages={326--343}, <br>
+   &nbsp; year={2022}, <br>
    &nbsp; organization={Springer}
 }
+</div>
 
 @section
 @section
