@@ -48,15 +48,16 @@ We propose a novel non-line-of-sight (NLOS) imaging framework with long-wave inf
 - Videos ([Youtube](https://www.youtube.com/watch?v=H6aX9Wkncxc))
 
 @section
-@inproceedings{maeda2019thermal, \
-  &nbsp; title={Thermal Non-Line-of-Sight Imaging}, \
-  &nbsp; author={Maeda, Tomohiro and Wang, Yiqin and Raskar, Ramesh and Kadambi, Achuta}, \
-  &nbsp; booktitle={2019 IEEE International Conference on Computational Photography (ICCP)}, \
-  &nbsp; pages={1--11}, \
-  &nbsp; year={2019}, \
-  &nbsp; organization={IEEE} \
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
+@inproceedings{maeda2019thermal, <br>
+  &nbsp; title={Thermal Non-Line-of-Sight Imaging}, <br>
+  &nbsp; author={Maeda, Tomohiro and Wang, Yiqin and Raskar, Ramesh and Kadambi, Achuta}, <br>
+  &nbsp; booktitle={2019 IEEE International Conference on Computational Photography (ICCP)}, <br>
+  &nbsp; pages={1--11}, <br>
+  &nbsp; year={2019}, <br>
+  &nbsp; organization={IEEE} <br>
 }
-
+</div>
 @section
 @section
 Tomohiro Maeda <br>
