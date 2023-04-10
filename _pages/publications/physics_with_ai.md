@@ -46,15 +46,17 @@ For centuries, humans have discovered the physical laws that underpin our world.
 - Paper ([PDF]({{ site.baseurl }}/assets/spie_survey.pdf))
 
 @section
-@inproceedings{kadambi2020blending, \
-  &nbsp; title={Blending physics with artificial intelligence}, \
-  &nbsp; author={Kadambi, Achuta}, \
-  &nbsp; booktitle={Computational Imaging V}, \
-  &nbsp; volume={11396}, \
-  &nbsp; pages={113960B}, \
-  &nbsp; year={2020}, \
-  &nbsp; organization={International Society for Optics and Photonics} \
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
+@inproceedings{kadambi2020blending, <br>
+  &nbsp; title={Blending physics with artificial intelligence}, <br>
+  &nbsp; author={Kadambi, Achuta}, <br>
+  &nbsp; booktitle={Computational Imaging V}, <br>
+  &nbsp; volume={11396}, <br>
+  &nbsp; pages={113960B}, <br>
+  &nbsp; year={2020}, <br>
+  &nbsp; organization={International Society for Optics and Photonics} <br>
 }
+</div>
 
 @section
 @section
