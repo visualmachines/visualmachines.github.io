@@ -421,11 +421,12 @@ Today single image deweathering is arguably more sensitive to the dataset type, 
 - Paper - ([link](https://drive.google.com/drive/folders/15sPe_S0sPjB65S6EHmhRuQ4NqV7eimTU?usp=share_link))
 - Code - ([link](https://drive.google.com/drive/folders/1MmXeSBgoeAJT6FHlWhZwBVET9RHpiG4W?usp=share_link))
 - Dataset - ([link](https://drive.google.com/drive/folders/12Z9rBSTs0PPNHLieyU2vnCTzR6fOFLrT?usp=share_link))
-- Poster - Coming soon! <!-- ([link](https://drive.google.com/file/d/1LmTB41ZYfybzew78lVI0WbfeKOho2T10/view?usp=sharing))-->
-- Video - Coming soon! <!-- ([link](https://drive.google.com/file/d/1kODUREmzin1xH1OSCejV3h0M4SlaCB68/view?usp=sharing))-->
+<!-- - Poster - Coming soon! ([link](https://drive.google.com/file/d/1LmTB41ZYfybzew78lVI0WbfeKOho2T10/view?usp=sharing))-->
+<!-- - Video - Coming soon!  ([link](https://drive.google.com/file/d/1kODUREmzin1xH1OSCejV3h0M4SlaCB68/view?usp=sharing))-->
 @section
-Coming soon!
-<!--The GT-RAIN challenge invites the public to push the boundary of single image deraining for challenging real world images degraded by various degrees of rainy weather that were collected from all around the world -- stretching from North America to Asia. The competition features the first large scale dataset comprised of real rainy image and ground truth image pairs captured from over 115 scenes. The challenge is sponsored by the US Army Research Laboratory (ARL) with monetary awards for the best performing teams: $1000 USD for first place, $800 USD for second place and $500 USD for third place.-->
+The GT-RAIN challenge invites the public to push the boundary of single image deraining for challenging real world images degraded by various degrees of rainy weather that were collected from all around the world -- stretching from North America to Asia. The competition features the first large scale dataset comprised of real rainy image and ground truth image pairs captured from over 115 scenes. The challenge is sponsored by the US Army Research Laboratory (ARL) with monetary awards for the best performing teams: $1000 USD for first place, $800 USD for second place and $500 USD for third place.
+
+The WeatherStream challenge extends this challenge to multiple weather conditions. Coming soon!
 
 @section
 <div class="teaser-container">
