@@ -448,7 +448,7 @@ curate the dataset. Doing this algorithmically not only improves quality of the 
 @section
 @section
 <div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
-@inproceedings{singh2023depth, <br>
+@inproceedings{zhang2023weatherstream, <br>
   &nbsp; title={WeatherStream: Light Transport Automation of Single Image Deweathering}, <br>
   &nbsp; author={Zhang, Howard and Ba, Yunhao and Yang, Ethan and Mehra, Varan and Gella, Blake and Suzuki, Akira and Pfahnl, Arnold and Chandrappa, Chethan Chinder and Wong, Alex and Kadambi, Achuta}, <br>
   &nbsp; booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, <br>
