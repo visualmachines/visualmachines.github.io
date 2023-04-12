@@ -48,10 +48,10 @@ for neural scene representations aimed at preserving polarimetric information wh
 artifacts created by current coordinate network architectures when reconstructing three polarimetric quantities of interest.
 
 @section
-- Paper: <!-- ([Link](https://drive.google.com/file/d/1rMeitp1FSr-ZHOjjSCmtDgfCkAxstPXG/view?usp=sharing )) -->
-- Supplement: <!-- ([Link](https://drive.google.com/file/d/1p2oeqEJpuQsQpZAXROm9eXzHlUFHBkKN/view?usp=sharing )) -->
-- Code: <!--([Link](https://drive.google.com/file/d/13s8ZIesXcE7MSRSnARLz9nOOzq-9WY2U/view?usp=sharing )) -->
-- Data: <!--([Link](https://drive.google.com/file/d/1QzWAWtfMKoeZZy_eyPZHyNMAMk6UunQL/view?usp=sharing )) -->
+- Paper: ([Link](https://drive.google.com/file/d/1rMeitp1FSr-ZHOjjSCmtDgfCkAxstPXG/view?usp=sharing))
+- Supplement: ([Link](https://drive.google.com/file/d/1p2oeqEJpuQsQpZAXROm9eXzHlUFHBkKN/view?usp=sharing))
+- Code: ([Link](https://drive.google.com/file/d/13s8ZIesXcE7MSRSnARLz9nOOzq-9WY2U/view?usp=sharing))
+- Data: ([Link](https://drive.google.com/file/d/1QzWAWtfMKoeZZy_eyPZHyNMAMk6UunQL/view?usp=sharing))
 
 @section
 <figure> 
