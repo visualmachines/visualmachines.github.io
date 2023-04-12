@@ -48,8 +48,10 @@ for neural scene representations aimed at preserving polarimetric information wh
 artifacts created by current coordinate network architectures when reconstructing three polarimetric quantities of interest.
 
 @section
-- Paper: Coming soon! <!--([Link](https://link.springer.com/chapter/10.1007/978-3-031-19778-9_19))--> <!-- ([Link](https://drive.google.com/file/d/1c0h7UNYsZdO_QPr3feylZ0n6A5mAly6p/view?usp=sharing)) -->
-- Code and Data: Coming soon! <!--([Link](https://github.com/UCLA-VMG/MIME))-->
+- Paper: <!-- ([Link](https://drive.google.com/file/d/1rMeitp1FSr-ZHOjjSCmtDgfCkAxstPXG/view?usp=sharing )) -->
+- Supplement: <!-- ([Link](https://drive.google.com/file/d/1p2oeqEJpuQsQpZAXROm9eXzHlUFHBkKN/view?usp=sharing )) -->
+- Code: <!--([Link](https://drive.google.com/file/d/13s8ZIesXcE7MSRSnARLz9nOOzq-9WY2U/view?usp=sharing )) -->
+- Data: <!--([Link](https://drive.google.com/file/d/1QzWAWtfMKoeZZy_eyPZHyNMAMk6UunQL/view?usp=sharing )) -->
 
 @section
 <figure> 
@@ -62,7 +64,14 @@ like the floor, and diffuse reflections, like the wall and doors in the backgrou
 
 @section
 
-Coming soon!
+<div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
+@inproceedings{peters2023pcon, <br>
+  &nbsp; title={pCON: Polarimetric Coordinate Networks for Neural Scene Representations}, <br>
+  &nbsp; author={Peters, Henry and Ba, Yunhao and Kadambi, Achuta}, <br>
+  &nbsp; booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, <br>
+  &nbsp; year={2023} <br>
+}
+</div>
 
 @section
 @section
