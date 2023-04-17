@@ -87,6 +87,48 @@
     display: read more
   highlight: 1
   news 2:
+  
+  
+- name: depth_radar
+  title: "Depth Estimation from Camera Image and mmWave Radar Point Cloud"
+  image: depth_radar/teaser.jpg
+  thumbnail: depth_radar/pipeline.png
+  description: We present a method for inferring dense depth from a camera image and a sparse noisy radar point cloud
+  authors:
+    - name: Akash Deep Singh
+      associations: 1
+      link: mailto:akash.a283@gmail.com
+    - name: Yunhao Ba
+      associations: 1
+      link: https://yhba-ucla.github.io/
+    - name: Ankur Sarker
+      associations: 1
+    - name: Howard Zhang
+      associations: 1
+      link: mailto:hwdz15508@g.ucla.edu
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+    - name: Stefano Soatto
+      associations: 1
+      link: link: http://web.cs.ucla.edu/~soatto/
+    - name: Mani Srivastava
+      associations: 1
+      link: https://www.ee.ucla.edu/mani-srivastava/
+    - name: Alex Wong
+      associations: 2
+      link: https://www.linkedin.com/in/alexklwong
+
+  associations:
+    - name: University of California, Los Angeles 
+      link: https://www.ucla.edu
+    - name: Yale University  
+      link: https://www.yale.edu/
+  link:
+    url: depth_radar.htm
+    display: read more
+  highlight: 1
+  news 2:
 
 - name: pcon
   title: "pCON: Polarimetric Coordinate Networks for Neural Scene Representations"
