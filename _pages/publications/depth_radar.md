@@ -7,7 +7,7 @@ permalink: /depth_radar.htm/
 ---
 
 {% for publication in site.data.publications %}
-{% if publication.name == "pcon" %}
+{% if publication.name == "depth_radar" %}
 
 # {{ publication.title }}
 
@@ -61,11 +61,11 @@ the right). We mark errors in different baselines with a red box and contrast th
 @section
 
 <div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
-@inproceedings{singh2023depth,
-  title={Depth Estimation from Camera Image and mmWave Radar Point Cloud},
-  author={Singh, Akash Deep and Ba, Yunhao and Sarker, Ankur and Zhang, Howard and Kadambi, Achuta and Soatto, Stefano and Srivastava, Mani and Wong, Alex},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2023}
+@inproceedings{singh2023depth,<br>
+  title={Depth Estimation from Camera Image and mmWave Radar Point Cloud},<br>
+  author={Singh, Akash Deep and Ba, Yunhao and Sarker, Ankur and Zhang, Howard and Kadambi, Achuta and Soatto, Stefano and Srivastava, Mani and Wong, Alex},<br>
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},<br>
+  year={2023}<br>
 }
 </div>
 
