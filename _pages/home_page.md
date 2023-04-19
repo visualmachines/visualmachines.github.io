@@ -30,8 +30,8 @@ head_scripts:
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">News</div>
       
-                <div class="heading-home padded-top">Mar 2023: Five papers accepted</div>
-        <div class="body-home">Four papers accepted to CVPR 2023, one paper to IEEE Access.</div>
+                <div class="heading-home padded-top">Apr 2023: Six papers accepted</div>
+        <div class="body-home">Four papers in CVPR 2023, One in Nature Mach. Intell., One in IEEE Access.</div>
         
 	    <div class="heading-home padded-top">Dec 2022: Achuta wins IEEE-HKN Under 35 Award</div>
 	    <div class="body-home">For inclusive inventions in EECS and bioengineering. <a style="color: purple;" href="https://www.ee.ucla.edu/prof-kadambi-wins-ieee-hkn-under-35-award/">UCLA Article.</a></div>
