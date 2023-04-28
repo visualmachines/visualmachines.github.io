@@ -1,3 +1,13 @@
+- title: "Generative Models and Computational Imaging: Soft Diffusion and Learning from Corrupted Data"
+  speaker: Giannis Daras
+  speaker_image: giannis.png
+  institution: PhD candidate, UT Austin
+  description:
+  summary: "Diffusion models have revolutionized the field of generative modeling, giving rise to systems that generate images of unparalleled quality. In this talk, we will talk about recent algorithmic innovations that generalize diffusion models and tackle crucial limitations of the standard formulation. In the first part of the presentation, we will introduce a broader family of corruption processes and demonstrate how to reverse them using a new framework, Soft Diffusion, that delivers state-of-the-art results. Following this, we will discuss ongoing research efforts to train diffusion models to learn distributions from corrupted samples. Throughout the talk, we will reveal connections between diffusion models and the realm of inverse problems, highlighting possible avenues for further research in advancing generative models."
+  date: 5
+  month_year: May, 2023
+  time: 12 noon PT
+  link: https://ucla.zoom.us/j/92733341179
 - title: "Beyond RGB: Next-Gen Cameras for Untangling Light Transport"
   speaker: Akshat Dave
   speaker_image: akshat.jpg
