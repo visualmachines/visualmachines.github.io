@@ -1,3 +1,12 @@
+- title: "Extreme Novel-view Synthesis and 3D Content Creation Using Deep Generative Prior"
+  speaker: Yifan Jiang
+  speaker_image: yifan.jpg
+  institution: PhD student, UT Austin
+  description:
+  summary: "Virtual reality and augmented reality bring increasing demand for 3D content generation. However, the creation of such content often involves laborious tasks performed by human experts. I will discuss our recent study on the novel-view synthesis and 3D content generation in a more challenging context. Specifically, we explore the task of transforming a single image into a 3D object and demonstrate, for the first time, the capability to generate a realistic 3D object with 360-degree views that closely align with the provided reference image. Our proposed framework, NeuralLift-360, leverages large-scale text-to-image generative models, such as the Diffusion Model, to fulfill the everlasting curiosity of synthesizing novel views of objects from a single image. Extensive experiments demonstrate that NeuralLift-360 significantly outperforms existing state-of-the-art baselines."
+  date: 2
+  time: 12 noon PT
+  month_year: June, 2023
 - title: "Generative Models and Computational Imaging: Soft Diffusion and Learning from Corrupted Data"
   speaker: Giannis Daras
   speaker_image: giannis.png
