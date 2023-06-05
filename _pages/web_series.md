@@ -17,7 +17,7 @@ The Grundfest Lecture series highlights rising stars in computational imaging. T
 (e.g. PhD student, postdoc). Lectures occur on the first Friday of each month at 12PM PT. The lead organizer is
 [Ellin Zhao](https://ellinz.com/).
 <br><br>
-Signup [here](https://docs.google.com/forms/d/e/1FAIpQLSdAo7SiHvafHPPOp-FnfoW9fRWHEBzYybTAaP3d_Z4FdCnt0A/viewform
+Signup [here](https://forms.gle/uZFnjQAQmeSZHbiJ9
 ){:target="_blank"} to receive reminders for upcoming talks in the series.
 
 @section
