@@ -418,7 +418,8 @@ that makes all image-based deweathering models we tested perform better.**
 Today single image deweathering is arguably more sensitive to the dataset type, rather than the model. We introduce WeatherStream, an automatic pipeline capturing all real-world weather effects (rain, snow, and rain fog degradations), along with their clean image pairs. Previous state-of-the-art methods that have attempted the all-weather removal task train on synthetic pairs, and are thus limited by the Sim2Real domain gap. Recent work has attempted to manually collect time multiplexed pairs, but the use of human labor limits the scale of such a dataset. We introduce a pipeline that uses the power of light-transport physics and a model trained on a small, initial seed dataset to reject approximately 99.6% of unwanted scenes. The pipeline is able to generalize to new scenes and degradations that can, in turn, be used to train existing models just like fully human-labeled data. Training on a dataset collected through this procedure leads to significant improvements on multiple existing weather removal methods on a carefully human-collected test set of real-world weather effects.
 
 @section
-- Paper - ([link](https://drive.google.com/drive/folders/15sPe_S0sPjB65S6EHmhRuQ4NqV7eimTU?usp=share_link))
+- Paper - ([link](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_WeatherStream_Light_Transport_Automation_of_Single_Image_Deweathering_CVPR_2023_paper.pdf))
+- Supplement - ([link](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Zhang_WeatherStream_Light_Transport_CVPR_2023_supplemental.pdf))
 - Code - ([link](https://drive.google.com/drive/folders/1MmXeSBgoeAJT6FHlWhZwBVET9RHpiG4W?usp=share_link))
 - Dataset - ([link](https://drive.google.com/drive/folders/12Z9rBSTs0PPNHLieyU2vnCTzR6fOFLrT?usp=share_link))
 <!-- - Poster - Coming soon! ([link](https://drive.google.com/file/d/1LmTB41ZYfybzew78lVI0WbfeKOho2T10/view?usp=sharing))-->
