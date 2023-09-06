@@ -1,3 +1,46 @@
+- name: Diffusion Perspective
+  title: "Enhancing Diffusion Models with 3D Perspective Geometry Constraints"
+  image: persp_thumbnail.png
+  thumbnail: persp_thumbnail.png
+  description: We propose a loss function for latent diffusion models that improves the perspective accuracy of generated images, allowing us to create synthetic data that helps improve SOTA monocular depth estimation models.
+  authors:
+    - name: Rishi Upadhyay
+      associations: 1
+      link: https://web.cs.ucla.edu/~rishiu/
+    - name: Howard Zhang
+      associations: 1
+      link: mailto:hwdz15508@g.ucla.edu
+    - name: Yunhao Ba
+      associations: 1,2
+      link: https://yhba-ucla.github.io/
+    - name: Ethan Yang
+      associations: 1
+      link: mailto:eyang657@g.ucla.edu
+    - name: Blake Gella
+      associations: 1
+      link: mailto:bgella118827@g.ucla.edu
+    - name: Sicheng Jiang
+      associations: 1
+      link: mailto:sicheng2020@g.ucla.edu
+    - name: Alex Wong
+      associations: 3
+      link: https://www.cs.yale.edu/homes/wong-alex/
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles
+      link: https://www.ee.ucla.edu/
+    - name: Sony
+      link: https://research.sony/
+    - name: Yale University
+      link: https://www.cs.yale.edu
+  link:
+    url: diffusionperspective.htm
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: Diverse RPPG
   title: "Diverse RPPG: Camera-based Heart Rate Estimation for Diverse Subject Skin Tones and Scenes"
   image: video_demo.gif
