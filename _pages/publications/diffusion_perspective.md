@@ -1,13 +1,13 @@
 ---
 title: "Enhancing Diffusion Models with 3D Perspective Geometry Constraints"
-layout: paper_template
+layout: paper_template_alto
 excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /diffusionperspective.htm/
 ---
 
 {% for publication in site.data.publications %}
-{% if publication.name == "diff_persp" %}
+{% if publication.name == "Diffusion Perspective" %}
 
 # {{ publication.title }}
 
