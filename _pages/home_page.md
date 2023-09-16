@@ -30,6 +30,9 @@ head_scripts:
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">News</div>
       
+ <div class="heading-home padded-top">Aug 2023: Diffusion w/ Perspective appears in SIGGRAPH Asia</div>
+        <div class="body-home">Rishi's first author paper appears in the journal proceedings of SIGGRAPH Asia</div>
+
                 <div class="heading-home padded-top">Apr 2023: Six papers accepted</div>
         <div class="body-home">Four papers in CVPR 2023, One in Nature Mach. Intell., One in IEEE Access.</div>
         
