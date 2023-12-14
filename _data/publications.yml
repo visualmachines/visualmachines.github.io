@@ -1,3 +1,27 @@
+- name: CG3D
+  title: "CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting"
+  image: CG3D_thumbnail.gif
+  thumbnail: CG3D_thumbnail.gif
+  description: We present a method for 3D generation of multi-object realistic scenes from text through utilizing text-to-image diffusion models and Gaussian radiance fields. These scenes are decomosable and editable at the object level.
+  authors:
+    - name: Alexander Vilesov
+      associations: 1
+      link: https://asvilesov.github.io
+    - name: Pradyumna Chari
+      associations: 1
+      link: https://pradyumnachari.github.io
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles
+      link: https://www.ee.ucla.edu/
+  link:
+    url: https://asvilesov.github.io/CG3D/
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: Diffusion Perspective
   title: "Enhancing Diffusion Models with 3D Perspective Geometry Constraints"
   image: persp_thumbnail.png
