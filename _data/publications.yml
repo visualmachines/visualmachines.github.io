@@ -1,3 +1,53 @@
+- name: Feature 3DGS
+  title: "Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields"
+  image: feature_3dgs_teaser.gif
+  thumbnail: feature_3dgs_teaserl.gif
+  description: Feature 3DGS, distills feature fields from 2D foundation models, opening the door to a brand new semantic, editable, and promptable explicit 3D scene representation.
+  authors:
+    - name: Shijie Zhou
+      associations: 1
+      link: https://shijiezhou-ucla.github.io/
+    - name: Haoran Chang
+      associations: 1
+      link:
+    - name: Sicheng Jiang
+      associations: 1
+      link:
+    - name: Zhiwen Fan
+      associations: 2
+      link: https://zhiwenfan.github.io/
+    - name: Zehao Zhu
+      associations: 2
+      link: https://zehaozhu.github.io/
+    - name: Dejia Xu
+      associations: 2
+      link: https://ir1d.github.io/
+    - name: Pradyumna Chari
+      associations: 1
+      link: https://pradyumnachari.github.io/
+    - name: Suya You
+      associations: 3
+      link: https://scholar.google.com/citations?user=LkpA-L0AAAAJ&hl=en
+    - name: Zhangyang Wang
+      associations: 2
+      link: https://www.ece.utexas.edu/people/faculty/atlas-wang
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles
+      link: https://www.ee.ucla.edu/
+    - name: University of Texas at Austin
+      link: https://www.ece.utexas.edu/
+    - name: DEVCOM ARL
+      link: https://ict.usc.edu/
+  link:
+    external: 1
+    url: https://feature-3dgs.github.io/
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: SparseGS
   title: "SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting"
   image: 360_gif.gif
@@ -33,7 +83,7 @@
   title: "CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting"
   image: CG3D_thumbnail.gif
   thumbnail: CG3D_thumbnail.gif
-  description: We present a method for 3D generation of multi-object realistic scenes from text through utilizing text-to-image diffusion models and Gaussian radiance fields. These scenes are decomosable and editable at the object level.
+  description: We present a method for 3D generation of multi-object realistic scenes from text by utilizing text-to-image diffusion models and Gaussian radiance fields. These scenes are decomposable and editable at the object level.
   authors:
     - name: Alexander Vilesov
       associations: 1
