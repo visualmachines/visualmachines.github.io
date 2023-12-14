@@ -51,7 +51,7 @@ The introduction of large, foundational models to computer vision has led to dra
 </figure>
 </div>
 <div style="width:80%">
-<p>**By using a paired-training method with consistency losses and CLIP injection, foundational models are able to generate features that are more resilient to adverse weather conditions.** During paired data training, a CLIP-Guided Injection module learns a CLIP-informed prior representing the adverse weather effect in the CLIP latent space. Clear and adverse weather images are fed into a shared weight encoder-decoder structure. Intermediate features and output segmentation maps are used in a feature consistency loss and an output consistency loss respectively to ensure an advantageous representation.</p>
+<strong>By using a paired-training method with consistency losses and CLIP injection, foundational models are able to generate features that are more resilient to adverse weather conditions.</strong> During paired data training, a CLIP-Guided Injection module learns a CLIP-informed prior representing the adverse weather effect in the CLIP latent space. Clear and adverse weather images are fed into a shared weight encoder-decoder structure. Intermediate features and output segmentation maps are used in a feature consistency loss and an output consistency loss respectively to ensure an advantageous representation.
 </div>
 <br>
 <br>
@@ -61,7 +61,7 @@ The introduction of large, foundational models to computer vision has led to dra
 </figure>
 </div>
 <div style="width:80%">
-<p>**WeatherProof Dataset contains accurate clear and adverse weather image pairs with 10 semantic classes.** In contrast, the ACDC dataset’s paired images have major differences in semantic information and scene structure.</p>
+<strong>WeatherProof Dataset contains accurate clear and adverse weather image pairs with 10 semantic classes.</strong> In contrast, the ACDC dataset’s paired images have major differences in semantic information and scene structure.
 </div>
 <br>
 <br>
@@ -71,7 +71,7 @@ The introduction of large, foundational models to computer vision has led to dra
 </figure>
 </div>
 <div style="width:70%">
-<p>**Our CLIP injection layer is able to accurately predict the composition of weather effects in images.** The percentage of weather effect contributions was taken by passing in these images into our CLIP injection layer and extracting the weights.<\p>
+<strong>Our CLIP injection layer is able to accurately predict the composition of weather effects in images.</strong> The percentage of weather effect contributions was taken by passing in these images into our CLIP injection layer and extracting the weights.
 </div>
 
 @section
@@ -84,7 +84,7 @@ The introduction of large, foundational models to computer vision has led to dra
   <img style="width:75%" src="/assets/images/publications/weatherproof_table.png" alt="Missing">
 </figure>
 <div style="width:80%">
-<p>**Our proposed paired training method outperforms standard fine-tuning on adverse images only for both InternImage and ConvNeXt.** Including language guidance and consistency losses further improve our results.</p>
+<strong>Our proposed paired training method outperforms standard fine-tuning on adverse images only for both InternImage and ConvNeXt.</strong> Including language guidance and consistency losses further improve our results.
 </div>
 <br>
 <br>
