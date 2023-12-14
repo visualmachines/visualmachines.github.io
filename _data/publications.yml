@@ -104,6 +104,47 @@
   highlight: 1
   news 2:
 
+- name: WeatherProof
+  title: "WeatherProof: A Paired-Dataset Approach to Semantic Segmentation in Adverse Weather"
+  image: weatherproof_teaser.png
+  thumbnail: weatherproof_teaser.png
+  description: We propose a semantic segmentation dataset with paired clean and adverse weather image pairs as well as a general, paired-training method that can be applied to all current foundational model architectures that improves performance in adverse conditions.
+  authors:
+    - name: Blake Gella
+      associations: 1
+      link: mailto:bgella118827@g.ucla.edu
+    - name: Howard Zhang
+      associations: 1
+      link: https://howardzhang-cv.github.io/personal_website/
+    - name: Rishi Upadhyay
+      associations: 1
+      link: https://web.cs.ucla.edu/~rishiu/
+    - name: Tiffany Chang
+      associations: 1
+    - name: Matthew Waliman
+      associations: 1
+    - name: Yunhao Ba
+      associations: 1,2
+      link: https://yhba-ucla.github.io/
+    - name: Alex Wong
+      associations: 3
+      link: https://www.cs.yale.edu/homes/wong-alex/
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles
+      link: https://www.ee.ucla.edu/
+    - name: Sony
+      link: https://research.sony/
+    - name: Yale University
+      link: https://www.cs.yale.edu
+  link:
+    url: weatherproof.htm
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: Diffusion Perspective
   title: "Enhancing Diffusion Models with 3D Perspective Geometry Constraints"
   image: persp_thumbnail.png
