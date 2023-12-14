@@ -1,7 +1,7 @@
 - name: Feature 3DGS
   title: "Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields"
   image: feature_3dgs_teaser.gif
-  thumbnail: feature_3dgs_teaserl.gif
+  thumbnail: feature_3dgs_teaser.gif
   description: Feature 3DGS, distills feature fields from 2D foundation models, opening the door to a brand new semantic, editable, and promptable explicit 3D scene representation.
   authors:
     - name: Shijie Zhou
