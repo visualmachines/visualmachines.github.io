@@ -19,7 +19,7 @@ permalink: /weatherproof.htm/
 
 <!--- <font color="gray" size="5">SIGGRAPH Asia 2023, Sydney</font> --->
 
-<hr class="center" style="width: 40%; color: grey; height: 0.07px; background-color:grey;"/>
+<!--- <hr class="center" style="width: 40%; color: grey; height: 0.07px; background-color:grey;"/> --->
 
 <figure>
   <img style="width:90%" src= "/assets/images/publications/weatherproof_teaser.png" alt="Missing" width="800"> 
@@ -47,27 +47,31 @@ The introduction of large, foundational models to computer vision has led to dra
 @section 
 <div style="width:70%">
 <figure> 
-  <img src= "/assets/images/publications/weatherproof_model.png" alt="Missing"> 
+  <img style="width:70%" src= "/assets/images/publications/weatherproof_model.png" alt="Missing"> 
 </figure>
 </div>
 <div style="width:80%">
-**By using a paired-training method with consistency losses and CLIP injection, foundational models are able to generate features that are more resilient to adverse weather conditions.** During paired data training, a CLIP-Guided Injection module learns a CLIP-informed prior representing the adverse weather effect in the CLIP latent space. Clear and adverse weather images are fed into a shared weight encoder-decoder structure. Intermediate features and output segmentation maps are used in a feature consistency loss and an output consistency loss respectively to ensure an advantageous representation.
+<p>**By using a paired-training method with consistency losses and CLIP injection, foundational models are able to generate features that are more resilient to adverse weather conditions.** During paired data training, a CLIP-Guided Injection module learns a CLIP-informed prior representing the adverse weather effect in the CLIP latent space. Clear and adverse weather images are fed into a shared weight encoder-decoder structure. Intermediate features and output segmentation maps are used in a feature consistency loss and an output consistency loss respectively to ensure an advantageous representation.</p>
 </div>
+<br>
+<br>
 <div style="width:70%">
 <figure> 
   <img src= "/assets/images/publications/weatherproof_dataset.png" alt="Missing"> 
 </figure>
 </div>
 <div style="width:80%">
-**WeatherProof Dataset contains accurate clear and adverse weather image pairs with 10 semantic classes.** In contrast, the ACDC dataset’s paired images have major differences in semantic information and scene structure.
+<p>**WeatherProof Dataset contains accurate clear and adverse weather image pairs with 10 semantic classes.** In contrast, the ACDC dataset’s paired images have major differences in semantic information and scene structure.</p>
 </div>
-<div style="width:30%">
+<br>
+<br>
+<div style="width:50%">
 <figure> 
   <img src= "/assets/images/publications/weatherproof_clip.png" alt="Missing"> 
 </figure>
 </div>
-<div style="width:40%">
-**Our CLIP injection layer is able to accurately predict the composition of weather effects in images.** The percentage of weather effect contributions was taken by passing in these images into our CLIP injection layer and extracting the weights.
+<div style="width:70%">
+<p>**Our CLIP injection layer is able to accurately predict the composition of weather effects in images.** The percentage of weather effect contributions was taken by passing in these images into our CLIP injection layer and extracting the weights.<\p>
 </div>
 
 @section
@@ -79,8 +83,8 @@ The introduction of large, foundational models to computer vision has led to dra
 <figure>
   <img style="width:75%" src="/assets/images/publications/weatherproof_table.png" alt="Missing">
 </figure>
-<div style="width:40%">
-**Our proposed paired training method outperforms standard fine-tuning on adverse images only for both InternImage and ConvNeXt.** Including language guidance and consistency losses further improve our results.
+<div style="width:80%">
+<p>**Our proposed paired training method outperforms standard fine-tuning on adverse images only for both InternImage and ConvNeXt.** Including language guidance and consistency losses further improve our results.</p>
 </div>
 <br>
 <br>
