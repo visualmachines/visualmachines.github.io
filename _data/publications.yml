@@ -17,6 +17,7 @@
     - name: University of California, Los Angeles
       link: https://www.ee.ucla.edu/
   link:
+    external: 1
     url: https://asvilesov.github.io/CG3D/
     display: read more
   highlight: 1
