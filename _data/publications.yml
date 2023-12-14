@@ -1,3 +1,34 @@
+- name: SparseGS
+  title: "SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting"
+  image: 360_gif.gif
+  thumbnail: 360_gif.gif
+  description: We present a framework that leverages explicit radiance fields, monocular depth cues, and generative priors to enable 360° sparse view synthesis using 3D Gaussian Splatting.
+  authors:
+    - name: Haolin Xiong
+      associations: 1
+      link: https://www.linkedin.com/in/haolin-xiong-927221176/
+    - name: Sairisheek Muttukuru
+      associations: 1
+      link: https://www.linkedin.com/in/sairisheek/
+    - name: Rishi Upadhyay
+      associations: 1
+      link: https://web.cs.ucla.edu/~rishiu/
+    - name: Pradyumna Chari
+      associations: 1
+      link: https://pradyumnachari.github.io
+    - name:  Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles
+      link: https://www.ee.ucla.edu/
+  link:
+    external: 1
+    url: https://tinyurl.com/SparseGS
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: CG3D
   title: "CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting"
   image: CG3D_thumbnail.gif
