@@ -75,7 +75,7 @@ The introduction of large, foundational models to computer vision has led to dra
 </div>
 
 @section
-- Paper ([Link](https://arxiv.org/abs/2312.00944)) 
+- Paper ([Link](https://arxiv.org/abs/2312.09534)) 
 - Code (Coming Soon)
 
 @section
@@ -92,18 +92,11 @@ The introduction of large, foundational models to computer vision has led to dra
 
 @section
 <div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
-@article{upadhyay2023enhancing, <br>
-  &nbsp; author = {Upadhyay, Rishi and Zhang, Howard and Ba, Yunhao and Yang, Ethan and Gella, Blake and Jiang, Sicheng and Wong, Alex and Kadambi, Achuta}, <br>
-  &nbsp; title = {Enhancing Diffusion Models with 3D Perspective Geometry Constraints}, <br>
-  &nbsp; year = {2023}, <br>
-  &nbsp; issue_date = {December 2023}, <br>
-  &nbsp; volume = {42}, <br>
-  &nbsp; number = {6}, <br>
-  &nbsp; doi = {10.1145/3618389}, <br>
-  &nbsp; journal = {ACM Trans. Graph.}, <br>
-  &nbsp; month = {dec}, <br>
-  &nbsp; articleno = {237}, <br>
-  &nbsp; numpages = {15}, <br>
+@article{gella2023weatherproof, <br>
+  &nbsp; title={WeatherProof: A Paired-Dataset Approach to Semantic Segmentation in Adverse Weather}, <br>
+  &nbsp; author={Gella, Blake and Zhang, Howard and Upadhyay, Rishi and Chang, Tiffany and Waliman, Matthew and Ba, Yunhao and Wong, Alex and Kadambi, Achuta}, <br>
+  &nbsp; journal={arXiv preprint arXiv:2312.09534}, <br>
+  &nbsp; year={2023} <br>
 }
 </div>
 @section
