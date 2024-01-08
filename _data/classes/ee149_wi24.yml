@@ -1,0 +1,258 @@
+- week: 1
+  title: ""
+  events:
+    - date: "Jan. 9"
+      title: "Introduction, The 3 R's"
+      slides_blank: https://docs.google.com/presentation/d/1NWAtwypFprHlafrYuzRbPksI6IayrpbM/edit#slide=id.p1
+      slides:
+      video: 
+      quiz: 
+      quiz_sol: 
+      hw_num: 
+      hw_link: 
+      hw_due:
+    - date: "Jan. 11"
+      title: "Image Processing I"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+
+- week: 2
+  title: ""
+  events:
+    - date: "Jan. 16"
+      title: "Image Processing II"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:      
+      hw_due_date:
+      hw_link:
+      hw_due:
+    - date: "Jan. 18"
+      title: "2D Fourier Transform, Intro to Deconvolution"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num: 1
+      hw_due_date: "2/1"
+      hw_link:
+      hw_due:
+
+- week: 3
+  title: ""
+  events:
+    - date: "Jan. 23"
+      title: "Deconvolution, Blind Deconvolution"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+    - date: "Jan. 25"
+      title: "Edges to Corners"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+
+- week: 4
+  title: ""
+  events:
+    - date: "Jan. 30"
+      title: "Representing Local Correspondence I"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+    - date: "Feb. 1"
+      title: "Representing Local Correspondence II"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num: 2
+      hw_due_date: "2/15"
+      hw_link: 
+      hw_due: 1
+
+- week: 5
+  title: ""
+  events:
+    - date: "Feb. 6"
+      title: "The Second R: Reconstruction"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+    - date: "Feb. 8"
+      title: "Reconstruction on the Planar Domain I"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+
+- week: 6
+  title: ""
+  events:
+    - date: "Feb. 13"
+      title: "Reconstruction on the Planar Domain II"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+    - date: "Feb. 15"
+      title: "Reconstruction on the Planar Domain III"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num: 3
+      hw_due_date: "2/29"
+      hw_link:
+      hw_due: 2
+
+- week: 7
+  title: ""
+  events:
+    - date: "Feb. 20"
+      title: "Reconstruction in 3D Space"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+    - date: "Feb. 22"
+      title: "Reconstruction in 3D Space"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+
+- week: 8
+  title: ""
+  events:
+    - date: "Feb. 27"
+      title: "Stereo 3D Reconstruction"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+    - date: "Feb. 29"
+      title: "Photometry, Photometric Stereo"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num: 4
+      hw_due_date: "3/14"
+      hw_link:
+      hw_due: 3
+
+- week: 9
+  title: ""
+  events:
+    - date: "Mar. 5"
+      title: "Deep Learning I"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+    - date: "Mar. 7"
+      title: "Deep Learning II"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+
+- week: 10
+  title: ""
+  events:
+    - date: "Mar. 12"
+      title: "Deep Learning III"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
+    - date: "Mar. 14"
+      title: "Deep Learning IV"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due: 4
+
+- week: "Finals"
+  title: ""
+  events:
+    - date: "Mar. 19 8-11AM"
+      title: "Final Exam"
+      slides_blank: 
+      slides:
+      video: 
+      quiz: 
+      quiz_sol:
+      hw_num:
+      hw_link:
+      hw_due:
