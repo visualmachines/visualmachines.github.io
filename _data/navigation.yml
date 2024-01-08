@@ -10,6 +10,8 @@ main:
     url: /people/
   - title: "Publications"
     url: /publications/
+  - title: "Teaching"
+    url: /teaching/
   - title: "Join Us"
     url: /join_us/
   - title: "Visit"

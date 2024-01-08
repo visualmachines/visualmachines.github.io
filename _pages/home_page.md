@@ -67,6 +67,10 @@ head_scripts:
     </div>
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Current Teaching</div>
+      <div class="heading-home padded-top">Winter 2024</div>
+      <div class="body-home">ECE 149: Foundations of Computer Vision</div>
+      <div class="heading-home padded-top">Fall 2023</div>
+      <div class="body-home">ECE 239AS: Computational Imaging</div>
       <div class="heading-home padded-top">Fall 2022</div>
       <div class="body-home">ECE 113: Discrete-Time Signal Processing</div>
       <div class="heading-home padded-top">Winter 2023</div>
