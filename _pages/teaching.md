@@ -10,7 +10,7 @@ permalink: /teaching/
 
 <br>
 
-* #### [Winter 2024 - EE149: Foundations of Computer Vision](https://ucla-vmg.github.io/EE149/)
+* #### [Winter 2024 - EE149: Foundations of Computer Vision](/EE149/)
 
 * #### Fall 2023 - EE239AS: Compuatational Imaging
 
