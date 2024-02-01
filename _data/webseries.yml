@@ -1,3 +1,13 @@
+- title: "Adapting and Regularizing Diffusion Models for Inverse Problems"
+  speaker: Hyungjin Chung
+  speaker_image: Hyungjin.jpg
+  institution: PhD student, KAIST
+  description:
+  summary: "Diffusion models are revolutionizing the field of inverse imaging by leveraging powerful foundational generative priors. This talk will initially explore methods for adapting diffusion models to inverse problems under mismatched priors, specifically out-of-distribution (OOD) measurements, even with only a single measurement. This significantly broadens the practical utility of diffusion models in real-world scenarios where acquiring high-quality training data is challenging. Subsequently, the discussion will shift to the application of a similar approach in resolving ambiguous elements, such as text conditioning, in foundational diffusion models. Additionally, an efficient method for regularizing the space of the posterior distribution with text conditions will be introduced. Although these applications may appear distinct, they will be unified within a comprehensive framework, highlighting new possibilities for solving inverse problems in imaging."
+  date: 2
+  time: 12 noon PT
+  link: https://caltech.zoom.us/j/89438246645
+  month_year: Feb, 2024
 - title: "Extreme Novel-view Synthesis and 3D Content Creation Using Deep Generative Prior"
   speaker: Yifan Jiang
   speaker_image: yifan.jpg
