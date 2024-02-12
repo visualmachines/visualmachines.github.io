@@ -1,7 +1,6 @@
 ---
 title: "rPPG synthetic avatars"
 layout: paper_template
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /rppg_avatars.htm/
 ---

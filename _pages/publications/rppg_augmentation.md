@@ -1,7 +1,6 @@
 ---
 title: "rPPG augmentation"
 layout: paper_template
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /rppg_augmentation.htm/
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Blending Physics with Artificial Intelligence"
 layout: paper_template
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /physics_ai.htm/
 ---

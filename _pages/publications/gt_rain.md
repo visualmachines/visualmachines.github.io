@@ -1,7 +1,6 @@
 ---
 title: "Not Just Streaks: Towards Ground Truth for Single Image Derainings"
 layout: paper_template_gt-rain
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /gt_rain.htm/
 ---

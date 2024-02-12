@@ -1,7 +1,6 @@
 ---
 title: "Depth Estimation from Camera Image and mmWave Radar Point Cloud"
 layout: paper_template_mime
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /depth_radar.htm/
 ---

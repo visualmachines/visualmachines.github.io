@@ -1,7 +1,6 @@
 ---
 title: "Deep Shape from Polarization"
 layout: paper_template
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /deepsfp.htm/
 ---

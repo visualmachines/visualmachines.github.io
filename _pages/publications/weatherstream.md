@@ -1,7 +1,6 @@
 ---
 title: "WeatherStream: Light Transport Automation of Single Image Deweathering"
 layout: paper_template_gt-rain
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /wstream.htm/
 ---

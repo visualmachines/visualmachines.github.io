@@ -1,7 +1,6 @@
 ---
 title: "pCON: Polarimetric Coordinate Networks for Neural Scene Representations"
 layout: paper_template_mime
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /pcon.htm/
 ---

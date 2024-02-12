@@ -1,7 +1,6 @@
 ---
 title: "MIME: Minority Inclusion for Majority Group Enhancement of AI Performance"
 layout: paper_template_mime
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /mime.htm/
 ---

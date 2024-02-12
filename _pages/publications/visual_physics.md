@@ -1,7 +1,6 @@
 ---
 title: "On Learning Mechanical Laws of Motion from Video Using Neural Networks"
 layout: paper_template
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /visualphysics.htm/
 ---

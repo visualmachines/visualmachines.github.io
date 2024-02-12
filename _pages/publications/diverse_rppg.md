@@ -1,7 +1,6 @@
 ---
 title: "Diverse RPPG"
 layout: paper_template
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /diverse_rppg.htm/
 ---

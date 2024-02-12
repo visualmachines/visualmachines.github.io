@@ -1,7 +1,6 @@
 ---
 title: "WeatherProof: A Paired-Dataset Approach to Semantic Segmentation in Adverse Weather"
 layout: paper_template_alto
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /weatherproof.htm/
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography"
 layout: paper_template
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /equi_pleth_camera_rf.htm/
 ---
