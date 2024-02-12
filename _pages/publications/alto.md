@@ -1,7 +1,6 @@
 ---
 title: "ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction"
 layout: paper_template_alto
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /alto.htm/
 ---
