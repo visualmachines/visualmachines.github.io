@@ -1,7 +1,6 @@
 ---
 title: "Teaching"
 layout: teaching
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /teaching/
 ---

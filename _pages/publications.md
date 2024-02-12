@@ -1,7 +1,6 @@
 ---
 title: "Publications"
 layout: publications
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /publications/
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Scientific Mission"
 layout: twoColumns
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /scientific_mission/
 ---

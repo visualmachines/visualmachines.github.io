@@ -6,8 +6,8 @@ permalink: /
 header:
   overlay_image: /assets/images/vmgHomeMain.png
 
-excerpt: >
-  <h4>Giving Robots the Gift of Sight</h4><h5>Superhuman cameras enable superhuman robotics,<br>advancing cyberphysical systems and digital health</h5>
+# excerpt: >
+#   <h4>Giving Robots the Gift of Sight</h4><h5>Superhuman cameras enable superhuman robotics,<br>advancing cyberphysical systems and digital health</h5>
 head_scripts:
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Web Series"
 layout: webseries
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /web_series/
 header:

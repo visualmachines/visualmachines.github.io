@@ -1,7 +1,6 @@
 ---
 title: "People"
 layout: people_twoColumns
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /people/
 ---

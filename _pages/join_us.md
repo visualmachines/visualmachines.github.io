@@ -1,7 +1,6 @@
 ---
 title: "Join Us"
 layout: joinus
-excerpt: "Visual Machines Group at UCLA."
 sitemap: false
 permalink: /join_us/
 ---
