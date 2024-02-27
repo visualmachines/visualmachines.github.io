@@ -72,11 +72,18 @@ Cross-dataset evaluation of ALTO and baselines by training on Synthetic Rooms an
 
 @section
 <div style="background-color: #f2f2f2; padding: 10px; font-family: monospace; font-size: 12px;">
-@article{wang2022alto, <br>
+<!-- @article{wang2022alto, <br>
   &nbsp; title={ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction}, <br>
   &nbsp; author={Wang, Zhen and Zhou, Shijie and Park, Jeong Joon and Paschalidou, Despoina and You, Suya and Wetzstein, Gordon and Guibas, Leonidas and Kadambi, Achuta},  <br>
   &nbsp; journal={arXiv preprint arXiv:2212.04096}, <br>
   &nbsp; year={2022} <br>
+} -->
+@inproceedings{wang2023alto, <br>
+  &nbsp; title={Alto: Alternating latent topologies for implicit 3d reconstruction}, <br>
+  &nbsp; author={Wang, Zhen and Zhou, Shijie and Park, Jeong Joon and Paschalidou, Despoina and You, Suya and Wetzstein, Gordon and Guibas, Leonidas and Kadambi, Achuta}, <br>
+  &nbsp; booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, <br>
+  &nbsp; pages={259--270}, <br>
+  &nbsp; year={2023} <br>
 }
 </div>
 @section
