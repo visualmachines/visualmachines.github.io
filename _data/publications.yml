@@ -383,10 +383,10 @@
   thumbnail: anim.gif
   description: Rethinking latent topologies for fast and detailed implicit 3D reconstructions.
   authors:
-    - name: Zhen Wang
+    - name: Zhen Wang\*
       associations: 1
       link: https://zhenwangwz.github.io/
-    - name: Shijie Zhou
+    - name: Shijie Zhou\*
       associations: 1
       link: https://shijiezhou-ucla.github.io/
     - name: Jeong Joon Park
