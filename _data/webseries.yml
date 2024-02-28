@@ -1,3 +1,13 @@
+- title: "Computational imaging in the Era of Large-Scale Foundation Models"
+  speaker: Pradyumna Chari
+  speaker_image: pradyumna.jpg
+  institution: PhD student, UCLA
+  description:
+  summary: "Foundation models leverage the strength of self-supervised learning on large data volumes to learn complex real-world patterns. These large models have been found to have multi-task generalization capabilities and are widely regarded as the future of computer vision and AI. A pertinent question is whether scale is the solution to all problems, in which case the benefits of computational imaging are largely rendered ineffective. We argue that this is not the case. We begin by discussing classes of problems where unbounded scale is a fundamentally incapable solution, using the case study of equitable imaging. We will then discuss classes of problems where unbounded scale is not practical, using the case study of medical imaging. Finally, we will discuss the interplay between computational imaging and large-scale foundation models, where foundation models and their underlying diverse priors can aid sensor design, while novel sensor data can improve the capabilities of foundation models. With this context, we will discuss the future of computational imaging, in the era of large foundation models."
+  date: 1
+  time: 12 noon PT
+  link: https://caltech.zoom.us/j/89438246645
+  month_year: Mar, 2024
 - title: "Adapting and Regularizing Diffusion Models for Inverse Problems"
   speaker: Hyungjin Chung
   speaker_image: Hyungjin.jpg
