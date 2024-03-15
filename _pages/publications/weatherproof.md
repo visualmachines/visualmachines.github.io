@@ -75,7 +75,7 @@ The introduction of large, foundational models to computer vision has led to dra
 
 @section
 - Paper ([Link](https://arxiv.org/abs/2312.09534))
-- Dataset ([Link](https://drive.google.com/drive/folders/1d-OROwnLuibl0cTAfl2zXlpG97DeGBue?usp=sharing))
+- Dataset ([Link](https://drive.google.com/file/d/1Nr6BmBV57fPDYP7yMHJ5tGNU_4txVfQD/view?usp=sharing))
 - Code (Coming Soon)
 
 @section
