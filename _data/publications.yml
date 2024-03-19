@@ -1,3 +1,49 @@
+- name: WeatherProof
+  title: "WeatherProof: Leveraging Language Guidance for Semantic Segmentation in Adverse Weather"
+  image: wproof_clip_teaser.png
+  thumbnail: wproof_clip_teaser.png
+  description: We propose a CLIP-based language guidance that leads to SOTA semantic segmentation results in adverse weather results on our own WeatherProof dataset, the A2I2-Haze segmentation dataset, as well as the popular ACDC dataset.
+  authors:
+    - name: Blake Gella\*
+      associations: 1
+      link: mailto:bgella118827@g.ucla.edu
+    - name: Howard Zhang\*
+      associations: 1
+      link: https://howardzhang-cv.github.io/personal_website/
+    - name: Rishi Upadhyay
+      associations: 1
+      link: https://web.cs.ucla.edu/~rishiu/
+    - name: Tiffany Chang
+      associations: 1
+    - name: Nathan Wei
+      associations: 1
+    - name: Matthew Waliman
+      associations: 1
+    - name: Yunhao Ba
+      associations: 1
+      link: https://yhba-ucla.github.io/
+    - name: Celso de Melo
+      associations: 3
+      link: https://www.celsodemelo.net/
+    - name: Alex Wong
+      associations: 2
+      link: https://www.cs.yale.edu/homes/wong-alex/
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles
+      link: https://www.ee.ucla.edu/
+    - name: Yale University
+      link: https://www.cs.yale.edu
+    - name: US Army Research Laboratory
+      link: https://www.arl.army.mil/
+  link:
+    url: weatherproof_clip.htm
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: Feature 3DGS
   title: "Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields"
   image: feature_3dgs_teaser.gif
@@ -110,10 +156,10 @@
   thumbnail: weatherproof_teaser.png
   description: We propose a semantic segmentation dataset with paired clean and adverse weather image pairs as well as a general, paired-training method that can be applied to all current foundational model architectures that improves performance in adverse conditions.
   authors:
-    - name: Blake Gella
+    - name: Blake Gella\*
       associations: 1
       link: mailto:bgella118827@g.ucla.edu
-    - name: Howard Zhang
+    - name: Howard Zhang\*
       associations: 1
       link: https://howardzhang-cv.github.io/personal_website/
     - name: Rishi Upadhyay
@@ -235,10 +281,10 @@
   thumbnail: wstream/wstream_teaser.gif
   description: We introduce WeatherStream, an automatic pipeline capturing all real-world weather effects, along with their clean image pairs.
   authors:
-    - name: Howard Zhang
+    - name: Howard Zhang\*
       associations: 1
       link: mailto:hwdz15508@g.ucla.edu
-    - name: Yunhao Ba
+    - name: Yunhao Ba\*
       associations: 1
       link: https://yhba-ucla.github.io/
     - name: Ethan Yang
@@ -451,10 +497,10 @@
   thumbnail: GT-Rain.png
   description:  Filling the sim2real domain gap by collecting a real paired single image deraining dataset.
   authors:
-    - name: Yunhao Ba
+    - name: Yunhao Ba\*
       associations: 1
       link: https://yhba-ucla.github.io/
-    - name: Howard Zhang
+    - name: Howard Zhang\*
       associations: 1
       link: mailto:hwdz15508@g.ucla.edu
     - name: Ethan Yang
