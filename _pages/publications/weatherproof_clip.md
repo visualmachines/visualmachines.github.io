@@ -6,7 +6,7 @@ permalink: /weatherproof_clip.htm/
 ---
 
 {% for publication in site.data.publications %}
-{% if publication.name == "WeatherProof" %}
+{% if publication.name == "WeatherProof_CLIP" %}
 
 # {{ publication.title }}
 
