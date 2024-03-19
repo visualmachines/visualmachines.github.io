@@ -1,4 +1,4 @@
-- name: WeatherProof
+- name: WeatherProof_CLIP
   title: "WeatherProof: Leveraging Language Guidance for Semantic Segmentation in Adverse Weather"
   image: wproof_clip_teaser.png
   thumbnail: wproof_clip_teaser.png
