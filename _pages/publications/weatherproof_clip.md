@@ -21,7 +21,7 @@ permalink: /weatherproof_clip.htm/
 <!--- <hr class="center" style="width: 40%; color: grey; height: 0.07px; background-color:grey;"/> --->
 
 <figure>
-  <img style="width:90%" src= "/assets/images/publications/weatherproof_clip/teaser" alt="Missing" width="800"> 
+  <img style="width:90%" src= "/assets/images/publications/weatherproof_clip/teaser.png" alt="Missing" width="800"> 
 </figure>
 **By leveraging CLIP-based language guidance, our models perform up to 10.2% better on our WeatherProof test set, and 8.4% better on the widely used ACDC dataset as compared to standard fine-tuning procedures.**
 <br>
