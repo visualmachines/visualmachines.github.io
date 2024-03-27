@@ -55,8 +55,8 @@ An overview of our proposed loss function. Given an input image with vanishing p
 </div>
 
 @section
-- Paper ([Link](https://arxiv.org/abs/2312.00944)) 
-- Code (Coming Soon)
+- [Paper](https://arxiv.org/abs/2312.00944)
+- [Code](https://github.com/rishiu/perspective-enhanced-diffusion) 
 
 @section
 
