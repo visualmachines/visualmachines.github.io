@@ -71,7 +71,7 @@ WeatherProof dataset contains accurate clear and adverse weather image pairs wit
 The train and test sets of WeatherProof include paired sets of varied combinations of weather effects. Top: Various types of weather effects and their compositions from the training set. Bottom: Weather effects and combinations in our test set. Change in mIoU between clear and degraded images of the InternImage base- line is shown in yellow. Note the significant impact on mIoU results of multiple combined weather effects.</div>
 
 @section
-- Paper ([Link](https://arxiv.org/abs/2312.09534))
+- Paper ([Link](https://arxiv.org/abs/2403.14874))
 - Dataset ([Link](https://drive.google.com/file/d/1Nr6BmBV57fPDYP7yMHJ5tGNU_4txVfQD/view?usp=sharing))
 - Code ([Link](https://github.com/UCLA-VMG/WeatherProof/tree/main))
 
