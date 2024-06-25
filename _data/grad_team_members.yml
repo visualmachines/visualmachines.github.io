@@ -1,8 +1,3 @@
-- name: [Yunhao Ba]
-  photo: yunhao_ba.jpg
-  email: [yhba@ucla.edu]
-  profile_link: ["https://yhba-ucla.github.io/"] 
-
 - name: [Pradyumna Chari]
   photo: pradyumna_chari.jpg
   email: [pradyumnac@ucla.edu]
@@ -43,20 +38,10 @@
   email: [shijiezhou@ucla.edu]
   profile_link: ["https://shijiezhou-ucla.github.io/"] 
 
-- name: [Adnan Armouti]
-  photo: adnan_armouti.png
-  email: [adnan.armouti@gmail.com]
-  profile_link: ["https://www.linkedin.com/in/~adnan/"]
-
 - name: [Ananya Deoghare]
   photo: ananya_deoghare.jpg
   email: [ananyadd1607@g.ucla.edu]
   profile_link: ["https://www.linkedin.com/in/ananya-deoghare-b60435106/"]
-
-- name: [Anirudh Bindiganavale Harish]
-  photo: anirudh_bh.jpg
-  email: [anirudhbh0707@g.ucla.edu]
-  profile_link: ["https://www.linkedin.com/in/anirudh-bindiganavale-harish-30a453149/"]
 
 - name: [Chethan Chinder Chandrappa]
   photo: Chetan.jpg
@@ -67,11 +52,6 @@
   photo: diplav_srivastava.jpg
   email: [diplav@g.ucla.edu]
   profile_link: ["https://www.linkedin.com/in/diplav-srivastava-19b790111/"] 
-
-- name: [Doruk Karınca]
-  photo: doruk_karnica.jpeg
-  email: [dorukkarinca@cs.ucla.edu]
-  profile_link: ["https://dorukkarinca.com"]
 
 - name: [Kevin G. Lee]
   photo: kevin_lee.jpg
