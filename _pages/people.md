@@ -18,7 +18,22 @@ permalink: /people/
     display: flex;
     align-items: flex-start; /* Align items to the top */
     padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
   }
+  .team-member-PI{
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    padding: 0.5em;
+   
+  }
+
+  .team-member-PI img {
+  width: 120px; /* Keep image size */
+  height: 120px;
+  margin-right: 1em; /* Margin between photo and text */
+  object-fit: cover;
+}
   .team-member img {
     width: 120px;
     height: 120px;
@@ -50,11 +65,11 @@ permalink: /people/
 </div>
 @row
 
-## <b>PI</b>
+## <b>Faculty</b>
 
 <div class="team-container">
     <div class="team-column">
-      <div class="team-member">
+      <div class="team-member-PI">
         <a href="/assets/Kadambi_CV.pdf">
           <img src="/assets/images/people/achuta_kadambi.png" alt="Insert photo"/>
         </a>
