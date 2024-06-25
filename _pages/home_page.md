@@ -12,23 +12,151 @@ head_scripts:
 
 ---
 <main role="main" class="container-fluid">
-  <div class="row">
-    <div class="col-md-12 image-wrapper">
-      <img src="/assets/images/website_chosen_square.png" class="img-responsive full-width" style="max-width: 1000%;">
+  <div class="row slideshow">
+    {% assign slides = site.data.slides %}
+    {% for slide in slides %}
+    <div class="col-12 p-0 slide">
+      <img src="{{ slide.image_link }}" class="img-fluid">
       <div class="over-text d-none d-md-none d-lg-block">
-	  <div class="heading" style="color:white;">Equitable Sensing of the Human Body</div>
-	  <div class="body-home" style="color:white">Light-based sensors that are robust to skin tone, body mass
-	    <br> and other phenotypes can transform precision medicine and human interaction.
-	  </div>
+        <div class="heading">{{ slide.title }}</div>
+        <div class="body-home">{{ slide.text_line1 }}</div>
+        <div class="body-home">{{ slide.text_line2 }}</div>
       </div>
     </div>
+    {% endfor %}
+    <!-- Navigation Arrows -->
+    <div id="prevArrow" class="arrow arrow-left">&lt;</div>
+    <div id="nextArrow" class="arrow arrow-right">&gt;</div>
   </div>
 </main>
+
+
+<style>
+  /* CSS for slideshow */
+  .slideshow {
+    position: relative;
+    height: 400px; /* Adjust height as per your image dimensions */
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    width: 100%;
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding */
+  }
+
+  .slide.active {
+    opacity: 1;
+  }
+  
+  /* Additional styling for overlay text */
+  .over-text {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    max-width: 510px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .body-home {
+    font-size: 16px;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+
+ .arrow-left {
+  position: absolute;
+  bottom: 20px; 
+  left: 20px; 
+  width: 20px;
+  height: 20px; 
+  color:  #666262;
+  font-size: 24px; 
+  text-align: center;
+  line-height: 20px; 
+  cursor: pointer;
+  z-index: 1000; 
+}
+
+.arrow-right {
+  position: absolute;
+  bottom: 20px; 
+  right: 20px;
+  width: 20px; 
+  height: 20px;
+  color:#666262 ;
+  font-size: 24px; 
+  text-align: center;
+  line-height: 20px; 
+  cursor: pointer;
+  z-index: 1000; /* Ensure arrows are above slides */
+}
+
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const slides = document.querySelectorAll(".slide");
+  let currentSlide = 0;
+
+  // Show first slide
+  slides[currentSlide].classList.add("active");
+
+  // Function to show next slide
+  function nextSlide() {
+    slides[currentSlide].classList.remove("active");
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add("active");
+  }
+
+  // Function to show previous slide
+  function prevSlide() {
+    slides[currentSlide].classList.remove("active");
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    slides[currentSlide].classList.add("active");
+  }
+
+  // Automatically move to next slide every 3 seconds
+  setInterval(nextSlide, 5000);
+
+  // Button click events for navigation arrows
+  document.getElementById("nextArrow").addEventListener("click", nextSlide);
+  document.getElementById("prevArrow").addEventListener("click", prevSlide);
+});
+</script>
+
+
+
+
 <br>
+
+
+
 <main role="main" class="container">
   <div class="row">
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">News</div>
+
+
+
+
+
       
  <div class="heading-home padded-top">Aug 2023: Diffusion w/ Perspective appears in SIGGRAPH Asia</div>
         <div class="body-home">Rishi's first author paper appears in the journal proceedings of SIGGRAPH Asia</div>
