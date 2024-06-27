@@ -71,7 +71,7 @@ permalink: /people/
     <div class="team-column">
       <div class="team-member-PI">
         <a href="/assets/Kadambi_CV.pdf">
-          <img src="/assets/images/people/achuta_kadambi.png" alt="Insert photo"/>
+          <img src="{{ site.baseurl }}/assets/images/people/achuta_kadambi.png" alt="Insert photo"/>
         </a>
         <div class="team-member-details">
           <a class="team-member-name" href="/assets/Kadambi_CV.pdf">
@@ -97,7 +97,7 @@ permalink: /people/
     <div class="team-column">
       <div class="team-member">
         <a href="{{ member.profile_link }}">
-          <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo"/>
+          <img src="{{ site.baseurl }}/assets/images/people/{{ member.photo }}" alt="Insert photo"/>
         </a>
         <div class="team-member-details">
           <a class="team-member-name" href="{{ member.profile_link }}">
