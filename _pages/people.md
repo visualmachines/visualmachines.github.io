@@ -68,7 +68,7 @@ div.overflow-information{
 {% endif %}
 <div class="polaroid">
   <a href="{{ member.profile_link }}">
-    <img src="{{ site.url }}/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
+    <img src="/assets/images/people/{{ member.photo }}" alt="Insert photo" style="width:100%; height:100%; padding-bottom: 0.5em;"/>
   </a>
 
   <div class="sub-heading">
