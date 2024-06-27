@@ -2,11 +2,17 @@
   photo: pradyumna_chari.jpg
   email: [pradyumnac@ucla.edu]
   profile_link: ["https://pradyumnachari.github.io"] 
+  position: |
+    Phd Student, UCLA 
+    B.Tech, IIT Madras, 2019
 
 - name: [Zhen Wang]
   photo: zhen_wang.JPG
   email: [zhenwang@ucla.edu]
   profile_link: ["https://zhenwangwz.github.io/"]
+  position: |
+    Phd Student, UCLA 
+    something something else TODO
 
 - name: [Alexander (Sasha) Vilesov]
   photo: alexander_v.jpg

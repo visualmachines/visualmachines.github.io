@@ -106,7 +106,7 @@ permalink: /people/
           <a class="team-member-email" href="mailto:{{ member.email }}">
             {{ member.email }}
           </a>
-          <a class="team-member-education">Grad student, UCLA<br /> Computer Engineering BS, UC Palo Alto
+          <a class="team-member-education">{{ member.position | newline_to_br }}
           </a>
         </div>
       </div>
@@ -149,7 +149,15 @@ permalink: /people/
     <div class="col-md-8">
       <p class="body-sci-miss">
 
-<b>Graduate / Post doc</b>
+<b>PhD / Post doc</b>
+@row
+
+<b><a href = "https://jp.linkedin.com/in/teppei-kurita-457409198">Teppei Kurita</a></b>, Visiting Scientist 2021 (now at Sony, Japan)<br />
+<b><a href = "https://k-tanaka.me/">Kenichiro Tanaka</a></b>, Visiting Professor 2020 (now at Ritsumeikan University, Japan)<br />
+<b><a href = "https://yhba-ucla.github.io/">Yunhao Ba</a></b>, PhD 2018 (now Research Scientist at SONY AI Los Angeles)<br />
+
+<br>
+<b>MS</b>
 @row
 
 <b> <a href = "https://www.linkedin.com/in/blake-gella-04a6401ba">Blake Gella</a></b>, MS 2024<br />
@@ -161,10 +169,7 @@ permalink: /people/
 <b><a href = "https://krishk97.github.io/">Krish Kabra</a></b>, MS 2021 (now PhD at Rice)<br />
 <b><a href = "https://chinmay0301.github.io/">Chinmay Talegaonkar</a></b>, MS 2021 (now PhD at UCSD)<br />
 <b><a href = "https://dorukkarinca.com/">Doruk Karinca</a></b>, MS 2021 (now at VirtuousAI)<br />
-<b><a href = "https://jp.linkedin.com/in/teppei-kurita-457409198">Teppei Kurita</a></b>, Visiting Scientist 2021 (now at Sony, Japan)<br />
-<b><a href = "https://k-tanaka.me/">Kenichiro Tanaka</a></b>, Visiting Professor 2020 (now at Ritsumeikan University, Japan)<br />
 <b><a href = "https://www.contrib.andrew.cmu.edu/~bhassan/index.html">Bakari Hassan</a></b>, MS 2019 (now PhD at CMU)<br />
-<b><a href = "https://yhba-ucla.github.io/">Yunhao Ba</a></b>, PhD 2018 (now Research Scientist at SONY AI Los Angeles)<br />
 
 <br>
 <b>Undergraduate</b>
@@ -175,12 +180,6 @@ permalink: /people/
 <b><a href = "https://www.linkedin.com/in/serene-kamal">Serene Kamal</a></b>,  BS 2020 (now PhD at JHU)<br />
 <b><a href = "https://scholar.google.is/citations?user=FApT9SEAAAAJ&hl=de">Franklin Wang</a></b>, BS 2019 (now PhD at Berkeley)<br />
 <b><a href = "https://www.linkedin.com/in/alex-gilbert-b87b15ba/">Alex Gilbert</a></b>,  BS 2019 (now MS at Stanford)<br />
-
-<br>
-<b>High school</b>
-@row
-
-Jerry Yang,  High School Student 2023<br />
 
       </p>
     </div>
