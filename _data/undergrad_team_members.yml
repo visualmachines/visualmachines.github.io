@@ -1,8 +1,3 @@
-- name: [Siddharth Somasundaram]
-  photo: siddharth_somasundaram.png
-  email: [somasundaram.siddharth@gmail.com]
-  profile_link: ["https://www.linkedin.com/in/sidsoma/"]
-
 - name: [Rajeshwari Jadhav]
   photo: rajeshwari_jadhav.jpeg
   email: [rajeshwari@ucla.edu]
@@ -52,11 +47,6 @@
   photo: chandra_suresh.jpg
   email: [chandra.b.suresh@gmail.com]
   profile_link: ["https://curesh.github.io/personal_website/ResumeChandraSureshFinal.pdf"]
-
-- name: [Ethan Yang]
-  photo: ethan_yang.jpg
-  email: [eyang657@g.ucla.edu]
-  profile_link: ["https://www.linkedin.com/in/ethan-yang-60078b1b9"] 
 
 - name: [Madison Belk]
   photo: no_image.png

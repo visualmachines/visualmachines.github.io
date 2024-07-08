@@ -29,6 +29,9 @@ head_scripts:
   <div class="row">
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">News</div>
+
+  <div class="heading-home padded-top">June 2024: Feature 3D Gaussian Splatting</div>
+        <div class="body-home">Distills 3D feature fields from any 2D foundation models. <a style="color: purple;" href="https://feature-3dgs.github.io/">Paper</a></div>
       
  <div class="heading-home padded-top">Aug 2023: Diffusion w/ Perspective appears in SIGGRAPH Asia</div>
         <div class="body-home">Rishi's first author paper appears in the journal proceedings of SIGGRAPH Asia</div>
@@ -67,21 +70,12 @@ head_scripts:
     </div>
     <div class="col-md-5 offset-md-1">
       <div class="heading-home" style="color:#8f3985;">Current Teaching</div>
-      <div class="heading-home padded-top">Winter 2024</div>
+      <div class="heading-home padded-top">Fall 2024</div>
       <div class="body-home">ECE 149: Foundations of Computer Vision</div>
-      <div class="heading-home padded-top">Fall 2023</div>
-      <div class="body-home">ECE 239AS: Computational Imaging</div>
-      <div class="heading-home padded-top">Fall 2022</div>
-      <div class="body-home">ECE 113: Discrete-Time Signal Processing</div>
-      <div class="heading-home padded-top">Winter 2023</div>
-      <div class="body-home">ECE 113: Discrete-Time Signal Processing</div>
-      <div class="heading-home padded-top">Spring 2023</div>
-      <div class="body-home">ECE 188 / CS 188: Introduction to Computer Vision</div>
-      <div class="heading-home padded-top">Achuta Office Hours (2023)</div>
-      <div class="body-home">Wed. 10-11am in E4, 56-147J</div>
-      <!--<div class="heading-home padded-top">Winter 2019</div>-->
-      <!--<div class="body-home">EE 211: Digital Image Processing</div>-->
-      <!--<div class="heading-home padded-top">Spring 2019</div>-->
+      <div class="heading-home padded-top">Spring 2025</div>
+      <div class="body-home">ECE 102: Signals and Systems</div>
+       <div class="heading-home padded-top">Winter 2024</div>
+      <div class="body-home">ECE 149: Foundations of Computer Vision</div>
       <!--<div class="body-home">TBD</div>-->
       <br>
     </div>
