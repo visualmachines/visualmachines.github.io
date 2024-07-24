@@ -148,13 +148,13 @@ div.overflow-information{
 ## <b>Alumni</b>
 
 @row
-<b>Visitors</b>
+<b>Visiting Scientists</b>
 <br>
 <b><a href = "https://jp.linkedin.com/in/teppei-kurita-457409198">Teppei Kurita</a></b>, Visiting Scientist 2021 (now at Sony, Japan)<br />
 <b><a href = "https://k-tanaka.me/">Kenichiro Tanaka</a></b>, Visiting Professor 2020 (now at Ritsumeikan University, Japan)<br />
 
 @row
-<b>PhD / Post doc</b>
+<b>PhD</b>
 <br>
 <b><a href = "https://yhba-ucla.github.io/">Yunhao Ba</a></b>, PhD 2018 (now Research Scientist at SONY AI Los Angeles)<br />
 
