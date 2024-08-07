@@ -1,3 +1,44 @@
+- name: ImplicitPPG
+  title: "Implicit Neural Models to Extract Heart Rate from Video"
+  image: teaser_implicitppg.png
+  thumbnail: teaser_implicitppg.png
+  description: We propose a new implicit neural representation, that enables fast and accurate decomposition of face videos into blood and appearance components. This allows contactless estimation of heart rate from challenging out-of-distribution face videos.
+  authors:
+    - name: Pradyumna Chari
+      associations: 1
+      link: https://pradyumnachari.github.io/
+    - name: Anirudh Bindiganavale Harish
+      associations: 2
+      link: https://anirudh0707.github.io
+    - name: Adnan Armouti
+      associations: 3
+      link: https://adnan-armouti.github.io
+    - name: Alexander Vilesov
+      associations: 1
+      link: https://asvilesov.github.io
+    - name: Sanjit Sarda
+      associations: 1
+      link: https://www.linkedin.com/in/sanjitsarda/
+    - name: Laleh Jalilian
+      associations: 1
+      link: https://www.uclahealth.org/providers/laleh-jalilian
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles
+      link: https://www.ee.ucla.edu/
+    - name: Rice University
+      link: https://eceweb.rice.edu
+    - name: Cornell Tech
+      link: https://tech.cornell.edu
+  link:
+    external: 1
+    url: https://implicitppg.github.io
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: WeatherProof_CLIP
   title: "WeatherProof: Leveraging Language Guidance for Semantic Segmentation in Adverse Weather"
   image: wproof_clip_teaser.png
