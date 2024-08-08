@@ -1,3 +1,50 @@
+- name: DreamScene360
+  title: "DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting"
+  image: dreamscene360.gif
+  thumbnail: dreamscene360.gif
+  description: We introduce a 3D scene generation pipeline that creates immersive scenes with full 360° coverage from text prompts of any level of specificity.
+  authors:
+    - name: Shijie Zhou
+      associations: 1
+      link: https://shijiezhou-ucla.github.io/
+    - name: Zhiwen Fan
+      associations: 2
+      link: https://zhiwenfan.github.io/
+    - name: Dejia Xu
+      associations: 2
+      link: https://ir1d.github.io/
+    - name: Haoran Chang
+      associations: 1
+      link: 
+    - name: Pradyumna Chari
+      associations: 1
+      link: https://pradyumnachari.github.io/
+    - name: Tejas Bharadwaj
+      associations: 1
+      link: 
+    - name: Suya You
+      associations: 3
+      link: https://scholar.google.com/citations?user=LkpA-L0AAAAJ&hl=en
+    - name: Zhangyang Wang
+      associations: 2
+      link: https://www.ece.utexas.edu/people/faculty/atlas-wang
+    - name: Achuta Kadambi
+      associations: 1
+      link: https://www.ee.ucla.edu/achuta-kadambi/
+  associations:
+    - name: University of California, Los Angeles
+      link: https://www.ee.ucla.edu/
+    - name: University of Texas at Austin
+      link: https://www.ece.utexas.edu/
+    - name: DEVCOM ARL
+      link: https://ict.usc.edu/
+  link:
+    external: 1
+    url: https://dreamscene360.github.io/
+    display: read more
+  highlight: 1
+  news 2:
+
 - name: ImplicitPPG
   title: "Implicit Neural Models to Extract Heart Rate from Video"
   image: teaser_implicitppg.png
