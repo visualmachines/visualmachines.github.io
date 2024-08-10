@@ -1,3 +1,13 @@
+- name: [Govind Pimpale]
+  photo: govind_pimpale.png
+  email: [gpimpale29@gmail.com]
+  profile_link: ["https://pimpale.github.io"]
+
+- name: [Selim Emir Can]
+  photo: selim_emir_can.jpg
+  email: [selim.can@ucla.edu]
+  profile_link: ["https://selim-emir-can.github.io/"]
+
 - name: [Rajeshwari Jadhav]
   photo: rajeshwari_jadhav.jpeg
   email: [rajeshwari@ucla.edu]
