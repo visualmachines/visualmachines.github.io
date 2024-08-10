@@ -1,3 +1,43 @@
+- title: "From Efficient 3D Learning to Foundation 3D models"
+  speaker: Zhiwen Fan
+  speaker_image: zhiwen_fan.jpg
+  institution: PhD candidate, UT Austin
+  description:
+  summary: "Future AI systems are envisioned to efficiently perceive and interact with the physical world while also being able to seamlessly re-create simulated digital environments for real-time and immersive applications. My research bridges the gap between the physical and digital worlds by enabling machines to perceive and reconstruct 3D structures from visual sensors. Moreover, my work focuses on the design of a comprehensive 3D foundation model that unifies versatile 3D problems within a single framework and can be executed differentiably. By integrating multi-modal sensory inputs and modeling temporal-spatial dynamics, we envision future intelligent agent systems that can explore and manipulate environments directly from input sensor data and learn from human actions, thereby developing spatial intelligence."
+  date: 4
+  time: 12 noon PT
+  link: 
+  month_year: Oct, 2024
+- title: "Learning to See the World in 3D"
+  speaker: Ayush Tewari
+  speaker_image: ayush_tewari.jpg
+  institution: Postdoc, MIT
+  description:
+  summary: "Humans can effortlessly construct rich mental representations of the 3D world from sparse input, such as a single image. This is a core aspect of intelligence that helps us understand and interact with our surroundings and with each other. My research aims to build similar computational models–artificial intelligence methods that can perceive properties of the 3D structured world from images and videos. Despite remarkable progress in 2D computer vision, 3D perception remains an open problem due to some unique challenges, such as limited 3D training data and uncertainties in reconstruction. In this talk, I will discuss these challenges and explain how my research addresses them by posing vision as an inverse problem, and by designing machine learning models with physics-inspired inductive biases. I will demonstrate techniques for reconstructing 3D faces and objects, and for reasoning about uncertainties in scene reconstruction using generative models. I will then discuss how these efforts advance us toward scalable and generalizable visual perception and how they advance application domains such as robotics and computer graphics."
+  date: 7
+  time: 12 noon PT
+  link: https://caltech.zoom.us/j/89438246645
+  month_year: June, 2024
+- title: "Learning under Inexact Data and Model for Computational Imaging"
+  speaker: Weijie Gan
+  speaker_image: weijie_gan.jpg
+  institution: PhD student, WashU
+  description:
+  summary: "Computational imaging is an indispensable tool for recovering images from their indirect and noisy measurements through the application of advanced algorithms. Its scope ranges from enhancing the photos taken by a camera to providing high-fidelity medical images for diagnosis. The recent years have witnessed remarkable progress in machine learning (ML) techniques, which leads to a transformative paradigm shift in computational imaging algorithms. This new paradigm seeks to integrate the physics of the imaging systems and the latest ML techniques. While such learning-based approaches have demonstrated the state-of-the-art performance, they come with several key practical challenges that must be addressed before we can deploy them to the real-world imaging systems. This talk focuses on two specific challenges: (1) the challenge of learning under inexact data, where the data useful for learning is scarce (e.g., the scarcity of learning reference in medical images), and (2) the challenge of learning under an inexact model, where the forward model characterizing the underlying physics of the imaging system is imprecise. This presentation introduces new algorithm designs to address these challenges with theoretical analysis to provide mathematical guarantees. The applicability and effectiveness of these algorithms has been substantiated through empirical validation on a range of real-world biomedical imaging systems."
+  date: 3
+  time: 12 noon PT
+  link: https://caltech.zoom.us/j/89438246645
+  month_year: May, 2024
+- title: "Making 2D Diffusion Models 3D-Aware"
+  speaker: Yash Kant
+  speaker_image: yash_kant.jpg
+  institution: PhD student, University of Toronto
+  description:
+  summary: "Diffusion-based image generators, such as Stable Diffusion and DALL-E, enable creating 2D images from text descriptions.  In this talk, we will cover recent research towards making these models 3D-aware, allowing them to generate consistent images of a 3D scene. It will cover approaches to incorporate camera control into diffusion models and different techniques for explicitly or implicitly representing the 3D scene. Furthermore, we will discuss the role of high-quality, large-scale, synthetic and real datasets in this task. Finally, we will conclude with a discussion of future research directions in this area and key takeaways from past work."
+  date: 5
+  time: 12 noon PT
+  link: https://youtu.be/KoqIcMSBtWI?si=F512Id3HtVZgBUKg
+  month_year: Apr, 2024
 - title: "Computational imaging in the Era of Large-Scale Foundation Models"
   speaker: Pradyumna Chari
   speaker_image: pradyumna.jpg
