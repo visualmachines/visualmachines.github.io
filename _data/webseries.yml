@@ -1,9 +1,9 @@
-- title: "From Efficient 3D Learning to Foundation 3D models"
+- title: "From Efficient 3D Learning to 3D Foundation Models"
   speaker: Zhiwen Fan
   speaker_image: zhiwen_fan.jpg
   institution: PhD candidate, UT Austin
   description:
-  summary: "Future AI systems are envisioned to efficiently perceive and interact with the physical world while also being able to seamlessly re-create simulated digital environments for real-time and immersive applications. My research bridges the gap between the physical and digital worlds by enabling machines to perceive and reconstruct 3D structures from visual sensors. Moreover, my work focuses on the design of a comprehensive 3D foundation model that unifies versatile 3D problems within a single framework and can be executed differentiably. By integrating multi-modal sensory inputs and modeling temporal-spatial dynamics, we envision future intelligent agent systems that can explore and manipulate environments directly from input sensor data and learn from human actions, thereby developing spatial intelligence."
+  summary: "Future AI systems are envisioned to efficiently perceive and interact with the physical (3D) world while also being able to seamlessly re-create simulated digital environments for real-time and immersive applications. My research bridges the gap between the physical and digital worlds by enabling machines to accurately perceive and reconstruct 3D geometry from visual sensors. Moreover, my work focuses on the design of a comprehensive 3D foundation model that unifies a wide range of 3D problems within a single framework and can be executed differentiably starting from unposed images, thereby reducing incremental error and engineering efforts. Building on my previous research experiences, my ongoing work examines the self-supervised pre-training of these 3D foundation models with large-scale web video data, mitigating the limitations in generalization capacity caused by the scarcity of annotated 3D data. My holistic research vision focuses on integrating geometric priors into autonomous robotics and generative AI techniques that adhere to the physical laws governing object motion and interactions in 3D space over time, thereby developing more advanced spatial intelligence."
   date: 4
   time: 12 noon PT
   link: 
