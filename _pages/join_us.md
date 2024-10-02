@@ -12,7 +12,7 @@ permalink: /join_us/
 @text
 #### Want to get involved?
 <br>
-**Current UCLA BS/MS/PhD Students:** Please carefully read about our scientific mission and fill out [this](https://docs.google.com/forms/d/e/1FAIpQLSc2M0JwDEenKOyW_jFOOTqCteo48_L1nfmlO_M2NWK6TSvnKg/viewform?gxids=7628) form.
+**Current UCLA BS/MS/PhD Students:** Please carefully read about our scientific mission and fill out [this](https://forms.gle/ui6L6ZjCbtBHMtkc6) form.
 
 **Outside Students:** Please apply to the UCLA graduate program in ECE or CS. Due to the volume of applicants we get, please list Achuta as a preferred adviser as this makes it easier to sort.
 
