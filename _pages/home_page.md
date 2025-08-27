@@ -14,13 +14,7 @@ head_scripts:
 <main role="main" class="container-fluid">
   <div class="row">
     <div class="col-md-12 image-wrapper">
-      <img src="/assets/images/website_chosen_square.png" class="img-responsive full-width" style="max-width: 1000%;">
-      <div class="over-text d-none d-md-none d-lg-block">
-	  <div class="heading" style="color:white;">Equitable Sensing of the Human Body</div>
-	  <div class="body-home" style="color:white">Light-based sensors that are robust to skin tone, body mass
-	    <br> and other phenotypes can transform precision medicine and human interaction.
-	  </div>
-      </div>
+      <img src="/assets/images/home_page_feature4x_teaser.png" class="img-responsive full-width" style="max-width: 1000%;">
     </div>
   </div>
 </main>
