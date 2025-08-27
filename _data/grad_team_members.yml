@@ -1,13 +1,3 @@
-- name: [Pradyumna Chari]
-  photo: pradyumna_chari.jpg
-  email: [pradyumnac@ucla.edu]
-  profile_link: ["https://pradyumnachari.github.io"] 
-
-- name: [Zhen Wang]
-  photo: zhen_wang.JPG
-  email: [zhenwang@ucla.edu]
-  profile_link: ["https://zhenwangwz.github.io/"]
-
 - name: [Alexander (Sasha) Vilesov]
   photo: alexander_v.jpg
   email: [vilesov@ucla.edu]

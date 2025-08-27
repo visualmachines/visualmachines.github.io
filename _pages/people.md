@@ -51,7 +51,7 @@ div.overflow-information{
   <div class="heading-home">Achuta Kadambi</div>
   <div class="sub-heading">Leader, Visual Machines Group</div>
   <div class="body-people">Associate Professor, UCLA<br />Electrical Engineering and Computer Science<br/>PhD, Massachusetts Institute of Technology</div>
-  <div class="body-people"><a style="color: purple;" href="/assets/kadambi_cv.pdf">CV/Resume</a></div>
+  <div class="body-people"><a style="color: purple;" href="/assets/Kadambi_CV_summer25.pdf">CV/Resume</a></div>
 </div> 
 
 @row
@@ -156,13 +156,21 @@ div.overflow-information{
 @row
 <b>PhD / Post doc</b>
 <br>
+<b><a href = "https://zhenwangwz.github.io/">Zhen Wang</a></b>, PhD 2025 (now Research Scientist at Meta GenAI) <br />
+<b><a href = "https://pradyumnachari.github.io/">Pradyumna Chari</a></b>, PhD 2024 (now Postdoc at MIT Media Lab) <br />
 <b><a href = "https://yhba-ucla.github.io/">Yunhao Ba</a></b>, PhD 2018 (now Research Scientist at SONY AI Los Angeles)<br />
 
 @row
 <b>MS</b>
 <br>
+<b><a href = "https://www.linkedin.com/in/sraavyapradeep/">Sraavya Pradeep</a></b>, MS 2024<br />
+<b><a href = "https://www.linkedin.com/in/jim-solomon/">Jim Solomon</a></b>, MS 2025 (now PhD at UCLA)<br />
+<b><a href = "https://www.linkedin.com/in/lenny-wu/">Lenny Wu</a></b>, MS 2025<br />
+<b><a href = "https://www.linkedin.com/in/shuwang-zhang/">Shuwang Zhang</a></b>, MS 2025<br />
+<b><a href = "https://www.linkedin.com/in/haoran-chang-62049b246/">Haoran Chang</a></b>, MS 2025<br />
+<b><a href = "https://www.linkedin.com/in/kai-del-regno-103269222/">Kai Del Regno</a></b>, MS 2025<br />
 <b> <a href = "https://www.linkedin.com/in/blake-gella-04a6401ba">Blake Gella</a></b>, MS 2024<br />
-<b> <a href = "https://www.linkedin.com/in/sairisheek">Sairisheek Muttukuru</a></b>,  MS 2024<br />
+<b> <a href = "https://www.linkedin.com/in/sairisheek">Sairisheek Muttukuru</a></b>,  MS 2024 <br />
 <b><a href = "https://www.linkedin.com/in/haolin-xiong-927221176">Haolin Xiong</a></b>,  MS 2024<br />
 <b><a href = "https://www.linkedin.com/in/zilin-zeng-62a682181">Zilin Zeng</a></b>,  MS 2024<br />
 <b><a href = "https://adnan-armouti.github.io/">Adnan Armouti</a></b>, MS 2023 (now PhD at Cornell)<br />

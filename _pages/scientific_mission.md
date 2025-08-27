@@ -15,7 +15,7 @@ permalink: /scientific_mission/
   <div class="row">
     <div class="col-md-8">
       <p class="body-sci-miss">
-        Visual signals describe the space-time of our world. It can therefore be argued that a visual representation (with sufficient granularity) can simulate any entity. The Visual Machines Group is charting an ambitious path to simulate the human body and simulate how humans interact with sensors, to make equitable and better performing healthcare devices.
+        We study how AI can build and improve itself. We are particularly interested in visual and multimodal cases. Recurring keywords in our recent papers span: neural rendering, agentic AI, world models, robotics, vision-language models, spatial intelligence
         
         Please refer to our publication list to get a sense of activities.
       </p>
