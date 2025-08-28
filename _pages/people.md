@@ -163,7 +163,7 @@ div.overflow-information{
 @row
 <b>MS</b>
 <br>
-<b><a href = "https://www.linkedin.com/in/sraavyapradeep/">Sraavya Pradeep</a></b>, MS 2024<br />
+<b><a href = "https://www.linkedin.com/in/sraavyapradeep/">Sraavya Pradeep</a></b>, MS 2025<br />
 <b><a href = "https://www.linkedin.com/in/jim-solomon/">Jim Solomon</a></b>, MS 2025 (now PhD at UCLA)<br />
 <b><a href = "https://www.linkedin.com/in/lenny-wu/">Lenny Wu</a></b>, MS 2025<br />
 <b><a href = "https://www.linkedin.com/in/shuwang-zhang/">Shuwang Zhang</a></b>, MS 2025<br />
@@ -183,7 +183,7 @@ div.overflow-information{
 @row
 <b>Undergraduate</b>
 <br>
-<b><a href = "https://selim-emir-can.github.io/">Selim Emir Can</a></b>, BS 2024 (now MSEE at Stanford)
+<b><a href = "https://selim-emir-can.github.io/">Selim Emir Can</a></b>, BS 2024 (now MSEE at Stanford) <br />
 <b><a href = "https://www.linkedin.com/in/ethan-yang-60078b1b9">Ethan Yang</a></b>, BS 2023  (now PhD at Cornell)<br />
 <b> <a href = "https://sidsoma.github.io/">Sid Somasundaram</a></b>, BS 2020  (now PhD at MIT)<br />
 <b><a href = "https://www.linkedin.com/in/serene-kamal">Serene Kamal</a></b>,  BS 2020 (now PhD at JHU)<br />
