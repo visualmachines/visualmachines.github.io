@@ -158,7 +158,7 @@ div.overflow-information{
 <br>
 <b><a href = "https://zhenwangwz.github.io/">Zhen Wang</a></b>, PhD 2025 (now Research Scientist at Meta GenAI) <br />
 <b><a href = "https://pradyumnachari.github.io/">Pradyumna Chari</a></b>, PhD 2024 (now Postdoc at MIT Media Lab) <br />
-<b><a href = "https://yhba-ucla.github.io/">Yunhao Ba</a></b>, PhD 2018 (now Research Scientist at SONY AI Los Angeles)<br />
+<b><a href = "https://yhba-ucla.github.io/">Yunhao Ba</a></b>, PhD 2023 (now Research Scientist at SONY AI Los Angeles)<br />
 
 @row
 <b>MS</b>
@@ -183,6 +183,7 @@ div.overflow-information{
 @row
 <b>Undergraduate</b>
 <br>
+<b><a href = "https://selim-emir-can.github.io/">Selim Emir Can</a></b>, BS 2024 (now MSEE at Stanford)
 <b><a href = "https://www.linkedin.com/in/ethan-yang-60078b1b9">Ethan Yang</a></b>, BS 2023  (now PhD at Cornell)<br />
 <b> <a href = "https://sidsoma.github.io/">Sid Somasundaram</a></b>, BS 2020  (now PhD at MIT)<br />
 <b><a href = "https://www.linkedin.com/in/serene-kamal">Serene Kamal</a></b>,  BS 2020 (now PhD at JHU)<br />
