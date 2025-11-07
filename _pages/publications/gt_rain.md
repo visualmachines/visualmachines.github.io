@@ -443,7 +443,7 @@ methods on real rainy images under various conditions.
 @section
 - Paper ([link](https://link.springer.com/chapter/10.1007/978-3-031-20071-7_42))
 - Code ([link](https://github.com/UCLA-VMG/GT-RAIN))
-- Dataset ([link](https://drive.google.com/drive/folders/1NSRl954QPcGIgoyJa_VjQwh_gEaHWPb8?usp=sharing))
+- Dataset ([link](https://huggingface.co/datasets/hwdz15508/GT-RAIN/tree/main))
 - Poster ([link](https://drive.google.com/file/d/1LmTB41ZYfybzew78lVI0WbfeKOho2T10/view?usp=sharing))
 - Video ([link](https://drive.google.com/file/d/1kODUREmzin1xH1OSCejV3h0M4SlaCB68/view?usp=sharing))
 @section
